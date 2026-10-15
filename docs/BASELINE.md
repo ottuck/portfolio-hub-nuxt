@@ -9,7 +9,7 @@
 - 커밋 링크: https://github.com/ottuck/portfolio-hub/tree/5d2aa962632c036626bce867c2de979ae98f57a4
 - 운영 사이트: https://www.portfolio-hub.dev/ko
 - 운영 사이트는 브라우저로 홈 화면과 링크·콘텐츠를 확인했다. 배포 커밋이 위 커밋과 동일한지는 확인하지 않았다.
-- 원본 빌드, 타입 검사, lint는 아직 실행하지 않았다. 전체 사이트 화면 비교와 모바일·다크모드 실측도 아직 수행하지 않았다.
+- Node 24.22.0 환경에서 원본 pnpm check(lint·typecheck)와 pnpm build가 모두 통과했다. 원본 빌드는 콘텐츠·SEO 관련 45개 정적 결과물을 보고했다. 전체 사이트 화면 비교와 모바일·다크모드 실측은 아직 수행하지 않았다.
 
 ## 실제 확인한 스택
 
@@ -61,3 +61,4 @@
 - `reference/user-home-desktop.png`: 사용자가 제공한 넓은 화면 참고 이미지
 
 두 이미지의 촬영 viewport·브라우저 배율은 확인되지 않았다. 동일 viewport에서 원본과 새 사이트를 비교해야 한다. 참고 화면에는 라이트모드 홈만 있으므로 상세·About·다크모드·실제 모바일은 추가 확인한다.
+
