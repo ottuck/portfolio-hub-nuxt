@@ -53,12 +53,23 @@
 | `feat/vue-ui` | #2 | CI 통과 후 main 병합 |
 | `feat/static-seo-validation` | #3 | CI 통과 후 main 병합 |
 | `chore/pages-deployment` | #4 | CI·Preview 통과 후 main 병합, 실제 main 배포 및 HTTP 검사 통과 |
-| `fix/static-asset-origin` | #5 | 정적 생성의 OG 자산 도메인 명시 적용 및 회귀 검사 |
+| `fix/static-asset-origin` | #5 | CI·Preview 통과 후 main 병합, 정적 생성 OG 자산 주소 회귀 검사 |
+| `chore/production-domain` | #6 | 운영 변수·DNS 전환·최종 배포 기록 |
 
 초기 문서 커밋으로 main을 만든 뒤, 구현은 단계별 작업 브랜치와 PR로 진행한다. 배포 상태와 도메인 전환 상태는 `DEPLOYMENT.md`에 별도로 기록한다.
 
 ## 실제 Cloudflare Preview
 
-PR #4 커밋 `06ef19e`의 Preview `https://9c74fd3c.portfolio-hub-nuxt.pages.dev`에서 HTTP 검사 전체가 통과했다. `uses_functions: false`이며 이미지 변형도 정적 파일로 제공된다. 브라우저에서 홈 이미지 로딩, canonical의 운영 도메인, OG의 Preview 도메인을 확인했다. Web Analytics는 대시보드에서 활성화했으며 실제 주입 확인은 다음 main 배포 대상으로 남아 있다.
+PR #4 커밋 `06ef19e`의 Preview `https://9c74fd3c.portfolio-hub-nuxt.pages.dev`에서 HTTP 검사 전체가 통과했다. `uses_functions: false`이며 이미지 변형도 정적 파일로 제공된다. 브라우저에서 홈 이미지 로딩, canonical의 운영 도메인, OG의 Preview 도메인을 확인했다. Web Analytics는 대시보드에서 활성화했고 이후 main 배포에서 실제 주입도 확인했다.
 
 PR #4 병합 커밋 `eb01a05`의 실제 main 배포에서도 HTTP 검사 전체가 통과했고 서버 함수가 없었다. Analytics beacon 단일 주입과 기본 Pages 도메인의 noindex를 확인했다. 이때 `NUXT_PUBLIC_ASSET_URL`이 생성 HTML에 반영되지 않는 문제를 발견하여 PR #5에서 설정의 빌드 시 기본값에 명시적으로 적용했다. 회귀 검사가 수정 전 출력물에서 실패하는 것을 확인한 뒤, 같은 환경변수를 준 전체 lint·typecheck·generate·정적 검사를 통과했다. CI도 `CF_PAGES_URL`과 다른 명시적 자산 주소로 이 우선순위를 검사한다.
+
+PR #5 main 배포에서는 Wrangler 파일이 대시보드 환경변수를 빌드에 전달하지 않는 것을 로그에서 확인했다. PR #6에서 운영 변수와 Preview 변수를 Wrangler에 명시하여 설정 기준을 일치시킨다. main 배포 `6e8ed592`의 30개 콘텐츠 응답은 운영 도메인 기준 OG, Analytics beacon 1회, Pages 도메인 noindex를 확인했으며 전체 HTTP 검사도 통과했다.
+
+PR #6 Preview에서는 빈 `NUXT_PUBLIC_ASSET_URL`도 Nuxt 런타임 값을 덮어 OG URL 생성을 실패시키는 것을 확인했다. 운영 값은 `env.production.vars`에만 두고 Preview에서는 키 자체를 생략한다. 이 실패 배포는 main에 병합하거나 운영에 배포하지 않았다.
+
+## 운영 도메인 전환
+
+`www.portfolio-hub.dev`를 Pages로 CNAME 연결하고 Cloudflare 도메인·인증서의 Active 상태를 확인했다. 운영 도메인의 전체 HTTP 검사도 통과했다. 30개 콘텐츠 HTML 모두 Nuxt·Cloudflare 응답, 운영 OG 주소, Analytics beacon 1회, 색인 허용 상태였다. 정적 참조 자산 306개와 폰트·sitemap·robots를 합친 310개도 실제 운영 주소에서 정상 응답했다.
+
+HTTP www → HTTPS www(301), HTTPS apex → HTTPS www(308)의 경로·쿼리 보존을 확인했다. 등록 기관·DNS와 apex 리다이렉트는 Vercel에서 유지하고 Next.js Production도 복구용으로 보관한다. 복구 절차와 확인 자료는 DEPLOYMENT.md와 `docs/qa/`에 있다.

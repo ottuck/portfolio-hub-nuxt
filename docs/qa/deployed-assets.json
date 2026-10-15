@@ -1,0 +1,1557 @@
+{
+  "observed": "2026-10-15",
+  "origin": "https://www.portfolio-hub.dev",
+  "count": 310,
+  "assets": [
+    {
+      "path": "/_ipx/q_80&s_1024x1020/images/content/projects/ur-manager/recent.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1024x1134/images/content/projects/ur-manager/wizard.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1024x456/images/content/projects/pokepedia/collection.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1024x640/images/content/projects/gitleaf/embed.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1024x640/images/content/projects/gitleaf/how.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1024x640/images/content/projects/pokepedia/detail.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1024x640/images/content/projects/quant-lab/ai.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1024x640/images/content/projects/quant-lab/backtest.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1024x640/images/content/projects/quant-lab/parallel.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1024x640/images/content/projects/quant-lab/question.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1024x640/images/content/projects/ur-check/apps.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1024x640/images/content/projects/ur-check/history.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1024x640/images/content/projects/ur-check/rooms.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1024x640/images/content/projects/ur-check/wizard.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1024x640/images/content/projects/ur-mcp/flow.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1024x640/images/content/projects/ur-mcp/settings.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1024x716/images/content/projects/pokepedia/title.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1024x828/images/content/projects/pokepedia/reward.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1120x2240/images/content/projects/pokepedia/mobile.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1120x2424/images/content/projects/puny-chat/chat.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1120x2424/images/content/projects/quant-lab/mobile.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1120x2424/images/content/projects/ur-check/mobile.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1120x700/images/content/projects/gitleaf/cover.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1120x700/images/content/projects/puny-chat/desktop.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1120x700/images/content/projects/quant-lab/home.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1120x700/images/content/projects/ur-check/home.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1120x906/images/content/projects/pokepedia/battle.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1126x1222/images/content/projects/ur-manager/searches.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1126x704/images/content/projects/gitleaf/cover.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1126x704/images/content/projects/puny-chat/desktop.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1126x704/images/content/projects/quant-lab/home.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1126x704/images/content/projects/ur-check/home.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1126x704/images/content/projects/ur-mcp/cards.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1126x912/images/content/projects/pokepedia/battle.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1152x1148/images/content/projects/ur-manager/recent.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1152x1276/images/content/projects/ur-manager/wizard.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1152x514/images/content/projects/pokepedia/collection.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1152x720/images/content/projects/gitleaf/embed.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1152x720/images/content/projects/gitleaf/how.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1152x720/images/content/projects/pokepedia/detail.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1152x720/images/content/projects/quant-lab/ai.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1152x720/images/content/projects/quant-lab/backtest.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1152x720/images/content/projects/quant-lab/parallel.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1152x720/images/content/projects/quant-lab/question.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1152x720/images/content/projects/ur-check/apps.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1152x720/images/content/projects/ur-check/history.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1152x720/images/content/projects/ur-check/rooms.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1152x720/images/content/projects/ur-check/wizard.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1152x720/images/content/projects/ur-mcp/flow.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1152x720/images/content/projects/ur-mcp/settings.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1152x804/images/content/projects/pokepedia/title.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1152x932/images/content/projects/pokepedia/reward.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1280x1036/images/content/projects/pokepedia/battle.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1280x2560/images/content/projects/pokepedia/mobile.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1280x2770/images/content/projects/puny-chat/chat.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1280x2770/images/content/projects/quant-lab/mobile.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1280x2770/images/content/projects/ur-check/mobile.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1280x800/images/content/projects/gitleaf/cover.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1280x800/images/content/projects/puny-chat/desktop.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1280x800/images/content/projects/quant-lab/home.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1280x800/images/content/projects/ur-check/home.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1352x1094/images/content/projects/pokepedia/battle.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1352x1466/images/content/projects/ur-manager/searches.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1352x846/images/content/projects/gitleaf/cover.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1352x846/images/content/projects/puny-chat/desktop.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1352x846/images/content/projects/quant-lab/home.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1352x846/images/content/projects/ur-check/home.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1352x846/images/content/projects/ur-mcp/cards.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_160x346/images/content/projects/puny-chat/adult.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_160x346/images/content/projects/puny-chat/kid.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_160x346/images/content/projects/puny-chat/onsen-snow.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_160x346/images/content/projects/puny-chat/onsen.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1802x1126/images/content/projects/gitleaf/cover.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1802x1126/images/content/projects/puny-chat/desktop.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1802x1126/images/content/projects/quant-lab/home.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1802x1126/images/content/projects/ur-check/home.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1802x1126/images/content/projects/ur-mcp/cards.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1802x1458/images/content/projects/pokepedia/battle.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1802x1954/images/content/projects/ur-manager/searches.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1920x1200/images/content/projects/gitleaf/cover.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1920x1200/images/content/projects/puny-chat/desktop.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1920x1200/images/content/projects/quant-lab/home.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1920x1200/images/content/projects/ur-check/home.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1920x1200/images/content/projects/ur-mcp/cards.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1920x1554/images/content/projects/pokepedia/battle.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_1920x2082/images/content/projects/ur-manager/searches.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_192x416/images/content/projects/puny-chat/adult.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_192x416/images/content/projects/puny-chat/kid.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_192x416/images/content/projects/puny-chat/onsen-snow.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_192x416/images/content/projects/puny-chat/onsen.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_256x554/images/content/projects/puny-chat/adult.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_256x554/images/content/projects/puny-chat/kid.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_256x554/images/content/projects/puny-chat/onsen-snow.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_256x554/images/content/projects/puny-chat/onsen.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_282x176/images/content/projects/gitleaf/cover.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_282x176/images/content/projects/puny-chat/desktop.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_282x176/images/content/projects/quant-lab/home.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_282x176/images/content/projects/ur-check/home.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_282x176/images/content/projects/ur-mcp/cards.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_282x228/images/content/projects/pokepedia/battle.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_282x306/images/content/projects/ur-manager/searches.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_288x623/images/content/projects/puny-chat/adult.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_288x623/images/content/projects/puny-chat/kid.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_288x623/images/content/projects/puny-chat/onsen-snow.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_288x623/images/content/projects/puny-chat/onsen.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_320x143/images/content/projects/pokepedia/collection.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_320x200/images/content/projects/gitleaf/cover.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_320x200/images/content/projects/gitleaf/embed.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_320x200/images/content/projects/gitleaf/how.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_320x200/images/content/projects/pokepedia/detail.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_320x200/images/content/projects/puny-chat/desktop.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_320x200/images/content/projects/quant-lab/ai.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_320x200/images/content/projects/quant-lab/backtest.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_320x200/images/content/projects/quant-lab/home.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_320x200/images/content/projects/quant-lab/parallel.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_320x200/images/content/projects/quant-lab/question.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_320x200/images/content/projects/ur-check/apps.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_320x200/images/content/projects/ur-check/history.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_320x200/images/content/projects/ur-check/home.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_320x200/images/content/projects/ur-check/rooms.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_320x200/images/content/projects/ur-check/wizard.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_320x200/images/content/projects/ur-mcp/flow.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_320x200/images/content/projects/ur-mcp/settings.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_320x223/images/content/projects/pokepedia/title.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_320x259/images/content/projects/pokepedia/battle.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_320x259/images/content/projects/pokepedia/reward.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_320x319/images/content/projects/ur-manager/recent.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_320x354/images/content/projects/ur-manager/wizard.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_320x640/images/content/projects/pokepedia/mobile.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_320x693/images/content/projects/puny-chat/adult.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_320x693/images/content/projects/puny-chat/chat.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_320x693/images/content/projects/puny-chat/kid.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_320x693/images/content/projects/puny-chat/onsen-snow.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_320x693/images/content/projects/puny-chat/onsen.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_320x693/images/content/projects/quant-lab/mobile.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_320x693/images/content/projects/ur-check/mobile.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_384x171/images/content/projects/pokepedia/collection.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_384x240/images/content/projects/gitleaf/embed.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_384x240/images/content/projects/gitleaf/how.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_384x240/images/content/projects/pokepedia/detail.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_384x240/images/content/projects/quant-lab/ai.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_384x240/images/content/projects/quant-lab/backtest.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_384x240/images/content/projects/quant-lab/parallel.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_384x240/images/content/projects/quant-lab/question.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_384x240/images/content/projects/ur-check/apps.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_384x240/images/content/projects/ur-check/history.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_384x240/images/content/projects/ur-check/rooms.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_384x240/images/content/projects/ur-check/wizard.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_384x240/images/content/projects/ur-mcp/flow.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_384x240/images/content/projects/ur-mcp/settings.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_384x268/images/content/projects/pokepedia/title.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_384x311/images/content/projects/pokepedia/reward.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_384x382/images/content/projects/ur-manager/recent.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_384x425/images/content/projects/ur-manager/wizard.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_384x832/images/content/projects/puny-chat/adult.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_384x832/images/content/projects/puny-chat/kid.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_384x832/images/content/projects/puny-chat/onsen-snow.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_384x832/images/content/projects/puny-chat/onsen.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_512x1108/images/content/projects/puny-chat/adult.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_512x1108/images/content/projects/puny-chat/kid.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_512x1108/images/content/projects/puny-chat/onsen-snow.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_512x1108/images/content/projects/puny-chat/onsen.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_512x228/images/content/projects/pokepedia/collection.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_512x320/images/content/projects/gitleaf/embed.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_512x320/images/content/projects/gitleaf/how.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_512x320/images/content/projects/pokepedia/detail.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_512x320/images/content/projects/quant-lab/ai.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_512x320/images/content/projects/quant-lab/backtest.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_512x320/images/content/projects/quant-lab/parallel.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_512x320/images/content/projects/quant-lab/question.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_512x320/images/content/projects/ur-check/apps.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_512x320/images/content/projects/ur-check/history.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_512x320/images/content/projects/ur-check/rooms.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_512x320/images/content/projects/ur-check/wizard.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_512x320/images/content/projects/ur-mcp/flow.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_512x320/images/content/projects/ur-mcp/settings.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_512x358/images/content/projects/pokepedia/title.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_512x414/images/content/projects/pokepedia/reward.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_512x510/images/content/projects/ur-manager/recent.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_512x567/images/content/projects/ur-manager/wizard.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_560x1120/images/content/projects/pokepedia/mobile.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_560x1212/images/content/projects/puny-chat/chat.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_560x1212/images/content/projects/quant-lab/mobile.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_560x1212/images/content/projects/ur-check/mobile.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_560x350/images/content/projects/gitleaf/cover.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_560x350/images/content/projects/puny-chat/desktop.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_560x350/images/content/projects/quant-lab/home.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_560x350/images/content/projects/ur-check/home.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_560x453/images/content/projects/pokepedia/battle.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_563x352/images/content/projects/gitleaf/cover.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_563x352/images/content/projects/puny-chat/desktop.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_563x352/images/content/projects/quant-lab/home.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_563x352/images/content/projects/ur-check/home.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_563x352/images/content/projects/ur-mcp/cards.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_563x456/images/content/projects/pokepedia/battle.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_563x611/images/content/projects/ur-manager/searches.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_564x352/images/content/projects/gitleaf/cover.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_564x352/images/content/projects/puny-chat/desktop.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_564x352/images/content/projects/quant-lab/home.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_564x352/images/content/projects/ur-check/home.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_564x352/images/content/projects/ur-mcp/cards.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_564x456/images/content/projects/pokepedia/battle.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_564x612/images/content/projects/ur-manager/searches.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_576x1246/images/content/projects/puny-chat/adult.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_576x1246/images/content/projects/puny-chat/kid.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_576x1246/images/content/projects/puny-chat/onsen-snow.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_576x1246/images/content/projects/puny-chat/onsen.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_576x257/images/content/projects/pokepedia/collection.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_576x360/images/content/projects/gitleaf/embed.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_576x360/images/content/projects/gitleaf/how.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_576x360/images/content/projects/pokepedia/detail.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_576x360/images/content/projects/quant-lab/ai.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_576x360/images/content/projects/quant-lab/backtest.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_576x360/images/content/projects/quant-lab/parallel.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_576x360/images/content/projects/quant-lab/question.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_576x360/images/content/projects/ur-check/apps.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_576x360/images/content/projects/ur-check/history.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_576x360/images/content/projects/ur-check/rooms.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_576x360/images/content/projects/ur-check/wizard.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_576x360/images/content/projects/ur-mcp/flow.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_576x360/images/content/projects/ur-mcp/settings.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_576x402/images/content/projects/pokepedia/title.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_576x466/images/content/projects/pokepedia/reward.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_576x574/images/content/projects/ur-manager/recent.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_576x638/images/content/projects/ur-manager/wizard.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_640x1280/images/content/projects/pokepedia/mobile.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_640x1385/images/content/projects/puny-chat/chat.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_640x1385/images/content/projects/quant-lab/mobile.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_640x1385/images/content/projects/ur-check/mobile.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_640x1386/images/content/projects/puny-chat/adult.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_640x1386/images/content/projects/puny-chat/kid.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_640x1386/images/content/projects/puny-chat/onsen-snow.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_640x1386/images/content/projects/puny-chat/onsen.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_640x286/images/content/projects/pokepedia/collection.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_640x400/images/content/projects/gitleaf/cover.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_640x400/images/content/projects/gitleaf/embed.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_640x400/images/content/projects/gitleaf/how.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_640x400/images/content/projects/pokepedia/detail.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_640x400/images/content/projects/puny-chat/desktop.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_640x400/images/content/projects/quant-lab/ai.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_640x400/images/content/projects/quant-lab/backtest.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_640x400/images/content/projects/quant-lab/home.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_640x400/images/content/projects/quant-lab/parallel.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_640x400/images/content/projects/quant-lab/question.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_640x400/images/content/projects/ur-check/apps.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_640x400/images/content/projects/ur-check/history.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_640x400/images/content/projects/ur-check/home.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_640x400/images/content/projects/ur-check/rooms.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_640x400/images/content/projects/ur-check/wizard.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_640x400/images/content/projects/ur-mcp/flow.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_640x400/images/content/projects/ur-mcp/settings.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_640x446/images/content/projects/pokepedia/title.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_640x518/images/content/projects/pokepedia/battle.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_640x518/images/content/projects/pokepedia/reward.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_640x638/images/content/projects/ur-manager/recent.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_640x708/images/content/projects/ur-manager/wizard.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_676x423/images/content/projects/gitleaf/cover.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_676x423/images/content/projects/puny-chat/desktop.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_676x423/images/content/projects/quant-lab/home.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_676x423/images/content/projects/ur-check/home.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_676x423/images/content/projects/ur-mcp/cards.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_676x547/images/content/projects/pokepedia/battle.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_676x733/images/content/projects/ur-manager/searches.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_768x342/images/content/projects/pokepedia/collection.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_768x480/images/content/projects/gitleaf/embed.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_768x480/images/content/projects/gitleaf/how.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_768x480/images/content/projects/pokepedia/detail.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_768x480/images/content/projects/quant-lab/ai.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_768x480/images/content/projects/quant-lab/backtest.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_768x480/images/content/projects/quant-lab/parallel.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_768x480/images/content/projects/quant-lab/question.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_768x480/images/content/projects/ur-check/apps.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_768x480/images/content/projects/ur-check/history.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_768x480/images/content/projects/ur-check/rooms.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_768x480/images/content/projects/ur-check/wizard.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_768x480/images/content/projects/ur-mcp/flow.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_768x480/images/content/projects/ur-mcp/settings.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_768x536/images/content/projects/pokepedia/title.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_768x622/images/content/projects/pokepedia/reward.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_768x764/images/content/projects/ur-manager/recent.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_768x850/images/content/projects/ur-manager/wizard.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_901x563/images/content/projects/gitleaf/cover.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_901x563/images/content/projects/puny-chat/desktop.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_901x563/images/content/projects/quant-lab/home.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_901x563/images/content/projects/ur-check/home.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_901x563/images/content/projects/ur-mcp/cards.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_901x729/images/content/projects/pokepedia/battle.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_901x977/images/content/projects/ur-manager/searches.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_960x1041/images/content/projects/ur-manager/searches.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_960x600/images/content/projects/gitleaf/cover.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_960x600/images/content/projects/puny-chat/desktop.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_960x600/images/content/projects/quant-lab/home.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_960x600/images/content/projects/ur-check/home.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_960x600/images/content/projects/ur-mcp/cards.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_ipx/q_80&s_960x777/images/content/projects/pokepedia/battle.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/_nuxt/CqoFtq-K.js",
+      "status": 200,
+      "type": "application/javascript"
+    },
+    {
+      "path": "/_nuxt/entry.LSZbip8o.css",
+      "status": 200,
+      "type": "text/css; charset=utf-8"
+    },
+    {
+      "path": "/fonts/Geist-Variable.woff2",
+      "status": 200,
+      "type": "font/woff2"
+    },
+    {
+      "path": "/fonts/GeistMono-Variable.woff2",
+      "status": 200,
+      "type": "font/woff2"
+    },
+    {
+      "path": "/icon.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "path": "/og/gitleaf.png",
+      "status": 200,
+      "type": "image/png"
+    },
+    {
+      "path": "/og/pokepedia.png",
+      "status": 200,
+      "type": "image/png"
+    },
+    {
+      "path": "/og/puny-chat.png",
+      "status": 200,
+      "type": "image/png"
+    },
+    {
+      "path": "/og/quant-lab.png",
+      "status": 200,
+      "type": "image/png"
+    },
+    {
+      "path": "/og/site.png",
+      "status": 200,
+      "type": "image/png"
+    },
+    {
+      "path": "/og/ur-check.png",
+      "status": 200,
+      "type": "image/png"
+    },
+    {
+      "path": "/og/ur-manager.png",
+      "status": 200,
+      "type": "image/png"
+    },
+    {
+      "path": "/og/ur-mcp.png",
+      "status": 200,
+      "type": "image/png"
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "type": "text/plain; charset=utf-8"
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "type": "application/xml"
+    }
+  ]
+}
