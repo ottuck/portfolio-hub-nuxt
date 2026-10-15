@@ -8,7 +8,7 @@
 - Pages: `portfolio-hub-nuxt`, Production branch `main` 자동 배포, 작업 브랜치 Preview.
 - Build: `pnpm generate`, output `.output/public`, Node `24.22.0`, pnpm `10.33.0`.
 - 요청 시 Worker·Pages Functions·Node 서버 없이 정적 파일만 제공한다.
-- `wrangler.jsonc`를 배포 설정의 기준으로 사용한다. `vars`에 운영 Node/pnpm과 `NUXT_PUBLIC_ASSET_URL=https://www.portfolio-hub.dev`를 둔다. `env.preview.vars`에는 같은 Node/pnpm과 빈 자산 주소를 지정하여 Preview OG가 `CF_PAGES_URL`을 사용하게 한다.
+- `wrangler.jsonc`를 배포 설정의 기준으로 사용한다. 공통 `vars`와 각 환경에 Node/pnpm을 고정한다. `env.production.vars`에만 `NUXT_PUBLIC_ASSET_URL=https://www.portfolio-hub.dev`를 둔다. Preview에서는 이 변수를 생략하여 OG가 `CF_PAGES_URL`을 사용하게 한다. 빈 문자열도 Nuxt 런타임 설정을 덮으므로 빈 값으로 지정하지 않는다.
 - Wrangler 파일을 도입하면 대시보드의 일반 환경변수가 빌드에 전달되지 않을 수 있다. 실제 빌드 로그의 `Build environment variables`와 생성 HTML을 함께 확인한다. 비밀값은 이 파일에 넣지 않는다.
 
 ## URL과 색인
