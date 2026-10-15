@@ -68,4 +68,5 @@ for (const locale of ['', 'ja', 'ko']) {
 for (const forbidden of ['200.html', '_worker.js', 'functions']) {
   await assert.rejects(access(resolve(output, forbidden)), `${forbidden} must not be deployed`)
 }
+assert.doesNotMatch(await readFile(resolve(output, '_redirects'), 'utf8'), /^\/\*\s+.*\s+200\s*$/m, 'Pages must not rewrite missing paths to the app with 200')
 console.log(`Verified ${routes.length} pages against the original build, ${assets.size} referenced assets, 8 OG images, sitemap, robots and localized static 404s.`)

@@ -6,7 +6,7 @@
 
 - [x] 원본 `pnpm check`, `pnpm build` 결과와 비교 기준 기록
 - [x] Nuxt 4 호환 Node/pnpm 버전 고정, CI·Pages와 일치
-- [ ] `pnpm install --frozen-lockfile` 성공
+- [x] `pnpm install --frozen-lockfile` 성공
 - [x] `pnpm lint` 성공
 - [x] `pnpm typecheck` 성공
 - [x] `pnpm generate` 성공, prerender 오류 시 실패 처리
@@ -58,18 +58,18 @@
 
 ## Pages와 전환
 
-- [ ] Git 연동, 비공개 저장소 접근 및 Preview 배포 정상
-- [ ] 기본 경로 및 하위 경로 redirect가 308·올바른 Location 반환
-- [ ] 리다이렉트 쿼리 유지·정규화·루프 여부 확인
+- [x] Git 연동, 비공개 저장소 접근 및 Preview 배포 정상
+- [x] 기본 경로 및 하위 경로 redirect가 308·올바른 Location 반환
+- [x] 리다이렉트 쿼리 유지·정규화·루프 여부 확인
 - [x] 최상위 404.html 존재
-- [ ] 존재하지 않는 최상위·언어별·프로젝트 경로가 HTTP 404 반환
-- [ ] 알 수 없는 URL에 200 SPA fallback을 제공하지 않음
+- [x] 존재하지 않는 최상위·언어별·프로젝트 경로가 HTTP 404 반환
+- [x] 알 수 없는 URL에 200 SPA fallback을 제공하지 않음
 - [ ] HTTPS·커스텀 도메인·apex/www 정규화 정상
 - [ ] Cloudflare Web Analytics 중복 주입 없이 정상
-- [ ] DNS 전환 전 기존 Vercel 서비스 유지
+- [x] DNS 전환 전 기존 Vercel 서비스 유지
 - [ ] 최종 도메인에서 전체 검증 및 복구 경로 확인
 - [ ] 안정화 확인 후 기존 Vercel 정리
 - [ ] README·AGENTS·문서가 최종 구현과 일치
 
 
-체크한 항목의 검증 범위와 근거는 VALIDATION.md를 따른다. HTTP 동작은 현재 로컬 Pages에서 확인했으며 실제 Pages·최종 도메인 검증 항목은 배포 상태에 맞춰 별도로 갱신한다.
+체크한 항목의 검증 범위와 근거는 VALIDATION.md를 따른다. HTTP 동작은 로컬 Pages와 실제 PR #4 Preview에서 확인했다. 최종 도메인 항목은 아직 완료하지 않았다.
