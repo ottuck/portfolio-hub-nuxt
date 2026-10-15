@@ -14,6 +14,7 @@ Henry Kim의 사이드 프로젝트를 소개하는 포트폴리오입니다. �
 
 ## 작업 문서
 
+- [Next.js와 비교한 프로젝트 구조·Vue/Nuxt 입문](docs/ARCHITECTURE.md)
 - [결정사항과 구현 계획](docs/MIGRATION.md)
 - [기존 코드 조사와 기준 정보](docs/BASELINE.md)
 - [완료 검증 목록](docs/ACCEPTANCE.md)
