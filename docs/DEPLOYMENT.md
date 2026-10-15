@@ -36,4 +36,6 @@ Pages는 Git 연동 방식으로 구성한다. Direct Upload 전용 프로젝트
 
 ## 현재 상태
 
-로컬 Wrangler에서 Cloudflare 인증과 Pages 권한을 확인했다. 기존 계정의 다른 Pages 프로젝트는 변경하지 않았다. 새 Git 연동 프로젝트의 생성과 실제 배포 검증은 진행 중이다. 기존 운영 도메인과 Vercel은 아직 변경하지 않았다.
+Cloudflare Pages에 `portfolio-hub-nuxt`를 생성하고 GitHub 비공개 저장소와 연결했다. main의 자동 배포와 전체 작업 브랜치 Preview를 활성화했으며 Node/pnpm 버전과 빌드 명령·출력 디렉터리를 설정했다. 첫 main 배포는 플랫폼의 자동 Nitro 프리셋 선택으로 출력 경로가 달라져 실패했다. `chore/pages-deployment`에서 정적 프리셋을 명시하고 Cloudflare 환경을 재현한 빌드 검증을 추가했다. 기존 계정의 다른 Pages 프로젝트와 기존 운영 도메인·Vercel은 변경하지 않았다.
+
+Production에는 도메인 전환 전 검토를 위해 `NUXT_PUBLIC_ASSET_URL=https://portfolio-hub-nuxt.pages.dev`를 지정했다. Web Analytics API 조회는 현재 CLI OAuth 권한으로 HTTP 403을 반환했다. Analytics 활성화는 아직 확인되지 않았으며 대시보드에서 별도로 완료해야 한다.

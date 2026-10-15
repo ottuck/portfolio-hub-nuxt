@@ -9,6 +9,9 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
   vite: { plugins: [tailwindcss()] },
   nitro: {
+    // Pages environment detection otherwise selects an adapter that writes dist
+    // and adds a SPA fallback. Deployment must remain a plain static directory.
+    preset: process.env.NODE_ENV === 'development' ? 'node-server' : 'static',
     prerender: { routes, crawlLinks: true, failOnError: true, autoSubfolderIndex: false },
   },
   image: {
