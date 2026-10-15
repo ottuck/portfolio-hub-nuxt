@@ -50,6 +50,10 @@
 | `feat/nuxt-foundation` | #1 | CI 통과 후 main 병합 |
 | `feat/vue-ui` | #2 | CI 통과 후 main 병합 |
 | `feat/static-seo-validation` | #3 | CI 통과 후 main 병합 |
-| `chore/pages-deployment` | #4 예정 | 실제 Pages 배포·설정·검증 기록 |
+| `chore/pages-deployment` | #4 | GitHub CI와 Cloudflare Preview 통과, main 배포 확인 진행 |
 
 초기 문서 커밋으로 main을 만든 뒤, 구현은 단계별 작업 브랜치와 PR로 진행한다. 배포 상태와 도메인 전환 상태는 `DEPLOYMENT.md`에 별도로 기록한다.
+
+## 실제 Cloudflare Preview
+
+PR #4 커밋 `06ef19e`의 Preview `https://9c74fd3c.portfolio-hub-nuxt.pages.dev`에서 HTTP 검사 전체가 통과했다. `uses_functions: false`이며 이미지 변형도 정적 파일로 제공된다. 브라우저에서 홈 이미지 로딩, canonical의 운영 도메인, OG의 Preview 도메인을 확인했다. Web Analytics는 대시보드에서 활성화했으며 실제 주입 확인은 다음 main 배포 대상으로 남아 있다.

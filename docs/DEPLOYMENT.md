@@ -38,4 +38,6 @@ Pages는 Git 연동 방식으로 구성한다. Direct Upload 전용 프로젝트
 
 Cloudflare Pages에 `portfolio-hub-nuxt`를 생성하고 GitHub 비공개 저장소와 연결했다. main의 자동 배포와 전체 작업 브랜치 Preview를 활성화했으며 Node/pnpm 버전과 빌드 명령·출력 디렉터리를 설정했다. 첫 main 배포는 플랫폼의 자동 Nitro 프리셋 선택으로 출력 경로가 달라져 실패했다. `chore/pages-deployment`에서 정적 프리셋을 명시하고 Cloudflare 환경을 재현한 빌드 검증을 추가했다. 기존 계정의 다른 Pages 프로젝트와 기존 운영 도메인·Vercel은 변경하지 않았다.
 
-Production에는 도메인 전환 전 검토를 위해 `NUXT_PUBLIC_ASSET_URL=https://portfolio-hub-nuxt.pages.dev`를 지정했다. Web Analytics API 조회는 현재 CLI OAuth 권한으로 HTTP 403을 반환했다. Analytics 활성화는 아직 확인되지 않았으며 대시보드에서 별도로 완료해야 한다.
+PR #4의 Preview `https://9c74fd3c.portfolio-hub-nuxt.pages.dev`는 실제 Cloudflare 빌드에 성공했다. API에서 `uses_functions: false`를 확인했고, 이 URL에 대한 `pnpm test:http`가 30개 페이지·OG·308·쿼리 보존·7개 미등록 경로의 실제 404·기존 OG 주소 검사를 통과했다. 브라우저에서 기존 UI와 정적 최적화 이미지, 운영 canonical과 Preview 자체 OG 주소를 확인했다.
+
+Production에는 도메인 전환 전 검토를 위해 `NUXT_PUBLIC_ASSET_URL=https://portfolio-hub-nuxt.pages.dev`를 지정했다. CLI OAuth의 Analytics API는 403을 반환했으므로 사용자가 대시보드에 로그인한 뒤 Pages Metrics에서 Web Analytics를 활성화했다. 대시보드는 `enabled`와 다음 배포부터 적용된다는 안내를 표시했다. 다음 main 배포에서 실제 beacon 단일 주입을 확인한다. 활성화 화면은 `qa/cloudflare-analytics-enabled.jpg`에 보관했다.
