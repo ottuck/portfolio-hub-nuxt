@@ -20,7 +20,8 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      assetUrl: process.env.CF_PAGES_BRANCH && process.env.CF_PAGES_BRANCH !== 'main' ? (process.env.CF_PAGES_URL || 'https://www.portfolio-hub.dev') : 'https://www.portfolio-hub.dev',
+      // Static HTML and its client payload need this value at build time.
+      assetUrl: process.env.NUXT_PUBLIC_ASSET_URL || (process.env.CF_PAGES_BRANCH && process.env.CF_PAGES_BRANCH !== 'main' ? (process.env.CF_PAGES_URL || 'https://www.portfolio-hub.dev') : 'https://www.portfolio-hub.dev'),
     },
   },
   app: {

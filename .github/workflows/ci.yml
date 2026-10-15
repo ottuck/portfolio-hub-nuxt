@@ -22,4 +22,5 @@ jobs:
           CF_PAGES: "1"
           CF_PAGES_BRANCH: main
           CF_PAGES_URL: https://ci.portfolio-hub-nuxt.pages.dev
+          NUXT_PUBLIC_ASSET_URL: https://assets-ci.portfolio-hub-nuxt.pages.dev
       - run: pnpm test:pages

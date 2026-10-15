@@ -41,3 +41,15 @@ Cloudflare Pages에 `portfolio-hub-nuxt`를 생성하고 GitHub 비공개 저장
 PR #4의 Preview `https://9c74fd3c.portfolio-hub-nuxt.pages.dev`는 실제 Cloudflare 빌드에 성공했다. API에서 `uses_functions: false`를 확인했고, 이 URL에 대한 `pnpm test:http`가 30개 페이지·OG·308·쿼리 보존·7개 미등록 경로의 실제 404·기존 OG 주소 검사를 통과했다. 브라우저에서 기존 UI와 정적 최적화 이미지, 운영 canonical과 Preview 자체 OG 주소를 확인했다.
 
 Production에는 도메인 전환 전 검토를 위해 `NUXT_PUBLIC_ASSET_URL=https://portfolio-hub-nuxt.pages.dev`를 지정했다. CLI OAuth의 Analytics API는 403을 반환했으므로 사용자가 대시보드에 로그인한 뒤 Pages Metrics에서 Web Analytics를 활성화했다. 대시보드는 `enabled`와 다음 배포부터 적용된다는 안내를 표시했다. 다음 main 배포에서 실제 beacon 단일 주입을 확인한다. 활성화 화면은 `qa/cloudflare-analytics-enabled.jpg`에 보관했다.
+
+PR #4의 main 배포 `fea99ba4`가 성공했고 전체 HTTP 검사가 통과했다. Analytics beacon 1회 주입과 Pages 기본 도메인의 noindex를 확인했다. 명시적 자산 도메인이 HTML에 반영되지 않는 문제는 PR #5에서 정적 생성 시 적용하도록 보정하고 검사한다.
+
+## 현재 DNS와 복구 기준
+
+- 등록 기관과 DNS는 Vercel이며 `ns1.vercel-dns.com`, `ns2.vercel-dns.com`을 사용한다.
+- 루트는 Vercel에서 `https://www.portfolio-hub.dev`로 308 리다이렉트하며 경로·쿼리를 유지한다.
+- 루트 ALIAS: `fe7d24d3f4074e53.vercel-dns-017.com`, wildcard ALIAS: `cname.vercel-dns-017.com.`, TTL 60.
+- CAA는 `pki.goog`, `letsencrypt.org`이며 Vercel의 apex/wildcard HTTPS 레코드가 있다. 변경 전 기록은 `qa/dns-before.txt`에 보관한다.
+- www만 `portfolio-hub-nuxt.pages.dev`로 CNAME 연결한다. 네임서버·등록 기관을 옮기지 않으며 기존 apex 리다이렉트도 유지한다.
+- 복구가 필요하면 www CNAME 대상을 `cname.vercel-dns-017.com`으로 바꾸어 보관 중인 Vercel Production으로 되돌린다. 새 Pages 배포 자체의 회귀는 Pages의 이전 성공 배포로 롤백할 수도 있다.
+- apex 리다이렉트를 현재 Vercel 프로젝트가 제공하므로, 리다이렉트 제공처를 별도로 이전하기 전에는 기존 프로젝트를 삭제하지 않는다.

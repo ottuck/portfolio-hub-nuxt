@@ -1,0 +1,7 @@
+Observed 2026-10-15; registrar and DNS: Vercel
+Nameservers: ns1.vercel-dns.com, ns2.vercel-dns.com
+Production deployment: portfolio-1nkm07rdn-vison901-gmailcoms-projects.vercel.app
+Production commit: 5d2aa962632c036626bce867c2de979ae98f57a4
+Apex: 308 to https://www.portfolio-hub.dev preserving path/query
+
+Current DNS RecordsNameTypeValueTTLPriorityAgeCommentNameTypeValueTTLPriorityAgeCommentCAA0 issue "pki.goog"60Sep 26*HTTPS. ech=<vercel-managed>601Sep 26HTTPS. ech=<vercel-managed>601Sep 26CAA0 issue "letsencrypt.org"60Sep 26*ALIAScname.vercel-dns-017.com.60Sep 26Vercel automatically manages this record. It may change without notice.ALIASfe7d24d3f4074e53.vercel-dns-017.com60Sep 26Vercel automatically manages this record. It may change without notice.

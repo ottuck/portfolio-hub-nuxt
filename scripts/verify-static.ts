@@ -9,6 +9,7 @@ import baseline from '../docs/baseline.json'
 const output = resolve('.output/public')
 const fixtures: Record<string, (typeof baseline)[keyof typeof baseline]> = baseline
 const assets = new Set<string>()
+const expectedAssetOrigin = new URL(process.env.NUXT_PUBLIC_ASSET_URL || (process.env.CF_PAGES_BRANCH && process.env.CF_PAGES_BRANCH !== 'main' ? (process.env.CF_PAGES_URL || 'https://www.portfolio-hub.dev') : 'https://www.portfolio-hub.dev')).origin
 const htmlFile = (route: string) => resolve(output, route === '/' ? 'index.html' : route.slice(1) + '.html')
 for (const route of routes) {
   const expected = fixtures[route]!
@@ -40,6 +41,7 @@ for (const route of routes) {
   for (const name of ['og:image', 'twitter:image']) {
     const source = $(`meta[property="${name}"],meta[name="${name}"]`).attr('content')!
     assert.ok(source, `${route}: ${name}`)
+    assert.equal(new URL(source).origin, expectedAssetOrigin, `${route}: ${name} asset origin`)
     assets.add(new URL(source).pathname)
   }
   assert.ok(!$('meta[name="robots"]').attr('content')?.includes('noindex'), `${route}: production HTML must be indexable`)
