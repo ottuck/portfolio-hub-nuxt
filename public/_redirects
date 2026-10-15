@@ -1,0 +1,10 @@
+/projects/buddy-chat /projects/puny-chat 308
+/projects/buddy-chat/* /projects/puny-chat/:splat 308
+/projects/trading-bot /projects/quant-lab 308
+/projects/trading-bot/* /projects/quant-lab/:splat 308
+/opengraph-image* /og/site.png 308
+/ja/opengraph-image* /og/site.png 308
+/ko/opengraph-image* /og/site.png 308
+/projects/:slug/opengraph-image* /og/:slug.png 308
+/ja/projects/:slug/opengraph-image* /og/:slug.png 308
+/ko/projects/:slug/opengraph-image* /og/:slug.png 308

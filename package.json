@@ -4,32 +4,40 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "nuxt dev --host 127.0.0.1",
-    "build": "nuxt build",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
+    "dev": "pnpm assets && nuxt dev --host 127.0.0.1",
+    "build": "pnpm generate",
+    "assets": "tsx --tsconfig tsconfig.scripts.json scripts/generate-assets.ts",
+    "generate": "pnpm assets && nuxt generate && pnpm finalize && pnpm verify",
+    "finalize": "tsx --tsconfig tsconfig.scripts.json scripts/finalize-static.ts",
+    "verify": "tsx --tsconfig tsconfig.scripts.json scripts/verify-static.ts",
+    "test:http": "tsx --tsconfig tsconfig.scripts.json scripts/verify-http.ts",
+    "test:pages": "tsx --tsconfig tsconfig.scripts.json scripts/test-pages.ts",
+    "preview": "wrangler pages dev .output/public --ip 127.0.0.1 --port 4173",
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
-    "typecheck": "nuxt typecheck",
+    "typecheck": "nuxt typecheck && tsc -p tsconfig.scripts.json",
     "check": "pnpm lint && pnpm typecheck"
   },
   "dependencies": {
     "@nuxt/image": "2.1.0",
-    "geist": "1.7.2",
     "nuxt": "4.6.1",
     "vue": "3.5.44",
     "vue-router": "^5.4.0"
   },
   "devDependencies": {
     "@nuxt/eslint": "1.17.0",
+    "@resvg/resvg-js": "2.6.2",
     "@tailwindcss/vite": "4.3.3",
     "@types/node": "^24.0.0",
+    "cheerio": "1.2.0",
     "eslint": "10.12.0",
+    "satori": "0.59.1",
     "sharp": "^0.34.0",
     "tailwindcss": "4.3.3",
     "tsx": "^4.20.0",
     "typescript": "5.9.3",
-    "vue-tsc": "^3.0.0"
+    "vue-tsc": "^3.0.0",
+    "wrangler": "4.151.0"
   },
   "packageManager": "pnpm@10.33.0",
   "engines": {
