@@ -9,7 +9,9 @@
 - `docs/baseline.json`의 21개 상세 본문 기대값에서 기존 개발 노트 제목과 본문만 정확히 제거했다. 그 외 본문·링크·이미지·SEO 기대값은 유지한다. 아래 원본 대조 기록과 `docs/qa/` 화면 자료는 삭제 이전의 마이그레이션 검증 이력이다.
 - Node 24.22.0·pnpm 10.33.0에서 frozen lockfile 설치, `pnpm check`(lint·typecheck), `pnpm generate`(정적 생성·출력물 검증)를 통과했다. 전체 30개 페이지 본문·링크·alt·SEO, 참조 자산 306개, OG 8개, sitemap·robots·다국어 정적 404를 확인했다.
 - `pnpm test:pages`도 통과했다. 로컬 Pages에서 30개 콘텐츠·OG, 기존 경로와 하위 경로의 308·쿼리 보존, 미등록 경로 7개의 실제 404, 이전 OG URL 호환을 확인했다.
-- 운영 배포와 배포 후 브라우저·HTTP 검사는 아직 수행하지 않았다.
+- PR #10의 CI·Preview 검사 통과 후 main에 병합했다. main 커밋 `2d0e4ef`의 CI와 Pages 운영 배포 `f2c47b6e-8072-4ab1-b61a-cbde8dfca705`가 성공했다.
+- Preview와 운영 도메인에서 `pnpm test:http` 전체를 통과했다. 별도 HTTP 대조에서 30개 페이지의 본문·링크·alt와 자산 310개, sitemap·robots, Analytics 단일 주입, Preview noindex·운영 색인 허용을 확인했다. 전체 21개 프로젝트 상세에 개발 노트가 없다. 기록은 `docs/qa/development-notes-preview.json`, `docs/qa/development-notes-production.json`이다.
+- 브라우저에서 Preview Puny Chat의 하단 레이아웃과 운영 Puny Chat 직접 접속·UR Check로의 내부 탐색을 확인했다. 기술 구성 다음에 이전 프로젝트가 이어지는 운영 화면을 `docs/qa/development-notes-production.png`에 보관했다.
 
 ## 완료한 구현
 
