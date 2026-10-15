@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-10-15T14:20:12.290Z",
-  "phase": "before-vercel-project-deletion",
+  "checkedAt": "2026-10-15T14:27:54.848Z",
+  "phase": "after-vercel-project-deletion",
   "dns": [
     {
       "server": "alex.ns.cloudflare.com",
@@ -15,8 +15,8 @@
     {
       "server": "treasure.ns.cloudflare.com",
       "root": [
-        "104.21.87.185",
-        "172.67.145.154"
+        "172.67.145.154",
+        "104.21.87.185"
       ],
       "www": [
         "portfolio-hub-nuxt.pages.dev"
@@ -45,8 +45,8 @@
     {
       "server": "1.1.1.1",
       "root": [
-        "172.67.145.154",
-        "104.21.87.185"
+        "104.21.87.185",
+        "172.67.145.154"
       ],
       "www": [
         "portfolio-hub-nuxt.pages.dev"
@@ -55,8 +55,8 @@
     {
       "server": "8.8.8.8",
       "root": [
-        "172.67.145.154",
-        "104.21.87.185"
+        "104.21.87.185",
+        "172.67.145.154"
       ],
       "www": [
         "portfolio-hub-nuxt.pages.dev"

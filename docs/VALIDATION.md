@@ -56,6 +56,7 @@
 | `fix/static-asset-origin` | #5 | CI·Preview 통과 후 main 병합, 정적 생성 OG 자산 주소 회귀 검사 |
 | `chore/production-domain` | #6 | 운영 변수·DNS 전환·최종 배포 기록 |
 | `docs/nuxt-architecture-guide` | #7 | 초보자용 Next·Nuxt 구조 비교, CI·Preview 통과 후 main 병합 |
+| `chore/remove-vercel-project` | #8 | DNS·apex redirect 이전, CI·Preview 통과 후 main 병합 |
 
 초기 문서 커밋으로 main을 만든 뒤, 구현은 단계별 작업 브랜치와 PR로 진행한다. 배포 상태와 도메인 전환 상태는 `DEPLOYMENT.md`에 별도로 기록한다.
 
@@ -73,4 +74,4 @@ PR #6 Preview에서는 빈 `NUXT_PUBLIC_ASSET_URL`도 Nuxt 런타임 값을 덮�
 
 `www.portfolio-hub.dev`를 Pages로 CNAME 연결하고 Cloudflare 도메인·인증서의 Active 상태를 확인했다. 운영 도메인의 전체 HTTP 검사도 통과했다. 30개 콘텐츠 HTML 모두 Nuxt·Cloudflare 응답, 운영 OG 주소, Analytics beacon 1회, 색인 허용 상태였다. 정적 참조 자산 306개와 폰트·sitemap·robots를 합친 310개도 실제 운영 주소에서 정상 응답했다.
 
-PR #6 시점에는 HTTP www → HTTPS www(301), HTTPS apex → HTTPS www(308)의 경로·쿼리 보존을 확인하고 기존 Vercel 배포를 유지했다. 이후 사용자의 삭제 요청에 따라 DNS와 apex 리다이렉트도 Cloudflare로 옮겼다. 새·이전 NS와 공용 resolver 총 6곳 및 실제 edge IP 4개의 HTTP·HTTPS 리다이렉트 32건을 검증했다. 기존 Vercel 프로젝트는 삭제 실행 시점 확인을 기다리며 아직 남아 있다. 현재 상태와 확인 자료는 DEPLOYMENT.md와 `docs/qa/`를 따른다.
+PR #6 시점에는 HTTP www → HTTPS www(301), HTTPS apex → HTTPS www(308)의 경로·쿼리 보존을 확인하고 기존 Vercel 배포를 유지했다. 이후 사용자의 삭제 요청에 따라 DNS와 apex 리다이렉트도 Cloudflare로 옮겼다. 새·이전 NS와 공용 resolver 총 6곳 및 실제 edge IP 4개의 HTTP·HTTPS 리다이렉트 32건을 검증했다. 사용자 실행 시점 확인을 받아 기존 Vercel 프로젝트를 삭제한 후 같은 검사와 Nuxt HTML 30개·Analytics 검사를 다시 통과했다. 프로젝트 설정 404, 기존 배포 410, 등록 도메인·자동 갱신 유지도 확인했다. 현재 상태와 확인 자료는 DEPLOYMENT.md와 `docs/qa/`를 따른다.

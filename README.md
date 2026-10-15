@@ -25,7 +25,7 @@ Henry Kim의 사이드 프로젝트를 소개하는 포트폴리오입니다. �
 
 ## 현재 상태
 
-2026-10-15 기준 Nuxt 구현과 Cloudflare Pages main 배포, `www.portfolio-hub.dev`의 DNS·HTTPS 전환을 완료했습니다. 기존 디자인과 3개 언어·30개 페이지를 보존했고, 실제 운영 주소에서 경로·이미지·OG·SEO·308·404와 Analytics 단일 주입을 확인했습니다. GitHub는 비공개입니다. 등록 기관·DNS와 루트 도메인의 308 리다이렉트는 Vercel에 유지하며 기존 배포도 복구용으로 보관합니다.
+2026-10-15 기준 Nuxt 구현과 Cloudflare Pages main 배포, `www.portfolio-hub.dev`의 DNS·HTTPS 전환을 완료했습니다. 기존 디자인과 3개 언어·30개 페이지를 보존했고, 실제 운영 주소에서 경로·이미지·OG·SEO·308·404와 Analytics 단일 주입을 확인했습니다. GitHub는 비공개입니다. DNS와 루트 도메인의 308도 Cloudflare로 이전하고, 사용자 확인 후 기존 Vercel 호스팅 프로젝트를 삭제했습니다. 도메인 등록·자동 갱신은 Vercel에 유지합니다. 복구는 Pages의 이전 성공 배포를 사용합니다.
 
 운영 사이트: https://www.portfolio-hub.dev/ko
 
