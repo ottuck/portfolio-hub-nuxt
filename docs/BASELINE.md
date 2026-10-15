@@ -8,7 +8,7 @@
 - 확인한 커밋: `5d2aa962632c036626bce867c2de979ae98f57a4`
 - 커밋 링크: https://github.com/ottuck/portfolio-hub/tree/5d2aa962632c036626bce867c2de979ae98f57a4
 - 운영 사이트: https://www.portfolio-hub.dev/ko
-- 운영 사이트는 브라우저로 홈 화면과 링크·콘텐츠를 확인했다. 배포 커밋이 위 커밋과 동일한지는 확인하지 않았다.
+- 운영 사이트는 브라우저로 홈 화면과 링크·콘텐츠를 확인했다. 이후 Vercel 대시보드에서 Production 배포 커밋도 위 커밋과 동일함을 확인했다. 기존 배포 주소는 `portfolio-1nkm07rdn-vison901-gmailcoms-projects.vercel.app`이다.
 - Node 24.22.0 환경에서 원본 pnpm check(lint·typecheck)와 pnpm build가 모두 통과했다. 원본 빌드는 콘텐츠·SEO 관련 45개 정적 결과물을 보고했다. 전체 사이트 화면 비교와 모바일·다크모드 실측은 아직 수행하지 않았다.
 
 ## 실제 확인한 스택

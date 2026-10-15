@@ -1,0 +1,234 @@
+{
+  "original": {
+    "items": [
+      {
+        "font": "GeistSans, \"GeistSans Fallback\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", \"Malgun Gothic\", sans-serif",
+        "rect": [
+          64,
+          86,
+          1152,
+          558.5
+        ],
+        "size": "16px",
+        "tag": "MAIN",
+        "text": null
+      },
+      {
+        "font": "GeistSans, \"GeistSans Fallback\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", \"Malgun Gothic\", sans-serif",
+        "rect": [
+          99,
+          133,
+          1,
+          1
+        ],
+        "size": "16px",
+        "tag": "H1",
+        "text": "소개"
+      },
+      {
+        "font": "GeistSans, \"GeistSans Fallback\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", \"Malgun Gothic\", sans-serif",
+        "rect": [
+          96,
+          325,
+          261.5,
+          79
+        ],
+        "size": "16px",
+        "tag": "DIV",
+        "text": null
+      },
+      {
+        "font": "GeistSans, \"GeistSans Fallback\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", \"Malgun Gothic\", sans-serif",
+        "rect": [
+          371.5,
+          325,
+          261.5,
+          79
+        ],
+        "size": "16px",
+        "tag": "DIV",
+        "text": null
+      },
+      {
+        "font": "GeistSans, \"GeistSans Fallback\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", \"Malgun Gothic\", sans-serif",
+        "rect": [
+          647,
+          325,
+          261.5,
+          79
+        ],
+        "size": "16px",
+        "tag": "DIV",
+        "text": null
+      },
+      {
+        "font": "GeistSans, \"GeistSans Fallback\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", \"Malgun Gothic\", sans-serif",
+        "rect": [
+          922.5,
+          325,
+          261.5,
+          79
+        ],
+        "size": "16px",
+        "tag": "DIV",
+        "text": null
+      },
+      {
+        "font": "GeistSans, \"GeistSans Fallback\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", \"Malgun Gothic\", sans-serif",
+        "rect": [
+          95,
+          415,
+          1,
+          1
+        ],
+        "size": "16px",
+        "tag": "H2",
+        "text": "링크"
+      },
+      {
+        "font": "GeistSans, \"GeistSans Fallback\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", \"Malgun Gothic\", sans-serif",
+        "rect": [
+          96,
+          416,
+          537,
+          98
+        ],
+        "size": "16px",
+        "tag": "A",
+        "text": null
+      },
+      {
+        "font": "GeistSans, \"GeistSans Fallback\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", \"Malgun Gothic\", sans-serif",
+        "rect": [
+          647,
+          416,
+          537,
+          98
+        ],
+        "size": "16px",
+        "tag": "A",
+        "text": null
+      }
+    ],
+    "viewport": [
+      1280,
+      720
+    ]
+  },
+  "nuxt": {
+    "items": [
+      {
+        "font": "\"Geist Sans\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", \"Malgun Gothic\", sans-serif",
+        "rect": [
+          64,
+          86,
+          1152,
+          558.5
+        ],
+        "size": "16px",
+        "tag": "MAIN",
+        "text": null
+      },
+      {
+        "font": "\"Geist Sans\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", \"Malgun Gothic\", sans-serif",
+        "rect": [
+          99,
+          133,
+          1,
+          1
+        ],
+        "size": "16px",
+        "tag": "H1",
+        "text": "소개"
+      },
+      {
+        "font": "\"Geist Sans\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", \"Malgun Gothic\", sans-serif",
+        "rect": [
+          96,
+          325,
+          261.5,
+          79
+        ],
+        "size": "16px",
+        "tag": "DIV",
+        "text": null
+      },
+      {
+        "font": "\"Geist Sans\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", \"Malgun Gothic\", sans-serif",
+        "rect": [
+          371.5,
+          325,
+          261.5,
+          79
+        ],
+        "size": "16px",
+        "tag": "DIV",
+        "text": null
+      },
+      {
+        "font": "\"Geist Sans\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", \"Malgun Gothic\", sans-serif",
+        "rect": [
+          647,
+          325,
+          261.5,
+          79
+        ],
+        "size": "16px",
+        "tag": "DIV",
+        "text": null
+      },
+      {
+        "font": "\"Geist Sans\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", \"Malgun Gothic\", sans-serif",
+        "rect": [
+          922.5,
+          325,
+          261.5,
+          79
+        ],
+        "size": "16px",
+        "tag": "DIV",
+        "text": null
+      },
+      {
+        "font": "\"Geist Sans\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", \"Malgun Gothic\", sans-serif",
+        "rect": [
+          95,
+          415,
+          1,
+          1
+        ],
+        "size": "16px",
+        "tag": "H2",
+        "text": "링크"
+      },
+      {
+        "font": "\"Geist Sans\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", \"Malgun Gothic\", sans-serif",
+        "rect": [
+          96,
+          416,
+          537,
+          98
+        ],
+        "size": "16px",
+        "tag": "A",
+        "text": null
+      },
+      {
+        "font": "\"Geist Sans\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", \"Malgun Gothic\", sans-serif",
+        "rect": [
+          647,
+          416,
+          537,
+          98
+        ],
+        "size": "16px",
+        "tag": "A",
+        "text": null
+      }
+    ],
+    "viewport": [
+      1280,
+      720
+    ]
+  }
+}

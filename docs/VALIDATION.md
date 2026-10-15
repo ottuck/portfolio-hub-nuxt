@@ -40,6 +40,8 @@
 - 한국어 상세에서 같은 프로젝트의 일본어 페이지로 이동하고 HTML lang과 canonical 변경을 확인했다.
 - 시스템 → 라이트 → 다크 → 시스템 전환 및 새로고침 후 저장 설정 유지를 확인했다.
 - 확인한 브라우저 로그에 hydration 경고가 없었다.
+- 실제 Preview의 한국어 목록·About·Puny Chat 상세를 원본과 1280px에서 대조했다. 카드·본문·주요 이미지의 배치와 크기가 일치했으며, 리사이즈 이미지 한 곳의 높이 반올림 차이는 0.2px였다. About과 상세 측정값을 `docs/qa/*-geometry.json`에 보관했다.
+- 배포본에서 메뉴 외부 클릭 닫기, Escape 닫기·트리거로 포커스 복귀, 키보드 포커스의 주황색 2px outline을 확인했다. 언어 메뉴 리스너와 시계 interval은 컴포넌트 해제 시 정리하는 코드를 확인했다.
 - OG 구성은 실제 생성 PNG와 원본 PNG를 열어 비교했다. 새 Satori의 기본 박스 계산 차이는 명시적 border-box로 보정했다.
 - 화면과 반응형 측정은 `docs/qa/`에 저장했다. 모든 언어·모든 페이지·모든 브라우저에 대한 픽셀 단위 비교를 수행한 것은 아니다.
 
@@ -50,10 +52,13 @@
 | `feat/nuxt-foundation` | #1 | CI 통과 후 main 병합 |
 | `feat/vue-ui` | #2 | CI 통과 후 main 병합 |
 | `feat/static-seo-validation` | #3 | CI 통과 후 main 병합 |
-| `chore/pages-deployment` | #4 | GitHub CI와 Cloudflare Preview 통과, main 배포 확인 진행 |
+| `chore/pages-deployment` | #4 | CI·Preview 통과 후 main 병합, 실제 main 배포 및 HTTP 검사 통과 |
+| `fix/static-asset-origin` | #5 | 정적 생성의 OG 자산 도메인 명시 적용 및 회귀 검사 |
 
 초기 문서 커밋으로 main을 만든 뒤, 구현은 단계별 작업 브랜치와 PR로 진행한다. 배포 상태와 도메인 전환 상태는 `DEPLOYMENT.md`에 별도로 기록한다.
 
 ## 실제 Cloudflare Preview
 
 PR #4 커밋 `06ef19e`의 Preview `https://9c74fd3c.portfolio-hub-nuxt.pages.dev`에서 HTTP 검사 전체가 통과했다. `uses_functions: false`이며 이미지 변형도 정적 파일로 제공된다. 브라우저에서 홈 이미지 로딩, canonical의 운영 도메인, OG의 Preview 도메인을 확인했다. Web Analytics는 대시보드에서 활성화했으며 실제 주입 확인은 다음 main 배포 대상으로 남아 있다.
+
+PR #4 병합 커밋 `eb01a05`의 실제 main 배포에서도 HTTP 검사 전체가 통과했고 서버 함수가 없었다. Analytics beacon 단일 주입과 기본 Pages 도메인의 noindex를 확인했다. 이때 `NUXT_PUBLIC_ASSET_URL`이 생성 HTML에 반영되지 않는 문제를 발견하여 PR #5에서 설정의 빌드 시 기본값에 명시적으로 적용했다. 회귀 검사가 수정 전 출력물에서 실패하는 것을 확인한 뒤, 같은 환경변수를 준 전체 lint·typecheck·generate·정적 검사를 통과했다. CI도 `CF_PAGES_URL`과 다른 명시적 자산 주소로 이 우선순위를 검사한다.
