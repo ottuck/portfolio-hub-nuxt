@@ -65,24 +65,6 @@ export const gitleaf: Project = {
     { area: "Data", items: "GitHub GraphQL API, token kept as a Worker secret" },
     { area: "Quality", items: "Tests on the real Workers runtime with D1 and R2 (Miniflare) · a live check against GitHub · GitHub Actions" },
   ],
-  notes: [
-    {
-      title: "Draw once, serve many times",
-      body: "A request only reads the saved SVG from R2, with an ETag for repeat requests. GitHub is called on the first visit and in the daily repaint, not when a README is viewed.",
-    },
-    {
-      title: "Failures keep the old picture",
-      body: "If GitHub fails or returns incomplete data, the previous picture stays and retries back off from one hour up to a day. A lease in D1 keeps two overlapping requests from painting the same garden twice.",
-    },
-    {
-      title: "Small repaint batches",
-      body: "Cron runs every ten minutes and handles up to four gardens that are due, each once a day after 00:20 UTC. The limits for when more people use it are in the README.",
-    },
-    {
-      title: "Checked against GitHub",
-      body: "A script compares a live picture with a fresh GitHub response: each day's count and shade, the weekly leaves, future days and the total. The 20 tests run without calling GitHub and cover leap years, year-end rushes and outages.",
-    },
-  ],
   footnote: "Counts are GitHub contributions, not only commits. Private activity only shows if the service's GitHub token can see it. The pictures use my own account.",
 
   translations: { ja, ko },

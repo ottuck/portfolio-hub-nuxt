@@ -30,20 +30,6 @@ export const ja: ProjectCopy = {
     { area: "インフラ", items: "Azure Container Apps · Container Registry · Key Vault · Terraform · Cloudflare DNS" },
     { area: "CI/CD · 運用", items: "Azure Pipelines · Workload Identity Federation · Application Insights" },
   ],
-  notes: [
-    {
-      title: "コンテナは1つ",
-      body: "ReactとSpringを1つのイメージにまとめ、レプリカ1台で運用しています。この規模であれば、スケジューラーもセッションもシンプルに保てます。",
-    },
-    {
-      title: "ネットワーク呼び出しはトランザクションの外で",
-      body: "URやメールサービスの呼び出しはDBトランザクションの外で行います。遅いリクエストやメール送信の失敗で、正常に完了したチェックがロールバックされることはありません。",
-    },
-    {
-      title: "一部だけの成功は失敗",
-      body: "1ページでも取得に失敗した場合はチェック全体を失敗とし、前回の状態を保持します。誤った「新着」メールを送ることはありません。",
-    },
-  ],
   footnote: "UR都市機構とは関係ありません。空室状況は必ずURの公式サイトでご確認ください。",
   alts: {
     main: "UR Managerの保存済み検索条件の画面。江東区の条件が1件ある",

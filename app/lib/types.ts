@@ -58,8 +58,6 @@ export type Project = {
   features: { title: string; body: string }[];
   gallery: Shot[];
   stack: { area: string; items: string }[];
-  /** Short build notes: decisions worth knowing, written plainly. */
-  notes: { title: string; body: string }[];
   footnote?: string;
 
   /** The same text in the other site languages (see ProjectCopy). */
@@ -73,7 +71,7 @@ export type Project = {
  */
 export type ProjectCopy = Pick<
   Project,
-  "label" | "tagline" | "summary" | "facts" | "about" | "features" | "stack" | "notes" | "footnote"
+  "label" | "tagline" | "summary" | "facts" | "about" | "features" | "stack" | "footnote"
 > & {
   /** Link text for links.live, when it isn't a domain. */
   liveLabel?: string;

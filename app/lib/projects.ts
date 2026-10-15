@@ -27,7 +27,6 @@ function checkCopy(p: Project, locale: string, copy: ProjectCopy) {
     ["facts", p.facts.length, copy.facts.length],
     ["features", p.features.length, copy.features.length],
     ["stack", p.stack.length, copy.stack.length],
-    ["notes", p.notes.length, copy.notes.length],
     ["gallery alts", p.gallery.length, copy.alts.gallery.length],
   ];
   for (const [what, want, got] of counts) {

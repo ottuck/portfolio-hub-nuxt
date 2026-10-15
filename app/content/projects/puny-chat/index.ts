@@ -76,16 +76,6 @@ export const punyChat: Project = {
     { area: "Auth · Push", items: "Firebase Authentication · Expo push · Web Push (VAPID)" },
     { area: "Infra", items: "AWS Lightsail, Sydney (server) · Cloudflare Workers (web) · Terraform for Atlas and Cloudflare, state in R2 · GitHub Actions" },
   ],
-  notes: [
-    {
-      title: "Buddy state is derived",
-      body: "Hunger and poop aren't stored or advanced by a scheduler. They're calculated from the last feeding and cleaning times when the room is opened.",
-    },
-    {
-      title: "Resends and double taps",
-      body: "A unique index on the client's message id makes a resent message return the original. Conditional updates make two people pressing Feed at the same time count once.",
-    },
-  ],
 
   translations: { ja, ko },
 };

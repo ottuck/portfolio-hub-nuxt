@@ -76,28 +76,6 @@ export const urMcp: Project = {
     { area: "Infra", items: "Railway, Singapore · one replica · service config as code (railway.ts)" },
     { area: "Quality", items: "Vitest with recorded UR responses · live smoke tests · Biome · TypeScript 7 · GitHub Actions" },
   ],
-  notes: [
-    {
-      title: "Division of work",
-      body: "The AI reads the question, compares and recommends. The server's job is complete, exact UR data and tool descriptions that tell the AI how to present it.",
-    },
-    {
-      title: "Cards as a single HTML page",
-      body: "A tool points to a ui:// resource, which the host opens in a sandboxed iframe with the result passed in. There is no build step: at startup the server combines the HTML, the script and the ext-apps bundle into one page, with a content hash in the URI so hosts that cache it pick up changes. The card only draws what it receives and never calls UR.",
-    },
-    {
-      title: "Partial results are errors",
-      body: "Every estate and room page is collected. A failed page or a count mismatch fails the whole search. Values UR filters loosely (floor space, rent, layout) are checked again.",
-    },
-    {
-      title: "A secret URL per person",
-      body: "claude.ai and ChatGPT connectors can't send a bearer token, so each person gets their own URL. Tokens are compared as SHA-256 digests in constant time, and cutting someone off is a single variable.",
-    },
-    {
-      title: "Request volume",
-      body: "One request at a time, 0.5 s apart, with a 5-minute cache and daily caps. Searching 町田市 makes the same 7 API calls as opening the official results page, without its ~30 images. It backs off on 429 and stops on 403.",
-    },
-  ],
   footnote:
     "Not affiliated with UR (Urban Renaissance Agency). Always confirm availability on the official UR site. The card screenshots use sample data; the other images are drawn from real UR MCP App results.",
 

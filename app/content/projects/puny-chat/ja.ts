@@ -45,16 +45,6 @@ export const ja: ProjectCopy = {
     { area: "認証 · プッシュ", items: "Firebase Authentication · Expo push · Web Push (VAPID)" },
     { area: "インフラ", items: "AWS Lightsail（シドニー・サーバー）· Cloudflare Workers（Web）· Terraform（AtlasとCloudflare、stateはR2）· GitHub Actions" },
   ],
-  notes: [
-    {
-      title: "バディの状態は開いたときに計算",
-      body: "おなかのすき具合とうんちは、保存もスケジューラーでの更新もしません。ルームを開いたときに、最後にごはんをあげた時刻と掃除した時刻から計算します。",
-    },
-    {
-      title: "再送と同時タップ",
-      body: "クライアントのメッセージIDにユニークインデックスを張り、再送されたメッセージには元のメッセージを返します。2人が同時にごはんを押しても、条件付きの更新で1回として数えます。",
-    },
-  ],
   alts: {
     main: "デスクトップブラウザのPuny Chat。チャットの上のステージで、おとなのバディが仕事の道具のそばにいる",
     inset: "スマホのPuny Chat。働くおとなのバディと、メッセージの間に表示されるできごと",

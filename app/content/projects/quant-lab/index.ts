@@ -87,20 +87,6 @@ export const quantLab: Project = {
     { area: "Infra", items: "AWS Lightsail, Sydney (Terraform) · Docker Compose · GHCR · GitHub Actions with a self-hosted runner · Cloudflare Tunnel & Access · Tailscale · Telegram alerts" },
     { area: "Quality", items: "pytest · ruff · mypy (strict) · oxlint" },
   ],
-  notes: [
-    {
-      title: "Decisions and orders are separate",
-      body: "The bot decides in paper money what to buy and how much. A separate trading engine turns that into real orders scaled to my account and sends them to the broker. Because the decision side never touches money, backtests, the demo and my account all use the same logic.",
-    },
-    {
-      title: "The AI only proposes weights",
-      body: "The AI answers with target weights in a fixed format, and the engine turns them into orders. An answer with an unknown fund, or weights that don't add up to 100, is discarded and that day is left unchanged. Inputs and answers are saved, so a decision can be replayed.",
-    },
-    {
-      title: "Charts without names",
-      body: "The candle-analysis bot sees prices as an index with today at 100, without dates, and each fund is only a letter that changes every day. A well-known chart shape can still give the past away, so neither AI bot is backtested. Both are compared from the day they started, with the same money.",
-    },
-  ],
   footnote: "Not investment advice. I trade my own account at a small scale; the screenshots use the demo's synthetic prices, where every order is simulated. The AI bot's reasons are for reference and can be wrong.",
 
   translations: { ja, ko },

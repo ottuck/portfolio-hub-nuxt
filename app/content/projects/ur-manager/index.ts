@@ -64,20 +64,6 @@ export const urManager: Project = {
     { area: "Infra", items: "Azure Container Apps · Container Registry · Key Vault · Terraform · Cloudflare DNS" },
     { area: "CI/CD · Ops", items: "Azure Pipelines · Workload Identity Federation · Application Insights" },
   ],
-  notes: [
-    {
-      title: "One container",
-      body: "React and Spring ship as one image on a single replica, which keeps the scheduler and sessions simple for a service this size.",
-    },
-    {
-      title: "No transactions around network calls",
-      body: "Calls to UR and the email service run outside database transactions, so a slow request or a failed email doesn't roll back a successful scan.",
-    },
-    {
-      title: "Partial scans fail",
-      body: "If any page fails, the whole check fails and the previous state is kept, so a wrong “new room” email is never sent.",
-    },
-  ],
   footnote: "Not affiliated with UR (Urban Renaissance Agency). Always confirm availability on the official UR site.",
 
   translations: { ja, ko },

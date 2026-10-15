@@ -45,16 +45,6 @@ export const ja: ProjectCopy = {
     { area: "テスト", items: "Vitest · Playwright" },
     { area: "ホスティング", items: "Vercel（東京）· Supabase（東京）· Analytics · Speed Insights" },
   ],
-  notes: [
-    {
-      title: "正解はサーバーに置く",
-      body: "出題中のブラウザには、意味のないファイル名のシルエットと伏せ字の名前だけを渡します。正解データはprivateスキーマにあります。",
-    },
-    {
-      title: "判定と保存",
-      body: "判定ルールは素のTypeScriptです。スコア、シール、次の問題は1つのPostgres関数でまとめて保存するため、二重に送信しても報酬は1回だけです。",
-    },
-  ],
   footnote:
     "ポケモンおよび関連する名称・アートワークの権利は任天堂、株式会社ポケモン、クリーチャーズ、ゲームフリークに帰属します。非公式・非営利のファンプロジェクトです。",
   alts: {

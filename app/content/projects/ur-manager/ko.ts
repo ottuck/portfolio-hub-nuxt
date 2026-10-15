@@ -29,20 +29,6 @@ export const ko: ProjectCopy = {
     { area: "인프라", items: "Azure Container Apps · Container Registry · Key Vault · Terraform · Cloudflare DNS" },
     { area: "CI/CD · 운영", items: "Azure Pipelines · Workload Identity Federation · Application Insights" },
   ],
-  notes: [
-    {
-      title: "컨테이너 하나",
-      body: "React와 Spring을 이미지 하나로 묶어 레플리카 1개로 운영합니다. 이 정도 규모에서는 스케줄러와 세션을 단순하게 유지할 수 있습니다.",
-    },
-    {
-      title: "네트워크 호출은 트랜잭션 밖에서",
-      body: "UR과 메일 서비스 호출은 DB 트랜잭션 밖에서 처리합니다. 느린 요청이나 메일 전송 실패 때문에 정상적으로 끝난 확인이 롤백되지 않습니다.",
-    },
-    {
-      title: "일부만 성공하면 실패",
-      body: "한 페이지라도 가져오지 못하면 확인 전체를 실패로 처리하고 이전 상태를 유지합니다. 그래서 잘못된 “새 방” 메일은 나가지 않습니다.",
-    },
-  ],
   footnote: "UR 도시기구와는 관계가 없습니다. 빈방 여부는 반드시 UR 공식 사이트에서 확인해 주세요.",
   alts: {
     main: "UR Manager의 저장된 검색 조건 화면. 고토구 조건이 하나 있다",

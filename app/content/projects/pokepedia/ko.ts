@@ -45,16 +45,6 @@ export const ko: ProjectCopy = {
     { area: "테스트", items: "Vitest · Playwright" },
     { area: "호스팅", items: "Vercel (도쿄) · Supabase (도쿄) · Analytics · Speed Insights" },
   ],
-  notes: [
-    {
-      title: "정답은 서버에 둔다",
-      body: "진행 중인 문제에서 브라우저가 받는 것은 의미 없는 파일명의 실루엣과 가려진 이름뿐입니다. 정답 데이터는 private 스키마에 있습니다.",
-    },
-    {
-      title: "판정과 저장",
-      body: "판정 규칙은 순수 TypeScript입니다. 점수, 띠부씰, 다음 문제는 Postgres 함수 하나로 함께 저장하므로 두 번 제출해도 보상은 한 번만 들어갑니다.",
-    },
-  ],
   footnote:
     "포켓몬과 관련 이름·아트워크의 권리는 Nintendo, The Pokémon Company, Creatures Inc., GAME FREAK inc.에 있습니다. 비공식·비영리 팬 프로젝트입니다.",
   alts: {

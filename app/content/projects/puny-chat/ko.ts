@@ -45,16 +45,6 @@ export const ko: ProjectCopy = {
     { area: "인증 · 푸시", items: "Firebase Authentication · Expo push · Web Push (VAPID)" },
     { area: "인프라", items: "AWS Lightsail (시드니·서버) · Cloudflare Workers (웹) · Terraform (Atlas·Cloudflare, state는 R2) · GitHub Actions" },
   ],
-  notes: [
-    {
-      title: "버디 상태는 열 때 계산",
-      body: "배고픔과 똥은 저장하거나 스케줄러로 갱신하지 않고, 방을 열 때 마지막으로 밥을 주고 치운 시각에서 계산합니다.",
-    },
-    {
-      title: "재전송과 동시에 누르기",
-      body: "클라이언트 메시지 ID에 유니크 인덱스를 걸어, 다시 보낸 메시지에는 원래 메시지를 돌려줍니다. 두 사람이 동시에 밥주기를 눌러도 조건부 업데이트로 한 번만 반영됩니다.",
-    },
-  ],
   alts: {
     main: "데스크톱 브라우저의 Puny Chat. 채팅 위 무대에서 어른 버디가 직업 장치 옆에 있다",
     inset: "휴대폰의 Puny Chat. 일하는 어른 버디와 메시지 사이에 섞인 이벤트",
