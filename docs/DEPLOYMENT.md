@@ -38,7 +38,7 @@ Web Analytics는 사용자의 대시보드 로그인 후 Pages Metrics에서 활
 - 복구가 필요하면 www CNAME 대상을 `cname.vercel-dns-017.com`으로 바꾸고 HTTPS·본문·리다이렉트를 확인한다. Pages 배포 자체의 회귀는 이전 성공 배포로 롤백할 수도 있다.
 - apex 리다이렉트를 기존 Vercel 프로젝트가 제공한다. 리다이렉트 제공처를 별도로 이전하기 전에는 이 프로젝트를 삭제하지 않는다. 기존 Next.js 저장소와 배포도 복구용으로 유지한다.
 
-## Vercel 프로젝트 정리 진행
+## Vercel 프로젝트 정리 완료
 
 사용자가 기존 Vercel 프로젝트 삭제를 요청했다. www는 이미 Pages가 제공하지만, apex의 308을 기존 Vercel 프로젝트가 제공하므로 이 의존성을 먼저 옮긴다. 도메인 등록 기관과 자동 갱신은 Vercel에 유지한다. GitHub 원본 저장소도 삭제 대상이 아니다.
 
@@ -48,9 +48,11 @@ Web Analytics는 사용자의 대시보드 로그인 후 Pages Metrics에서 활
 - Cloudflare Single Redirect `Portfolio Hub apex to www`를 활성화했다. 조건 `(http.host eq "portfolio-hub.dev")`, 동적 대상 `concat("https://www.portfolio-hub.dev", http.request.uri.path)`, 상태 308, query string 보존이다. HTTP와 HTTPS 모두 같은 www HTTPS 주소로 이동한다. 규칙 ID는 `f293563f813045ba8299b2c572d4c121`이다.
 - 이전 NS를 캐시한 방문자를 위해 Vercel DNS에도 apex ALIAS `portfolio-hub-nuxt.pages.dev`(TTL 60)를 추가했다. 기존 두 Vercel NS에 직접 질의해 apex가 Cloudflare IP, www가 Pages CNAME으로 응답함을 확인했다. 자동 생성된 Vercel origin ALIAS 대신 수동 ALIAS가 우선 적용된다.
 - 새 CF NS 2개, 이전 Vercel NS 2개, 공용 resolver 2개를 검사했다. 이들이 반환한 IP 4개에서 HTTP·HTTPS, 경로·쿼리 보존 32건을 검증했고 모두 Cloudflare의 308이었다. TLS 검증을 끄지 않았다. www의 30개 Nuxt HTML과 단일 Analytics 주입도 다시 확인했다. 결과는 `qa/hosting-cleanup-checks.json`, 화면은 `qa/cloudflare-apex-rule.jpg`, `qa/cloudflare-apex-certificate.jpg`, `qa/cloudflare-dns-final.jpg`다.
-- 기존 Vercel 프로젝트 `portfolio-hub`의 영구 삭제 확인 화면까지 준비했다. 삭제 버튼은 아직 누르지 않았다. 브라우저 도구가 되돌릴 수 없는 삭제에 대해 실행 시점의 사용자 확인을 요구하므로 확인 대기 중이다(`qa/vercel-delete-confirmation.jpg`). 대상은 호스팅 프로젝트와 연결 리소스이며, 등록 도메인과 원본 GitHub 저장소는 유지한다.
+- 사용자가 실행 시점에 `영구 삭제 진행`을 확인한 후, 2026-10-15 23:27 KST에 기존 Vercel 프로젝트 `portfolio-hub`를 삭제했다. 프로젝트 설정 주소는 404, 기존 배포 주소는 HTTP 410이다. 도메인 관리 화면의 연결 프로젝트는 0개이며 도메인 등록과 자동 갱신은 유지된다. `qa/vercel-project-deleted.jpg`, `qa/vercel-domain-retained.jpg`에 기록했다. 원본 GitHub 저장소도 유지한다.
 
-이제 apex 리다이렉트도 Vercel 프로젝트에 의존하지 않는다. DNS 전환 직후에는 이미 캐시된 옛 IP의 TTL이 만료될 때까지 이전 Vercel 응답이 일부 보일 수 있다. 삭제 후 www·apex와 등록 도메인 유지 여부를 다시 확인한다. 향후 Pages 회귀는 이전 성공 배포로 롤백하고, 기존 Next 배포 자체로 복구하려면 삭제된 Vercel 프로젝트를 새로 만들어 배포해야 한다.
+삭제 후에도 같은 6곳의 DNS와 32건의 HTTP·HTTPS redirect, www 30개 Nuxt HTML과 Analytics를 다시 검증했다. `qa/hosting-cleanup-checks.json`의 phase는 `after-vercel-project-deletion`이다. 로컬 Windows DNS 캐시를 갱신한 일반 접속에서도 apex는 Cloudflare 308, www는 Cloudflare 200이었다. 이미 옛 IP를 캐시한 다른 환경은 TTL 만료까지 전파 지연이 있을 수 있다.
+
+이제 apex 리다이렉트도 Vercel 프로젝트에 의존하지 않는다. 향후 Pages 회귀는 이전 성공 배포로 롤백하고, 기존 Next 배포 자체로 복구하려면 삭제된 Vercel 프로젝트를 새로 만들어 배포해야 한다. Vercel 등록 도메인의 자동 갱신은 계속 관리한다.
 
 PR #7의 구조 안내 문서는 CI·Preview 통과 후 main에 병합했다. main 커밋 `853baab463e7ef20a29378bc6bbc8f472db43a5b`의 Pages 배포 `80122652-1b74-4290-8131-c8591063f4d4`도 성공했고 `uses_functions: false`다.
 
@@ -58,7 +60,7 @@ PR #7의 구조 안내 문서는 CI·Preview 통과 후 main에 병합했다. ma
 
 `https://www.portfolio-hub.dev`에서 전체 HTTP 검사(30개 콘텐츠 경로·OG·308·쿼리 보존·7개 실제 404·기존 OG URL)가 통과했다. 30개 응답 모두 Nuxt HTML과 `Server: cloudflare`, Analytics beacon 1회, 운영 OG 주소를 확인했으며 정상 콘텐츠에 noindex가 없다. 추가로 정적 참조 자산 306개와 폰트 2개·sitemap·robots, 총 310개가 실제 운영 도메인에서 정상 응답했다. `qa/custom-domain-checks.json`, `qa/deployed-assets.json`에 기록했다.
 
-HTTP www → HTTPS www는 301, HTTPS apex → HTTPS www는 기존 308이며 모두 경로·쿼리를 보존한다. 전환 직후 로컬 Windows DNS 캐시에 이전 Vercel 주소가 남았던 것은 캐시를 갱신하여 해소했다. 이전 배포는 유지되어 캐시가 남은 방문자에게도 원래 사이트가 제공됐다.
+HTTP www → HTTPS www는 301, HTTP·HTTPS apex → HTTPS www는 Cloudflare 308이며 모두 경로·쿼리를 보존한다. 최초 www 전환 중에는 이전 배포를 유지해 캐시된 방문자도 서비스했다. 이후 apex 이전 검증과 사용자 확인을 거쳐 기존 Vercel 프로젝트를 삭제했다.
 
 ## 이후 변경 시 검사
 

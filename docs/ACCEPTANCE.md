@@ -68,8 +68,8 @@
 - [x] Cloudflare Web Analytics 중복 주입 없이 정상
 - [x] DNS 전환 전 기존 Vercel 서비스 유지
 - [x] 최종 도메인에서 전체 검증 및 복구 경로 확인
-- [ ] 안정화 확인 후 기존 Vercel 정리
+- [x] 운영 검증·apex 이전 후 사용자 확인을 받아 기존 Vercel 프로젝트 삭제
 - [x] README·AGENTS·문서가 최종 구현과 일치
 
 
-체크한 항목의 검증 범위와 근거는 VALIDATION.md를 따른다. HTTP 동작은 로컬 Pages, 실제 Preview·main 배포, 최종 운영 도메인에서 확인했다. 화면·성능의 미체크 항목은 아직 별도의 정량 검사로 완료하지 않은 항목이다. Vercel 프로젝트는 복구용이자 apex 리다이렉트 제공처이므로 유지한다.
+체크한 항목의 검증 범위와 근거는 VALIDATION.md를 따른다. HTTP 동작은 로컬 Pages, 실제 Preview·main 배포, 최종 운영 도메인에서 확인했다. 화면·성능의 미체크 항목은 아직 별도의 정량 검사로 완료하지 않은 항목이다. DNS·apex 리다이렉트를 Cloudflare로 이전하고 기존 Vercel 프로젝트를 삭제했다. 등록 도메인·자동 갱신은 Vercel에 유지하고 복구는 Pages의 이전 성공 배포를 사용한다.
