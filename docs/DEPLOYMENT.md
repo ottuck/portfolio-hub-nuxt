@@ -1,6 +1,14 @@
 # Cloudflare Pages 배포와 도메인 전환
 
-기준일: 2026-10-15 (Asia/Seoul)
+기준일: 2026-10-16 (Asia/Seoul)
+
+## 개발 노트 삭제 운영 반영 (2026-10-16)
+
+- PR #10의 CI와 Preview 배포 `5463fa47` 검증을 통과한 뒤 main에 병합했다.
+- main 커밋 `2d0e4eff2fa202d907200d9ecf9bd3b6267b9ad9`의 CI와 Pages 운영 배포 `f2c47b6e-8072-4ab1-b61a-cbde8dfca705`가 성공했다.
+- 운영 주소 `https://www.portfolio-hub.dev`에서 전체 30개 콘텐츠·OG, 기존 308·쿼리 보존, 미등록 경로 7개의 404, 이전 OG URL 호환을 검증했다.
+- 7개 프로젝트 × 3개 언어의 개발 노트 삭제와 나머지 본문·링크·alt 일치, 자산 310개, sitemap·robots·Analytics 단일 주입·운영 색인 허용을 확인했다. Preview는 noindex였다.
+- 브라우저에서 운영 상세 직접 접속과 내부 탐색, 개발 노트 제거 후 하단 레이아웃을 확인했다. 자료는 `qa/development-notes-preview.json`, `qa/development-notes-production.json`, `qa/development-notes-production.png`다.
 
 ## 배포 설정
 
