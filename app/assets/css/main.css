@@ -1,0 +1,128 @@
+@import "tailwindcss";
+
+/*
+ * Theme: every color token is defined with light-dark().
+ * No data-theme attribute → follows the OS (light when unknown).
+ * data-theme="light" | "dark" on <html> → user override from the toggle.
+ */
+:root {
+  color-scheme: light dark;
+
+  --bg: light-dark(#f7f3ec, #171411);
+  --card: light-dark(#fffdf9, #211d19);
+  --ink: light-dark(#231d18, #f4ede4);
+  --muted: light-dark(#6b6158, #b3a89c);
+  --faint: light-dark(#71675e, #9a9084);
+  --line: light-dark(#ebe3d6, #322c26);
+  --chip: light-dark(#f3ece1, #2b2621);
+  --accent: light-dark(#c4541f, #f08a55);
+  --accent-strong: light-dark(#a3401a, #f08a55);
+  --accent-ink: light-dark(#ffffff, #1f130c);
+  --accent-soft: light-dark(#fbe7da, #3a261b);
+  --night: #2a211b;
+  --night-ink: #f6e7d8;
+  --night-muted: #c9ab92;
+  --sun: #f7b267;
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-card: var(--card);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-faint: var(--faint);
+  --color-line: var(--line);
+  --color-chip: var(--chip);
+  --color-accent: var(--accent);
+  --color-accent-strong: var(--accent-strong);
+  --color-accent-ink: var(--accent-ink);
+  --color-accent-soft: var(--accent-soft);
+  --color-night: var(--night);
+  --color-night-ink: var(--night-ink);
+  --color-night-muted: var(--night-muted);
+  --color-sun: var(--sun);
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+}
+
+html {
+  background: var(--bg);
+  color: var(--ink);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Japanese and Korean: Geist for Latin, the system's CJK font for the rest (no extra
+   download), words kept whole, and the tight Latin letter-spacing relaxed. */
+html:lang(ja) {
+  --font-sans:
+    var(--font-geist-sans), "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic UI", Meiryo,
+    sans-serif;
+  line-break: strict;
+  /* Breaks between phrases instead of mid-word where supported (Chrome, Edge). */
+  word-break: auto-phrase;
+}
+
+html:lang(ko) {
+  --font-sans:
+    var(--font-geist-sans), "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
+  word-break: keep-all;
+}
+
+html:is(:lang(ja), :lang(ko)) :is([class*="tracking-"], .eyebrow) {
+  letter-spacing: -0.01em;
+}
+
+/* CJK glyphs read larger: keep the home greeting compact in its tile. */
+@media (min-width: 40rem) {
+  html:is(:lang(ja), :lang(ko)) .hero-title {
+    font-size: 30px;
+  }
+}
+
+::selection {
+  background: var(--accent-soft);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+@layer components {
+  .tile {
+    @apply relative overflow-hidden rounded-3xl border border-line bg-card;
+  }
+
+  .eyebrow {
+    @apply font-mono text-[11px] font-medium tracking-[0.08em] text-faint uppercase;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
+
+@font-face { font-family: "Geist Sans"; src: url("/fonts/Geist-Variable.woff2") format("woff2"); font-style: normal; font-weight: 100 900; font-display: swap; }
+@font-face { font-family: "Geist Mono"; src: url("/fonts/GeistMono-Variable.woff2") format("woff2"); font-style: normal; font-weight: 100 900; font-display: swap; }
+:root { --font-geist-sans: "Geist Sans"; --font-geist-mono: "Geist Mono"; }
+#__nuxt { display: flex; min-height: 100dvh; flex-direction: column; }
+#__nuxt > main { width: 100%; flex: 1; }

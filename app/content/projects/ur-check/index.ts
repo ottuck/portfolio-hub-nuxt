@@ -1,0 +1,109 @@
+import type { Project } from "~/lib/types";
+import { ja } from "./ja";
+import { ko } from "./ko";
+const apps = {"src":"/images/content/projects/ur-check/apps.webp","width":1280,"height":800};
+const history = {"src":"/images/content/projects/ur-check/history.webp","width":1280,"height":800};
+const home = {"src":"/images/content/projects/ur-check/home.webp","width":1280,"height":800};
+const mobile = {"src":"/images/content/projects/ur-check/mobile.webp","width":780,"height":1688};
+const rooms = {"src":"/images/content/projects/ur-check/rooms.webp","width":1280,"height":800};
+const wizard = {"src":"/images/content/projects/ur-check/wizard.webp","width":1280,"height":800};
+
+export const urCheck: Project = {
+  slug: "ur-check",
+  name: "UR Check",
+  status: "live",
+  label: "Invite only · I use it",
+  highlightLabel: true,
+  order: 2,
+
+  tagline:
+    "Search UR rental vacancies by your conditions and track rooms that are new, relisted or gone. The website and AI assistants work from the same conditions and history.",
+  summary:
+    "UR Check searches vacancies in UR rental housing in Tokyo and the surrounding Kanto area, checks every area three times a day, and records which rooms are new, relisted or gone. The website and AI assistants, through MCP, use the same conditions and history. I built it to find my own next apartment.",
+  cardStack: ["Bun", "PostgreSQL", "MCP"],
+  facts: [
+    { label: "Type", value: "Web app + MCP server (Japanese UI)" },
+    { label: "Period", value: "Oct 2026" },
+    { label: "Runs on", value: "AWS Lightsail, Sydney · Docker Compose · Cloudflare Tunnel" },
+  ],
+
+  // The source is private and accounts are invite-only, so the link is the demo: a static
+  // site in the browser with made-up rooms.
+  links: {
+    live: { href: "https://demo.ur-check.com", label: "Try the demo" },
+  },
+
+  cover: {
+    main: { src: home, alt: "UR Check home: the headline banner, then the counts of saved conditions, open rooms and recent changes" },
+    inset: { src: mobile, alt: "The same page on a phone", frame: "phone" },
+    tint: ["#e7e9f3", "#d6c9dc"],
+  },
+
+  about: [
+    "When I was getting ready to move, I started looking at UR rentals. UR is first come, first served, and a good room can disappear almost as soon as it's listed. The official site has no alerts, so I was checking it by hand every day. I built something to do the watching for me, and I use it for real.",
+    "The first version was UR Manager, a conventional web service: save your conditions and get an email when a matching room shows up. It worked well, yet I kept catching myself asking ChatGPT what it thought of a listing. So I built UR MCP App next, an MCP server that hands the AI accurate UR data. Searches are in plain language, rooms show up as cards in the chat, and alerts and scheduling moved into the AI app.",
+    "Then every improvement to the core meant touching both projects. I didn't want that, so I merged them into one web service that supports MCP. The website and the AI now share one service layer, one set of conditions and one history. There's no public sign-up: accounts go to the people I invite. For everyone else there's a demo that runs in the browser with made-up rooms.",
+  ],
+  features: [
+    {
+      title: "Search",
+      body: "One area at a time, by rent, floor space, layout, walk to a station without a bus, and no ground floor. Up to 50 rooms by monthly cost.",
+    },
+    {
+      title: "Saved conditions",
+      body: "Save several named conditions, each with several areas and preferred stations per area. Every edit is versioned, and a condition can be paused.",
+    },
+    {
+      title: "What changed",
+      body: "Every area is checked three times a day. Rooms are tracked as new, relisted or gone, and rooms that came and went between checks are listed too.",
+    },
+    {
+      title: "AI assistants (MCP)",
+      body: "Sign in with OAuth, then search, read changes and manage conditions in the chat, with rooms shown as cards. Alerts come from a scheduled task in the AI app.",
+    },
+    {
+      title: "Sharing",
+      body: "An eight-digit code copies a condition to another user. It expires after seven days and can be withdrawn.",
+    },
+    {
+      title: "Admin screen",
+      body: "Issue, reset and suspend accounts, and register the AI apps that may connect. A new account comes with a message that has the sign-in and AI connection details in it.",
+    },
+  ],
+  gallery: [
+    { src: wizard, alt: "Creating a condition by answering questions: area, monthly cost, then layout chips" },
+    { src: rooms, alt: "Open rooms that match the conditions, as cards with monthly cost, layout, size and walk to a station" },
+    { src: history, alt: "Change history: rooms that are new, relisted or gone, with the condition each one matches" },
+    { src: apps, alt: "Admin screen for adding an AI app, with the AI app choices and their callback URLs" },
+  ],
+  stack: [
+    { area: "Server", items: "Bun · Hono · one process for the REST API, the MCP server and the scheduler" },
+    { area: "Web", items: "React 19 · Vite" },
+    { area: "Data", items: "PostgreSQL · Drizzle ORM" },
+    { area: "Auth · MCP", items: "Better Auth (OAuth provider) · MCP TypeScript SDK · MCP Apps · Zod" },
+    { area: "Infra", items: "Docker · AWS Lightsail, Sydney · Cloudflare Tunnel" },
+    { area: "Quality", items: "bun test · Biome · TypeScript · GitHub Actions, with a throwaway PostgreSQL" },
+  ],
+  notes: [
+    {
+      title: "One service layer for the web and MCP",
+      body: "The website and the MCP tools call the same search, observation and condition services, so conditions, filters and ordering mean the same thing in both.",
+    },
+    {
+      title: "Only complete scans update state",
+      body: "Every page, count and ID of an area is checked. A failure, timeout or mismatch fails the scan and the saved state is kept. All requests to UR go through one queue with a request budget, back off on 429 and 503, and stop on 401 and 403.",
+    },
+    {
+      title: "Alerts come from the AI app",
+      body: "A scheduled task in the AI app reads the server's change report after each check. The server only observes and reports. It can't tell whether an alert was delivered, so a missed one can be caught up on the history page.",
+    },
+    {
+      title: "Hosting",
+      body: "Three containers (the app, its own PostgreSQL and cloudflared) run on a 2 GiB instance shared with Quant Lab, with no public ports. The image is built locally and shipped with a script, and the database is backed up daily with pg_dump.",
+    },
+  ],
+  footnote:
+    "Not affiliated with UR (Urban Renaissance Agency). Always confirm availability on the official UR site. The screenshots and the demo use made-up rooms.",
+
+  translations: { ja, ko },
+};
