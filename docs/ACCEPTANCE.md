@@ -53,8 +53,8 @@
 - [x] 기존 OG URL 호환 처리와 새 메타데이터 이미지 응답 확인
 - [x] sitemap의 30개 콘텐츠 URL 및 언어 대체 링크 확인
 - [x] robots.txt와 sitemap URL 확인
-- [ ] Production의 메타데이터에 localhost·Preview 주소 없음
-- [ ] Preview noindex 응답과 Production 색인 허용 확인
+- [x] Production의 메타데이터에 localhost·Preview 주소 없음
+- [x] Preview noindex 응답과 Production 색인 허용 확인
 
 ## Pages와 전환
 
@@ -64,12 +64,12 @@
 - [x] 최상위 404.html 존재
 - [x] 존재하지 않는 최상위·언어별·프로젝트 경로가 HTTP 404 반환
 - [x] 알 수 없는 URL에 200 SPA fallback을 제공하지 않음
-- [ ] HTTPS·커스텀 도메인·apex/www 정규화 정상
-- [ ] Cloudflare Web Analytics 중복 주입 없이 정상
+- [x] HTTPS·커스텀 도메인·apex/www 정규화 정상
+- [x] Cloudflare Web Analytics 중복 주입 없이 정상
 - [x] DNS 전환 전 기존 Vercel 서비스 유지
-- [ ] 최종 도메인에서 전체 검증 및 복구 경로 확인
+- [x] 최종 도메인에서 전체 검증 및 복구 경로 확인
 - [ ] 안정화 확인 후 기존 Vercel 정리
-- [ ] README·AGENTS·문서가 최종 구현과 일치
+- [x] README·AGENTS·문서가 최종 구현과 일치
 
 
-체크한 항목의 검증 범위와 근거는 VALIDATION.md를 따른다. HTTP 동작은 로컬 Pages와 실제 PR #4 Preview에서 확인했다. 최종 도메인 항목은 아직 완료하지 않았다.
+체크한 항목의 검증 범위와 근거는 VALIDATION.md를 따른다. HTTP 동작은 로컬 Pages, 실제 Preview·main 배포, 최종 운영 도메인에서 확인했다. 화면·성능의 미체크 항목은 아직 별도의 정량 검사로 완료하지 않은 항목이다. Vercel 프로젝트는 복구용이자 apex 리다이렉트 제공처이므로 유지한다.

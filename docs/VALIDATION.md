@@ -65,3 +65,9 @@ PR #4 커밋 `06ef19e`의 Preview `https://9c74fd3c.portfolio-hub-nuxt.pages.dev
 PR #4 병합 커밋 `eb01a05`의 실제 main 배포에서도 HTTP 검사 전체가 통과했고 서버 함수가 없었다. Analytics beacon 단일 주입과 기본 Pages 도메인의 noindex를 확인했다. 이때 `NUXT_PUBLIC_ASSET_URL`이 생성 HTML에 반영되지 않는 문제를 발견하여 PR #5에서 설정의 빌드 시 기본값에 명시적으로 적용했다. 회귀 검사가 수정 전 출력물에서 실패하는 것을 확인한 뒤, 같은 환경변수를 준 전체 lint·typecheck·generate·정적 검사를 통과했다. CI도 `CF_PAGES_URL`과 다른 명시적 자산 주소로 이 우선순위를 검사한다.
 
 PR #5 main 배포에서는 Wrangler 파일이 대시보드 환경변수를 빌드에 전달하지 않는 것을 로그에서 확인했다. PR #6에서 운영 변수와 Preview 변수를 Wrangler에 명시하여 설정 기준을 일치시킨다. main 배포 `6e8ed592`의 30개 콘텐츠 응답은 운영 도메인 기준 OG, Analytics beacon 1회, Pages 도메인 noindex를 확인했으며 전체 HTTP 검사도 통과했다.
+
+## 운영 도메인 전환
+
+`www.portfolio-hub.dev`를 Pages로 CNAME 연결하고 Cloudflare 도메인·인증서의 Active 상태를 확인했다. 운영 도메인의 전체 HTTP 검사도 통과했다. 30개 콘텐츠 HTML 모두 Nuxt·Cloudflare 응답, 운영 OG 주소, Analytics beacon 1회, 색인 허용 상태였다. 정적 참조 자산 306개와 폰트·sitemap·robots를 합친 310개도 실제 운영 주소에서 정상 응답했다.
+
+HTTP www → HTTPS www(301), HTTPS apex → HTTPS www(308)의 경로·쿼리 보존을 확인했다. 등록 기관·DNS와 apex 리다이렉트는 Vercel에서 유지하고 Next.js Production도 복구용으로 보관한다. 복구 절차와 확인 자료는 DEPLOYMENT.md와 `docs/qa/`에 있다.
