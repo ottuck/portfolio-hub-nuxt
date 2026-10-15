@@ -1,0 +1,536 @@
+{
+  "checkedAt": "2026-10-15T14:20:12.290Z",
+  "phase": "before-vercel-project-deletion",
+  "dns": [
+    {
+      "server": "alex.ns.cloudflare.com",
+      "root": [
+        "104.21.87.185",
+        "172.67.145.154"
+      ],
+      "www": [
+        "portfolio-hub-nuxt.pages.dev"
+      ]
+    },
+    {
+      "server": "treasure.ns.cloudflare.com",
+      "root": [
+        "104.21.87.185",
+        "172.67.145.154"
+      ],
+      "www": [
+        "portfolio-hub-nuxt.pages.dev"
+      ]
+    },
+    {
+      "server": "ns1.vercel-dns.com",
+      "root": [
+        "172.66.47.73",
+        "172.66.44.183"
+      ],
+      "www": [
+        "portfolio-hub-nuxt.pages.dev"
+      ]
+    },
+    {
+      "server": "ns2.vercel-dns.com",
+      "root": [
+        "172.66.47.73",
+        "172.66.44.183"
+      ],
+      "www": [
+        "portfolio-hub-nuxt.pages.dev"
+      ]
+    },
+    {
+      "server": "1.1.1.1",
+      "root": [
+        "172.67.145.154",
+        "104.21.87.185"
+      ],
+      "www": [
+        "portfolio-hub-nuxt.pages.dev"
+      ]
+    },
+    {
+      "server": "8.8.8.8",
+      "root": [
+        "172.67.145.154",
+        "104.21.87.185"
+      ],
+      "www": [
+        "portfolio-hub-nuxt.pages.dev"
+      ]
+    }
+  ],
+  "apex": [
+    {
+      "address": "104.21.87.185",
+      "url": "http://portfolio-hub.dev/",
+      "status": 308,
+      "location": "https://www.portfolio-hub.dev/",
+      "server": "cloudflare",
+      "tlsVerification": null
+    },
+    {
+      "address": "104.21.87.185",
+      "url": "http://portfolio-hub.dev/ko",
+      "status": 308,
+      "location": "https://www.portfolio-hub.dev/ko",
+      "server": "cloudflare",
+      "tlsVerification": null
+    },
+    {
+      "address": "104.21.87.185",
+      "url": "http://portfolio-hub.dev/ja/projects/ur-check?utm_source=migration&x=1",
+      "status": 308,
+      "location": "https://www.portfolio-hub.dev/ja/projects/ur-check?utm_source=migration&x=1",
+      "server": "cloudflare",
+      "tlsVerification": null
+    },
+    {
+      "address": "104.21.87.185",
+      "url": "http://portfolio-hub.dev/projects/buddy-chat?from=old",
+      "status": 308,
+      "location": "https://www.portfolio-hub.dev/projects/buddy-chat?from=old",
+      "server": "cloudflare",
+      "tlsVerification": null
+    },
+    {
+      "address": "104.21.87.185",
+      "url": "https://portfolio-hub.dev/",
+      "status": 308,
+      "location": "https://www.portfolio-hub.dev/",
+      "server": "cloudflare",
+      "tlsVerification": "curl default enabled"
+    },
+    {
+      "address": "104.21.87.185",
+      "url": "https://portfolio-hub.dev/ko",
+      "status": 308,
+      "location": "https://www.portfolio-hub.dev/ko",
+      "server": "cloudflare",
+      "tlsVerification": "curl default enabled"
+    },
+    {
+      "address": "104.21.87.185",
+      "url": "https://portfolio-hub.dev/ja/projects/ur-check?utm_source=migration&x=1",
+      "status": 308,
+      "location": "https://www.portfolio-hub.dev/ja/projects/ur-check?utm_source=migration&x=1",
+      "server": "cloudflare",
+      "tlsVerification": "curl default enabled"
+    },
+    {
+      "address": "104.21.87.185",
+      "url": "https://portfolio-hub.dev/projects/buddy-chat?from=old",
+      "status": 308,
+      "location": "https://www.portfolio-hub.dev/projects/buddy-chat?from=old",
+      "server": "cloudflare",
+      "tlsVerification": "curl default enabled"
+    },
+    {
+      "address": "172.67.145.154",
+      "url": "http://portfolio-hub.dev/",
+      "status": 308,
+      "location": "https://www.portfolio-hub.dev/",
+      "server": "cloudflare",
+      "tlsVerification": null
+    },
+    {
+      "address": "172.67.145.154",
+      "url": "http://portfolio-hub.dev/ko",
+      "status": 308,
+      "location": "https://www.portfolio-hub.dev/ko",
+      "server": "cloudflare",
+      "tlsVerification": null
+    },
+    {
+      "address": "172.67.145.154",
+      "url": "http://portfolio-hub.dev/ja/projects/ur-check?utm_source=migration&x=1",
+      "status": 308,
+      "location": "https://www.portfolio-hub.dev/ja/projects/ur-check?utm_source=migration&x=1",
+      "server": "cloudflare",
+      "tlsVerification": null
+    },
+    {
+      "address": "172.67.145.154",
+      "url": "http://portfolio-hub.dev/projects/buddy-chat?from=old",
+      "status": 308,
+      "location": "https://www.portfolio-hub.dev/projects/buddy-chat?from=old",
+      "server": "cloudflare",
+      "tlsVerification": null
+    },
+    {
+      "address": "172.67.145.154",
+      "url": "https://portfolio-hub.dev/",
+      "status": 308,
+      "location": "https://www.portfolio-hub.dev/",
+      "server": "cloudflare",
+      "tlsVerification": "curl default enabled"
+    },
+    {
+      "address": "172.67.145.154",
+      "url": "https://portfolio-hub.dev/ko",
+      "status": 308,
+      "location": "https://www.portfolio-hub.dev/ko",
+      "server": "cloudflare",
+      "tlsVerification": "curl default enabled"
+    },
+    {
+      "address": "172.67.145.154",
+      "url": "https://portfolio-hub.dev/ja/projects/ur-check?utm_source=migration&x=1",
+      "status": 308,
+      "location": "https://www.portfolio-hub.dev/ja/projects/ur-check?utm_source=migration&x=1",
+      "server": "cloudflare",
+      "tlsVerification": "curl default enabled"
+    },
+    {
+      "address": "172.67.145.154",
+      "url": "https://portfolio-hub.dev/projects/buddy-chat?from=old",
+      "status": 308,
+      "location": "https://www.portfolio-hub.dev/projects/buddy-chat?from=old",
+      "server": "cloudflare",
+      "tlsVerification": "curl default enabled"
+    },
+    {
+      "address": "172.66.47.73",
+      "url": "http://portfolio-hub.dev/",
+      "status": 308,
+      "location": "https://www.portfolio-hub.dev/",
+      "server": "cloudflare",
+      "tlsVerification": null
+    },
+    {
+      "address": "172.66.47.73",
+      "url": "http://portfolio-hub.dev/ko",
+      "status": 308,
+      "location": "https://www.portfolio-hub.dev/ko",
+      "server": "cloudflare",
+      "tlsVerification": null
+    },
+    {
+      "address": "172.66.47.73",
+      "url": "http://portfolio-hub.dev/ja/projects/ur-check?utm_source=migration&x=1",
+      "status": 308,
+      "location": "https://www.portfolio-hub.dev/ja/projects/ur-check?utm_source=migration&x=1",
+      "server": "cloudflare",
+      "tlsVerification": null
+    },
+    {
+      "address": "172.66.47.73",
+      "url": "http://portfolio-hub.dev/projects/buddy-chat?from=old",
+      "status": 308,
+      "location": "https://www.portfolio-hub.dev/projects/buddy-chat?from=old",
+      "server": "cloudflare",
+      "tlsVerification": null
+    },
+    {
+      "address": "172.66.47.73",
+      "url": "https://portfolio-hub.dev/",
+      "status": 308,
+      "location": "https://www.portfolio-hub.dev/",
+      "server": "cloudflare",
+      "tlsVerification": "curl default enabled"
+    },
+    {
+      "address": "172.66.47.73",
+      "url": "https://portfolio-hub.dev/ko",
+      "status": 308,
+      "location": "https://www.portfolio-hub.dev/ko",
+      "server": "cloudflare",
+      "tlsVerification": "curl default enabled"
+    },
+    {
+      "address": "172.66.47.73",
+      "url": "https://portfolio-hub.dev/ja/projects/ur-check?utm_source=migration&x=1",
+      "status": 308,
+      "location": "https://www.portfolio-hub.dev/ja/projects/ur-check?utm_source=migration&x=1",
+      "server": "cloudflare",
+      "tlsVerification": "curl default enabled"
+    },
+    {
+      "address": "172.66.47.73",
+      "url": "https://portfolio-hub.dev/projects/buddy-chat?from=old",
+      "status": 308,
+      "location": "https://www.portfolio-hub.dev/projects/buddy-chat?from=old",
+      "server": "cloudflare",
+      "tlsVerification": "curl default enabled"
+    },
+    {
+      "address": "172.66.44.183",
+      "url": "http://portfolio-hub.dev/",
+      "status": 308,
+      "location": "https://www.portfolio-hub.dev/",
+      "server": "cloudflare",
+      "tlsVerification": null
+    },
+    {
+      "address": "172.66.44.183",
+      "url": "http://portfolio-hub.dev/ko",
+      "status": 308,
+      "location": "https://www.portfolio-hub.dev/ko",
+      "server": "cloudflare",
+      "tlsVerification": null
+    },
+    {
+      "address": "172.66.44.183",
+      "url": "http://portfolio-hub.dev/ja/projects/ur-check?utm_source=migration&x=1",
+      "status": 308,
+      "location": "https://www.portfolio-hub.dev/ja/projects/ur-check?utm_source=migration&x=1",
+      "server": "cloudflare",
+      "tlsVerification": null
+    },
+    {
+      "address": "172.66.44.183",
+      "url": "http://portfolio-hub.dev/projects/buddy-chat?from=old",
+      "status": 308,
+      "location": "https://www.portfolio-hub.dev/projects/buddy-chat?from=old",
+      "server": "cloudflare",
+      "tlsVerification": null
+    },
+    {
+      "address": "172.66.44.183",
+      "url": "https://portfolio-hub.dev/",
+      "status": 308,
+      "location": "https://www.portfolio-hub.dev/",
+      "server": "cloudflare",
+      "tlsVerification": "curl default enabled"
+    },
+    {
+      "address": "172.66.44.183",
+      "url": "https://portfolio-hub.dev/ko",
+      "status": 308,
+      "location": "https://www.portfolio-hub.dev/ko",
+      "server": "cloudflare",
+      "tlsVerification": "curl default enabled"
+    },
+    {
+      "address": "172.66.44.183",
+      "url": "https://portfolio-hub.dev/ja/projects/ur-check?utm_source=migration&x=1",
+      "status": 308,
+      "location": "https://www.portfolio-hub.dev/ja/projects/ur-check?utm_source=migration&x=1",
+      "server": "cloudflare",
+      "tlsVerification": "curl default enabled"
+    },
+    {
+      "address": "172.66.44.183",
+      "url": "https://portfolio-hub.dev/projects/buddy-chat?from=old",
+      "status": 308,
+      "location": "https://www.portfolio-hub.dev/projects/buddy-chat?from=old",
+      "server": "cloudflare",
+      "tlsVerification": "curl default enabled"
+    }
+  ],
+  "www": [
+    {
+      "route": "/",
+      "status": 200,
+      "server": "cloudflare",
+      "analytics": 1,
+      "indexable": true
+    },
+    {
+      "route": "/projects",
+      "status": 200,
+      "server": "cloudflare",
+      "analytics": 1,
+      "indexable": true
+    },
+    {
+      "route": "/about",
+      "status": 200,
+      "server": "cloudflare",
+      "analytics": 1,
+      "indexable": true
+    },
+    {
+      "route": "/projects/ur-check",
+      "status": 200,
+      "server": "cloudflare",
+      "analytics": 1,
+      "indexable": true
+    },
+    {
+      "route": "/projects/puny-chat",
+      "status": 200,
+      "server": "cloudflare",
+      "analytics": 1,
+      "indexable": true
+    },
+    {
+      "route": "/projects/gitleaf",
+      "status": 200,
+      "server": "cloudflare",
+      "analytics": 1,
+      "indexable": true
+    },
+    {
+      "route": "/projects/quant-lab",
+      "status": 200,
+      "server": "cloudflare",
+      "analytics": 1,
+      "indexable": true
+    },
+    {
+      "route": "/projects/pokepedia",
+      "status": 200,
+      "server": "cloudflare",
+      "analytics": 1,
+      "indexable": true
+    },
+    {
+      "route": "/projects/ur-manager",
+      "status": 200,
+      "server": "cloudflare",
+      "analytics": 1,
+      "indexable": true
+    },
+    {
+      "route": "/projects/ur-mcp",
+      "status": 200,
+      "server": "cloudflare",
+      "analytics": 1,
+      "indexable": true
+    },
+    {
+      "route": "/ja",
+      "status": 200,
+      "server": "cloudflare",
+      "analytics": 1,
+      "indexable": true
+    },
+    {
+      "route": "/ja/projects",
+      "status": 200,
+      "server": "cloudflare",
+      "analytics": 1,
+      "indexable": true
+    },
+    {
+      "route": "/ja/about",
+      "status": 200,
+      "server": "cloudflare",
+      "analytics": 1,
+      "indexable": true
+    },
+    {
+      "route": "/ja/projects/ur-check",
+      "status": 200,
+      "server": "cloudflare",
+      "analytics": 1,
+      "indexable": true
+    },
+    {
+      "route": "/ja/projects/puny-chat",
+      "status": 200,
+      "server": "cloudflare",
+      "analytics": 1,
+      "indexable": true
+    },
+    {
+      "route": "/ja/projects/gitleaf",
+      "status": 200,
+      "server": "cloudflare",
+      "analytics": 1,
+      "indexable": true
+    },
+    {
+      "route": "/ja/projects/quant-lab",
+      "status": 200,
+      "server": "cloudflare",
+      "analytics": 1,
+      "indexable": true
+    },
+    {
+      "route": "/ja/projects/pokepedia",
+      "status": 200,
+      "server": "cloudflare",
+      "analytics": 1,
+      "indexable": true
+    },
+    {
+      "route": "/ja/projects/ur-manager",
+      "status": 200,
+      "server": "cloudflare",
+      "analytics": 1,
+      "indexable": true
+    },
+    {
+      "route": "/ja/projects/ur-mcp",
+      "status": 200,
+      "server": "cloudflare",
+      "analytics": 1,
+      "indexable": true
+    },
+    {
+      "route": "/ko",
+      "status": 200,
+      "server": "cloudflare",
+      "analytics": 1,
+      "indexable": true
+    },
+    {
+      "route": "/ko/projects",
+      "status": 200,
+      "server": "cloudflare",
+      "analytics": 1,
+      "indexable": true
+    },
+    {
+      "route": "/ko/about",
+      "status": 200,
+      "server": "cloudflare",
+      "analytics": 1,
+      "indexable": true
+    },
+    {
+      "route": "/ko/projects/ur-check",
+      "status": 200,
+      "server": "cloudflare",
+      "analytics": 1,
+      "indexable": true
+    },
+    {
+      "route": "/ko/projects/puny-chat",
+      "status": 200,
+      "server": "cloudflare",
+      "analytics": 1,
+      "indexable": true
+    },
+    {
+      "route": "/ko/projects/gitleaf",
+      "status": 200,
+      "server": "cloudflare",
+      "analytics": 1,
+      "indexable": true
+    },
+    {
+      "route": "/ko/projects/quant-lab",
+      "status": 200,
+      "server": "cloudflare",
+      "analytics": 1,
+      "indexable": true
+    },
+    {
+      "route": "/ko/projects/pokepedia",
+      "status": 200,
+      "server": "cloudflare",
+      "analytics": 1,
+      "indexable": true
+    },
+    {
+      "route": "/ko/projects/ur-manager",
+      "status": 200,
+      "server": "cloudflare",
+      "analytics": 1,
+      "indexable": true
+    },
+    {
+      "route": "/ko/projects/ur-mcp",
+      "status": 200,
+      "server": "cloudflare",
+      "analytics": 1,
+      "indexable": true
+    }
+  ]
+}
