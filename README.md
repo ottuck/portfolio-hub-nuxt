@@ -1,6 +1,8 @@
-# Portfolio Hub — Nuxt 4 마이그레이션
+# Portfolio Hub
 
-기존 Portfolio Hub의 디자인·콘텐츠·기능·URL을 유지하면서 Next.js 구현을 Nuxt 4로 이전하는 프로젝트입니다.
+Henry Kim의 사이드 프로젝트를 소개하는 포트폴리오입니다. 기존 Next.js 사이트의 디자인·콘텐츠·기능·URL을 유지하면서 Nuxt 4와 Vue 3로 이전했습니다.
+
+![Nuxt 홈 화면](docs/qa/home-desktop.jpg)
 
 ## 확정 사항
 
@@ -16,13 +18,28 @@
 - [기존 코드 조사와 기준 정보](docs/BASELINE.md)
 - [완료 검증 목록](docs/ACCEPTANCE.md)
 - [콘텐츠 URL 기준 목록](docs/routes.json)
+- [검증 결과](docs/VALIDATION.md)
+- [배포 및 도메인 전환](docs/DEPLOYMENT.md)
 - [프로젝트 작업 지침](AGENTS.md)
 
 ## 현재 상태
 
-2026-10-15 기준으로 프로젝트 폴더와 작업 문서를 준비한 상태입니다. Nuxt 애플리케이션 구현·의존성 설치·빌드·배포는 아직 수행하지 않았습니다. GitHub 저장소 생성과 원격 연결도 아직 수행하지 않았습니다.
+2026-10-15 기준으로 Nuxt 구현과 정적 생성·호환성 검사를 완료했고 단계별 PR로 main에 반영하고 있습니다. 새 GitHub 비공개 저장소를 생성·연결했습니다. 실제 배포·도메인 전환 상태는 배포 문서를 확인하세요.
 
-첫 구현 단계는 Nuxt 기반 구성과 프로젝트 상세 페이지 하나를 완성한 뒤, 정적 생성·이미지·다국어·SEO를 검증하는 것입니다. 이후 전체 UI를 이전합니다.
+## 실행과 검사
+
+Node 24.22.0, pnpm 10.33.0을 사용합니다.
+
+```sh
+pnpm install --frozen-lockfile
+pnpm dev          # http://127.0.0.1:3000
+pnpm check        # lint와 앱·빌드 스크립트 타입 검사
+pnpm generate     # 자산 생성 → 정적 생성 → 404/헤더 마무리 → 원본 대비 검사
+pnpm test:pages   # 로컬 Pages HTTP 검사 후 서버 종료
+pnpm preview      # 정적 결과물 미리보기: http://127.0.0.1:4173
+```
+
+콘텐츠는 `app/content/`, UI 번역은 `app/i18n/`, 프로젝트 처리 로직은 `app/lib/`, 이미지 원본은 `public/images/`에 있습니다. 원본 비교 자료 `docs/baseline.json`은 마이그레이션 기준입니다. 향후 콘텐츠를 의도적으로 갱신할 때에는 기대값과 변경 이유를 함께 검토하세요.
 
 원본: https://github.com/ottuck/portfolio-hub
 

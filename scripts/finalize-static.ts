@@ -1,0 +1,29 @@
+import { readFile, writeFile, mkdir, rm } from 'node:fs/promises'
+import { resolve } from 'node:path'
+import { load } from 'cheerio'
+import { getDictionary, format } from '../app/i18n/dictionaries'
+import { locales, localePath, languageNames } from '../app/i18n/locales'
+import { site } from '../app/content/site'
+
+const output = resolve('.output/public')
+const $ = load(await readFile(resolve(output, 'index.html'), 'utf8'))
+const stylesheets = $('link[rel="stylesheet"]').map((_, element) => $.html(element)).get().join('')
+const escape = (text: string) => text.replace(/[<>&"']/g, character => ({ '<': '&lt;', '>': '&gt;', '&': '&amp;', '"': '&quot;', "'": '&#39;' })[character]!)
+const icon = '<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>'
+const themeInit = '(function(){try{var t=localStorage.getItem("theme");if(t==="light"||t==="dark")document.documentElement.setAttribute("data-theme",t)}catch(e){}})()'
+for (const locale of locales) {
+  const t = getDictionary(locale)
+  const menu = locales.map(language => `<li><a href="${localePath(language, '/')}" hreflang="${language}" lang="${language}" class="flex rounded-xl px-3 py-2 text-sm text-muted hover:bg-chip">${languageNames[language]}</a></li>`).join('')
+  const nav = [['/', t.nav.home], ['/projects', t.nav.projects], ['/about', t.nav.about]].map(([path, label]) => `<a href="${localePath(locale, path!)}" class="rounded-full px-3 py-1.5 whitespace-nowrap text-muted hover:text-ink sm:px-4">${escape(label!)}</a>`).join('')
+  const themeScript = `const labels=${JSON.stringify(t.theme).replace(/</g, '\\u003c')};const next={system:'light',light:'dark',dark:'system'};const button=document.querySelector('#theme-toggle');function update(){const theme=document.documentElement.getAttribute('data-theme')||'system';button.setAttribute('aria-label',labels.action.replace('{theme}',labels[theme]).replace('{next}',labels[next[theme]]));button.title=labels.title.replace('{theme}',labels[theme]);}update();button.addEventListener('click',()=>{const theme=next[document.documentElement.getAttribute('data-theme')||'system'];if(theme==='system')document.documentElement.removeAttribute('data-theme');else document.documentElement.setAttribute('data-theme',theme);try{if(theme==='system')localStorage.removeItem('theme');else localStorage.setItem('theme',theme)}catch{}update();});const menu=document.querySelector('details');document.addEventListener('keydown',event=>{if(event.key==='Escape'){menu.open=false;menu.querySelector('summary').focus()}});document.addEventListener('pointerdown',event=>{if(!menu.contains(event.target))menu.open=false});`
+  const html = `<!DOCTYPE html><html lang="${locale}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex"><title>404 — ${escape(t.notFound.title)}</title><link rel="icon" href="/icon.svg" type="image/svg+xml">${stylesheets}<script>${themeInit}</script></head><body class="flex min-h-dvh flex-col bg-bg text-ink"><a href="#main" class="sr-only z-50 rounded-lg bg-ink px-4 py-2 text-bg focus:not-sr-only focus:fixed focus:top-3 focus:left-3">${escape(t.nav.skip)}</a><header class="mx-auto flex w-full max-w-6xl items-center justify-between gap-2 px-4 pt-5 pb-4 sm:gap-3 sm:px-8 sm:pt-7"><nav aria-label="${escape(t.nav.label)}" class="flex gap-0.5 rounded-full border border-line bg-card p-1 text-[13px] sm:gap-1 sm:text-sm">${nav}</nav><div class="flex items-center gap-1.5 sm:gap-2"><details class="relative"><summary aria-label="${escape(t.language.label)}: ${languageNames[locale]}" class="flex h-9 cursor-pointer list-none items-center rounded-full border border-line bg-card px-2.5 text-[13px] text-muted sm:px-3">${locale.toUpperCase()}</summary><ul class="absolute top-11 right-0 z-20 min-w-36 rounded-2xl border border-line bg-card p-1.5">${menu}</ul></details><button id="theme-toggle" class="grid size-9 place-items-center rounded-full border border-line bg-card text-muted" type="button" aria-label="${escape(format(t.theme.title, { theme: t.theme.system }))}">${icon}</button></div></header><main id="main" class="mx-auto w-full max-w-6xl flex-1 px-4 sm:px-8"><div class="tile flex flex-col items-start gap-4 p-8 sm:p-12"><span class="eyebrow">404</span><h1 class="text-3xl font-semibold tracking-tight sm:text-4xl">${escape(t.notFound.title)}</h1><p class="text-muted">${escape(t.notFound.body)}</p><a href="${localePath(locale, '/')}" class="mt-2 inline-flex h-11 items-center gap-1.5 rounded-full bg-accent px-5 text-[15px] font-medium text-accent-ink">← ${escape(t.notFound.back)}</a></div></main><footer class="mx-auto flex w-full max-w-6xl flex-col gap-1.5 px-5 pt-4 pb-10 text-[13px] text-faint sm:flex-row sm:justify-between sm:px-9"><span>© ${new Date().getFullYear()} ${site.name}</span><span><a href="${site.links.github}">GitHub</a> · <a href="${site.links.blog}">${escape(t.footer.blog)}</a> · ${escape(t.footer.built)}</span></footer><script>${themeScript}</script></body></html>`
+  const file = locale === 'en' ? resolve(output, '404.html') : resolve(output, locale, '404.html')
+  await mkdir(resolve(file, '..'), { recursive: true })
+  await writeFile(file, html)
+}
+// Explicit 404 documents prevent Pages from enabling its implicit SPA fallback.
+await rm(resolve(output, '200.html'), { force: true })
+const preview = Boolean(process.env.CF_PAGES_BRANCH && process.env.CF_PAGES_BRANCH !== 'main')
+const headers = preview ? '/*\n  X-Robots-Tag: noindex\n' : 'https://portfolio-hub-nuxt.pages.dev/*\n  X-Robots-Tag: noindex\nhttps://:deployment.portfolio-hub-nuxt.pages.dev/*\n  X-Robots-Tag: noindex\n'
+await writeFile(resolve(output, '_headers'), headers)
+console.log('Prepared localized static 404 documents and Pages indexing headers; removed the 200 SPA fallback.')
