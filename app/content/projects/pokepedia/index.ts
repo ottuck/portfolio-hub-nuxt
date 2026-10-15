@@ -77,16 +77,6 @@ export const pokepedia: Project = {
     { area: "Testing", items: "Vitest · Playwright" },
     { area: "Hosting", items: "Vercel (Tokyo) · Supabase (Tokyo) · Analytics · Speed Insights" },
   ],
-  notes: [
-    {
-      title: "Answers stay on the server",
-      body: "While a round is in progress, the browser gets a silhouette under an opaque file name and a masked name. The answers are in a private schema.",
-    },
-    {
-      title: "Judging and saving",
-      body: "The rules are plain TypeScript. Score, sticker and the next question are saved by one Postgres function, so submitting twice doesn't pay out twice.",
-    },
-  ],
   footnote:
     "Pokémon and related names and artwork are © Nintendo, The Pokémon Company, Creatures Inc. and GAME FREAK inc. An unofficial, non-commercial fan project.",
 

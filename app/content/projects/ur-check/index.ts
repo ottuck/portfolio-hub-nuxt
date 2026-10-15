@@ -84,24 +84,6 @@ export const urCheck: Project = {
     { area: "Infra", items: "Docker · AWS Lightsail, Sydney · Cloudflare Tunnel" },
     { area: "Quality", items: "bun test · Biome · TypeScript · GitHub Actions, with a throwaway PostgreSQL" },
   ],
-  notes: [
-    {
-      title: "One service layer for the web and MCP",
-      body: "The website and the MCP tools call the same search, observation and condition services, so conditions, filters and ordering mean the same thing in both.",
-    },
-    {
-      title: "Only complete scans update state",
-      body: "Every page, count and ID of an area is checked. A failure, timeout or mismatch fails the scan and the saved state is kept. All requests to UR go through one queue with a request budget, back off on 429 and 503, and stop on 401 and 403.",
-    },
-    {
-      title: "Alerts come from the AI app",
-      body: "A scheduled task in the AI app reads the server's change report after each check. The server only observes and reports. It can't tell whether an alert was delivered, so a missed one can be caught up on the history page.",
-    },
-    {
-      title: "Hosting",
-      body: "Three containers (the app, its own PostgreSQL and cloudflared) run on a 2 GiB instance shared with Quant Lab, with no public ports. The image is built locally and shipped with a script, and the database is backed up daily with pg_dump.",
-    },
-  ],
   footnote:
     "Not affiliated with UR (Urban Renaissance Agency). Always confirm availability on the official UR site. The screenshots and the demo use made-up rooms.",
 
