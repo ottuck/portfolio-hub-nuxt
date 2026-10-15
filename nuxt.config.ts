@@ -9,11 +9,9 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
   vite: { plugins: [tailwindcss()] },
   nitro: {
-    preset: 'static',
     prerender: { routes, crawlLinks: true, failOnError: true },
   },
   image: {
-    provider: 'ipxStatic',
     quality: 80,
     screens: { xs: 320, sm: 640, md: 768, lg: 1024, xl: 1152 },
   },
