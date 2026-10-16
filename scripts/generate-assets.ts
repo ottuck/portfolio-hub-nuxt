@@ -38,15 +38,40 @@ async function image(name: string, eyebrow: string, title: string, body: string,
       ]),
     ]),
   ])
+  await render(name, tree)
+}
+
+async function render(name: string, tree: unknown) {
   const svg = await satori(tree as Parameters<typeof satori>[0], { width: 1200, height: 630, fonts })
   await writeFile(resolve(output, `og/${name}.png`), new Resvg(svg).render().asPng())
+}
+
+// Project card with the cover screenshot, so a pasted link shows the work and not only words.
+async function shotImage(name: string, eyebrow: string, title: string, body: string, tint: [string, string], shot: string) {
+  const width = 820
+  const png = await sharp(resolve(output, '.' + shot)).resize({ width: width * 2 }).png().toBuffer()
+  const { height = 0 } = await sharp(png).metadata()
+  const frame = { position: 'absolute', left: 500, top: 92, width, height: Math.round(height / 2), display: 'flex', borderRadius: 28, overflow: 'hidden', border: '2px solid rgba(255,255,255,0.9)', boxShadow: '0 30px 60px rgba(35,29,24,0.18)', background: '#fffdf9' }
+  const tree = el({ width: '100%', height: '100%', display: 'flex', position: 'relative', background: `linear-gradient(150deg, ${tint[0]}, ${tint[1]})`, fontFamily: 'Geist', color: '#231d18' }, [
+    el(frame, [{ type: 'img', key: null, props: { src: `data:image/png;base64,${png.toString('base64')}`, width, height: frame.height, style: { width, height: frame.height, objectFit: 'cover' } } }]),
+    el({ position: 'absolute', left: 0, top: 0, bottom: 0, width: 470, display: 'flex', flexDirection: 'column', justifyContent: 'space-between', padding: '64px 0 64px 64px' }, [
+      el({ display: 'flex', alignItems: 'center', gap: 16, fontSize: 24, color: '#5b524a' }, [el({ width: 44, height: 44, borderRadius: 12, background: '#c4541f', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 600, fontSize: 24 }, site.shortName[0]), eyebrow]),
+      el({ display: 'flex', flexDirection: 'column' }, [
+        el({ fontSize: 80, fontWeight: 600, letterSpacing: -3, lineHeight: 1 }, title),
+        el({ display: 'block', marginTop: 24, fontSize: 27, lineHeight: 1.4, color: '#5b524a', lineClamp: 4 }, body),
+      ]),
+    ]),
+  ])
+  await render(name, tree)
 }
 const dictionary = getDictionary('en')
 const { profile } = dictionary
 await image('site', `${site.name} · ${profile.role}, ${profile.location}`, profile.greeting, profile.intro, undefined, profile.greetingName)
 for (const slug of getSlugs()) {
   const project = getProject(slug, 'en')!
-  await image(slug, `${site.name} · ${dictionary.status[project.status]} · ${project.label}`, project.name, project.tagline, project.cover.tint)
+  const eyebrow = `${site.name} · ${dictionary.status[project.status]}`
+  if (project.cover.main) await shotImage(slug, eyebrow, project.name, project.tagline, project.cover.tint, project.cover.main.src.src)
+  else await image(slug, `${eyebrow} · ${project.label}`, project.name, project.tagline, project.cover.tint)
 }
 const paths = ['/', '/projects', ...getSlugs().map(slug => `/projects/${slug}`), '/about']
 const xml = (text: string) => text.replace(/[<>&"']/g, character => ({ '<': '&lt;', '>': '&gt;', '&': '&amp;', '"': '&quot;', "'": '&apos;' })[character]!)
