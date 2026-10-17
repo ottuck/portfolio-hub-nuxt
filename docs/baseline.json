@@ -182,7 +182,7 @@
       "twitter:description": "UR Check searches vacancies in UR rental housing in Tokyo and the surrounding Kanto area, checks every area three times a day, and records which rooms are new, relisted or gone. The website and AI assistants, through MCP, use the same conditions and history. I built it to find my own next apartment."
     },
     "oldOgImage": "https://www.portfolio-hub.dev/projects/ur-check/opengraph-image-155u2j?cf4130ca3324dbb8",
-    "mainText": "AllprojectsLive·Inviteonly·IuseitURCheckURChecksearchesvacanciesinURrentalhousinginTokyoandthesurroundingKantoarea,checkseveryareathreetimesaday,andrecordswhichroomsarenew,relistedorgone.ThewebsiteandAIassistants,throughMCP,usethesameconditionsandhistory.Ibuiltittofindmyownnextapartment.TrythedemoTypeWebapp+MCPserver(JapaneseUI)PeriodOct2026RunsonAWSLightsail,Sydney·DockerCompose·CloudflareTunnelAboutWhenIwasgettingreadytomove,IstartedlookingatURrentals.URisfirstcome,firstserved,andagoodroomcandisappearalmostassoonasit'slisted.Theofficialsitehasnoalerts,soIwascheckingitbyhandeveryday.Ibuiltsomethingtodothewatchingforme,andIuseitforreal.ThefirstversionwasURManager,aconventionalwebservice:saveyourconditionsandgetanemailwhenamatchingroomshowsup.Itworkedwell,yetIkeptcatchingmyselfaskingChatGPTwhatitthoughtofalisting.SoIbuiltURMCPAppnext,anMCPserverthathandstheAIaccurateURdata.Searchesareinplainlanguage,roomsshowupascardsinthechat,andalertsandschedulingmovedintotheAIapp.Theneveryimprovementtothecoremeanttouchingbothprojects.Ididn'twantthat,soImergedthemintoonewebservicethatsupportsMCP.ThewebsiteandtheAInowshareoneservicelayer,onesetofconditionsandonehistory.There'snopublicsign-up:accountsgotothepeopleIinvite.Foreveryoneelsethere'sademothatrunsinthebrowserwithmade-uprooms.WhatitdoesSearchOneareaatatime,byrent,floorspace,layout,walktoastationwithoutabus,andnogroundfloor.Upto50roomsbymonthlycost.SavedconditionsSaveseveralnamedconditions,eachwithseveralareasandpreferredstationsperarea.Everyeditisversioned,andaconditioncanbepaused.WhatchangedEveryareaischeckedthreetimesaday.Roomsaretrackedasnew,relistedorgone,androomsthatcameandwentbetweenchecksarelistedtoo.AIassistants(MCP)SigninwithOAuth,thensearch,readchangesandmanageconditionsinthechat,withroomsshownascards.AlertscomefromascheduledtaskintheAIapp.SharingAneight-digitcodecopiesaconditiontoanotheruser.Itexpiresaftersevendaysandcanbewithdrawn.AdminscreenIssue,resetandsuspendaccounts,andregistertheAIappsthatmayconnect.Anewaccountcomeswithamessagethathasthesign-inandAIconnectiondetailsinit.Howit'sbuiltServerBun·Hono·oneprocessfortheRESTAPI,theMCPserverandtheschedulerWebReact19·ViteDataPostgreSQL·DrizzleORMAuth·MCPBetterAuth(OAuthprovider)·MCPTypeScriptSDK·MCPApps·ZodInfraDocker·AWSLightsail,Sydney·CloudflareTunnelQualitybuntest·Biome·TypeScript·GitHubActions,withathrowawayPostgreSQLEarlierprojectsURCheckgrewoutofthesetwoprojects.Archived·MergedintoURCheckURManagerSavetheURapartmentyou'relookingfor—area,rent,layout,walktime—andgetanemailwhenamatchingroomopensup.SpringBoot·Azure·TerraformArchived·MergedintoURCheckURMCPAppAnMCPserverandappforURrentalvacancies:ClaudeandChatGPTsearchthemaccurately,showtheroomsascardsinthechat,andcatchnewonesthreetimesaday.TypeScript·MCP·RailwayNotaffiliatedwithUR(UrbanRenaissanceAgency).AlwaysconfirmavailabilityontheofficialURsite.Thescreenshotsandthedemousemade-uprooms.PreviousPunyChatNextGitLeaf",
+    "mainText": "AllprojectsLive·Inviteonly·IuseitURCheckURChecksearchesvacanciesinURrentalhousinginTokyoandthesurroundingKantoarea,checkseveryareathreetimesaday,andrecordswhichroomsarenew,relistedorgone.ThewebsiteandAIassistants,throughMCP,usethesameconditionsandhistory.Ibuiltittofindmyownnextapartment.TrythedemoTypeWebapp+MCPserver(JapaneseUI)PeriodOct2026RunsonAWSLightsail,Sydney·DockerCompose·CloudflareTunnelAboutWhenIwasgettingreadytomove,IstartedlookingatURrentals.URisfirstcome,firstserved,andagoodroomcandisappearalmostassoonasit'slisted.Theofficialsitehasnoalerts,soIwascheckingitbyhandeveryday.Ibuiltsomethingtodothewatchingforme,andIuseitforreal.ThefirstversionwasURManager,aconventionalwebservice:saveyourconditionsandgetanemailwhenamatchingroomshowsup.Itworkedwell,yetIkeptcatchingmyselfaskingChatGPTwhatitthoughtofalisting.SoIbuiltURMCPAppnext,anMCPserverthathandstheAIaccurateURdata.Searchesareinplainlanguage,roomsshowupascardsinthechat,andalertsandschedulingmovedintotheAIapp.Theneveryimprovementtothecoremeanttouchingbothprojects.Ididn'twantthat,soImergedthemintoonewebservicethatsupportsMCP.ThewebsiteandtheAInowshareoneservicelayer,onesetofconditionsandonehistory.There'snopublicsign-up:accountsgotothepeopleIinvite.Foreveryoneelsethere'sademothatrunsinthebrowserwithmade-uprooms.WhatitdoesSearchOneareaatatime,byrent,floorspace,layout,walktoastationwithoutabus,andnogroundfloor.Upto50roomsbymonthlycost.SavedconditionsSaveseveralnamedconditions,eachwithseveralareasandpreferredstationsperarea.Everyeditisversioned,andaconditioncanbepaused.WhatchangedEveryareaischeckedthreetimesaday.Roomsaretrackedasnew,relistedorgone,androomsthatcameandwentbetweenchecksarelistedtoo.AIassistants(MCP)SigninwithOAuth,thensearch,readchangesandmanageconditionsinthechat,withroomsshownascards.AlertscomefromascheduledtaskintheAIapp.SharingAneight-digitcodecopiesaconditiontoanotheruser.Itexpiresaftersevendaysandcanbewithdrawn.AdminscreenIssue,resetandsuspendaccounts,andregistertheAIappsthatmayconnect.Anewaccountcomeswithamessagethathasthesign-inandAIconnectiondetailsinit.Howit'sbuiltServerBun·Hono·oneprocessfortheRESTAPI,theMCPserverandtheschedulerWebReact19·ViteDataPostgreSQL·DrizzleORMAuth·MCPBetterAuth(OAuthprovider)·MCPTypeScriptSDK·MCPApps·ZodInfraDocker·AWSLightsail,Sydney·CloudflareTunnelQualitybuntest·Biome·TypeScript·GitHubActions,withathrowawayPostgreSQLEarlierprojectsURCheckgrewoutofthesetwoprojects.Archived·MergedintoURCheckURManagerAformerURvacancysearchandemailalertservice,nowpartofURCheck.SpringBoot·Azure·TerraformArchived·MergedintoURCheckURMCPAppAformerMCPappforfindingURvacanciesinClaudeandChatGPT,nowpartofURCheck.TypeScript·MCP·RailwayNotaffiliatedwithUR(UrbanRenaissanceAgency).AlwaysconfirmavailabilityontheofficialURsite.Thescreenshotsandthedemousemade-uprooms.PreviousPunyChatNextGitLeaf",
     "links": [
       "/projects",
       "/projects/gitleaf",
@@ -429,7 +429,7 @@
   "/projects/ur-manager": {
     "title": "UR Manager — Henry Kim",
     "lang": "en",
-    "description": "Save the UR apartment you're looking for and get an email when a matching room opens up, so you don't have to keep refreshing the site.",
+    "description": "A web service for UR vacancy searches and email alerts. It was merged into UR Check in October 2026 and is no longer operated separately.",
     "canonical": "https://www.portfolio-hub.dev/projects/ur-manager",
     "alternates": {
       "en": "https://www.portfolio-hub.dev/projects/ur-manager",
@@ -439,17 +439,17 @@
     },
     "og": {
       "og:title": "UR Manager",
-      "og:description": "Save the UR apartment you're looking for and get an email when a matching room opens up, so you don't have to keep refreshing the site.",
+      "og:description": "A web service for UR vacancy searches and email alerts. It was merged into UR Check in October 2026 and is no longer operated separately.",
       "og:url": "https://www.portfolio-hub.dev/projects/ur-manager",
       "og:site_name": "Henry Kim",
       "og:locale": "en_US",
       "og:type": "article",
       "twitter:card": "summary_large_image",
       "twitter:title": "UR Manager",
-      "twitter:description": "Save the UR apartment you're looking for and get an email when a matching room opens up, so you don't have to keep refreshing the site."
+      "twitter:description": "A web service for UR vacancy searches and email alerts. It was merged into UR Check in October 2026 and is no longer operated separately."
     },
     "oldOgImage": "https://www.portfolio-hub.dev/projects/ur-manager/opengraph-image-155u2j?cf4130ca3324dbb8",
-    "mainText": "BacktoURCheckArchived·MergedintoURCheckURManagerSavetheURapartmentyou'relookingforandgetanemailwhenamatchingroomopensup,soyoudon'thavetokeeprefreshingthesite.TypeWebservice(JapaneseUI)PeriodSep–Oct2026RunsonAzureContainerApps(shutdown)AboutURrentalsinTokyogofast,andtheofficialsitehasnoalerts.Iwascheckingitbyhandeveryday,soIbuiltaservicetodoitforme.Youcanstartwithonesavedsearchwithoutsigningup.SigninwithGooglelaterandyoursearchesandhistorycomewithyou.ToaskinachatwithClaudeorChatGPTinstead,there'sURMCPApp.InOctober2026ImergedthiswithURMCPAppintoURCheckandshutthisonedown.WhatitdoesSavedsearchesArea,rent,floorspace,layoutandwalktimeacrossTokyo,Kanagawa,Chiba,SaitamaandIbaraki.ScheduledchecksEachsearchischeckedonitsownintervalbetween08:00and20:00JST.Change-onlyemailsOnesummarywhenyouturnalertson,thenonlyroomsthatareneworlistedagain.GuesttomemberSearchesandhistorymoveoverinonestepwhenyousigninwithGoogle.HistoryEverycheckandeveryemailislistedwithitsresult.Howit'sbuiltBackendJava·SpringBoot·SpringMVC·SpringDataJPA·SchedulerFrontendReact·TypeScript·Vite·TanStackQuery·TailwindCSSAuthSpringSecurity·EntraExternalID·GoogleDataPostgreSQL·FlywayInfraAzureContainerApps·ContainerRegistry·KeyVault·Terraform·CloudflareDNSCI/CD·OpsAzurePipelines·WorkloadIdentityFederation·ApplicationInsightsNotaffiliatedwithUR(UrbanRenaissanceAgency).AlwaysconfirmavailabilityontheofficialURsite.",
+    "mainText": "BacktoURCheckArchived·MergedintoURCheckURManagerAwebserviceforURvacancysearchesandemailalerts.ItwasmergedintoURCheckinOctober2026andisnolongeroperatedseparately.TypeWebservice(JapaneseUI)PeriodSep–Oct2026RunsonAzureContainerApps(shutdown)AboutMergedwithURMCPAppintoURCheckinOctober2026.WhatitdoesSavedsearchesSavedconditionsforarea,rent,layoutandwalktime.VacancyalertsCheckedforvacanciesregularlyandemailedneworrelistedrooms.Howit'sbuiltBackendJava·SpringBoot·SpringMVC·SpringDataJPA·SchedulerFrontendReact·TypeScript·Vite·TanStackQuery·TailwindCSSAuthSpringSecurity·EntraExternalID·GoogleDataPostgreSQL·FlywayInfraAzureContainerApps·ContainerRegistry·KeyVault·Terraform·CloudflareDNSCI/CD·OpsAzurePipelines·WorkloadIdentityFederation·ApplicationInsightsNotaffiliatedwithUR(UrbanRenaissanceAgency).AlwaysconfirmavailabilityontheofficialURsite.",
     "links": [
       "/projects/ur-check"
     ],
@@ -463,7 +463,7 @@
         "@context": "https://schema.org",
         "@type": "CreativeWork",
         "name": "UR Manager",
-        "description": "Save the UR apartment you're looking for and get an email when a matching room opens up, so you don't have to keep refreshing the site.",
+        "description": "A web service for UR vacancy searches and email alerts. It was merged into UR Check in October 2026 and is no longer operated separately.",
         "inLanguage": "en",
         "author": {
           "@type": "Person",
@@ -476,7 +476,7 @@
   "/projects/ur-mcp": {
     "title": "UR MCP App — Henry Kim",
     "lang": "en",
-    "description": "UR has no public API. UR MCP App takes the same data the official site shows for vacancies and hands it to AI agents as three MCP tools: search vacancies, report what changed, save watch settings. Requests go one at a time and skip images, about the load of one person viewing a results page. In Claude and ChatGPT, the rooms show up as cards right in the chat.",
+    "description": "An MCP server and app for finding UR vacancies in Claude and ChatGPT. It was merged into UR Check in October 2026 and is no longer operated separately.",
     "canonical": "https://www.portfolio-hub.dev/projects/ur-mcp",
     "alternates": {
       "en": "https://www.portfolio-hub.dev/projects/ur-mcp",
@@ -486,17 +486,17 @@
     },
     "og": {
       "og:title": "UR MCP App",
-      "og:description": "UR has no public API. UR MCP App takes the same data the official site shows for vacancies and hands it to AI agents as three MCP tools: search vacancies, report what changed, save watch settings. Requests go one at a time and skip images, about the load of one person viewing a results page. In Claude and ChatGPT, the rooms show up as cards right in the chat.",
+      "og:description": "An MCP server and app for finding UR vacancies in Claude and ChatGPT. It was merged into UR Check in October 2026 and is no longer operated separately.",
       "og:url": "https://www.portfolio-hub.dev/projects/ur-mcp",
       "og:site_name": "Henry Kim",
       "og:locale": "en_US",
       "og:type": "article",
       "twitter:card": "summary_large_image",
       "twitter:title": "UR MCP App",
-      "twitter:description": "UR has no public API. UR MCP App takes the same data the official site shows for vacancies and hands it to AI agents as three MCP tools: search vacancies, report what changed, save watch settings. Requests go one at a time and skip images, about the load of one person viewing a results page. In Claude and ChatGPT, the rooms show up as cards right in the chat."
+      "twitter:description": "An MCP server and app for finding UR vacancies in Claude and ChatGPT. It was merged into UR Check in October 2026 and is no longer operated separately."
     },
     "oldOgImage": "https://www.portfolio-hub.dev/projects/ur-mcp/opengraph-image-155u2j?cf4130ca3324dbb8",
-    "mainText": "BacktoURCheckArchived·MergedintoURCheckURMCPAppURhasnopublicAPI.URMCPApptakesthesamedatatheofficialsiteshowsforvacanciesandhandsittoAIagentsasthreeMCPtools:searchvacancies,reportwhatchanged,savewatchsettings.Requestsgooneatatimeandskipimages,abouttheloadofonepersonviewingaresultspage.InClaudeandChatGPT,theroomsshowupascardsrightinthechat.TypeMCPserver+MCPApp·3toolsforClaudeandChatGPTPeriodOct2026RunsonRailway,Singapore(shutdown)·SQLiteonavolumeAboutAfterbuildingURManager,IcaughtmyselfstillaskinganAIaboutrooms.AIassistantsnowhavenotificationsandscheduledtasksoftheirown,andthey'refarbetterthanmyscreensattalkingachoicethrough.SowhynotjusthandtheAIaccuratedataandletitdotherest?That'swhereur-mcpcamefrom.Askillwouldhavebeenthesimpleroute,butUR'sdatahasgapsandneedscleaningup,soIbuiltanMCPserver.AskClaudeorChatGPTfora2DKnearastationin板橋区,itcallsURMCPApp,andtheroomsshowupascardsinthechat,eachwithbuttonsforthelistingandamap.Alertscomefromaclaude.aischeduledtaskthatasksforchangesrightaftereachcheck.It'sanamazingtime.Withoutbuildingnotifications,ascheduleroralogin,oneMCPserverwiththerightdatagetsbetteranswersthanthescrapedresultsIusedtoshow.ItsharesnocodewithURManager.Afewpeoplebesidesmeuseitthroughprivatelinks,andaddingsomeonetakesonesentencetotheAIaswell.InOctober2026ImergedthiswithURManagerintoURCheck,whichusesaccountsandOAuthinplaceofsecretlinks.WhatitdoesSearchOneareawithrent,floorspace,layout,walktoastationwithoutabus,nogroundfloorandpets.Upto50roomsbymonthlycost,eachwiththelistingandamap.CardsinthechatInclaude.aionthewebandiPhone,andinChatGPT,roomsshowupascards:monthlycost,layout,floor,size,walktoastation,badges,andbuttonsforURandthemap.Theyfollowtheapp'scolorsanddarkmode.Wherecardsaren'tsupported,thesameroomscomeasatable.WhatchangedNew,relistedandgoneroomsinyourwatchedareas,filteredbyyourownsettings.Areportaftereachcheckmissesnothing,androomsthatcameandwentbetweenchecksarelistedwiththeirtimes.Watchsettingsinwords“Makeit¥140,000andskipthegroundfloor”issavedperpersonandappliesfromthenextalert.ItsownhistoryWatchedareasarecheckedat8,12and16JSTandkeptinSQLite,so“new”meansnewtothisservice,notjustnewsincethelastsearch.ClaudeandChatGPTClaudeCodewithabearertoken;claude.aiandChatGPTconnectorswithasecretURLperperson.Iaddpeople,reissuetheirlinksorcutthemoffbyaskingtheAI,withnoredeploy.Howit'sbuiltServerNode.js24(TypeScriptrundirectly,nobuild)·Hono·MCPTypeScriptSDK,stateless·MCPApps(ext-apps)·ZodDataThevacancydataUR'ssiteshows·SQLite(node:sqlite)onaRailwayvolumeClientsClaudeCode·claude.aionthewebandiOS(connectors,scheduledtasks)·ChatGPTappsInfraRailway,Singapore·onereplica·serviceconfigascode(railway.ts)QualityVitestwithrecordedURresponses·livesmoketests·Biome·TypeScript7·GitHubActionsNotaffiliatedwithUR(UrbanRenaissanceAgency).AlwaysconfirmavailabilityontheofficialURsite.Thecardscreenshotsusesampledata;theotherimagesaredrawnfromrealURMCPAppresults.",
+    "mainText": "BacktoURCheckArchived·MergedintoURCheckURMCPAppAnMCPserverandappforfindingURvacanciesinClaudeandChatGPT.ItwasmergedintoURCheckinOctober2026andisnolongeroperatedseparately.TypeMCPserver+MCPApp·3toolsforClaudeandChatGPTPeriodOct2026RunsonRailway,Singapore(shutdown)·SQLiteonavolumeAboutMergedwithURManagerintoURCheckinOctober2026.WhatitdoesSearchinchatSearchedforroomsinClaudeandChatGPTanddisplayedresultsascards.VacancychangesReportednew,relistedandclosedlistingsthatmatchedsavedconditions.Howit'sbuiltServerNode.js24(TypeScriptrundirectly,nobuild)·Hono·MCPTypeScriptSDK,stateless·MCPApps(ext-apps)·ZodDataThevacancydataUR'ssiteshows·SQLite(node:sqlite)onaRailwayvolumeClientsClaudeCode·claude.aionthewebandiOS(connectors,scheduledtasks)·ChatGPTappsInfraRailway,Singapore·onereplica·serviceconfigascode(railway.ts)QualityVitestwithrecordedURresponses·livesmoketests·Biome·TypeScript7·GitHubActionsNotaffiliatedwithUR(UrbanRenaissanceAgency).AlwaysconfirmavailabilityontheofficialURsite.Thecardscreenshotsusesampledata;theotherimagesaredrawnfromrealURMCPAppresults.",
     "links": [
       "/projects/ur-check"
     ],
@@ -510,7 +510,7 @@
         "@context": "https://schema.org",
         "@type": "CreativeWork",
         "name": "UR MCP App",
-        "description": "UR has no public API. UR MCP App takes the same data the official site shows for vacancies and hands it to AI agents as three MCP tools: search vacancies, report what changed, save watch settings. Requests go one at a time and skip images, about the load of one person viewing a results page. In Claude and ChatGPT, the rooms show up as cards right in the chat.",
+        "description": "An MCP server and app for finding UR vacancies in Claude and ChatGPT. It was merged into UR Check in October 2026 and is no longer operated separately.",
         "inLanguage": "en",
         "author": {
           "@type": "Person",
@@ -703,7 +703,7 @@
       "twitter:description": "東京と周辺の関東エリアにあるUR賃貸の空室を条件で検索し、全エリアを1日3回確認して、新着・再募集・募集終了の部屋を記録します。WebサイトとMCP経由のAIアシスタントが、同じ条件と履歴を使います。自分の引っ越し先を探すために作りました。"
     },
     "oldOgImage": "https://www.portfolio-hub.dev/ja/projects/ur-check/opengraph-image?31bd313c9f59e355",
-    "mainText": "作品一覧公開中·招待制·実際に利用中URCheck東京と周辺の関東エリアにあるUR賃貸の空室を条件で検索し、全エリアを1日3回確認して、新着・再募集・募集終了の部屋を記録します。WebサイトとMCP経由のAIアシスタントが、同じ条件と履歴を使います。自分の引っ越し先を探すために作りました。デモを見る種類Webアプリ+MCPサーバー（日本語UI）期間2026年10月運用環境AWSLightsail（シドニー）·DockerCompose·CloudflareTunnel概要引っ越しを控えてUR賃貸を探し始めました。URは先着順で、条件のよい部屋は掲載されるとすぐに埋まってしまいます。公式サイトには空室の通知機能がなく、毎日自分で確認していたので、その見張り役を任せられるものを作りました。今も実際に使っています。最初に作ったのは、従来型のWebサービスのURManagerです。条件を保存しておくと、合う部屋が出たときにメールで知らせてくれます。ところが、きちんと作ったはずなのに、気になる部屋が出るとChatGPTに「この部屋どう？」と聞いている自分に気づきました。そこで次に、AIに正確なURのデータを渡すMCPサーバー、URMCPAppを作りました。検索は自然な言葉で行い、結果はチャット内のカードで表示します。通知とスケジュールはAIアプリに任せました。ただ、コア機能を改善するたびに2つのプロジェクトの両方を直すのが負担になりました。そこで、MCPに対応した1つのWebサービスに統合しました。WebもAIも、同じサービス層、同じ条件、同じ履歴を使います。公開の会員登録はなく、アカウントは私が招待した人にだけ発行しています。それ以外の方向けに、架空の部屋を使い、ブラウザだけで動くデモを用意しました。主な機能検索エリアを1つ選び、家賃・専有面積・間取り・駅徒歩（バス便を除く）・1階除外の条件で検索できます。月額の安い順に、最大50件を表示します。検索条件の保存名前を付けた条件を複数保存でき、条件ごとに複数のエリアと、エリアごとの希望駅を指定できます。変更のたびにバージョンが残り、条件を一時停止することもできます。募集の変化全エリアを1日3回確認し、新着・再募集・募集終了を追跡します。確認と確認の間に出て、すぐに消えた部屋も見逃しません。AIアシスタント連携（MCP）OAuthでログインすると、チャット上で検索、変化の確認、条件の管理ができ、部屋はカードで表示されます。通知はAIアプリの予約タスクが届けます。条件の共有8桁の数字コードで、条件を別のユーザーにコピーできます。コードは7日で失効し、取り消すこともできます。管理画面アカウントの発行・再設定・停止を行い、接続を許可するAIアプリを登録します。新しいアカウントには、ログイン情報とAI接続の手順をまとめてコピーできる案内文が付きます。技術構成サーバーBun·Hono·RESTAPI、MCPサーバー、スケジューラーを1つのプロセスで実行WebReact19·ViteデータPostgreSQL·DrizzleORM認証·MCPBetterAuth（OAuthプロバイダー）·MCPTypeScriptSDK·MCPApps·ZodインフラDocker·AWSLightsail（シドニー）·CloudflareTunnel品質buntest·Biome·TypeScript·GitHubActions（使い捨てのPostgreSQLで検証）前身のプロジェクトURCheckは、次の2つのプロジェクトを経て今の形になりました。アーカイブ·URCheckに統合済みURManager希望するUR賃貸の条件（エリア・家賃・間取り・駅徒歩）を保存しておくと、条件に合う空室が出たときにメールで通知します。SpringBoot·Azure·Terraformアーカイブ·URCheckに統合済みURMCPAppClaudeやChatGPTがUR賃貸の空室を正確に検索して会話の中にカードで表示し、1日3回の確認で新着も逃さないMCPサーバー兼アプリです。TypeScript·MCP·RailwayUR都市機構とは関係ありません。空室状況は必ずURの公式サイトでご確認ください。スクリーンショットとデモの物件は、すべて架空のものです。前へPunyChat次へGitLeaf",
+    "mainText": "作品一覧公開中·招待制·実際に利用中URCheck東京と周辺の関東エリアにあるUR賃貸の空室を条件で検索し、全エリアを1日3回確認して、新着・再募集・募集終了の部屋を記録します。WebサイトとMCP経由のAIアシスタントが、同じ条件と履歴を使います。自分の引っ越し先を探すために作りました。デモを見る種類Webアプリ+MCPサーバー（日本語UI）期間2026年10月運用環境AWSLightsail（シドニー）·DockerCompose·CloudflareTunnel概要引っ越しを控えてUR賃貸を探し始めました。URは先着順で、条件のよい部屋は掲載されるとすぐに埋まってしまいます。公式サイトには空室の通知機能がなく、毎日自分で確認していたので、その見張り役を任せられるものを作りました。今も実際に使っています。最初に作ったのは、従来型のWebサービスのURManagerです。条件を保存しておくと、合う部屋が出たときにメールで知らせてくれます。ところが、きちんと作ったはずなのに、気になる部屋が出るとChatGPTに「この部屋どう？」と聞いている自分に気づきました。そこで次に、AIに正確なURのデータを渡すMCPサーバー、URMCPAppを作りました。検索は自然な言葉で行い、結果はチャット内のカードで表示します。通知とスケジュールはAIアプリに任せました。ただ、コア機能を改善するたびに2つのプロジェクトの両方を直すのが負担になりました。そこで、MCPに対応した1つのWebサービスに統合しました。WebもAIも、同じサービス層、同じ条件、同じ履歴を使います。公開の会員登録はなく、アカウントは私が招待した人にだけ発行しています。それ以外の方向けに、架空の部屋を使い、ブラウザだけで動くデモを用意しました。主な機能検索エリアを1つ選び、家賃・専有面積・間取り・駅徒歩（バス便を除く）・1階除外の条件で検索できます。月額の安い順に、最大50件を表示します。検索条件の保存名前を付けた条件を複数保存でき、条件ごとに複数のエリアと、エリアごとの希望駅を指定できます。変更のたびにバージョンが残り、条件を一時停止することもできます。募集の変化全エリアを1日3回確認し、新着・再募集・募集終了を追跡します。確認と確認の間に出て、すぐに消えた部屋も見逃しません。AIアシスタント連携（MCP）OAuthでログインすると、チャット上で検索、変化の確認、条件の管理ができ、部屋はカードで表示されます。通知はAIアプリの予約タスクが届けます。条件の共有8桁の数字コードで、条件を別のユーザーにコピーできます。コードは7日で失効し、取り消すこともできます。管理画面アカウントの発行・再設定・停止を行い、接続を許可するAIアプリを登録します。新しいアカウントには、ログイン情報とAI接続の手順をまとめてコピーできる案内文が付きます。技術構成サーバーBun·Hono·RESTAPI、MCPサーバー、スケジューラーを1つのプロセスで実行WebReact19·ViteデータPostgreSQL·DrizzleORM認証·MCPBetterAuth（OAuthプロバイダー）·MCPTypeScriptSDK·MCPApps·ZodインフラDocker·AWSLightsail（シドニー）·CloudflareTunnel品質buntest·Biome·TypeScript·GitHubActions（使い捨てのPostgreSQLで検証）前身のプロジェクトURCheckは、次の2つのプロジェクトを経て今の形になりました。アーカイブ·URCheckに統合済みURManagerUR賃貸の空室検索とメール通知を提供していたWebサービス。現在はURCheckに統合されています。SpringBoot·Azure·Terraformアーカイブ·URCheckに統合済みURMCPAppClaudeやChatGPTでUR賃貸の空室を探せたMCPアプリ。現在はURCheckに統合されています。TypeScript·MCP·RailwayUR都市機構とは関係ありません。空室状況は必ずURの公式サイトでご確認ください。スクリーンショットとデモの物件は、すべて架空のものです。前へPunyChat次へGitLeaf",
     "links": [
       "/ja/projects",
       "/ja/projects/gitleaf",
@@ -950,7 +950,7 @@
   "/ja/projects/ur-manager": {
     "title": "UR Manager — Henry Kim",
     "lang": "ja",
-    "description": "希望するUR賃貸の条件を保存しておくと、条件に合う空室が出たときにメールでお知らせします。公式サイトを何度も確認しに行く必要はありません。",
+    "description": "UR賃貸の空室検索とメール通知を提供していたWebサービスです。2026年10月にUR Checkへ統合し、単独での運用を終了しました。",
     "canonical": "https://www.portfolio-hub.dev/ja/projects/ur-manager",
     "alternates": {
       "en": "https://www.portfolio-hub.dev/projects/ur-manager",
@@ -960,17 +960,17 @@
     },
     "og": {
       "og:title": "UR Manager",
-      "og:description": "希望するUR賃貸の条件を保存しておくと、条件に合う空室が出たときにメールでお知らせします。公式サイトを何度も確認しに行く必要はありません。",
+      "og:description": "UR賃貸の空室検索とメール通知を提供していたWebサービスです。2026年10月にUR Checkへ統合し、単独での運用を終了しました。",
       "og:url": "https://www.portfolio-hub.dev/ja/projects/ur-manager",
       "og:site_name": "Henry Kim",
       "og:locale": "ja_JP",
       "og:type": "article",
       "twitter:card": "summary_large_image",
       "twitter:title": "UR Manager",
-      "twitter:description": "希望するUR賃貸の条件を保存しておくと、条件に合う空室が出たときにメールでお知らせします。公式サイトを何度も確認しに行く必要はありません。"
+      "twitter:description": "UR賃貸の空室検索とメール通知を提供していたWebサービスです。2026年10月にUR Checkへ統合し、単独での運用を終了しました。"
     },
     "oldOgImage": "https://www.portfolio-hub.dev/ja/projects/ur-manager/opengraph-image?31bd313c9f59e355",
-    "mainText": "URCheckに戻るアーカイブ·URCheckに統合済みURManager希望するUR賃貸の条件を保存しておくと、条件に合う空室が出たときにメールでお知らせします。公式サイトを何度も確認しに行く必要はありません。種類Webサービス（日本語UI）期間2026年9〜10月運用環境AzureContainerApps（停止済み）概要東京のUR賃貸はすぐに埋まりますが、公式サイトには空室通知の機能がありません。毎日手作業で確認していたため、その確認を代わりに行うサービスを開発しました。会員登録なしでも、検索条件をひとつ保存してすぐに使い始められます。後からGoogleでログインすれば、条件と履歴はそのまま引き継がれます。ClaudeやChatGPTとの対話で探したい場合は、URMCPAppを利用できます。2026年10月、URMCPAppと統合してURCheckになり、こちらは停止しました。主な機能検索条件の保存東京・神奈川・千葉・埼玉・茨城を対象に、エリア、家賃、専有面積、間取り、駅徒歩で絞り込めます。定期チェック条件ごとに設定した間隔で、日本時間の8時〜20時に確認します。差分だけを通知通知をオンにした時点で一度まとめを送り、以降は新着と再掲載の部屋だけをお知らせします。ゲストから会員へGoogleでログインすると、条件と履歴をワンステップで移行できます。履歴すべてのチェックと送信したメールを、結果とともに一覧で確認できます。技術構成バックエンドJava·SpringBoot·SpringMVC·SpringDataJPA·SchedulerフロントエンドReact·TypeScript·Vite·TanStackQuery·TailwindCSS認証SpringSecurity·EntraExternalID·GoogleデータPostgreSQL·FlywayインフラAzureContainerApps·ContainerRegistry·KeyVault·Terraform·CloudflareDNSCI/CD·運用AzurePipelines·WorkloadIdentityFederation·ApplicationInsightsUR都市機構とは関係ありません。空室状況は必ずURの公式サイトでご確認ください。",
+    "mainText": "URCheckに戻るアーカイブ·URCheckに統合済みURManagerUR賃貸の空室検索とメール通知を提供していたWebサービスです。2026年10月にURCheckへ統合し、単独での運用を終了しました。種類Webサービス（日本語UI）期間2026年9〜10月運用環境AzureContainerApps（停止済み）概要2026年10月、URMCPAppとともにURCheckへ統合しました。主な機能検索条件の保存エリア・家賃・間取り・駅徒歩などの条件を保存できました。空室通知定期的に空室を確認し、新着・再募集の部屋をメールで通知していました。技術構成バックエンドJava·SpringBoot·SpringMVC·SpringDataJPA·SchedulerフロントエンドReact·TypeScript·Vite·TanStackQuery·TailwindCSS認証SpringSecurity·EntraExternalID·GoogleデータPostgreSQL·FlywayインフラAzureContainerApps·ContainerRegistry·KeyVault·Terraform·CloudflareDNSCI/CD·運用AzurePipelines·WorkloadIdentityFederation·ApplicationInsightsUR都市機構とは関係ありません。空室状況は必ずURの公式サイトでご確認ください。",
     "links": [
       "/ja/projects/ur-check"
     ],
@@ -984,7 +984,7 @@
         "@context": "https://schema.org",
         "@type": "CreativeWork",
         "name": "UR Manager",
-        "description": "希望するUR賃貸の条件を保存しておくと、条件に合う空室が出たときにメールでお知らせします。公式サイトを何度も確認しに行く必要はありません。",
+        "description": "UR賃貸の空室検索とメール通知を提供していたWebサービスです。2026年10月にUR Checkへ統合し、単独での運用を終了しました。",
         "inLanguage": "ja",
         "author": {
           "@type": "Person",
@@ -997,7 +997,7 @@
   "/ja/projects/ur-mcp": {
     "title": "UR MCP App — Henry Kim",
     "lang": "ja",
-    "description": "URには公開APIがありません。UR MCP Appは、公式サイトの空室表示と同じデータを、空室検索・変化の報告・通知条件の保存という3つのMCPツールとしてAIエージェントに提供します。リクエストは1件ずつ間隔をあけて送り、画像は取得しないため、負荷は1人が検索結果を閲覧する程度です。ClaudeとChatGPTでは、部屋の一覧が会話の中にカードで表示されます。",
+    "description": "ClaudeやChatGPTでUR賃貸の空室を探せたMCPサーバー兼アプリです。2026年10月にUR Checkへ統合し、単独での運用を終了しました。",
     "canonical": "https://www.portfolio-hub.dev/ja/projects/ur-mcp",
     "alternates": {
       "en": "https://www.portfolio-hub.dev/projects/ur-mcp",
@@ -1007,17 +1007,17 @@
     },
     "og": {
       "og:title": "UR MCP App",
-      "og:description": "URには公開APIがありません。UR MCP Appは、公式サイトの空室表示と同じデータを、空室検索・変化の報告・通知条件の保存という3つのMCPツールとしてAIエージェントに提供します。リクエストは1件ずつ間隔をあけて送り、画像は取得しないため、負荷は1人が検索結果を閲覧する程度です。ClaudeとChatGPTでは、部屋の一覧が会話の中にカードで表示されます。",
+      "og:description": "ClaudeやChatGPTでUR賃貸の空室を探せたMCPサーバー兼アプリです。2026年10月にUR Checkへ統合し、単独での運用を終了しました。",
       "og:url": "https://www.portfolio-hub.dev/ja/projects/ur-mcp",
       "og:site_name": "Henry Kim",
       "og:locale": "ja_JP",
       "og:type": "article",
       "twitter:card": "summary_large_image",
       "twitter:title": "UR MCP App",
-      "twitter:description": "URには公開APIがありません。UR MCP Appは、公式サイトの空室表示と同じデータを、空室検索・変化の報告・通知条件の保存という3つのMCPツールとしてAIエージェントに提供します。リクエストは1件ずつ間隔をあけて送り、画像は取得しないため、負荷は1人が検索結果を閲覧する程度です。ClaudeとChatGPTでは、部屋の一覧が会話の中にカードで表示されます。"
+      "twitter:description": "ClaudeやChatGPTでUR賃貸の空室を探せたMCPサーバー兼アプリです。2026年10月にUR Checkへ統合し、単独での運用を終了しました。"
     },
     "oldOgImage": "https://www.portfolio-hub.dev/ja/projects/ur-mcp/opengraph-image?31bd313c9f59e355",
-    "mainText": "URCheckに戻るアーカイブ·URCheckに統合済みURMCPAppURには公開APIがありません。URMCPAppは、公式サイトの空室表示と同じデータを、空室検索・変化の報告・通知条件の保存という3つのMCPツールとしてAIエージェントに提供します。リクエストは1件ずつ間隔をあけて送り、画像は取得しないため、負荷は1人が検索結果を閲覧する程度です。ClaudeとChatGPTでは、部屋の一覧が会話の中にカードで表示されます。種類MCPサーバー+MCPApp·Claude・ChatGPT向けツール3種期間2026年10月運用環境Railway（シンガポール・停止済み）·ボリューム上のSQLite概要URManagerを作ったあとも、気づけば部屋のことをAIに相談している自分がいました。最近のAIには通知や予約タスクの機能もあり、自然な言葉での相談や分析は、自分で作った画面よりずっと得意です。それなら、AIに正確なデータだけを渡して任せたほうがいいのでは。そう考えて作ったのがur-mcpです。スキルとして手軽に使う方法もありましたが、URのデータは欠けている部分が多く、整える処理が必要だったため、MCPサーバーにしました。ClaudeやChatGPTに「板橋区で駅に近い2DKはある？」と聞くとURMCPAppが呼び出され、各部屋にURの詳細ページと地図のボタンがついたカードで、会話の中に結果が表示されます。通知は、各チェックの直後に変化を問い合わせるclaude.aiの予約タスクから届きます。すごい時代になったものです。通知もスケジューラーもログインも作らずに、正確なデータを渡すMCPを1つ用意するだけで、クローリングした結果をそのまま見せるよりずっと正確な答えが返ってきます。URManagerとはコードを共有しない新しいプロジェクトです。自分のほかに専用リンクを渡した数人が使っていて、人を追加するのもAIにひと言伝えるだけです。2026年10月、URManagerと統合してURCheckになりました。秘密のURLに代わって、アカウントとOAuthを使っています。主な機能検索1つの地域を対象に、家賃・専有面積・間取り・駅徒歩（バス便を除く）・1階除外・ペット可で絞り込みます。月額の安い順に最大50件、詳細ページと地図のリンクつきです。会話の中のカードclaude.ai（Web・iPhone）とChatGPTでは、部屋がカードで表示されます。月額、間取り、階、面積、駅まで、バッジ、URと地図へのボタンがあり、アプリの色やダークモードにも合わせます。カードに対応していない環境では、同じ内容を表で受け取ります。変化の報告監視中の地域で新着・再募集・募集終了となった部屋を、自分の条件で絞り込んで報告します。チェックのたびに確認すれば取りこぼしはなく、チェックの合間に出てすぐ消えた部屋も時刻つきで表示します。通知条件は会話で「14万円までにして、1階は除外して」と伝えるとユーザーごとに保存され、次回の通知から反映されます。独自の履歴監視中の地域を日本時間の8時・12時・16時に確認してSQLiteに記録するため、「新着」は前回の検索との比較ではなく、このサービス上での新着を意味します。ClaudeでもChatGPTでもClaudeCodeはBearerトークンで、claude.aiとChatGPTのコネクタはユーザーごとの秘密URLで接続します。利用者の追加、URLの再発行、利用停止もAIに頼むだけで、再デプロイは要りません。技術構成サーバーNode.js24（TypeScriptをビルドせずに実行）·Hono·MCPTypeScriptSDK（ステートレス）·MCPApps（ext-apps）·ZodデータURの公式サイトが表示する空室データ·Railwayボリューム上のSQLite（node:sqlite）クライアントClaudeCode·claude.aiWeb・iOS（コネクタ、予約タスク）·ChatGPTのアプリインフラRailway（シンガポール）·レプリカ1台·サービス設定をコードで管理（railway.ts）品質記録したUR応答を使ったVitest·実環境でのスモークテスト·Biome·TypeScript7·GitHubActionsUR都市機構とは関係ありません。空室状況は必ずURの公式サイトでご確認ください。カードの画面は例のデータで、そのほかの画像は実際のURMCPAppの結果をもとに作成したイメージです。",
+    "mainText": "URCheckに戻るアーカイブ·URCheckに統合済みURMCPAppClaudeやChatGPTでUR賃貸の空室を探せたMCPサーバー兼アプリです。2026年10月にURCheckへ統合し、単独での運用を終了しました。種類MCPサーバー+MCPApp·Claude・ChatGPT向けツール3種期間2026年10月運用環境Railway（シンガポール・停止済み）·ボリューム上のSQLite概要2026年10月、URManagerとともにURCheckへ統合しました。主な機能会話で検索ClaudeやChatGPTで空室を検索し、結果をカードで表示していました。変化の確認保存した条件に合う部屋の新着・再募集・募集終了を確認できました。技術構成サーバーNode.js24（TypeScriptをビルドせずに実行）·Hono·MCPTypeScriptSDK（ステートレス）·MCPApps（ext-apps）·ZodデータURの公式サイトが表示する空室データ·Railwayボリューム上のSQLite（node:sqlite）クライアントClaudeCode·claude.aiWeb・iOS（コネクタ、予約タスク）·ChatGPTのアプリインフラRailway（シンガポール）·レプリカ1台·サービス設定をコードで管理（railway.ts）品質記録したUR応答を使ったVitest·実環境でのスモークテスト·Biome·TypeScript7·GitHubActionsUR都市機構とは関係ありません。空室状況は必ずURの公式サイトでご確認ください。カードの画面は例のデータで、そのほかの画像は実際のURMCPAppの結果をもとに作成したイメージです。",
     "links": [
       "/ja/projects/ur-check"
     ],
@@ -1031,7 +1031,7 @@
         "@context": "https://schema.org",
         "@type": "CreativeWork",
         "name": "UR MCP App",
-        "description": "URには公開APIがありません。UR MCP Appは、公式サイトの空室表示と同じデータを、空室検索・変化の報告・通知条件の保存という3つのMCPツールとしてAIエージェントに提供します。リクエストは1件ずつ間隔をあけて送り、画像は取得しないため、負荷は1人が検索結果を閲覧する程度です。ClaudeとChatGPTでは、部屋の一覧が会話の中にカードで表示されます。",
+        "description": "ClaudeやChatGPTでUR賃貸の空室を探せたMCPサーバー兼アプリです。2026年10月にUR Checkへ統合し、単独での運用を終了しました。",
         "inLanguage": "ja",
         "author": {
           "@type": "Person",
@@ -1064,7 +1064,7 @@
       "twitter:description": "Henry Kim — 도쿄의 백엔드 엔지니어. Java, Spring, 클라우드, 웹으로 기획부터 운영까지 직접 만든 사이드 프로젝트를 소개합니다."
     },
     "oldOgImage": "https://www.portfolio-hub.dev/ko/opengraph-image?3e80f0d4b49b655a",
-    "mainText": "HenryKim—백엔드엔지니어H안녕하세요.HenryKim입니다.도쿄에서백엔드엔지니어로일하며,주로Java와Spring을다룹니다.업무외에는작은서비스를설계부터구현,클라우드구성,운영까지혼자만들고있습니다.도쿄·JST본업백엔드엔지니어결제·금융·API·DB·인증·클라우드주로쓰는기술JavaKotlinSpringBootPostgreSQLAzureTerraformNext.jsTypeScript프로젝트PunyChat운영중·앱출시준비중둘만을위한메신저.대화만해도작은도트버디를함께키울수있습니다.버디키우러가기—PunyChat사이트GitHub—PunyChat소스코드Expo·SpringWebFlux·MongoDBURCheck운영중·초대제·직접사용중UR임대의빈방을조건으로검색하고,새로나온방·다시나온방·사라진방을추적합니다.웹사이트와AI어시스턴트가같은조건과이력을씁니다.데모보기—URCheck사이트Bun·PostgreSQL·MCPGitLeaf운영중·누구나사용가능GitHub1년치기여기록을수채화식물로그려주는서비스.하루가잎한장입니다.README에한줄만붙이면됩니다.GitHub—GitLeaf소스코드TypeScript·CloudflareWorkers·SVGQuantLab운영중·1/100규모실거래내습관을복사해월급날대신사주는봇과,매일비중을정하는AI봇들.모두제실제계좌에서1/100규모로돌리고있습니다.데모보기—QuantLab사이트Python·FastAPI·ClaudeAPIPokepedia운영중·리메이크“이포켓몬은누구일까?”를게임보이배틀처럼.1세대포켓몬도감과띠부씰컬렉션까지,한국어·영어·일본어를지원합니다.포켓몬잡으러가기—Pokepedia사이트GitHub—Pokepedia소스코드Next.js·Supabase·TypeScript글개발블로그hukutaku.tistory.comGitHub@ottuck소개더보기소개",
+    "mainText": "HenryKim—백엔드엔지니어H안녕하세요.HenryKim입니다.도쿄에서백엔드엔지니어로일하며,주로Java와Spring을다룹니다.업무외에는작은서비스를설계부터구현,클라우드구성,운영까지혼자만들고있습니다.도쿄·JST본업백엔드엔지니어결제·금융·API·DB·인증·클라우드주로쓰는기술JavaKotlinSpringBootPostgreSQLAzureTerraformNext.jsTypeScript프로젝트PunyChat운영중·앱출시준비중둘만을위한메신저.대화만해도작은도트버디를함께키울수있습니다.버디키우러가기—PunyChat사이트GitHub—PunyChat소스코드Expo·SpringWebFlux·MongoDBURCheck운영중·초대제·직접사용중UR임대의빈방을조건으로검색하고,새로나온방·다시나온방·사라진방을추적합니다.웹사이트와AI어시스턴트가같은조건과이력을씁니다.데모보기—URCheck사이트Bun·PostgreSQL·MCPGitLeaf운영중·누구나사용가능GitHub의1년치기여기록을수채화느낌의식물로보여줍니다.README에이미지코드한줄을추가하면매일자동으로갱신됩니다.GitHub—GitLeaf소스코드TypeScript·CloudflareWorkers·SVGQuantLab운영중·1/100규모실거래내습관을복사해월급날대신사주는봇과,매일비중을정하는AI봇들.모두제실제계좌에서1/100규모로돌리고있습니다.데모보기—QuantLab사이트Python·FastAPI·ClaudeAPIPokepedia운영중·리메이크“이포켓몬은누구일까?”를게임보이배틀처럼.1세대포켓몬도감과띠부씰컬렉션까지,한국어·영어·일본어를지원합니다.포켓몬잡으러가기—Pokepedia사이트GitHub—Pokepedia소스코드Next.js·Supabase·TypeScript글개발블로그hukutaku.tistory.comGitHub@ottuck소개더보기소개",
     "links": [
       "/ko/about",
       "/ko/projects/gitleaf",
@@ -1143,7 +1143,7 @@
       "twitter:title": "프로젝트",
       "twitter:description": "기획부터 개발, 운영까지 직접 맡고 있는 사이드 프로젝트입니다."
     },
-    "mainText": "프로젝트기획부터개발,운영까지직접맡고있는사이드프로젝트입니다.프로젝트별현재상태도함께적었습니다.전체프로젝트PunyChat운영중·앱출시준비중둘만을위한메신저.대화만해도작은도트버디를함께키울수있습니다.버디키우러가기—PunyChat사이트GitHub—PunyChat소스코드Expo·SpringWebFlux·MongoDBURCheck운영중·초대제·직접사용중UR임대의빈방을조건으로검색하고,새로나온방·다시나온방·사라진방을추적합니다.웹사이트와AI어시스턴트가같은조건과이력을씁니다.데모보기—URCheck사이트Bun·PostgreSQL·MCPGitLeaf운영중·누구나사용가능GitHub1년치기여기록을수채화식물로그려주는서비스.하루가잎한장입니다.README에한줄만붙이면됩니다.GitHub—GitLeaf소스코드TypeScript·CloudflareWorkers·SVGQuantLab운영중·1/100규모실거래내습관을복사해월급날대신사주는봇과,매일비중을정하는AI봇들.모두제실제계좌에서1/100규모로돌리고있습니다.데모보기—QuantLab사이트Python·FastAPI·ClaudeAPIPokepedia운영중·리메이크“이포켓몬은누구일까?”를게임보이배틀처럼.1세대포켓몬도감과띠부씰컬렉션까지,한국어·영어·일본어를지원합니다.포켓몬잡으러가기—Pokepedia사이트GitHub—Pokepedia소스코드Next.js·Supabase·TypeScript",
+    "mainText": "프로젝트기획부터개발,운영까지직접맡고있는사이드프로젝트입니다.프로젝트별현재상태도함께적었습니다.전체프로젝트PunyChat운영중·앱출시준비중둘만을위한메신저.대화만해도작은도트버디를함께키울수있습니다.버디키우러가기—PunyChat사이트GitHub—PunyChat소스코드Expo·SpringWebFlux·MongoDBURCheck운영중·초대제·직접사용중UR임대의빈방을조건으로검색하고,새로나온방·다시나온방·사라진방을추적합니다.웹사이트와AI어시스턴트가같은조건과이력을씁니다.데모보기—URCheck사이트Bun·PostgreSQL·MCPGitLeaf운영중·누구나사용가능GitHub의1년치기여기록을수채화느낌의식물로보여줍니다.README에이미지코드한줄을추가하면매일자동으로갱신됩니다.GitHub—GitLeaf소스코드TypeScript·CloudflareWorkers·SVGQuantLab운영중·1/100규모실거래내습관을복사해월급날대신사주는봇과,매일비중을정하는AI봇들.모두제실제계좌에서1/100규모로돌리고있습니다.데모보기—QuantLab사이트Python·FastAPI·ClaudeAPIPokepedia운영중·리메이크“이포켓몬은누구일까?”를게임보이배틀처럼.1세대포켓몬도감과띠부씰컬렉션까지,한국어·영어·일본어를지원합니다.포켓몬잡으러가기—Pokepedia사이트GitHub—Pokepedia소스코드Next.js·Supabase·TypeScript",
     "links": [
       "/ko/projects/gitleaf",
       "/ko/projects/pokepedia",
@@ -1224,7 +1224,7 @@
       "twitter:description": "도쿄와 주변 관동 지역의 UR 임대 빈방을 조건으로 검색하고, 모든 지역을 하루 세 번 확인해 새로 나온 방·다시 나온 방·사라진 방을 기록합니다. 웹사이트와 MCP로 연결한 AI 어시스턴트가 같은 조건과 이력을 씁니다. 제가 이사할 집을 찾으려고 만들었습니다."
     },
     "oldOgImage": "https://www.portfolio-hub.dev/ko/projects/ur-check/opengraph-image?31bd313c9f59e355",
-    "mainText": "전체프로젝트운영중·초대제·직접사용중URCheck도쿄와주변관동지역의UR임대빈방을조건으로검색하고,모든지역을하루세번확인해새로나온방·다시나온방·사라진방을기록합니다.웹사이트와MCP로연결한AI어시스턴트가같은조건과이력을씁니다.제가이사할집을찾으려고만들었습니다.데모보기종류웹앱+MCP서버(일본어UI)기간2026년10월운영환경AWSLightsail(시드니)·DockerCompose·CloudflareTunnel소개이사를앞두고UR임대를찾기시작했습니다.UR은선착순이라조건이좋은방은올라오자마자순식간에나갑니다.공식사이트에는빈방알림이없어서매일직접확인하다가,그일을대신해줄도구를만들었고지금도실제로쓰고있습니다.처음에는전통적인웹서비스방식의URManager를만들었습니다.조건을저장해두면맞는방이나왔을때메일로알려줍니다.그런데잘만들어두고도,마음에드는방이나오면ChatGPT에게“이방어때?”하고묻는저를발견했습니다.그래서두번째로AI에게정확한UR데이터를건네는MCP서버,URMCPApp을만들었습니다.검색은자연어로하고결과는채팅안에카드로보여주며,알림과스케줄은AI앱에맡겼습니다.하지만핵심기능을고칠때마다두프로젝트를모두손봐야하는게부담이었습니다.그래서MCP를지원하는하나의웹서비스로합쳤습니다.웹화면과AI가같은서비스계층,같은조건,같은이력을씁니다.공개가입은없고,계정은제가초대한사람에게만발급합니다.그밖의분들을위해가상의방데이터로브라우저에서만돌아가는데모를따로만들었습니다.주요기능검색지역하나를골라월세·면적·방구조·역도보시간(버스제외)·1층제외조건으로찾습니다.월비용이낮은순서로최대50건을보여줍니다.검색조건저장이름붙인조건을여러개저장할수있고,조건마다여러지역과지역별희망역을지정할수있습니다.수정할때마다버전이남고,조건을잠시멈춰둘수도있습니다.바뀐내용모든지역을하루세번확인해새로나온방·다시나온방·사라진방을추적합니다.확인주기사이에잠깐나왔다사라진방도놓치지않고보여줍니다.AI어시스턴트연동(MCP)OAuth로로그인하면채팅에서검색,변화확인,조건관리를할수있고방은카드로보입니다.알림은AI앱의예약작업이전달합니다.조건공유8자리숫자코드로조건을다른사용자에게복사할수있습니다.코드는7일뒤만료되고회수할수도있습니다.관리자화면계정을발급·재설정·중지하고,접속을허용할AI앱을등록합니다.새계정에는로그인정보와AI연결방법을한번에복사할수있는안내문이함께나옵니다.기술구성서버Bun·Hono·RESTAPI,MCP서버,스케줄러를한프로세스로실행웹React19·Vite데이터PostgreSQL·DrizzleORM인증·MCPBetterAuth(OAuth프로바이더)·MCPTypeScriptSDK·MCPApps·Zod인프라Docker·AWSLightsail(시드니)·CloudflareTunnel품질buntest·Biome·TypeScript·GitHubActions(일회용PostgreSQL로검증)이전프로젝트URCheck는아래두프로젝트를거쳐지금의모습이되었습니다.보관·URCheck에통합됨URManager원하는UR임대조건(지역·월세·방구조·역도보시간)을저장해두면,조건에맞는빈방이나왔을때메일로알려줍니다.SpringBoot·Azure·Terraform보관·URCheck에통합됨URMCPAppClaude와ChatGPT가UR임대빈방을정확하게찾아대화안에카드로보여주고,하루세번확인해새방을놓치지않게해주는MCP서버이자앱입니다.TypeScript·MCP·RailwayUR도시기구와관계가없습니다.빈방정보는반드시UR공식사이트에서확인하세요.스크린샷과데모의방은모두가상의데이터입니다.이전PunyChat다음GitLeaf",
+    "mainText": "전체프로젝트운영중·초대제·직접사용중URCheck도쿄와주변관동지역의UR임대빈방을조건으로검색하고,모든지역을하루세번확인해새로나온방·다시나온방·사라진방을기록합니다.웹사이트와MCP로연결한AI어시스턴트가같은조건과이력을씁니다.제가이사할집을찾으려고만들었습니다.데모보기종류웹앱+MCP서버(일본어UI)기간2026년10월운영환경AWSLightsail(시드니)·DockerCompose·CloudflareTunnel소개이사를앞두고UR임대를찾기시작했습니다.UR은선착순이라조건이좋은방은올라오자마자순식간에나갑니다.공식사이트에는빈방알림이없어서매일직접확인하다가,그일을대신해줄도구를만들었고지금도실제로쓰고있습니다.처음에는전통적인웹서비스방식의URManager를만들었습니다.조건을저장해두면맞는방이나왔을때메일로알려줍니다.그런데잘만들어두고도,마음에드는방이나오면ChatGPT에게“이방어때?”하고묻는저를발견했습니다.그래서두번째로AI에게정확한UR데이터를건네는MCP서버,URMCPApp을만들었습니다.검색은자연어로하고결과는채팅안에카드로보여주며,알림과스케줄은AI앱에맡겼습니다.하지만핵심기능을고칠때마다두프로젝트를모두손봐야하는게부담이었습니다.그래서MCP를지원하는하나의웹서비스로합쳤습니다.웹화면과AI가같은서비스계층,같은조건,같은이력을씁니다.공개가입은없고,계정은제가초대한사람에게만발급합니다.그밖의분들을위해가상의방데이터로브라우저에서만돌아가는데모를따로만들었습니다.주요기능검색지역하나를골라월세·면적·방구조·역도보시간(버스제외)·1층제외조건으로찾습니다.월비용이낮은순서로최대50건을보여줍니다.검색조건저장이름붙인조건을여러개저장할수있고,조건마다여러지역과지역별희망역을지정할수있습니다.수정할때마다버전이남고,조건을잠시멈춰둘수도있습니다.바뀐내용모든지역을하루세번확인해새로나온방·다시나온방·사라진방을추적합니다.확인주기사이에잠깐나왔다사라진방도놓치지않고보여줍니다.AI어시스턴트연동(MCP)OAuth로로그인하면채팅에서검색,변화확인,조건관리를할수있고방은카드로보입니다.알림은AI앱의예약작업이전달합니다.조건공유8자리숫자코드로조건을다른사용자에게복사할수있습니다.코드는7일뒤만료되고회수할수도있습니다.관리자화면계정을발급·재설정·중지하고,접속을허용할AI앱을등록합니다.새계정에는로그인정보와AI연결방법을한번에복사할수있는안내문이함께나옵니다.기술구성서버Bun·Hono·RESTAPI,MCP서버,스케줄러를한프로세스로실행웹React19·Vite데이터PostgreSQL·DrizzleORM인증·MCPBetterAuth(OAuth프로바이더)·MCPTypeScriptSDK·MCPApps·Zod인프라Docker·AWSLightsail(시드니)·CloudflareTunnel품질buntest·Biome·TypeScript·GitHubActions(일회용PostgreSQL로검증)이전프로젝트URCheck는아래두프로젝트를거쳐지금의모습이되었습니다.보관·URCheck에통합됨URManagerUR임대빈방검색과이메일알림을제공하던웹서비스.현재는URCheck에통합됐습니다.SpringBoot·Azure·Terraform보관·URCheck에통합됨URMCPAppClaude와ChatGPT에서UR임대빈방을찾을수있었던MCP앱.현재는URCheck에통합됐습니다.TypeScript·MCP·RailwayUR도시기구와관계가없습니다.빈방정보는반드시UR공식사이트에서확인하세요.스크린샷과데모의방은모두가상의데이터입니다.이전PunyChat다음GitLeaf",
     "links": [
       "/ko/projects",
       "/ko/projects/gitleaf",
@@ -1313,7 +1313,7 @@
   "/ko/projects/gitleaf": {
     "title": "GitLeaf — Henry Kim",
     "lang": "ko",
-    "description": "GitHub 기여 기록을 수채화 식물로 바꿔 주는 작은 서비스입니다. 1년의 하루하루가 잎이 되고, 그날 활동이 많을수록 잎의 초록이 짙어집니다. 프로필 README에 이미지 한 줄만 붙이면 그림이 알아서 최신으로 유지됩니다.",
+    "description": "GitHub 기여 기록을 수채화 느낌의 식물로 보여 주는 서비스입니다. 하루를 잎 한 장으로 표현하고, 활동이 많은 날일수록 잎 색이 짙어집니다. 프로필 README에 이미지 코드 한 줄을 추가하면 매일 최신 기록이 반영됩니다.",
     "canonical": "https://www.portfolio-hub.dev/ko/projects/gitleaf",
     "alternates": {
       "en": "https://www.portfolio-hub.dev/projects/gitleaf",
@@ -1323,17 +1323,17 @@
     },
     "og": {
       "og:title": "GitLeaf",
-      "og:description": "GitHub 기여 기록을 수채화 식물로 바꿔 주는 작은 서비스입니다. 1년의 하루하루가 잎이 되고, 그날 활동이 많을수록 잎의 초록이 짙어집니다. 프로필 README에 이미지 한 줄만 붙이면 그림이 알아서 최신으로 유지됩니다.",
+      "og:description": "GitHub 기여 기록을 수채화 느낌의 식물로 보여 주는 서비스입니다. 하루를 잎 한 장으로 표현하고, 활동이 많은 날일수록 잎 색이 짙어집니다. 프로필 README에 이미지 코드 한 줄을 추가하면 매일 최신 기록이 반영됩니다.",
       "og:url": "https://www.portfolio-hub.dev/ko/projects/gitleaf",
       "og:site_name": "Henry Kim",
       "og:locale": "ko_KR",
       "og:type": "article",
       "twitter:card": "summary_large_image",
       "twitter:title": "GitLeaf",
-      "twitter:description": "GitHub 기여 기록을 수채화 식물로 바꿔 주는 작은 서비스입니다. 1년의 하루하루가 잎이 되고, 그날 활동이 많을수록 잎의 초록이 짙어집니다. 프로필 README에 이미지 한 줄만 붙이면 그림이 알아서 최신으로 유지됩니다."
+      "twitter:description": "GitHub 기여 기록을 수채화 느낌의 식물로 보여 주는 서비스입니다. 하루를 잎 한 장으로 표현하고, 활동이 많은 날일수록 잎 색이 짙어집니다. 프로필 README에 이미지 코드 한 줄을 추가하면 매일 최신 기록이 반영됩니다."
     },
     "oldOgImage": "https://www.portfolio-hub.dev/ko/projects/gitleaf/opengraph-image?31bd313c9f59e355",
-    "mainText": "전체프로젝트운영중·누구나사용가능GitLeafGitHub기여기록을수채화식물로바꿔주는작은서비스입니다.1년의하루하루가잎이되고,그날활동이많을수록잎의초록이짙어집니다.프로필README에이미지한줄만붙이면그림이알아서최신으로유지됩니다.GitHub종류GitHubREADME용이미지서비스기간2026년10월운영환경CloudflareWorkers+D1+R2소개기여그래프는초록네모가늘어선표입니다.보고있으면즐거운것으로만들고싶어서,GitLeaf는1년을식물로그립니다.하루가작은잎한장이고활동이많을수록색이짙어지며,가지끝에는한주를나타내는큰잎이달립니다.아직오지않은날은옅은윤곽만있고,그림아래에는그해의기여수가적힙니다.프로필README에두려고만들었습니다.사용자이름이들어간이미지한줄만붙이면되고,가입도GitHubActions설정도필요없습니다.이미지를처음요청받을때기여기록을읽어식물을그리고저장해두며,이후에는같은URL그대로하루에한번다시그립니다.README는바뀌지않고커밋도만들어지지않습니다.잎은AI이미지도구로만든수채화잎8종을각각5단계농도로만든것입니다.네줄기를따라배치하고하루에한장씩채우는것이코드가하는일입니다.그림전체가SVG파일하나라서스크립트와외부요청이막힌README에서도평범한이미지로보입니다.주요기능하루에잎한장잎의농도는GitHub의기여단계를따라,조용한날은옅은윤곽에서활발한날은짙은초록까지달라집니다.주마다그주의평균을나타내는큰잎도달립니다.한줄이면끝사용자이름이들어간이미지한줄을README에붙입니다.계정은필요없고첫요청에서그림이나타납니다.매일다시그리기같은URL에최신활동이반영되어서README를고칠일이없습니다.해가바뀌면새식물이자라고,?year=로2008년까지원하는해를고정할수있습니다.살랑이는바람?motion=breeze를붙이면가지들이저마다의속도로천천히흔들립니다.CSS만으로움직이며,기기에서움직임줄이기를켜면멈춥니다.기술구성서비스TypeScript·CloudflareWorkers(CronTriggers)저장완성된SVG는R2,정원과갱신시각은D1그림순수JavaScript로쓴SVG·수채화잎이미지8종×5단계(sharp)·바람은CSS애니메이션데이터GitHubGraphQLAPI(토큰은Worker시크릿에보관)품질실제Workers런타임과D1·R2에서하는테스트(Miniflare)·GitHub실데이터대조·GitHubActions건수는커밋만이아니라GitHub기여전체입니다.비공개활동은서비스의GitHub토큰이볼수있는범위만반영됩니다.실린그림은제계정의것입니다.이전URCheck다음QuantLab",
+    "mainText": "전체프로젝트운영중·누구나사용가능GitLeafGitHub기여기록을수채화느낌의식물로보여주는서비스입니다.하루를잎한장으로표현하고,활동이많은날일수록잎색이짙어집니다.프로필README에이미지코드한줄을추가하면매일최신기록이반영됩니다.GitHub종류GitHubREADME용이미지서비스기간2026년10월운영환경CloudflareWorkers+D1+R2소개GitHub의기여기록을초록색칸대신잎과가지로표현한프로젝트입니다.하루를잎한장으로나타내고,활동이많은날일수록잎색이짙어집니다.가지끝의큰잎은한주의평균활동량을보여줍니다.프로필README에사용하려고만들었습니다.GitHub사용자이름이들어간이미지코드한줄을추가하면됩니다.별도로가입하거나GitHubActions를설정할필요가없고,이미지는매일자동으로갱신됩니다.수채화느낌의잎이미지8종을AI이미지도구로만들고,각각다섯단계의색상으로준비했습니다.아직오지않은날짜는옅은윤곽으로표시하고,그림아래에는해당연도의총기여수를표시합니다.주요기능하루를잎한장으로하루의기여도에따라잎색이옅은색부터짙은초록색까지달라집니다.한주의평균활동량은가지끝의큰잎으로표시합니다.한줄로추가사용자이름이포함된이미지코드를README에붙여넣으면됩니다.별도의회원가입없이바로사용할수있습니다.매일자동갱신이미지주소를바꾸지않아도최신기여기록이반영됩니다.해가바뀌면새해의기록을보여주며,?year=2025처럼연도를지정해과거기록을볼수도있습니다.바람애니메이션이미지주소에?motion=breeze를추가하면가지가바람에흔들리듯천천히움직입니다.기기에서동작줄이기설정을켜면애니메이션이멈춥니다.기술구성서비스TypeScript·CloudflareWorkers(CronTriggers)저장완성된SVG는R2,정원과갱신시각은D1그림순수JavaScript로쓴SVG·수채화잎이미지8종×5단계(sharp)·바람은CSS애니메이션데이터GitHubGraphQLAPI(토큰은Worker시크릿에보관)품질실제Workers런타임과D1·R2에서하는테스트(Miniflare)·GitHub실데이터대조·GitHubActions기여수에는커밋외의GitHub활동도포함됩니다.비공개활동은서비스의GitHub토큰으로확인할수있는범위만반영됩니다.예시이미지는제GitHub계정의기록으로만들었습니다.이전URCheck다음QuantLab",
     "links": [
       "/ko/projects",
       "/ko/projects/quant-lab",
@@ -1350,7 +1350,7 @@
         "@context": "https://schema.org",
         "@type": "CreativeWork",
         "name": "GitLeaf",
-        "description": "GitHub 기여 기록을 수채화 식물로 바꿔 주는 작은 서비스입니다. 1년의 하루하루가 잎이 되고, 그날 활동이 많을수록 잎의 초록이 짙어집니다. 프로필 README에 이미지 한 줄만 붙이면 그림이 알아서 최신으로 유지됩니다.",
+        "description": "GitHub 기여 기록을 수채화 느낌의 식물로 보여 주는 서비스입니다. 하루를 잎 한 장으로 표현하고, 활동이 많은 날일수록 잎 색이 짙어집니다. 프로필 README에 이미지 코드 한 줄을 추가하면 매일 최신 기록이 반영됩니다.",
         "codeRepository": "https://github.com/ottuck/gitleaf",
         "inLanguage": "ko",
         "author": {
@@ -1471,7 +1471,7 @@
   "/ko/projects/ur-manager": {
     "title": "UR Manager — Henry Kim",
     "lang": "ko",
-    "description": "원하는 UR 임대 조건을 저장해 두면 조건에 맞는 빈방이 나왔을 때 메일로 알려 줍니다. 공식 사이트를 계속 새로 고칠 필요가 없습니다.",
+    "description": "UR 임대 빈방 검색과 이메일 알림을 제공하던 웹 서비스입니다. 2026년 10월 UR Check로 통합되어 별도 운영을 종료했습니다.",
     "canonical": "https://www.portfolio-hub.dev/ko/projects/ur-manager",
     "alternates": {
       "en": "https://www.portfolio-hub.dev/projects/ur-manager",
@@ -1481,17 +1481,17 @@
     },
     "og": {
       "og:title": "UR Manager",
-      "og:description": "원하는 UR 임대 조건을 저장해 두면 조건에 맞는 빈방이 나왔을 때 메일로 알려 줍니다. 공식 사이트를 계속 새로 고칠 필요가 없습니다.",
+      "og:description": "UR 임대 빈방 검색과 이메일 알림을 제공하던 웹 서비스입니다. 2026년 10월 UR Check로 통합되어 별도 운영을 종료했습니다.",
       "og:url": "https://www.portfolio-hub.dev/ko/projects/ur-manager",
       "og:site_name": "Henry Kim",
       "og:locale": "ko_KR",
       "og:type": "article",
       "twitter:card": "summary_large_image",
       "twitter:title": "UR Manager",
-      "twitter:description": "원하는 UR 임대 조건을 저장해 두면 조건에 맞는 빈방이 나왔을 때 메일로 알려 줍니다. 공식 사이트를 계속 새로 고칠 필요가 없습니다."
+      "twitter:description": "UR 임대 빈방 검색과 이메일 알림을 제공하던 웹 서비스입니다. 2026년 10월 UR Check로 통합되어 별도 운영을 종료했습니다."
     },
     "oldOgImage": "https://www.portfolio-hub.dev/ko/projects/ur-manager/opengraph-image?31bd313c9f59e355",
-    "mainText": "URCheck페이지로돌아가기보관·URCheck에통합됨URManager원하는UR임대조건을저장해두면조건에맞는빈방이나왔을때메일로알려줍니다.공식사이트를계속새로고칠필요가없습니다.종류웹서비스(일본어UI)기간2026년9~10월운영환경AzureContainerApps(운영종료)소개도쿄의UR임대는금방나가지만,공식사이트에는빈방알림기능이없습니다.매일직접확인하던일을대신맡아주는서비스를만들었습니다.가입하지않아도검색조건하나를저장해바로쓸수있습니다.나중에Google로로그인하면조건과기록이그대로이어집니다.Claude나ChatGPT와대화하며찾고싶다면URMCPApp을쓰면됩니다.2026년10월,URMCPApp과합쳐URCheck가되면서이서비스는운영을종료했습니다.주요기능검색조건저장도쿄·가나가와·지바·사이타마·이바라키를대상으로지역,월세,면적,방구조,역도보시간으로찾을수있습니다.정기확인조건마다정한간격으로일본시간8시~20시사이에확인합니다.바뀐것만메일로알림을켤때요약을한번보내고,이후에는새로나왔거나다시올라온방만알려줍니다.게스트에서회원으로Google로로그인하면조건과기록을한번에옮길수있습니다.기록모든확인내역과보낸메일을결과와함께볼수있습니다.기술구성백엔드Java·SpringBoot·SpringMVC·SpringDataJPA·Scheduler프런트엔드React·TypeScript·Vite·TanStackQuery·TailwindCSS인증SpringSecurity·EntraExternalID·Google데이터PostgreSQL·Flyway인프라AzureContainerApps·ContainerRegistry·KeyVault·Terraform·CloudflareDNSCI/CD·운영AzurePipelines·WorkloadIdentityFederation·ApplicationInsightsUR도시기구와는관계가없습니다.빈방여부는반드시UR공식사이트에서확인해주세요.",
+    "mainText": "URCheck페이지로돌아가기보관·URCheck에통합됨URManagerUR임대빈방검색과이메일알림을제공하던웹서비스입니다.2026년10월URCheck로통합되어별도운영을종료했습니다.종류웹서비스(일본어UI)기간2026년9~10월운영환경AzureContainerApps(운영종료)소개2026년10월,URMCPApp과함께URCheck로통합했습니다.주요기능검색조건저장지역·월세·방구조·역도보시간등의조건을저장할수있었습니다.빈방알림정기적으로빈방을확인하고,새로나오거나다시올라온방을이메일로알려줬습니다.기술구성백엔드Java·SpringBoot·SpringMVC·SpringDataJPA·Scheduler프런트엔드React·TypeScript·Vite·TanStackQuery·TailwindCSS인증SpringSecurity·EntraExternalID·Google데이터PostgreSQL·Flyway인프라AzureContainerApps·ContainerRegistry·KeyVault·Terraform·CloudflareDNSCI/CD·운영AzurePipelines·WorkloadIdentityFederation·ApplicationInsightsUR도시기구와는관계가없습니다.빈방여부는반드시UR공식사이트에서확인해주세요.",
     "links": [
       "/ko/projects/ur-check"
     ],
@@ -1505,7 +1505,7 @@
         "@context": "https://schema.org",
         "@type": "CreativeWork",
         "name": "UR Manager",
-        "description": "원하는 UR 임대 조건을 저장해 두면 조건에 맞는 빈방이 나왔을 때 메일로 알려 줍니다. 공식 사이트를 계속 새로 고칠 필요가 없습니다.",
+        "description": "UR 임대 빈방 검색과 이메일 알림을 제공하던 웹 서비스입니다. 2026년 10월 UR Check로 통합되어 별도 운영을 종료했습니다.",
         "inLanguage": "ko",
         "author": {
           "@type": "Person",
@@ -1518,7 +1518,7 @@
   "/ko/projects/ur-mcp": {
     "title": "UR MCP App — Henry Kim",
     "lang": "ko",
-    "description": "UR에는 공개 API가 없습니다. UR MCP App은 공식 사이트가 빈방을 보여 줄 때와 같은 데이터를 빈방 검색, 변동 보고, 알림 조건 저장이라는 MCP 도구 3개로 AI 에이전트에 제공합니다. 요청은 간격을 두고 하나씩 보내고 이미지는 받지 않아서, 부하는 사람 한 명이 검색 결과를 보는 정도입니다. Claude와 ChatGPT에서는 방 목록이 대화 안에 카드로 바로 보입니다.",
+    "description": "Claude와 ChatGPT에서 UR 임대 빈방을 찾을 수 있었던 MCP 서버이자 앱입니다. 2026년 10월 UR Check로 통합되어 별도 운영을 종료했습니다.",
     "canonical": "https://www.portfolio-hub.dev/ko/projects/ur-mcp",
     "alternates": {
       "en": "https://www.portfolio-hub.dev/projects/ur-mcp",
@@ -1528,17 +1528,17 @@
     },
     "og": {
       "og:title": "UR MCP App",
-      "og:description": "UR에는 공개 API가 없습니다. UR MCP App은 공식 사이트가 빈방을 보여 줄 때와 같은 데이터를 빈방 검색, 변동 보고, 알림 조건 저장이라는 MCP 도구 3개로 AI 에이전트에 제공합니다. 요청은 간격을 두고 하나씩 보내고 이미지는 받지 않아서, 부하는 사람 한 명이 검색 결과를 보는 정도입니다. Claude와 ChatGPT에서는 방 목록이 대화 안에 카드로 바로 보입니다.",
+      "og:description": "Claude와 ChatGPT에서 UR 임대 빈방을 찾을 수 있었던 MCP 서버이자 앱입니다. 2026년 10월 UR Check로 통합되어 별도 운영을 종료했습니다.",
       "og:url": "https://www.portfolio-hub.dev/ko/projects/ur-mcp",
       "og:site_name": "Henry Kim",
       "og:locale": "ko_KR",
       "og:type": "article",
       "twitter:card": "summary_large_image",
       "twitter:title": "UR MCP App",
-      "twitter:description": "UR에는 공개 API가 없습니다. UR MCP App은 공식 사이트가 빈방을 보여 줄 때와 같은 데이터를 빈방 검색, 변동 보고, 알림 조건 저장이라는 MCP 도구 3개로 AI 에이전트에 제공합니다. 요청은 간격을 두고 하나씩 보내고 이미지는 받지 않아서, 부하는 사람 한 명이 검색 결과를 보는 정도입니다. Claude와 ChatGPT에서는 방 목록이 대화 안에 카드로 바로 보입니다."
+      "twitter:description": "Claude와 ChatGPT에서 UR 임대 빈방을 찾을 수 있었던 MCP 서버이자 앱입니다. 2026년 10월 UR Check로 통합되어 별도 운영을 종료했습니다."
     },
     "oldOgImage": "https://www.portfolio-hub.dev/ko/projects/ur-mcp/opengraph-image?31bd313c9f59e355",
-    "mainText": "URCheck페이지로돌아가기보관·URCheck에통합됨URMCPAppUR에는공개API가없습니다.URMCPApp은공식사이트가빈방을보여줄때와같은데이터를빈방검색,변동보고,알림조건저장이라는MCP도구3개로AI에이전트에제공합니다.요청은간격을두고하나씩보내고이미지는받지않아서,부하는사람한명이검색결과를보는정도입니다.Claude와ChatGPT에서는방목록이대화안에카드로바로보입니다.종류MCP서버+MCPApp·Claude·ChatGPT용도구3종기간2026년10월운영환경Railway(싱가포르·운영종료)·볼륨에둔SQLite소개URManager를만든뒤에도,정작방을고를때는AI에게상담하고있는저를발견했습니다.요즘AI는알림도,예약작업도됩니다.자연어로상담하고분석하는건제가만든화면보다훨씬잘하고요.그렇다면AI에게정확한자료만건네고맡기는게낫지않을까,하는생각에서만들었습니다.스킬로간단히붙일수도있었지만,UR데이터는빈곳이많아정제가필요해서MCP서버로만들었습니다.Claude나ChatGPT에“이타바시구에역가까운2DK있어?”라고물으면URMCPApp이호출되고,방마다UR상세페이지와지도버튼이달린카드로대화안에결과가뜹니다.알림은매번확인직후변동사항을묻는claude.ai예약작업으로받습니다.놀라운시대입니다.알림도,스케줄러도,로그인도직접구현하지않고정확한자료를건네는MCP하나만만들면,크롤링한결과를그대로보여줄때보다훨씬정확한답이돌아오니까요.URManager와코드를공유하지않는새프로젝트입니다.저말고도전용링크를받은몇명이쓰고있는데,사람을추가하는것도AI에게한마디하면끝납니다.2026년10월,URManager와합쳐URCheck가되었습니다.비밀URL대신계정과OAuth를씁니다.주요기능검색지역하나를월세,면적,방구조,역도보시간(버스제외),1층제외,반려동물조건으로찾습니다.월비용이낮은순으로최대50건,상세페이지와지도링크를함께보여줍니다.대화안의카드claude.ai(웹·iPhone)와ChatGPT에서는방이카드로보입니다.월비용,구조,층,면적,역까지거리,배지,그리고UR과지도로가는버튼이있고,앱의색과다크모드를따릅니다.카드를지원하지않는곳에서는같은내용을표로받습니다.변동보고감시중인지역에서새로나온방,다시나온방,마감된방을내조건으로걸러알려줍니다.확인할때마다물어보면놓치는방이없고,확인사이에잠깐나왔다사라진방도시각과함께보여줍니다.알림조건은대화로“14만엔까지로하고1층은빼줘”라고말하면사용자별로저장되어다음알림부터적용됩니다.자체기록감시중인지역을일본시간8시·12시·16시에확인해SQLite에기록합니다.그래서“새방”은지난검색대비가아니라이서비스기준으로새로나온방입니다.Claude에서도ChatGPT에서도ClaudeCode는Bearer토큰으로,claude.ai와ChatGPT커넥터는사용자별비밀URL로연결합니다.사람을추가하거나URL을다시발급하거나끊는것도AI에게말하면되고,재배포는필요없습니다.기술구성서버Node.js24(TypeScript를빌드없이실행)·Hono·MCPTypeScriptSDK(stateless)·MCPApps(ext-apps)·Zod데이터UR공식사이트가보여주는빈방데이터·Railway볼륨에둔SQLite(node:sqlite)클라이언트ClaudeCode·claude.ai웹·iOS(커넥터,예약작업)·ChatGPT앱인프라Railway(싱가포르)·레플리카1개·서비스설정을코드로관리(railway.ts)품질기록해둔UR응답기반Vitest·실환경스모크테스트·Biome·TypeScript7·GitHubActionsUR도시기구와는관계가없습니다.빈방여부는반드시UR공식사이트에서확인해주세요.카드화면은예시데이터이고,나머지이미지는실제URMCPApp결과를바탕으로재구성한것입니다.",
+    "mainText": "URCheck페이지로돌아가기보관·URCheck에통합됨URMCPAppClaude와ChatGPT에서UR임대빈방을찾을수있었던MCP서버이자앱입니다.2026년10월URCheck로통합되어별도운영을종료했습니다.종류MCP서버+MCPApp·Claude·ChatGPT용도구3종기간2026년10월운영환경Railway(싱가포르·운영종료)·볼륨에둔SQLite소개2026년10월,URManager와함께URCheck로통합했습니다.주요기능대화로검색Claude와ChatGPT에서빈방을검색하고결과를카드로보여줬습니다.변동확인저장한조건에맞는방의신규등록·재등록·모집종료내역을확인할수있었습니다.기술구성서버Node.js24(TypeScript를빌드없이실행)·Hono·MCPTypeScriptSDK(stateless)·MCPApps(ext-apps)·Zod데이터UR공식사이트가보여주는빈방데이터·Railway볼륨에둔SQLite(node:sqlite)클라이언트ClaudeCode·claude.ai웹·iOS(커넥터,예약작업)·ChatGPT앱인프라Railway(싱가포르)·레플리카1개·서비스설정을코드로관리(railway.ts)품질기록해둔UR응답기반Vitest·실환경스모크테스트·Biome·TypeScript7·GitHubActionsUR도시기구와는관계가없습니다.빈방여부는반드시UR공식사이트에서확인해주세요.카드화면은예시데이터이고,나머지이미지는실제URMCPApp결과를바탕으로재구성한것입니다.",
     "links": [
       "/ko/projects/ur-check"
     ],
@@ -1552,7 +1552,7 @@
         "@context": "https://schema.org",
         "@type": "CreativeWork",
         "name": "UR MCP App",
-        "description": "UR에는 공개 API가 없습니다. UR MCP App은 공식 사이트가 빈방을 보여 줄 때와 같은 데이터를 빈방 검색, 변동 보고, 알림 조건 저장이라는 MCP 도구 3개로 AI 에이전트에 제공합니다. 요청은 간격을 두고 하나씩 보내고 이미지는 받지 않아서, 부하는 사람 한 명이 검색 결과를 보는 정도입니다. Claude와 ChatGPT에서는 방 목록이 대화 안에 카드로 바로 보입니다.",
+        "description": "Claude와 ChatGPT에서 UR 임대 빈방을 찾을 수 있었던 MCP 서버이자 앱입니다. 2026년 10월 UR Check로 통합되어 별도 운영을 종료했습니다.",
         "inLanguage": "ko",
         "author": {
           "@type": "Person",

@@ -14,9 +14,9 @@ export const urManager: Project = {
   order: 6,
 
   tagline:
-    "Save the UR apartment you're looking for — area, rent, layout, walk time — and get an email when a matching room opens up.",
+    "A former UR vacancy search and email alert service, now part of UR Check.",
   summary:
-    "Save the UR apartment you're looking for and get an email when a matching room opens up, so you don't have to keep refreshing the site.",
+    "A web service for UR vacancy searches and email alerts. It was merged into UR Check in October 2026 and is no longer operated separately.",
   cardStack: ["Spring Boot", "Azure", "Terraform"],
   facts: [
     { label: "Type", value: "Web service (Japanese UI)" },
@@ -35,22 +35,17 @@ export const urManager: Project = {
   },
 
   about: [
-    "UR rentals in Tokyo go fast, and the official site has no alerts. I was checking it by hand every day, so I built a service to do it for me.",
-    "You can start with one saved search without signing up. Sign in with Google later and your searches and history come with you. To ask in a chat with Claude or ChatGPT instead, there's UR MCP App.",
-    "In October 2026 I merged this with UR MCP App into UR Check and shut this one down.",
+    "Merged with UR MCP App into UR Check in October 2026.",
   ],
   features: [
     {
       title: "Saved searches",
-      body: "Area, rent, floor space, layout and walk time across Tokyo, Kanagawa, Chiba, Saitama and Ibaraki.",
+      body: "Saved conditions for area, rent, layout and walk time.",
     },
-    { title: "Scheduled checks", body: "Each search is checked on its own interval between 08:00 and 20:00 JST." },
     {
-      title: "Change-only emails",
-      body: "One summary when you turn alerts on, then only rooms that are new or listed again.",
+      title: "Vacancy alerts",
+      body: "Checked for vacancies regularly and emailed new or relisted rooms.",
     },
-    { title: "Guest to member", body: "Searches and history move over in one step when you sign in with Google." },
-    { title: "History", body: "Every check and every email is listed with its result." },
   ],
   gallery: [
     { src: wizard, alt: "Creating a search step by step: area, rent, layout, size and walk time, checks and a name" },
