@@ -22,7 +22,7 @@
       "twitter:description": "Henry Kim — backend engineer in Tokyo. Side projects built end to end with Java, Spring, cloud and the web."
     },
     "oldOgImage": "https://www.portfolio-hub.dev/opengraph-image-35z9bs?1a5f1573d33b5f53",
-    "mainText": "HenryKim—BackendSoftwareEngineerHHello,I'mHenryKim.BackendengineerinTokyo,workingmainlyinJavaandSpring.OutsideworkIbuildsmallproductsendtoend,fromdesignandcodetocloudinfrastructureandkeepingthemrunning.Tokyo·JSTDayjobBackendEngineerPayments&finance·API·DB·Auth·CloudToolsIreachforJavaKotlinSpringBootPostgreSQLAzureTerraformNext.jsTypeScriptProjectsPunyChatLive·AppStoresoonAmessengerfortwo,withatinypixelbuddyyouraisetogetherjustbychatting.Raiseabuddy—PunyChatlivesiteGitHub—PunyChatsourceExpo·SpringWebFlux·MongoDBURCheckLive·Inviteonly·IuseitSearchURrentalvacanciesbyyourconditionsandtrackroomsthatarenew,relistedorgone.ThewebsiteandAIassistantsworkfromthesameconditionsandhistory.Trythedemo—URChecklivesiteBun·PostgreSQL·MCPGitLeafLive·FreetouseYouryearofGitHubcontributions,paintedasawatercolorplant:oneleafforeachday.PasteonelineintoyourREADMEtouseit.GitHub—GitLeafsourceTypeScript·CloudflareWorkers·SVGQuantLabLive·Realtradesat1/100Apaydayinvestingbotthatcopiesyourhabits,andAIbotsthatsetthemixeveryday.Allofthemrunonmyrealaccountat1/100scale.Trythedemo—QuantLablivesitePython·FastAPI·ClaudeAPIPokepediaLive·RemakeGuessPokémon,collectstickers,thentakeyourPikachuintoaUnitybattle.AGen1PokédexinKorean,EnglishandJapanese.CatchaPokémon—PokepedialivesiteGitHub—PokepediasourceNext.js·Unity·SupabaseWritingDevbloghukutaku.tistory.comGitHub@ottuckMoreaboutmeAbout",
+    "mainText": "HenryKim—BackendSoftwareEngineerHHello,I'mHenryKim.BackendengineerinTokyo,workingmainlyinJavaandSpring.OutsideworkIbuildsmallproductsendtoend,fromdesignandcodetocloudinfrastructureandkeepingthemrunning.Tokyo·JSTDayjobBackendEngineerPayments&finance·API·DB·Auth·CloudToolsIreachforJavaKotlinSpringBootPostgreSQLAzureTerraformNext.jsTypeScriptProjectsPunyChatLive·AppStoresoonAmessengerfortwo,withatinypixelbuddyyouraisetogetherjustbychatting.Raiseabuddy—PunyChatlivesiteGitHub—PunyChatsourceExpo·SpringWebFlux·MongoDBURCheckLive·Inviteonly·IuseitSearchURrentalvacanciesbyyourconditionsandtrackroomsthatarenew,relistedorgone.ThewebsiteandAIassistantsworkfromthesameconditionsandhistory.Trythedemo—URChecklivesiteBun·PostgreSQL·MCPGitLeafLive·FreetouseYouryearofGitHubcontributions,paintedasawatercolorplant:oneleafforeachday.PasteonelineintoyourREADMEtouseit.GitHub—GitLeafsourceTypeScript·CloudflareWorkers·SVGQuantLabLive·Realtradesat1/100Apaydayinvestingbotthatcopiesyourhabits,andAIbotsthatsetthemixeveryday.Allofthemrunonmyrealaccountat1/100scale.Trythedemo—QuantLablivesitePython·FastAPI·ClaudeAPIPokepediaLive·Remake“Who'sthatPokémon?”asaGameBoy–stylebattle,withaGen1Pokédexandastickerbook.InKorean,EnglishandJapanese.CatchaPokémon—PokepedialivesiteGitHub—PokepediasourceNext.js·Supabase·TypeScriptWritingDevbloghukutaku.tistory.comGitHub@ottuckMoreaboutmeAbout",
     "links": [
       "/about",
       "/projects/gitleaf",
@@ -48,7 +48,7 @@
       "A year of contributions as a plant, and a close-up of its leaves",
       "Quant Lab home: the copy-me bot next to just buying every month, and the next payday's buys",
       "Quant Lab home on a phone",
-      "Unity battle between Pikachu and Blastoise, with three moves to choose from",
+      "Game Boy–style battle: a Pokémon silhouette, the trainer's back and the command box",
       "The Pokédex on a phone"
     ],
     "jsonLd": [
@@ -101,7 +101,7 @@
       "twitter:title": "Projects",
       "twitter:description": "Side projects I designed, built and run myself."
     },
-    "mainText": "ProjectsThingsIdesigned,builtandkeeprunningmyself.Eachonesayswhereitstands.AllprojectsPunyChatLive·AppStoresoonAmessengerfortwo,withatinypixelbuddyyouraisetogetherjustbychatting.Raiseabuddy—PunyChatlivesiteGitHub—PunyChatsourceExpo·SpringWebFlux·MongoDBURCheckLive·Inviteonly·IuseitSearchURrentalvacanciesbyyourconditionsandtrackroomsthatarenew,relistedorgone.ThewebsiteandAIassistantsworkfromthesameconditionsandhistory.Trythedemo—URChecklivesiteBun·PostgreSQL·MCPGitLeafLive·FreetouseYouryearofGitHubcontributions,paintedasawatercolorplant:oneleafforeachday.PasteonelineintoyourREADMEtouseit.GitHub—GitLeafsourceTypeScript·CloudflareWorkers·SVGQuantLabLive·Realtradesat1/100Apaydayinvestingbotthatcopiesyourhabits,andAIbotsthatsetthemixeveryday.Allofthemrunonmyrealaccountat1/100scale.Trythedemo—QuantLablivesitePython·FastAPI·ClaudeAPIPokepediaLive·RemakeGuessPokémon,collectstickers,thentakeyourPikachuintoaUnitybattle.AGen1PokédexinKorean,EnglishandJapanese.CatchaPokémon—PokepedialivesiteGitHub—PokepediasourceNext.js·Unity·Supabase",
+    "mainText": "ProjectsThingsIdesigned,builtandkeeprunningmyself.Eachonesayswhereitstands.AllprojectsPunyChatLive·AppStoresoonAmessengerfortwo,withatinypixelbuddyyouraisetogetherjustbychatting.Raiseabuddy—PunyChatlivesiteGitHub—PunyChatsourceExpo·SpringWebFlux·MongoDBURCheckLive·Inviteonly·IuseitSearchURrentalvacanciesbyyourconditionsandtrackroomsthatarenew,relistedorgone.ThewebsiteandAIassistantsworkfromthesameconditionsandhistory.Trythedemo—URChecklivesiteBun·PostgreSQL·MCPGitLeafLive·FreetouseYouryearofGitHubcontributions,paintedasawatercolorplant:oneleafforeachday.PasteonelineintoyourREADMEtouseit.GitHub—GitLeafsourceTypeScript·CloudflareWorkers·SVGQuantLabLive·Realtradesat1/100Apaydayinvestingbotthatcopiesyourhabits,andAIbotsthatsetthemixeveryday.Allofthemrunonmyrealaccountat1/100scale.Trythedemo—QuantLablivesitePython·FastAPI·ClaudeAPIPokepediaLive·Remake“Who'sthatPokémon?”asaGameBoy–stylebattle,withaGen1Pokédexandastickerbook.InKorean,EnglishandJapanese.CatchaPokémon—PokepedialivesiteGitHub—PokepediasourceNext.js·Supabase·TypeScript",
     "links": [
       "/projects/gitleaf",
       "/projects/pokepedia",
@@ -124,7 +124,7 @@
       "A year of contributions as a plant, and a close-up of its leaves",
       "Quant Lab home: the copy-me bot next to just buying every month, and the next payday's buys",
       "Quant Lab home on a phone",
-      "Unity battle between Pikachu and Blastoise, with three moves to choose from",
+      "Game Boy–style battle: a Pokémon silhouette, the trainer's back and the command box",
       "The Pokédex on a phone"
     ],
     "jsonLd": []
@@ -375,7 +375,7 @@
   "/projects/pokepedia": {
     "title": "Pokepedia — Henry Kim",
     "lang": "en",
-    "description": "A Pokémon quiz and sticker collection with turn-based battles built in Unity. Browse the original 151 in the Pokédex, then battle Blastoise with the Pikachu you earned in the quiz. Play in a desktop or mobile browser, in Korean, English or Japanese.",
+    "description": "A silhouette game styled like a Game Boy battle: name the Pokémon, throw a Poké Ball, and it goes into your sticker book. A Pokédex of the original 151 sits next to it.",
     "canonical": "https://www.portfolio-hub.dev/projects/pokepedia",
     "alternates": {
       "en": "https://www.portfolio-hub.dev/projects/pokepedia",
@@ -385,17 +385,17 @@
     },
     "og": {
       "og:title": "Pokepedia",
-      "og:description": "A Pokémon quiz and sticker collection with turn-based battles built in Unity. Browse the original 151 in the Pokédex, then battle Blastoise with the Pikachu you earned in the quiz. Play in a desktop or mobile browser, in Korean, English or Japanese.",
+      "og:description": "A silhouette game styled like a Game Boy battle: name the Pokémon, throw a Poké Ball, and it goes into your sticker book. A Pokédex of the original 151 sits next to it.",
       "og:url": "https://www.portfolio-hub.dev/projects/pokepedia",
       "og:site_name": "Henry Kim",
       "og:locale": "en_US",
       "og:type": "article",
       "twitter:card": "summary_large_image",
       "twitter:title": "Pokepedia",
-      "twitter:description": "A Pokémon quiz and sticker collection with turn-based battles built in Unity. Browse the original 151 in the Pokédex, then battle Blastoise with the Pikachu you earned in the quiz. Play in a desktop or mobile browser, in Korean, English or Japanese."
+      "twitter:description": "A silhouette game styled like a Game Boy battle: name the Pokémon, throw a Poké Ball, and it goes into your sticker book. A Pokédex of the original 151 sits next to it."
     },
     "oldOgImage": "https://www.portfolio-hub.dev/projects/pokepedia/opengraph-image-155u2j?cf4130ca3324dbb8",
-    "mainText": "AllprojectsLive·RemakePokepediaAPokémonquizandstickercollectionwithturn-basedbattlesbuiltinUnity.Browsetheoriginal151inthePokédex,thenbattleBlastoisewiththePikachuyouearnedinthequiz.Playinadesktopormobilebrowser,inKorean,EnglishorJapanese.CatchaPokémonGitHubTypeWebapp+UnityWebGL·KO/EN/JAPeriodSep–Oct2026(remake)RunsonVercel·Supabase·CloudflarePagesAboutIn2023IbuiltaPokédexasaJSPteamproject.Thisisasolorebuildonamodernstack,toseehowfarasmallappcanbepolished.Thegameisthefrontpagenow.Asilhouetteappears;nameitinanyofthethreelanguagesandthetrainerthrowsaPokéBall.Missthreetimesandtherunisover.Nosign-up:youplayasaguest,andlinkingGooglelaterkeepsyourstickersandscores.IextendedthewebgamewithaUnityWebGLbattle,embeddedinthesamesite.Thequiz,collectionandbattleareconnected:earnPikachu,thenenteramatchagainstBlastoisefromtherewardscreenorstickerbook.Thisreleaseisasingle-playerbattlewithPikachuastheplayablePokémon.WhatitdoesSilhouettequizFighttoanswer,Hintforhalfthename,Skip,Run—arrowkeysandZworktoo.Pikachu,피카츄orピカチュウallcount.FromquiztobattleEarnPikachuinthequiz,thenenterabattlefromtherewardscreenoritsstickerinyourcollection.Unityturn-basedbattlePickTackle,ThunderboltorThunderagainstBlastoise.Speeddeterminesturnorder,withtypematchups,accuracyandcriticalhitsshapingtheresult.Rain,lightandmoveeffectsApixel-artarenawithrain,fogand2Dlighting.ThunderboltandHydroPumphavetheirowneffects,cameramovementandsynthesizedaudio.PokédexAll151ononepage.Searchbynameinthreelanguagesorbynumber;typefiltersandsortingstayintheURL.DetailcardsStats,abilitiesandevolutions.Artworksitsonaholographiccardthattiltswithyourpointerorfingerandflipstotheshinyversion.Stickerbook&ranking151slotstofill,shinyonesincluded,andaleaderboardofeveryone'sbestrun.Howit'sbuiltAppNext.js16(AppRouter,RSC,ServerActions)·React19·TypeScriptUITailwindCSSv4·Motion·Zustand·next-intlBattleUnity6.3LTS·C#·uGUI·TextMeshPro·URP2D·WebGLDataSupabase—Postgres,Auth,Storage·RowLevelSecurity·RPC·pg_cronTestingVitest·Playwright·NUnit(.NET)HostingVercel·Supabase·CloudflarePagesPokémonandrelatednamesandartworkare©Nintendo,ThePokémonCompany,CreaturesInc.andGAMEFREAKinc.Anunofficial,non-commercialfanproject.PreviousQuantLab",
+    "mainText": "AllprojectsLive·RemakePokepediaAsilhouettegamestyledlikeaGameBoybattle:namethePokémon,throwaPokéBall,anditgoesintoyourstickerbook.APokédexoftheoriginal151sitsnexttoit.CatchaPokémonGitHubTypeWebapp·KO/EN/JAPeriodSep–Oct2026(remake)RunsonVercel+Supabase,TokyoAboutIn2023IbuiltaPokédexasaJSPteamproject.Thisisasolorebuildonamodernstack,toseehowfarasmallappcanbepolished.Thegameisthefrontpagenow.Asilhouetteappears;nameitinanyofthethreelanguagesandthetrainerthrowsaPokéBall.Missthreetimesandtherunisover.Nosign-up:youplayasaguest,andlinkingGooglelaterkeepsyourstickersandscores.WhatitdoesSilhouettebattleFighttoanswer,Hintforhalfthename,Skip,Run—arrowkeysandZworktoo.Pikachu,피카츄orピカチュウallcount.ThrowaPokéBallGetitrightandthetrainer,hand-drawninGameBoygreys,throwstheballbeforethePokémonisrevealed.Streaksraisethescoreandtheshinyodds.PokédexAll151ononepage.Searchbynameinthreelanguagesorbynumber;typefiltersandsortingstayintheURL.DetailcardsStats,abilitiesandevolutions.Artworksitsonaholographiccardthattiltswithyourpointerorfingerandflipstotheshinyversion.Stickerbook&ranking151slotstofill,shinyonesincluded,andaleaderboardofeveryone'sbestrun.PlaysonaphoneThewholeGameBoyfitsonasmallscreen,andthepagedoesn'tscrollunderyourthumbduringabattle.Howit'sbuiltAppNext.js16(AppRouter,RSC,ServerActions)·React19·TypeScriptUITailwindCSSv4·Motion·Zustand·next-intlDataSupabase—Postgres,Auth,Storage·RowLevelSecurity·RPC·pg_cronTestingVitest·PlaywrightHostingVercel(Tokyo)·Supabase(Tokyo)·Analytics·SpeedInsightsPokémonandrelatednamesandartworkare©Nintendo,ThePokémonCompany,CreaturesInc.andGAMEFREAKinc.Anunofficial,non-commercialfanproject.PreviousQuantLab",
     "links": [
       "/projects",
       "/projects/quant-lab",
@@ -403,20 +403,18 @@
       "https://pokepedia.dev"
     ],
     "alts": [
-      "Unity battle between Pikachu and Blastoise, with three moves to choose from",
-      "Game Boy-style Pokémon silhouette quiz",
-      "Pikachu sticker reward with a button to enter the battle",
-      "Pikachu using Thunderbolt in the Unity battle",
-      "Pokepedia GOLD title screen",
+      "Game Boy–style battle: a Pokémon silhouette, the trainer's back and the command box",
+      "The game's title screen, now the front page",
+      "A shiny sticker for a correct answer",
       "Charizard on a holographic detail card",
-      "Pikachu in the sticker collection with a battle shortcut"
+      "Sticker collection"
     ],
     "jsonLd": [
       {
         "@context": "https://schema.org",
         "@type": "CreativeWork",
         "name": "Pokepedia",
-        "description": "A Pokémon quiz and sticker collection with turn-based battles built in Unity. Browse the original 151 in the Pokédex, then battle Blastoise with the Pikachu you earned in the quiz. Play in a desktop or mobile browser, in Korean, English or Japanese.",
+        "description": "A silhouette game styled like a Game Boy battle: name the Pokémon, throw a Poké Ball, and it goes into your sticker book. A Pokédex of the original 151 sits next to it.",
         "url": "https://pokepedia.dev",
         "codeRepository": "https://github.com/ottuck/pokepedia",
         "inLanguage": "en",
@@ -545,7 +543,7 @@
       "twitter:description": "Henry Kim — 東京のバックエンドエンジニア。Java・Spring・クラウド・Webを使い、企画から運用まで一人で手がけたサイドプロジェクトを紹介します。"
     },
     "oldOgImage": "https://www.portfolio-hub.dev/ja/opengraph-image?3e80f0d4b49b655a",
-    "mainText": "HenryKim—バックエンドエンジニアHこんにちは。HenryKimです。東京でバックエンドエンジニアとして働いています。業務では主にJavaとSpringを使っています。業務外では、小さなプロダクトを設計から実装、クラウド構築、運用まで一人で手がけています。東京·JST本業バックエンド開発決済・金融·API·DB·認証·クラウドよく使う技術JavaKotlinSpringBootPostgreSQLAzureTerraformNext.jsTypeScript作品PunyChat公開中·AppStore準備中ふたりのためのメッセンジャー。会話するだけで、小さなドット絵のバディを一緒に育てられます。バディを育てに行く—PunyChatサイトGitHub—PunyChatソースコードExpo·SpringWebFlux·MongoDBURCheck公開中·招待制·実際に利用中UR賃貸の空室を条件で検索し、新着・再募集・募集終了の部屋を追跡します。WebサイトとAIアシスタントが、同じ条件と履歴を使います。デモを見る—URCheckサイトBun·PostgreSQL·MCPGitLeaf公開中·誰でも使えますGitHubの1年間のコントリビューションを、水彩画の植物として描くサービス。1日が1枚の葉になります。READMEに1行貼るだけで使えます。GitHub—GitLeafソースコードTypeScript·CloudflareWorkers·SVGQuantLab公開中·1/100で実取引自分のクセをコピーして給料日に代わりに買うボットと、毎日配分を決めるAIボットたち。どれも自分の実口座で、1/100のスケールで動かしています。デモを見る—QuantLabサイトPython·FastAPI·ClaudeAPIPokepedia公開中·リメイク名前を当ててシールを集め、ピカチュウでUnityのバトルへ。初代の図鑑とともに、日本語・英語・韓国語に対応しています。ポケモンを捕まえに行く—PokepediaサイトGitHub—PokepediaソースコードNext.js·Unity·Supabase発信開発ブログhukutaku.tistory.comGitHub@ottuckプロフィールを見るプロフィール",
+    "mainText": "HenryKim—バックエンドエンジニアHこんにちは。HenryKimです。東京でバックエンドエンジニアとして働いています。業務では主にJavaとSpringを使っています。業務外では、小さなプロダクトを設計から実装、クラウド構築、運用まで一人で手がけています。東京·JST本業バックエンド開発決済・金融·API·DB·認証·クラウドよく使う技術JavaKotlinSpringBootPostgreSQLAzureTerraformNext.jsTypeScript作品PunyChat公開中·AppStore準備中ふたりのためのメッセンジャー。会話するだけで、小さなドット絵のバディを一緒に育てられます。バディを育てに行く—PunyChatサイトGitHub—PunyChatソースコードExpo·SpringWebFlux·MongoDBURCheck公開中·招待制·実際に利用中UR賃貸の空室を条件で検索し、新着・再募集・募集終了の部屋を追跡します。WebサイトとAIアシスタントが、同じ条件と履歴を使います。デモを見る—URCheckサイトBun·PostgreSQL·MCPGitLeaf公開中·誰でも使えますGitHubの1年間のコントリビューションを、水彩画の植物として描くサービス。1日が1枚の葉になります。READMEに1行貼るだけで使えます。GitHub—GitLeafソースコードTypeScript·CloudflareWorkers·SVGQuantLab公開中·1/100で実取引自分のクセをコピーして給料日に代わりに買うボットと、毎日配分を決めるAIボットたち。どれも自分の実口座で、1/100のスケールで動かしています。デモを見る—QuantLabサイトPython·FastAPI·ClaudeAPIPokepedia公開中·リメイク「このポケモン、だーれだ？」をゲームボーイ風のバトルで。初代ポケモン図鑑とシール帳つき。日本語・英語・韓国語に対応しています。ポケモンを捕まえに行く—PokepediaサイトGitHub—PokepediaソースコードNext.js·Supabase·TypeScript発信開発ブログhukutaku.tistory.comGitHub@ottuckプロフィールを見るプロフィール",
     "links": [
       "/ja/about",
       "/ja/projects/gitleaf",
@@ -571,7 +569,7 @@
       "1年のコントリビューションを描いた植物と、その葉のクローズアップ",
       "Quant Labのホーム。自分コピーボットと毎月ただ買う場合の比較、次の給料日に買うもの",
       "スマホで見たQuant Labのホーム",
-      "ピカチュウとカメックスのUnityバトル。3つの技を選ぶ画面",
+      "ゲームボーイ風のバトル画面。ポケモンのシルエット、トレーナーの後ろ姿、コマンド欄",
       "スマホで見た図鑑"
     ],
     "jsonLd": [
@@ -624,7 +622,7 @@
       "twitter:title": "作品",
       "twitter:description": "設計から開発、運用まで自分で手がけているサイドプロジェクトです。"
     },
-    "mainText": "作品設計から開発、運用まで自分で手がけているサイドプロジェクトです。それぞれの現在の状況も記載しています。すべての作品PunyChat公開中·AppStore準備中ふたりのためのメッセンジャー。会話するだけで、小さなドット絵のバディを一緒に育てられます。バディを育てに行く—PunyChatサイトGitHub—PunyChatソースコードExpo·SpringWebFlux·MongoDBURCheck公開中·招待制·実際に利用中UR賃貸の空室を条件で検索し、新着・再募集・募集終了の部屋を追跡します。WebサイトとAIアシスタントが、同じ条件と履歴を使います。デモを見る—URCheckサイトBun·PostgreSQL·MCPGitLeaf公開中·誰でも使えますGitHubの1年間のコントリビューションを、水彩画の植物として描くサービス。1日が1枚の葉になります。READMEに1行貼るだけで使えます。GitHub—GitLeafソースコードTypeScript·CloudflareWorkers·SVGQuantLab公開中·1/100で実取引自分のクセをコピーして給料日に代わりに買うボットと、毎日配分を決めるAIボットたち。どれも自分の実口座で、1/100のスケールで動かしています。デモを見る—QuantLabサイトPython·FastAPI·ClaudeAPIPokepedia公開中·リメイク名前を当ててシールを集め、ピカチュウでUnityのバトルへ。初代の図鑑とともに、日本語・英語・韓国語に対応しています。ポケモンを捕まえに行く—PokepediaサイトGitHub—PokepediaソースコードNext.js·Unity·Supabase",
+    "mainText": "作品設計から開発、運用まで自分で手がけているサイドプロジェクトです。それぞれの現在の状況も記載しています。すべての作品PunyChat公開中·AppStore準備中ふたりのためのメッセンジャー。会話するだけで、小さなドット絵のバディを一緒に育てられます。バディを育てに行く—PunyChatサイトGitHub—PunyChatソースコードExpo·SpringWebFlux·MongoDBURCheck公開中·招待制·実際に利用中UR賃貸の空室を条件で検索し、新着・再募集・募集終了の部屋を追跡します。WebサイトとAIアシスタントが、同じ条件と履歴を使います。デモを見る—URCheckサイトBun·PostgreSQL·MCPGitLeaf公開中·誰でも使えますGitHubの1年間のコントリビューションを、水彩画の植物として描くサービス。1日が1枚の葉になります。READMEに1行貼るだけで使えます。GitHub—GitLeafソースコードTypeScript·CloudflareWorkers·SVGQuantLab公開中·1/100で実取引自分のクセをコピーして給料日に代わりに買うボットと、毎日配分を決めるAIボットたち。どれも自分の実口座で、1/100のスケールで動かしています。デモを見る—QuantLabサイトPython·FastAPI·ClaudeAPIPokepedia公開中·リメイク「このポケモン、だーれだ？」をゲームボーイ風のバトルで。初代ポケモン図鑑とシール帳つき。日本語・英語・韓国語に対応しています。ポケモンを捕まえに行く—PokepediaサイトGitHub—PokepediaソースコードNext.js·Supabase·TypeScript",
     "links": [
       "/ja/projects/gitleaf",
       "/ja/projects/pokepedia",
@@ -647,7 +645,7 @@
       "1年のコントリビューションを描いた植物と、その葉のクローズアップ",
       "Quant Labのホーム。自分コピーボットと毎月ただ買う場合の比較、次の給料日に買うもの",
       "スマホで見たQuant Labのホーム",
-      "ピカチュウとカメックスのUnityバトル。3つの技を選ぶ画面",
+      "ゲームボーイ風のバトル画面。ポケモンのシルエット、トレーナーの後ろ姿、コマンド欄",
       "スマホで見た図鑑"
     ],
     "jsonLd": []
@@ -898,7 +896,7 @@
   "/ja/projects/pokepedia": {
     "title": "Pokepedia — Henry Kim",
     "lang": "ja",
-    "description": "ポケモンの名前を当ててシールを集めるWebゲームに、Unityで作ったターン制バトルを追加しました。初代151匹の図鑑とシール帳を備え、クイズで手に入れたピカチュウでカメックスと対戦できます。PC・スマホのブラウザで遊べ、日本語・英語・韓国語に対応しています。",
+    "description": "ゲームボーイのバトル画面を再現したシルエットクイズです。ポケモンの名前を当てるとモンスターボールを投げ、シール帳に追加されます。初代151匹の図鑑も備えています。",
     "canonical": "https://www.portfolio-hub.dev/ja/projects/pokepedia",
     "alternates": {
       "en": "https://www.portfolio-hub.dev/projects/pokepedia",
@@ -908,17 +906,17 @@
     },
     "og": {
       "og:title": "Pokepedia",
-      "og:description": "ポケモンの名前を当ててシールを集めるWebゲームに、Unityで作ったターン制バトルを追加しました。初代151匹の図鑑とシール帳を備え、クイズで手に入れたピカチュウでカメックスと対戦できます。PC・スマホのブラウザで遊べ、日本語・英語・韓国語に対応しています。",
+      "og:description": "ゲームボーイのバトル画面を再現したシルエットクイズです。ポケモンの名前を当てるとモンスターボールを投げ、シール帳に追加されます。初代151匹の図鑑も備えています。",
       "og:url": "https://www.portfolio-hub.dev/ja/projects/pokepedia",
       "og:site_name": "Henry Kim",
       "og:locale": "ja_JP",
       "og:type": "article",
       "twitter:card": "summary_large_image",
       "twitter:title": "Pokepedia",
-      "twitter:description": "ポケモンの名前を当ててシールを集めるWebゲームに、Unityで作ったターン制バトルを追加しました。初代151匹の図鑑とシール帳を備え、クイズで手に入れたピカチュウでカメックスと対戦できます。PC・スマホのブラウザで遊べ、日本語・英語・韓国語に対応しています。"
+      "twitter:description": "ゲームボーイのバトル画面を再現したシルエットクイズです。ポケモンの名前を当てるとモンスターボールを投げ、シール帳に追加されます。初代151匹の図鑑も備えています。"
     },
     "oldOgImage": "https://www.portfolio-hub.dev/ja/projects/pokepedia/opengraph-image?31bd313c9f59e355",
-    "mainText": "作品一覧公開中·リメイクPokepediaポケモンの名前を当ててシールを集めるWebゲームに、Unityで作ったターン制バトルを追加しました。初代151匹の図鑑とシール帳を備え、クイズで手に入れたピカチュウでカメックスと対戦できます。PC・スマホのブラウザで遊べ、日本語・英語・韓国語に対応しています。ポケモンを捕まえに行くGitHub種類Webアプリ+UnityWebGL·日本語/英語/韓国語期間2026年9〜10月（リメイク）運用環境Vercel·Supabase·CloudflarePages概要2023年にJSPのチームプロジェクトとして作ったポケモン図鑑を、現在の技術スタックで一人で作り直しました。小さなアプリをどこまで磨き込めるかを試しているプロジェクトです。現在はゲームがトップページです。シルエットが表示されたら3言語のいずれかで名前を答え、正解するとトレーナーがモンスターボールを投げます。3回間違えるとゲームオーバーです。登録不要のゲストとして遊べ、後からGoogleアカウントを連携してもシールとスコアは引き継がれます。同じサイト内にUnityWebGLのバトルを組み込みました。クイズでピカチュウを手に入れると、報酬画面やシール帳からカメックスとの対戦を始められます。現在の公開版は、ピカチュウを操作してカメックスと戦う1人用バトルです。主な機能シルエットクイズ「たたかう」で回答、「ヒント」で名前の半分を表示、「スキップ」と「にげる」も選べます。矢印キーとZキーにも対応。ピカチュウ、Pikachu、피카츄のどれでも正解になります。クイズからバトルへクイズでピカチュウを手に入れると、報酬画面やシール帳のピカチュウからバトルへ進めます。Unityのターン制バトルピカチュウのたいあたり・10まんボルト・かみなりを選び、カメックスと対戦。すばやさで行動順を決め、タイプ相性・命中率・急所を反映して結果を計算します。天候と技の演出ピクセルアートの背景に雨・霧と2Dライティングを追加。10まんボルトとハイドロポンプには専用エフェクト、カメラの動き、合成音を組み合わせています。図鑑151匹を1ページで一覧できます。3言語の名前または番号で検索でき、タイプの絞り込みと並び順はURLに保持されます。詳細カード能力値、特性、進化を表示します。アートワークはマウスや指の動きに合わせて傾くホログラムカードで、タップすると色違いに切り替わります。シール帳とランキング色違いを含む151枠のシール帳と、全プレイヤーのベスト記録ランキング。技術構成アプリNext.js16(AppRouter,RSC,ServerActions)·React19·TypeScriptUITailwindCSSv4·Motion·Zustand·next-intlバトルUnity6.3LTS·C#·uGUI·TextMeshPro·URP2D·WebGLデータSupabase—Postgres,Auth,Storage·RowLevelSecurity·RPC·pg_cronテストVitest·Playwright·NUnit(.NET)ホスティングVercel·Supabase·CloudflarePagesポケモンおよび関連する名称・アートワークの権利は任天堂、株式会社ポケモン、クリーチャーズ、ゲームフリークに帰属します。非公式・非営利のファンプロジェクトです。前へQuantLab",
+    "mainText": "作品一覧公開中·リメイクPokepediaゲームボーイのバトル画面を再現したシルエットクイズです。ポケモンの名前を当てるとモンスターボールを投げ、シール帳に追加されます。初代151匹の図鑑も備えています。ポケモンを捕まえに行くGitHub種類Webアプリ·日本語/英語/韓国語期間2026年9〜10月（リメイク）運用環境Vercel+Supabase（東京）概要2023年にJSPのチームプロジェクトとして作ったポケモン図鑑を、現在の技術スタックで一人で作り直しました。小さなアプリをどこまで磨き込めるかを試しているプロジェクトです。現在はゲームがトップページです。シルエットが表示されたら3言語のいずれかで名前を答え、正解するとトレーナーがモンスターボールを投げます。3回間違えるとゲームオーバーです。登録不要のゲストとして遊べ、後からGoogleアカウントを連携してもシールとスコアは引き継がれます。主な機能シルエットバトル「たたかう」で回答、「ヒント」で名前の半分を表示、「スキップ」と「にげる」も選べます。矢印キーとZキーにも対応。ピカチュウ、Pikachu、피카츄のどれでも正解になります。モンスターボールを投げる正解すると、ゲームボーイの灰色で手描きしたトレーナーがボールを投げ、ポケモンの姿が明らかになります。連続正解でスコアと色違いの出現率が上がります。図鑑151匹を1ページで一覧できます。3言語の名前または番号で検索でき、タイプの絞り込みと並び順はURLに保持されます。詳細カード能力値、特性、進化を表示します。アートワークはマウスや指の動きに合わせて傾くホログラムカードで、タップすると色違いに切り替わります。シール帳とランキング色違いを含む151枠のシール帳と、全プレイヤーのベスト記録ランキング。スマホ対応ゲームボーイ全体が小さな画面に収まり、バトル中に画面に触れてもページがスクロールしません。技術構成アプリNext.js16(AppRouter,RSC,ServerActions)·React19·TypeScriptUITailwindCSSv4·Motion·Zustand·next-intlデータSupabase—Postgres,Auth,Storage·RowLevelSecurity·RPC·pg_cronテストVitest·PlaywrightホスティングVercel（東京）·Supabase（東京）·Analytics·SpeedInsightsポケモンおよび関連する名称・アートワークの権利は任天堂、株式会社ポケモン、クリーチャーズ、ゲームフリークに帰属します。非公式・非営利のファンプロジェクトです。前へQuantLab",
     "links": [
       "/ja/projects",
       "/ja/projects/quant-lab",
@@ -926,20 +924,18 @@
       "https://pokepedia.dev"
     ],
     "alts": [
-      "ピカチュウとカメックスのUnityバトル。3つの技を選ぶ画面",
-      "ゲームボーイ風のポケモンシルエットクイズ",
-      "ピカチュウのシール獲得とバトル開始ボタン",
-      "Unityバトルで10まんボルトを使うピカチュウ",
-      "Pokepedia GOLDのタイトル画面",
+      "ゲームボーイ風のバトル画面。ポケモンのシルエット、トレーナーの後ろ姿、コマンド欄",
+      "トップページになったゲームのタイトル画面",
+      "正解して手に入れた色違いシール",
       "ホログラムカードで表示したリザードンの詳細",
-      "バトルへのリンクが付いたピカチュウのシール帳"
+      "シール帳"
     ],
     "jsonLd": [
       {
         "@context": "https://schema.org",
         "@type": "CreativeWork",
         "name": "Pokepedia",
-        "description": "ポケモンの名前を当ててシールを集めるWebゲームに、Unityで作ったターン制バトルを追加しました。初代151匹の図鑑とシール帳を備え、クイズで手に入れたピカチュウでカメックスと対戦できます。PC・スマホのブラウザで遊べ、日本語・英語・韓国語に対応しています。",
+        "description": "ゲームボーイのバトル画面を再現したシルエットクイズです。ポケモンの名前を当てるとモンスターボールを投げ、シール帳に追加されます。初代151匹の図鑑も備えています。",
         "url": "https://pokepedia.dev",
         "codeRepository": "https://github.com/ottuck/pokepedia",
         "inLanguage": "ja",
@@ -1068,7 +1064,7 @@
       "twitter:description": "Henry Kim — 도쿄의 백엔드 엔지니어. Java, Spring, 클라우드, 웹으로 기획부터 운영까지 직접 만든 사이드 프로젝트를 소개합니다."
     },
     "oldOgImage": "https://www.portfolio-hub.dev/ko/opengraph-image?3e80f0d4b49b655a",
-    "mainText": "HenryKim—백엔드엔지니어H안녕하세요.HenryKim입니다.도쿄에서백엔드엔지니어로일하며,주로Java와Spring을다룹니다.업무외에는작은서비스를설계부터구현,클라우드구성,운영까지혼자만들고있습니다.도쿄·JST본업백엔드엔지니어결제·금융·API·DB·인증·클라우드주로쓰는기술JavaKotlinSpringBootPostgreSQLAzureTerraformNext.jsTypeScript프로젝트PunyChat운영중·앱출시준비중둘만을위한메신저.대화만해도작은도트버디를함께키울수있습니다.버디키우러가기—PunyChat사이트GitHub—PunyChat소스코드Expo·SpringWebFlux·MongoDBURCheck운영중·초대제·직접사용중UR임대의빈방을조건으로검색하고,새로나온방·다시나온방·사라진방을추적합니다.웹사이트와AI어시스턴트가같은조건과이력을씁니다.데모보기—URCheck사이트Bun·PostgreSQL·MCPGitLeaf운영중·누구나사용가능GitHub의1년치기여기록을수채화느낌의식물로보여줍니다.README에이미지코드한줄을추가하면매일자동으로갱신됩니다.GitHub—GitLeaf소스코드TypeScript·CloudflareWorkers·SVGQuantLab운영중·1/100규모실거래내습관을복사해월급날대신사주는봇과,매일비중을정하는AI봇들.모두제실제계좌에서1/100규모로돌리고있습니다.데모보기—QuantLab사이트Python·FastAPI·ClaudeAPIPokepedia운영중·리메이크포켓몬이름을맞히고띠부씰을모아,피카츄로Unity배틀까지.1세대도감과함께한국어·영어·일본어를지원합니다.포켓몬잡으러가기—Pokepedia사이트GitHub—Pokepedia소스코드Next.js·Unity·Supabase글개발블로그hukutaku.tistory.comGitHub@ottuck소개더보기소개",
+    "mainText": "HenryKim—백엔드엔지니어H안녕하세요.HenryKim입니다.도쿄에서백엔드엔지니어로일하며,주로Java와Spring을다룹니다.업무외에는작은서비스를설계부터구현,클라우드구성,운영까지혼자만들고있습니다.도쿄·JST본업백엔드엔지니어결제·금융·API·DB·인증·클라우드주로쓰는기술JavaKotlinSpringBootPostgreSQLAzureTerraformNext.jsTypeScript프로젝트PunyChat운영중·앱출시준비중둘만을위한메신저.대화만해도작은도트버디를함께키울수있습니다.버디키우러가기—PunyChat사이트GitHub—PunyChat소스코드Expo·SpringWebFlux·MongoDBURCheck운영중·초대제·직접사용중UR임대의빈방을조건으로검색하고,새로나온방·다시나온방·사라진방을추적합니다.웹사이트와AI어시스턴트가같은조건과이력을씁니다.데모보기—URCheck사이트Bun·PostgreSQL·MCPGitLeaf운영중·누구나사용가능GitHub의1년치기여기록을수채화느낌의식물로보여줍니다.README에이미지코드한줄을추가하면매일자동으로갱신됩니다.GitHub—GitLeaf소스코드TypeScript·CloudflareWorkers·SVGQuantLab운영중·1/100규모실거래내습관을복사해월급날대신사주는봇과,매일비중을정하는AI봇들.모두제실제계좌에서1/100규모로돌리고있습니다.데모보기—QuantLab사이트Python·FastAPI·ClaudeAPIPokepedia운영중·리메이크“이포켓몬은누구일까?”를게임보이배틀처럼.1세대포켓몬도감과띠부씰컬렉션까지,한국어·영어·일본어를지원합니다.포켓몬잡으러가기—Pokepedia사이트GitHub—Pokepedia소스코드Next.js·Supabase·TypeScript글개발블로그hukutaku.tistory.comGitHub@ottuck소개더보기소개",
     "links": [
       "/ko/about",
       "/ko/projects/gitleaf",
@@ -1094,7 +1090,7 @@
       "1년치 기여 기록으로 그린 식물과 그 잎을 확대한 모습",
       "Quant Lab 홈. 나 카피 봇과 매달 그냥 샀을 때의 비교, 다음 월급날 살 것",
       "휴대폰에서 본 Quant Lab 홈",
-      "피카츄와 거북왕의 Unity 배틀. 세 가지 기술을 선택하는 화면",
+      "게임보이 배틀 화면. 포켓몬 실루엣, 트레이너 뒷모습, 명령창",
       "휴대폰에서 본 도감"
     ],
     "jsonLd": [
@@ -1147,7 +1143,7 @@
       "twitter:title": "프로젝트",
       "twitter:description": "기획부터 개발, 운영까지 직접 맡고 있는 사이드 프로젝트입니다."
     },
-    "mainText": "프로젝트기획부터개발,운영까지직접맡고있는사이드프로젝트입니다.프로젝트별현재상태도함께적었습니다.전체프로젝트PunyChat운영중·앱출시준비중둘만을위한메신저.대화만해도작은도트버디를함께키울수있습니다.버디키우러가기—PunyChat사이트GitHub—PunyChat소스코드Expo·SpringWebFlux·MongoDBURCheck운영중·초대제·직접사용중UR임대의빈방을조건으로검색하고,새로나온방·다시나온방·사라진방을추적합니다.웹사이트와AI어시스턴트가같은조건과이력을씁니다.데모보기—URCheck사이트Bun·PostgreSQL·MCPGitLeaf운영중·누구나사용가능GitHub의1년치기여기록을수채화느낌의식물로보여줍니다.README에이미지코드한줄을추가하면매일자동으로갱신됩니다.GitHub—GitLeaf소스코드TypeScript·CloudflareWorkers·SVGQuantLab운영중·1/100규모실거래내습관을복사해월급날대신사주는봇과,매일비중을정하는AI봇들.모두제실제계좌에서1/100규모로돌리고있습니다.데모보기—QuantLab사이트Python·FastAPI·ClaudeAPIPokepedia운영중·리메이크포켓몬이름을맞히고띠부씰을모아,피카츄로Unity배틀까지.1세대도감과함께한국어·영어·일본어를지원합니다.포켓몬잡으러가기—Pokepedia사이트GitHub—Pokepedia소스코드Next.js·Unity·Supabase",
+    "mainText": "프로젝트기획부터개발,운영까지직접맡고있는사이드프로젝트입니다.프로젝트별현재상태도함께적었습니다.전체프로젝트PunyChat운영중·앱출시준비중둘만을위한메신저.대화만해도작은도트버디를함께키울수있습니다.버디키우러가기—PunyChat사이트GitHub—PunyChat소스코드Expo·SpringWebFlux·MongoDBURCheck운영중·초대제·직접사용중UR임대의빈방을조건으로검색하고,새로나온방·다시나온방·사라진방을추적합니다.웹사이트와AI어시스턴트가같은조건과이력을씁니다.데모보기—URCheck사이트Bun·PostgreSQL·MCPGitLeaf운영중·누구나사용가능GitHub의1년치기여기록을수채화느낌의식물로보여줍니다.README에이미지코드한줄을추가하면매일자동으로갱신됩니다.GitHub—GitLeaf소스코드TypeScript·CloudflareWorkers·SVGQuantLab운영중·1/100규모실거래내습관을복사해월급날대신사주는봇과,매일비중을정하는AI봇들.모두제실제계좌에서1/100규모로돌리고있습니다.데모보기—QuantLab사이트Python·FastAPI·ClaudeAPIPokepedia운영중·리메이크“이포켓몬은누구일까?”를게임보이배틀처럼.1세대포켓몬도감과띠부씰컬렉션까지,한국어·영어·일본어를지원합니다.포켓몬잡으러가기—Pokepedia사이트GitHub—Pokepedia소스코드Next.js·Supabase·TypeScript",
     "links": [
       "/ko/projects/gitleaf",
       "/ko/projects/pokepedia",
@@ -1170,7 +1166,7 @@
       "1년치 기여 기록으로 그린 식물과 그 잎을 확대한 모습",
       "Quant Lab 홈. 나 카피 봇과 매달 그냥 샀을 때의 비교, 다음 월급날 살 것",
       "휴대폰에서 본 Quant Lab 홈",
-      "피카츄와 거북왕의 Unity 배틀. 세 가지 기술을 선택하는 화면",
+      "게임보이 배틀 화면. 포켓몬 실루엣, 트레이너 뒷모습, 명령창",
       "휴대폰에서 본 도감"
     ],
     "jsonLd": []
@@ -1421,7 +1417,7 @@
   "/ko/projects/pokepedia": {
     "title": "Pokepedia — Henry Kim",
     "lang": "ko",
-    "description": "포켓몬 이름을 맞히고 띠부씰을 모으는 웹 게임에 Unity로 만든 턴제 배틀을 더했습니다. 1세대 151마리 도감과 컬렉션을 제공하며, 퀴즈에서 얻은 피카츄로 거북왕과 배틀할 수 있습니다. PC와 모바일 브라우저에서 플레이할 수 있고, 한국어·영어·일본어를 지원합니다.",
+    "description": "게임보이 배틀 화면을 재현한 실루엣 퀴즈입니다. 포켓몬 이름을 맞히면 몬스터볼을 던지고, 띠부씰 컬렉션에 추가됩니다. 1세대 151마리 도감도 함께 제공합니다.",
     "canonical": "https://www.portfolio-hub.dev/ko/projects/pokepedia",
     "alternates": {
       "en": "https://www.portfolio-hub.dev/projects/pokepedia",
@@ -1431,17 +1427,17 @@
     },
     "og": {
       "og:title": "Pokepedia",
-      "og:description": "포켓몬 이름을 맞히고 띠부씰을 모으는 웹 게임에 Unity로 만든 턴제 배틀을 더했습니다. 1세대 151마리 도감과 컬렉션을 제공하며, 퀴즈에서 얻은 피카츄로 거북왕과 배틀할 수 있습니다. PC와 모바일 브라우저에서 플레이할 수 있고, 한국어·영어·일본어를 지원합니다.",
+      "og:description": "게임보이 배틀 화면을 재현한 실루엣 퀴즈입니다. 포켓몬 이름을 맞히면 몬스터볼을 던지고, 띠부씰 컬렉션에 추가됩니다. 1세대 151마리 도감도 함께 제공합니다.",
       "og:url": "https://www.portfolio-hub.dev/ko/projects/pokepedia",
       "og:site_name": "Henry Kim",
       "og:locale": "ko_KR",
       "og:type": "article",
       "twitter:card": "summary_large_image",
       "twitter:title": "Pokepedia",
-      "twitter:description": "포켓몬 이름을 맞히고 띠부씰을 모으는 웹 게임에 Unity로 만든 턴제 배틀을 더했습니다. 1세대 151마리 도감과 컬렉션을 제공하며, 퀴즈에서 얻은 피카츄로 거북왕과 배틀할 수 있습니다. PC와 모바일 브라우저에서 플레이할 수 있고, 한국어·영어·일본어를 지원합니다."
+      "twitter:description": "게임보이 배틀 화면을 재현한 실루엣 퀴즈입니다. 포켓몬 이름을 맞히면 몬스터볼을 던지고, 띠부씰 컬렉션에 추가됩니다. 1세대 151마리 도감도 함께 제공합니다."
     },
     "oldOgImage": "https://www.portfolio-hub.dev/ko/projects/pokepedia/opengraph-image?31bd313c9f59e355",
-    "mainText": "전체프로젝트운영중·리메이크Pokepedia포켓몬이름을맞히고띠부씰을모으는웹게임에Unity로만든턴제배틀을더했습니다.1세대151마리도감과컬렉션을제공하며,퀴즈에서얻은피카츄로거북왕과배틀할수있습니다.PC와모바일브라우저에서플레이할수있고,한국어·영어·일본어를지원합니다.포켓몬잡으러가기GitHub종류웹앱+UnityWebGL·한국어/영어/일본어기간2026년9~10월(리메이크)운영환경Vercel·Supabase·CloudflarePages소개2023년JSP팀프로젝트로만들었던포켓몬도감을최신스택으로혼자다시만들었습니다.작은앱을어디까지완성도있게다듬을수있는지시험하는프로젝트입니다.지금은게임이첫화면입니다.실루엣이나오면세언어중어느이름으로든답할수있고,맞히면트레이너가몬스터볼을던집니다.세번틀리면게임오버입니다.가입없이게스트로바로플레이할수있고,나중에Google계정을연결해도띠부씰과점수는그대로이어집니다.웹게임안에UnityWebGL배틀을연결했습니다.퀴즈에서피카츄를얻으면보상화면이나컬렉션에서바로거북왕과의배틀을시작할수있습니다.현재공개버전은피카츄를조작해거북왕과대결하는1인용배틀입니다.주요기능실루엣퀴즈‘싸우다’로답하고‘힌트’로이름절반을볼수있으며,‘넘기기’와‘도망치다’도있습니다.방향키와Z키도지원합니다.피카츄,Pikachu,ピカチュウ모두정답으로인정됩니다.퀴즈에서배틀로퀴즈에서피카츄를얻으면보상화면이나컬렉션의피카츄띠부씰에서배틀로바로이동할수있습니다.Unity턴제배틀피카츄의몸통박치기·10만볼트·번개를골라거북왕과대결합니다.스피드에따라행동순서를정하고,타입상성·명중률·급소를반영해결과를계산합니다.날씨와기술연출픽셀아트배경에비·안개와2D조명을더했습니다.10만볼트와하이드로펌프에는전용효과와카메라움직임,합성사운드를적용했습니다.도감151마리를한페이지에서볼수있습니다.세언어의이름이나번호로검색하고,타입필터와정렬상태는URL에유지됩니다.상세카드능력치,특성,진화정보를보여줍니다.아트워크는마우스나손가락움직임에따라기울어지는홀로그램카드로,누르면색이다른모습으로바뀝니다.띠부씰컬렉션과랭킹색이다른포켓몬까지포함한151칸컬렉션과전체플레이어의최고기록랭킹.기술구성앱Next.js16(AppRouter,RSC,ServerActions)·React19·TypeScriptUITailwindCSSv4·Motion·Zustand·next-intl배틀Unity6.3LTS·C#·uGUI·TextMeshPro·URP2D·WebGL데이터Supabase—Postgres,Auth,Storage·RowLevelSecurity·RPC·pg_cron테스트Vitest·Playwright·NUnit(.NET)호스팅Vercel·Supabase·CloudflarePages포켓몬과관련이름·아트워크의권리는Nintendo,ThePokémonCompany,CreaturesInc.,GAMEFREAKinc.에있습니다.비공식·비영리팬프로젝트입니다.이전QuantLab",
+    "mainText": "전체프로젝트운영중·리메이크Pokepedia게임보이배틀화면을재현한실루엣퀴즈입니다.포켓몬이름을맞히면몬스터볼을던지고,띠부씰컬렉션에추가됩니다.1세대151마리도감도함께제공합니다.포켓몬잡으러가기GitHub종류웹앱·한국어/영어/일본어기간2026년9~10월(리메이크)운영환경Vercel+Supabase(도쿄)소개2023년JSP팀프로젝트로만들었던포켓몬도감을최신스택으로혼자다시만들었습니다.작은앱을어디까지완성도있게다듬을수있는지시험하는프로젝트입니다.지금은게임이첫화면입니다.실루엣이나오면세언어중어느이름으로든답할수있고,맞히면트레이너가몬스터볼을던집니다.세번틀리면게임오버입니다.가입없이게스트로바로플레이할수있고,나중에Google계정을연결해도띠부씰과점수는그대로이어집니다.주요기능실루엣배틀‘싸우다’로답하고‘힌트’로이름절반을볼수있으며,‘넘기기’와‘도망치다’도있습니다.방향키와Z키도지원합니다.피카츄,Pikachu,ピカチュウ모두정답으로인정됩니다.몬스터볼던지기맞히면게임보이회색톤으로직접그린트레이너가공을던지고,포켓몬의모습이드러납니다.연속으로맞힐수록점수와색이다른포켓몬의출현확률이올라갑니다.도감151마리를한페이지에서볼수있습니다.세언어의이름이나번호로검색하고,타입필터와정렬상태는URL에유지됩니다.상세카드능력치,특성,진화정보를보여줍니다.아트워크는마우스나손가락움직임에따라기울어지는홀로그램카드로,누르면색이다른모습으로바뀝니다.띠부씰컬렉션과랭킹색이다른포켓몬까지포함한151칸컬렉션과전체플레이어의최고기록랭킹.모바일대응게임보이전체가작은화면에맞게들어가고,배틀중에는화면을터치해도페이지가스크롤되지않습니다.기술구성앱Next.js16(AppRouter,RSC,ServerActions)·React19·TypeScriptUITailwindCSSv4·Motion·Zustand·next-intl데이터Supabase—Postgres,Auth,Storage·RowLevelSecurity·RPC·pg_cron테스트Vitest·Playwright호스팅Vercel(도쿄)·Supabase(도쿄)·Analytics·SpeedInsights포켓몬과관련이름·아트워크의권리는Nintendo,ThePokémonCompany,CreaturesInc.,GAMEFREAKinc.에있습니다.비공식·비영리팬프로젝트입니다.이전QuantLab",
     "links": [
       "/ko/projects",
       "/ko/projects/quant-lab",
@@ -1449,20 +1445,18 @@
       "https://pokepedia.dev"
     ],
     "alts": [
-      "피카츄와 거북왕의 Unity 배틀. 세 가지 기술을 선택하는 화면",
-      "게임보이 스타일의 포켓몬 실루엣 퀴즈",
-      "피카츄 띠부씰 획득과 배틀 시작 버튼",
-      "Unity 배틀에서 10만볼트를 사용하는 피카츄",
-      "Pokepedia GOLD 타이틀 화면",
+      "게임보이 배틀 화면. 포켓몬 실루엣, 트레이너 뒷모습, 명령창",
+      "첫 화면이 된 게임 타이틀 화면",
+      "정답을 맞히고 받은 색이 다른 띠부씰",
       "홀로그램 카드로 보여 주는 리자몽 상세",
-      "배틀 바로가기가 표시된 피카츄 띠부씰 컬렉션"
+      "띠부씰 컬렉션"
     ],
     "jsonLd": [
       {
         "@context": "https://schema.org",
         "@type": "CreativeWork",
         "name": "Pokepedia",
-        "description": "포켓몬 이름을 맞히고 띠부씰을 모으는 웹 게임에 Unity로 만든 턴제 배틀을 더했습니다. 1세대 151마리 도감과 컬렉션을 제공하며, 퀴즈에서 얻은 피카츄로 거북왕과 배틀할 수 있습니다. PC와 모바일 브라우저에서 플레이할 수 있고, 한국어·영어·일본어를 지원합니다.",
+        "description": "게임보이 배틀 화면을 재현한 실루엣 퀴즈입니다. 포켓몬 이름을 맞히면 몬스터볼을 던지고, 띠부씰 컬렉션에 추가됩니다. 1세대 151마리 도감도 함께 제공합니다.",
         "url": "https://pokepedia.dev",
         "codeRepository": "https://github.com/ottuck/pokepedia",
         "inLanguage": "ko",
