@@ -30,6 +30,7 @@ export const pokepedia: Project = {
   links: {
     live: { href: "https://pokepedia.dev", label: "Catch a Pokémon" },
     github: "https://github.com/ottuck/pokepedia",
+    repos: [{ href: "https://github.com/ottuck/pokepedia-unity", label: "Unity" }],
   },
 
   cover: {

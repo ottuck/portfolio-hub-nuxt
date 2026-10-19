@@ -24,6 +24,7 @@ useStructuredData(() => ({ '@context': 'https://schema.org', '@type': 'CreativeW
       <div v-if="project.links.live || project.links.github || project.links.guide" class="flex flex-wrap gap-2.5">
         <a v-if="project.links.live" :href="project.links.live.href" class="inline-flex h-11 items-center gap-1 rounded-full bg-accent px-5 text-[15px] font-medium text-accent-ink transition-opacity hover:opacity-90">{{ project.links.live.label }}<AppIcon name="arrow-up-right" class="size-4" /></a>
         <a v-if="project.links.github" :href="project.links.github" class="inline-flex h-11 items-center gap-1 rounded-full border border-line bg-card px-5 text-[15px] font-medium transition-colors hover:border-ink/30">GitHub<AppIcon name="arrow-up-right" class="size-4" /></a>
+        <a v-for="repo in project.links.repos" :key="repo.href" :href="repo.href" class="inline-flex h-11 items-center gap-1 rounded-full border border-line bg-card px-5 text-[15px] font-medium transition-colors hover:border-ink/30">GitHub · {{ repo.label }}<AppIcon name="arrow-up-right" class="size-4" /></a>
         <a v-if="project.links.guide" :href="project.links.guide.href" class="inline-flex h-11 items-center gap-1 rounded-full border border-line bg-card px-5 text-[15px] font-medium transition-colors hover:border-ink/30">{{ project.links.guide.label }}<AppIcon name="arrow-up-right" class="size-4" /></a>
       </div>
     </header>

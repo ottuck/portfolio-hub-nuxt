@@ -1,11 +1,17 @@
 # 구현과 검증 결과
 
-기준일: 2026-10-18 (Asia/Seoul)
+기준일: 2026-10-19 (Asia/Seoul)
+
+## Pokepedia에 Unity 저장소 링크 추가 (2026-10-19)
+
+- `ottuck/pokepedia-unity`가 공개로 바뀐 것을 `gh repo view`로 확인하고, 상세 페이지의 GitHub 버튼 뒤에 `GitHub · Unity` 버튼을 추가했다. 링크 데이터는 `links.repos`(추가 저장소 목록, 라벨은 언어 공통)로 두었고, 목록 카드의 GitHub 링크와 JSON-LD `codeRepository`는 웹 저장소 그대로다.
+- `docs/baseline.json`은 세 언어의 Pokepedia 상세 3개 경로만 갱신했다. 변경은 본문 버튼 문구와 링크 1개다.
+- 로컬 Node 26.7.0에서 `pnpm check`, `pnpm generate`(30개 페이지, 314개 자산, 8개 OG 이미지 검증), `pnpm test:pages`가 통과했다.
 
 ## Pokepedia에 Unity 배틀 추가 소개 (2026-10-18)
 
 - 사용자 요청으로 PR 14의 구성을 되돌린 뒤 다시 작성했다. 기존 웹 앱 소개와 이미지는 그대로 두고, C# 학습과 Unity 경험을 위해 별도 저장소(`pokepedia-unity`)로 만든 배틀을 뒤에 덧붙이는 흐름으로 세 언어의 요약·소개·기능을 갱신했다.
-- 기술 구성은 웹(`pokepedia`)과 배틀(`pokepedia-unity`)을 나눠 적었다. Unity 저장소는 비공개이므로 GitHub 링크는 웹 저장소만 유지한다. 카드 기술 목록의 TypeScript를 Unity로 바꿨다.
+- 기술 구성은 웹(`pokepedia`)과 배틀(`pokepedia-unity`)을 나눠 적었다. 당시 Unity 저장소가 비공개여서 GitHub 링크는 웹 저장소만 유지했다(2026-10-19 공개 후 추가). 카드 기술 목록의 TypeScript를 Unity로 바꿨다.
 - 대표·인셋·기존 갤러리 이미지 4개는 바꾸지 않았다. 사용자가 제공한 Unity 배틀 스크린샷(471×421)을 도트가 유지되도록 최근접 2배 확대한 무손실 WebP로 갤러리 마지막에 추가했다.
 - Pokepedia가 보이는 9개 페이지의 본문·alt와 상세 3개의 description·OG/Twitter 설명·JSON-LD 기대값을 생성 결과와 대조해 갱신했다. 나머지 21개 페이지와 모든 링크·canonical·hreflang 기대값은 유지한다.
 - 로컬 Node 26.7.0(엔진 요구 24.x와 다름)에서 lint·typecheck, 정적 생성 후 30개 페이지·참조 자산 314개·OG 8개·sitemap·robots·정적 404 검사, 로컬 Pages HTTP 검사를 통과했다. 로컬 Pages 1280px에서 한국어 상세의 갤러리 5장 로딩을 확인했다. Node 24 기준 결과는 PR CI를 따른다.

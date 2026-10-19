@@ -39,6 +39,8 @@ export type Project = {
     /** label is the link text on cards, e.g. the domain or "Visit". */
     live?: { href: string; label: string };
     github?: string;
+    /** More repositories, shown after the GitHub button as "GitHub · label", e.g. a separate Unity repo. */
+    repos?: { href: string; label: string }[];
     /** A how-to page, e.g. a setup guide. label is the link text. */
     guide?: { href: string; label: string };
   };
