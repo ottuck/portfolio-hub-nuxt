@@ -27,7 +27,6 @@ export const punyChat: Project = {
 
   links: {
     live: { href: "https://puny-chat.com", label: "Raise a buddy" },
-    github: "https://github.com/ottuck/buddy-chat",
   },
 
   cover: {
