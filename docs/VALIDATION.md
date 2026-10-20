@@ -1,6 +1,12 @@
 # 구현과 검증 결과
 
-기준일: 2026-10-19 (Asia/Seoul)
+기준일: 2026-10-20 (Asia/Seoul)
+
+## Puny Chat GitHub 링크 제거 (2026-10-20)
+
+- 출시할 제품이라 저장소를 비공개로 유지한다는 사용자 요청에 따라 Puny Chat의 `links.github`를 지웠다. 목록 카드의 GitHub 링크, 상세 페이지 GitHub 버튼, JSON-LD `codeRepository`가 함께 빠진다. 기술 구성의 "GitHub Actions" 표기는 CI 도구명이라 유지했다.
+- `docs/baseline.json`은 세 언어의 홈·프로젝트 목록·Puny Chat 상세 9개 경로만 갱신했다. 변경은 위 링크와 링크 문구뿐이다.
+- 로컬 Node 26.7.0에서 `pnpm check`, `pnpm generate`(30개 페이지, 314개 자산, 8개 OG 이미지 검증), `pnpm test:pages`가 통과했다.
 
 ## Pokepedia에 Unity 저장소 링크 추가 (2026-10-19)
 

@@ -22,7 +22,7 @@
       "twitter:description": "Henry Kim — backend engineer in Tokyo. Side projects built end to end with Java, Spring, cloud and the web."
     },
     "oldOgImage": "https://www.portfolio-hub.dev/opengraph-image-35z9bs?1a5f1573d33b5f53",
-    "mainText": "HenryKim—BackendSoftwareEngineerHHello,I'mHenryKim.BackendengineerinTokyo,workingmainlyinJavaandSpring.OutsideworkIbuildsmallproductsendtoend,fromdesignandcodetocloudinfrastructureandkeepingthemrunning.Tokyo·JSTDayjobBackendEngineerPayments&finance·API·DB·Auth·CloudToolsIreachforJavaKotlinSpringBootPostgreSQLAzureTerraformNext.jsTypeScriptProjectsPunyChatLive·AppStoresoonAmessengerfortwo,withatinypixelbuddyyouraisetogetherjustbychatting.Raiseabuddy—PunyChatlivesiteGitHub—PunyChatsourceExpo·SpringWebFlux·MongoDBURCheckLive·Inviteonly·IuseitSearchURrentalvacanciesbyyourconditionsandtrackroomsthatarenew,relistedorgone.ThewebsiteandAIassistantsworkfromthesameconditionsandhistory.Trythedemo—URChecklivesiteBun·PostgreSQL·MCPGitLeafLive·FreetouseYouryearofGitHubcontributions,paintedasawatercolorplant:oneleafforeachday.PasteonelineintoyourREADMEtouseit.GitHub—GitLeafsourceTypeScript·CloudflareWorkers·SVGQuantLabLive·Realtradesat1/100Apaydayinvestingbotthatcopiesyourhabits,andAIbotsthatsetthemixeveryday.Allofthemrunonmyrealaccountat1/100scale.Trythedemo—QuantLablivesitePython·FastAPI·ClaudeAPIPokepediaLive·Remake“Who'sthatPokémon?”asaGameBoy–stylebattle,withaGen1Pokédexandastickerbook—plusaturn-basedPikachubattleIbuiltinUnity.InKorean,EnglishandJapanese.CatchaPokémon—PokepedialivesiteGitHub—PokepediasourceNext.js·Supabase·UnityWritingDevbloghukutaku.tistory.comGitHub@ottuckMoreaboutmeAbout",
+    "mainText": "HenryKim—BackendSoftwareEngineerHHello,I'mHenryKim.BackendengineerinTokyo,workingmainlyinJavaandSpring.OutsideworkIbuildsmallproductsendtoend,fromdesignandcodetocloudinfrastructureandkeepingthemrunning.Tokyo·JSTDayjobBackendEngineerPayments&finance·API·DB·Auth·CloudToolsIreachforJavaKotlinSpringBootPostgreSQLAzureTerraformNext.jsTypeScriptProjectsPunyChatLive·AppStoresoonAmessengerfortwo,withatinypixelbuddyyouraisetogetherjustbychatting.Raiseabuddy—PunyChatlivesiteExpo·SpringWebFlux·MongoDBURCheckLive·Inviteonly·IuseitSearchURrentalvacanciesbyyourconditionsandtrackroomsthatarenew,relistedorgone.ThewebsiteandAIassistantsworkfromthesameconditionsandhistory.Trythedemo—URChecklivesiteBun·PostgreSQL·MCPGitLeafLive·FreetouseYouryearofGitHubcontributions,paintedasawatercolorplant:oneleafforeachday.PasteonelineintoyourREADMEtouseit.GitHub—GitLeafsourceTypeScript·CloudflareWorkers·SVGQuantLabLive·Realtradesat1/100Apaydayinvestingbotthatcopiesyourhabits,andAIbotsthatsetthemixeveryday.Allofthemrunonmyrealaccountat1/100scale.Trythedemo—QuantLablivesitePython·FastAPI·ClaudeAPIPokepediaLive·Remake“Who'sthatPokémon?”asaGameBoy–stylebattle,withaGen1Pokédexandastickerbook—plusaturn-basedPikachubattleIbuiltinUnity.InKorean,EnglishandJapanese.CatchaPokémon—PokepedialivesiteGitHub—PokepediasourceNext.js·Supabase·UnityWritingDevbloghukutaku.tistory.comGitHub@ottuckMoreaboutmeAbout",
     "links": [
       "/about",
       "/projects/gitleaf",
@@ -33,7 +33,6 @@
       "https://demo.trading-lab.me",
       "https://demo.ur-check.com",
       "https://github.com/ottuck",
-      "https://github.com/ottuck/buddy-chat",
       "https://github.com/ottuck/gitleaf",
       "https://github.com/ottuck/pokepedia",
       "https://hukutaku.tistory.com/",
@@ -101,7 +100,7 @@
       "twitter:title": "Projects",
       "twitter:description": "Side projects I designed, built and run myself."
     },
-    "mainText": "ProjectsThingsIdesigned,builtandkeeprunningmyself.Eachonesayswhereitstands.AllprojectsPunyChatLive·AppStoresoonAmessengerfortwo,withatinypixelbuddyyouraisetogetherjustbychatting.Raiseabuddy—PunyChatlivesiteGitHub—PunyChatsourceExpo·SpringWebFlux·MongoDBURCheckLive·Inviteonly·IuseitSearchURrentalvacanciesbyyourconditionsandtrackroomsthatarenew,relistedorgone.ThewebsiteandAIassistantsworkfromthesameconditionsandhistory.Trythedemo—URChecklivesiteBun·PostgreSQL·MCPGitLeafLive·FreetouseYouryearofGitHubcontributions,paintedasawatercolorplant:oneleafforeachday.PasteonelineintoyourREADMEtouseit.GitHub—GitLeafsourceTypeScript·CloudflareWorkers·SVGQuantLabLive·Realtradesat1/100Apaydayinvestingbotthatcopiesyourhabits,andAIbotsthatsetthemixeveryday.Allofthemrunonmyrealaccountat1/100scale.Trythedemo—QuantLablivesitePython·FastAPI·ClaudeAPIPokepediaLive·Remake“Who'sthatPokémon?”asaGameBoy–stylebattle,withaGen1Pokédexandastickerbook—plusaturn-basedPikachubattleIbuiltinUnity.InKorean,EnglishandJapanese.CatchaPokémon—PokepedialivesiteGitHub—PokepediasourceNext.js·Supabase·Unity",
+    "mainText": "ProjectsThingsIdesigned,builtandkeeprunningmyself.Eachonesayswhereitstands.AllprojectsPunyChatLive·AppStoresoonAmessengerfortwo,withatinypixelbuddyyouraisetogetherjustbychatting.Raiseabuddy—PunyChatlivesiteExpo·SpringWebFlux·MongoDBURCheckLive·Inviteonly·IuseitSearchURrentalvacanciesbyyourconditionsandtrackroomsthatarenew,relistedorgone.ThewebsiteandAIassistantsworkfromthesameconditionsandhistory.Trythedemo—URChecklivesiteBun·PostgreSQL·MCPGitLeafLive·FreetouseYouryearofGitHubcontributions,paintedasawatercolorplant:oneleafforeachday.PasteonelineintoyourREADMEtouseit.GitHub—GitLeafsourceTypeScript·CloudflareWorkers·SVGQuantLabLive·Realtradesat1/100Apaydayinvestingbotthatcopiesyourhabits,andAIbotsthatsetthemixeveryday.Allofthemrunonmyrealaccountat1/100scale.Trythedemo—QuantLablivesitePython·FastAPI·ClaudeAPIPokepediaLive·Remake“Who'sthatPokémon?”asaGameBoy–stylebattle,withaGen1Pokédexandastickerbook—plusaturn-basedPikachubattleIbuiltinUnity.InKorean,EnglishandJapanese.CatchaPokémon—PokepedialivesiteGitHub—PokepediasourceNext.js·Supabase·Unity",
     "links": [
       "/projects/gitleaf",
       "/projects/pokepedia",
@@ -110,7 +109,6 @@
       "/projects/ur-check",
       "https://demo.trading-lab.me",
       "https://demo.ur-check.com",
-      "https://github.com/ottuck/buddy-chat",
       "https://github.com/ottuck/gitleaf",
       "https://github.com/ottuck/pokepedia",
       "https://pokepedia.dev",
@@ -237,11 +235,10 @@
       "twitter:description": "A one-on-one messenger with a small pixel creature living between the two of you. Chat, feed it, clean up after it, and watch it grow."
     },
     "oldOgImage": "https://www.portfolio-hub.dev/projects/puny-chat/opengraph-image-155u2j?cf4130ca3324dbb8",
-    "mainText": "AllprojectsLive·AppStoresoonPunyChatAone-on-onemessengerwithasmallpixelcreaturelivingbetweenthetwoofyou.Chat,feedit,cleanupafterit,andwatchitgrow.RaiseabuddyGitHubTypeiPhone+webapp·KO/JA/ENPeriodSep–Oct2026RunsonAWSLightsail+MongoDBAtlas,SydneyAboutWhenIwasfirstlearningtocode,Iwroteasimplesocketmessengerandusedittochatwithmygirlfriend.PunyChatgrewoutofthatmemory.It'samessengerforexactlytwopeople,withatinybuddybetweenthemthatgrowsthemoreyoutalk.Iteats,anditpoops.Nameitaftertheotherpersonanditgetsmorefun.NoAIprompts,nodailymissions.Startasaguestwithjustaname,theninviteonefriendwithaneight-charactercode.ThesameExpoapprunsoniPhoneandontheweb,andthewebappcanbeaddedtoyourhomescreenwithnotifications.The50-seconddemoshowsanegggrowingupwithoutsigningin.WhatitdoesReal-timechatReconnectsandfillsinmissedmessages;resendsaredeliveredonce.Typing,readandonlineindicators.AbuddytoraiseEggtobabytokidtoadult.AtLv.20ittakesajobthatdependsonhowyouraisedit(cook,barista,gardener,writer,radioDJ)andworksatitsownspotonthestage.Itneverdiesifyouforgetitforafewdays.EasytolookafterTapthebowlorthepoop,orjustsend“밥”(food)inthechat.Whotookcareofitshowsupintheconversation.AbuddywithmoodsLeftalone,itdancesandsings.Onceit'sakiditstartstalking:“Longtimenosee!”,“Didyoueat?”Tap♨anditsoaksinanopen-airhotspring,withsnowinwinter.Anewroomopensonashortdreamofwhattheeggmightgrowinto.JustthetwoofyouStartwithoutsigningup,linkGooglelater.Oneinvitecode,twopeopleperroom.AnywhereiPhonefirst,thesameappontheweb—installabletothehomescreenwithpush.Korean,JapaneseandEnglish,lightanddark.Howit'sbuiltAppExpo(ReactNative)·TypeScript·ExpoRouter—iPhoneandwebfromonecodebaseServerJava25·SpringBoot4·WebFlux·WebSocketDataMongoDBAtlas,freetier,SydneyAuth·PushFirebaseAuthentication·Expopush·WebPush(VAPID)InfraAWSLightsail,Sydney(server)·CloudflareWorkers(web)·TerraformforAtlasandCloudflare,stateinR2·GitHubActionsNextURCheck",
+    "mainText": "AllprojectsLive·AppStoresoonPunyChatAone-on-onemessengerwithasmallpixelcreaturelivingbetweenthetwoofyou.Chat,feedit,cleanupafterit,andwatchitgrow.RaiseabuddyTypeiPhone+webapp·KO/JA/ENPeriodSep–Oct2026RunsonAWSLightsail+MongoDBAtlas,SydneyAboutWhenIwasfirstlearningtocode,Iwroteasimplesocketmessengerandusedittochatwithmygirlfriend.PunyChatgrewoutofthatmemory.It'samessengerforexactlytwopeople,withatinybuddybetweenthemthatgrowsthemoreyoutalk.Iteats,anditpoops.Nameitaftertheotherpersonanditgetsmorefun.NoAIprompts,nodailymissions.Startasaguestwithjustaname,theninviteonefriendwithaneight-charactercode.ThesameExpoapprunsoniPhoneandontheweb,andthewebappcanbeaddedtoyourhomescreenwithnotifications.The50-seconddemoshowsanegggrowingupwithoutsigningin.WhatitdoesReal-timechatReconnectsandfillsinmissedmessages;resendsaredeliveredonce.Typing,readandonlineindicators.AbuddytoraiseEggtobabytokidtoadult.AtLv.20ittakesajobthatdependsonhowyouraisedit(cook,barista,gardener,writer,radioDJ)andworksatitsownspotonthestage.Itneverdiesifyouforgetitforafewdays.EasytolookafterTapthebowlorthepoop,orjustsend“밥”(food)inthechat.Whotookcareofitshowsupintheconversation.AbuddywithmoodsLeftalone,itdancesandsings.Onceit'sakiditstartstalking:“Longtimenosee!”,“Didyoueat?”Tap♨anditsoaksinanopen-airhotspring,withsnowinwinter.Anewroomopensonashortdreamofwhattheeggmightgrowinto.JustthetwoofyouStartwithoutsigningup,linkGooglelater.Oneinvitecode,twopeopleperroom.AnywhereiPhonefirst,thesameappontheweb—installabletothehomescreenwithpush.Korean,JapaneseandEnglish,lightanddark.Howit'sbuiltAppExpo(ReactNative)·TypeScript·ExpoRouter—iPhoneandwebfromonecodebaseServerJava25·SpringBoot4·WebFlux·WebSocketDataMongoDBAtlas,freetier,SydneyAuth·PushFirebaseAuthentication·Expopush·WebPush(VAPID)InfraAWSLightsail,Sydney(server)·CloudflareWorkers(web)·TerraformforAtlasandCloudflare,stateinR2·GitHubActionsNextURCheck",
     "links": [
       "/projects",
       "/projects/ur-check",
-      "https://github.com/ottuck/buddy-chat",
       "https://puny-chat.com"
     ],
     "alts": [
@@ -258,7 +255,6 @@
         "name": "Puny Chat",
         "description": "A one-on-one messenger with a small pixel creature living between the two of you. Chat, feed it, clean up after it, and watch it grow.",
         "url": "https://puny-chat.com",
-        "codeRepository": "https://github.com/ottuck/buddy-chat",
         "inLanguage": "en",
         "author": {
           "@type": "Person",
@@ -545,7 +541,7 @@
       "twitter:description": "Henry Kim — 東京のバックエンドエンジニア。Java・Spring・クラウド・Webを使い、企画から運用まで一人で手がけたサイドプロジェクトを紹介します。"
     },
     "oldOgImage": "https://www.portfolio-hub.dev/ja/opengraph-image?3e80f0d4b49b655a",
-    "mainText": "HenryKim—バックエンドエンジニアHこんにちは。HenryKimです。東京でバックエンドエンジニアとして働いています。業務では主にJavaとSpringを使っています。業務外では、小さなプロダクトを設計から実装、クラウド構築、運用まで一人で手がけています。東京·JST本業バックエンド開発決済・金融·API·DB·認証·クラウドよく使う技術JavaKotlinSpringBootPostgreSQLAzureTerraformNext.jsTypeScript作品PunyChat公開中·AppStore準備中ふたりのためのメッセンジャー。会話するだけで、小さなドット絵のバディを一緒に育てられます。バディを育てに行く—PunyChatサイトGitHub—PunyChatソースコードExpo·SpringWebFlux·MongoDBURCheck公開中·招待制·実際に利用中UR賃貸の空室を条件で検索し、新着・再募集・募集終了の部屋を追跡します。WebサイトとAIアシスタントが、同じ条件と履歴を使います。デモを見る—URCheckサイトBun·PostgreSQL·MCPGitLeaf公開中·誰でも使えますGitHubの1年間のコントリビューションを、水彩画の植物として描くサービス。1日が1枚の葉になります。READMEに1行貼るだけで使えます。GitHub—GitLeafソースコードTypeScript·CloudflareWorkers·SVGQuantLab公開中·1/100で実取引自分のクセをコピーして給料日に代わりに買うボットと、毎日配分を決めるAIボットたち。どれも自分の実口座で、1/100のスケールで動かしています。デモを見る—QuantLabサイトPython·FastAPI·ClaudeAPIPokepedia公開中·リメイク「このポケモン、だーれだ？」をゲームボーイ風のバトルで。初代ポケモン図鑑とシール帳に、Unityで作ったピカチュウのターン制バトルまで。日本語・英語・韓国語に対応しています。ポケモンを捕まえに行く—PokepediaサイトGitHub—PokepediaソースコードNext.js·Supabase·Unity発信開発ブログhukutaku.tistory.comGitHub@ottuckプロフィールを見るプロフィール",
+    "mainText": "HenryKim—バックエンドエンジニアHこんにちは。HenryKimです。東京でバックエンドエンジニアとして働いています。業務では主にJavaとSpringを使っています。業務外では、小さなプロダクトを設計から実装、クラウド構築、運用まで一人で手がけています。東京·JST本業バックエンド開発決済・金融·API·DB·認証·クラウドよく使う技術JavaKotlinSpringBootPostgreSQLAzureTerraformNext.jsTypeScript作品PunyChat公開中·AppStore準備中ふたりのためのメッセンジャー。会話するだけで、小さなドット絵のバディを一緒に育てられます。バディを育てに行く—PunyChatサイトExpo·SpringWebFlux·MongoDBURCheck公開中·招待制·実際に利用中UR賃貸の空室を条件で検索し、新着・再募集・募集終了の部屋を追跡します。WebサイトとAIアシスタントが、同じ条件と履歴を使います。デモを見る—URCheckサイトBun·PostgreSQL·MCPGitLeaf公開中·誰でも使えますGitHubの1年間のコントリビューションを、水彩画の植物として描くサービス。1日が1枚の葉になります。READMEに1行貼るだけで使えます。GitHub—GitLeafソースコードTypeScript·CloudflareWorkers·SVGQuantLab公開中·1/100で実取引自分のクセをコピーして給料日に代わりに買うボットと、毎日配分を決めるAIボットたち。どれも自分の実口座で、1/100のスケールで動かしています。デモを見る—QuantLabサイトPython·FastAPI·ClaudeAPIPokepedia公開中·リメイク「このポケモン、だーれだ？」をゲームボーイ風のバトルで。初代ポケモン図鑑とシール帳に、Unityで作ったピカチュウのターン制バトルまで。日本語・英語・韓国語に対応しています。ポケモンを捕まえに行く—PokepediaサイトGitHub—PokepediaソースコードNext.js·Supabase·Unity発信開発ブログhukutaku.tistory.comGitHub@ottuckプロフィールを見るプロフィール",
     "links": [
       "/ja/about",
       "/ja/projects/gitleaf",
@@ -556,7 +552,6 @@
       "https://demo.trading-lab.me",
       "https://demo.ur-check.com",
       "https://github.com/ottuck",
-      "https://github.com/ottuck/buddy-chat",
       "https://github.com/ottuck/gitleaf",
       "https://github.com/ottuck/pokepedia",
       "https://hukutaku.tistory.com/",
@@ -624,7 +619,7 @@
       "twitter:title": "作品",
       "twitter:description": "設計から開発、運用まで自分で手がけているサイドプロジェクトです。"
     },
-    "mainText": "作品設計から開発、運用まで自分で手がけているサイドプロジェクトです。それぞれの現在の状況も記載しています。すべての作品PunyChat公開中·AppStore準備中ふたりのためのメッセンジャー。会話するだけで、小さなドット絵のバディを一緒に育てられます。バディを育てに行く—PunyChatサイトGitHub—PunyChatソースコードExpo·SpringWebFlux·MongoDBURCheck公開中·招待制·実際に利用中UR賃貸の空室を条件で検索し、新着・再募集・募集終了の部屋を追跡します。WebサイトとAIアシスタントが、同じ条件と履歴を使います。デモを見る—URCheckサイトBun·PostgreSQL·MCPGitLeaf公開中·誰でも使えますGitHubの1年間のコントリビューションを、水彩画の植物として描くサービス。1日が1枚の葉になります。READMEに1行貼るだけで使えます。GitHub—GitLeafソースコードTypeScript·CloudflareWorkers·SVGQuantLab公開中·1/100で実取引自分のクセをコピーして給料日に代わりに買うボットと、毎日配分を決めるAIボットたち。どれも自分の実口座で、1/100のスケールで動かしています。デモを見る—QuantLabサイトPython·FastAPI·ClaudeAPIPokepedia公開中·リメイク「このポケモン、だーれだ？」をゲームボーイ風のバトルで。初代ポケモン図鑑とシール帳に、Unityで作ったピカチュウのターン制バトルまで。日本語・英語・韓国語に対応しています。ポケモンを捕まえに行く—PokepediaサイトGitHub—PokepediaソースコードNext.js·Supabase·Unity",
+    "mainText": "作品設計から開発、運用まで自分で手がけているサイドプロジェクトです。それぞれの現在の状況も記載しています。すべての作品PunyChat公開中·AppStore準備中ふたりのためのメッセンジャー。会話するだけで、小さなドット絵のバディを一緒に育てられます。バディを育てに行く—PunyChatサイトExpo·SpringWebFlux·MongoDBURCheck公開中·招待制·実際に利用中UR賃貸の空室を条件で検索し、新着・再募集・募集終了の部屋を追跡します。WebサイトとAIアシスタントが、同じ条件と履歴を使います。デモを見る—URCheckサイトBun·PostgreSQL·MCPGitLeaf公開中·誰でも使えますGitHubの1年間のコントリビューションを、水彩画の植物として描くサービス。1日が1枚の葉になります。READMEに1行貼るだけで使えます。GitHub—GitLeafソースコードTypeScript·CloudflareWorkers·SVGQuantLab公開中·1/100で実取引自分のクセをコピーして給料日に代わりに買うボットと、毎日配分を決めるAIボットたち。どれも自分の実口座で、1/100のスケールで動かしています。デモを見る—QuantLabサイトPython·FastAPI·ClaudeAPIPokepedia公開中·リメイク「このポケモン、だーれだ？」をゲームボーイ風のバトルで。初代ポケモン図鑑とシール帳に、Unityで作ったピカチュウのターン制バトルまで。日本語・英語・韓国語に対応しています。ポケモンを捕まえに行く—PokepediaサイトGitHub—PokepediaソースコードNext.js·Supabase·Unity",
     "links": [
       "/ja/projects/gitleaf",
       "/ja/projects/pokepedia",
@@ -633,7 +628,6 @@
       "/ja/projects/ur-check",
       "https://demo.trading-lab.me",
       "https://demo.ur-check.com",
-      "https://github.com/ottuck/buddy-chat",
       "https://github.com/ottuck/gitleaf",
       "https://github.com/ottuck/pokepedia",
       "https://pokepedia.dev",
@@ -760,11 +754,10 @@
       "twitter:description": "1対1のメッセンジャーに、ふたりの間で暮らす小さなドット絵のキャラクターがいます。会話し、ごはんをあげ、掃除をしながら成長を見守ります。"
     },
     "oldOgImage": "https://www.portfolio-hub.dev/ja/projects/puny-chat/opengraph-image?31bd313c9f59e355",
-    "mainText": "作品一覧公開中·AppStore準備中PunyChat1対1のメッセンジャーに、ふたりの間で暮らす小さなドット絵のキャラクターがいます。会話し、ごはんをあげ、掃除をしながら成長を見守ります。バディを育てに行くGitHub種類iPhone+Webアプリ·韓国語/日本語/英語期間2026年9〜10月運用環境AWSLightsail+MongoDBAtlas（シドニー）概要プログラミングを学び始めたころ、簡単なソケット通信のメッセンジャーを作って彼女と話していた思い出から生まれたアプリです。ふたりだけのメッセンジャーで、会話するほど、ふたりの間にいる小さなバディが育ちます。ごはんも食べるし、うんちもします。バディに相手の名前を付けると、もっと楽しくなります。AIのプロンプトも毎日のミッションもありません。名前を入力するだけでゲストとして始められ、8文字の招待コードで相手をひとり招待します。同じExpoアプリがiPhoneとWebで動き、Web版はホーム画面に追加すれば通知も受け取れます。50秒のデモでは、ログインなしでたまごが育つ様子を見られます。主な機能リアルタイムチャット再接続時には見逃したメッセージを補完し、再送しても配信は1回だけです。入力中・既読・オンライン表示にも対応しています。育てるバディたまごから赤ちゃん、子ども、おとなへと成長します。Lv.20になると、育て方に応じて仕事（料理人、バリスタ、庭師、作家、ラジオDJ）が決まり、ステージの自分の場所で働きます。数日放っておいても死ぬことはありません。かんたんなお世話ごはん皿やうんちをタップするか、チャットで「ごはん」と送るだけ。誰がお世話したかは会話に残ります。気分のあるバディ放っておくと踊ったり歌ったりします。子どもになると「ひさしぶり！」「ごはん食べた？」と話しかけてきます。♨をタップすると露天風呂に入り、冬には雪が降ります。新しいルームは、たまごが何に育つかを描いた短い夢から始まります。ふたりだけの空間登録なしで始められ、Googleアカウントは後から連携できます。招待コードは1つ、1部屋につき2人まで。どこでもiPhoneを中心に、同じアプリをWebでも利用できます。ホーム画面に追加すればプッシュ通知も届きます。韓国語・日本語・英語、ライト／ダークモードに対応。技術構成アプリExpo(ReactNative)·TypeScript·ExpoRouter—iPhoneとWebを1つのコードベースでサーバーJava25·SpringBoot4·WebFlux·WebSocketデータMongoDBAtlas（無料枠・シドニー）認証·プッシュFirebaseAuthentication·Expopush·WebPush(VAPID)インフラAWSLightsail（シドニー・サーバー）·CloudflareWorkers（Web）·Terraform（AtlasとCloudflare、stateはR2）·GitHubActions次へURCheck",
+    "mainText": "作品一覧公開中·AppStore準備中PunyChat1対1のメッセンジャーに、ふたりの間で暮らす小さなドット絵のキャラクターがいます。会話し、ごはんをあげ、掃除をしながら成長を見守ります。バディを育てに行く種類iPhone+Webアプリ·韓国語/日本語/英語期間2026年9〜10月運用環境AWSLightsail+MongoDBAtlas（シドニー）概要プログラミングを学び始めたころ、簡単なソケット通信のメッセンジャーを作って彼女と話していた思い出から生まれたアプリです。ふたりだけのメッセンジャーで、会話するほど、ふたりの間にいる小さなバディが育ちます。ごはんも食べるし、うんちもします。バディに相手の名前を付けると、もっと楽しくなります。AIのプロンプトも毎日のミッションもありません。名前を入力するだけでゲストとして始められ、8文字の招待コードで相手をひとり招待します。同じExpoアプリがiPhoneとWebで動き、Web版はホーム画面に追加すれば通知も受け取れます。50秒のデモでは、ログインなしでたまごが育つ様子を見られます。主な機能リアルタイムチャット再接続時には見逃したメッセージを補完し、再送しても配信は1回だけです。入力中・既読・オンライン表示にも対応しています。育てるバディたまごから赤ちゃん、子ども、おとなへと成長します。Lv.20になると、育て方に応じて仕事（料理人、バリスタ、庭師、作家、ラジオDJ）が決まり、ステージの自分の場所で働きます。数日放っておいても死ぬことはありません。かんたんなお世話ごはん皿やうんちをタップするか、チャットで「ごはん」と送るだけ。誰がお世話したかは会話に残ります。気分のあるバディ放っておくと踊ったり歌ったりします。子どもになると「ひさしぶり！」「ごはん食べた？」と話しかけてきます。♨をタップすると露天風呂に入り、冬には雪が降ります。新しいルームは、たまごが何に育つかを描いた短い夢から始まります。ふたりだけの空間登録なしで始められ、Googleアカウントは後から連携できます。招待コードは1つ、1部屋につき2人まで。どこでもiPhoneを中心に、同じアプリをWebでも利用できます。ホーム画面に追加すればプッシュ通知も届きます。韓国語・日本語・英語、ライト／ダークモードに対応。技術構成アプリExpo(ReactNative)·TypeScript·ExpoRouter—iPhoneとWebを1つのコードベースでサーバーJava25·SpringBoot4·WebFlux·WebSocketデータMongoDBAtlas（無料枠・シドニー）認証·プッシュFirebaseAuthentication·Expopush·WebPush(VAPID)インフラAWSLightsail（シドニー・サーバー）·CloudflareWorkers（Web）·Terraform（AtlasとCloudflare、stateはR2）·GitHubActions次へURCheck",
     "links": [
       "/ja/projects",
       "/ja/projects/ur-check",
-      "https://github.com/ottuck/buddy-chat",
       "https://puny-chat.com"
     ],
     "alts": [
@@ -781,7 +774,6 @@
         "name": "Puny Chat",
         "description": "1対1のメッセンジャーに、ふたりの間で暮らす小さなドット絵のキャラクターがいます。会話し、ごはんをあげ、掃除をしながら成長を見守ります。",
         "url": "https://puny-chat.com",
-        "codeRepository": "https://github.com/ottuck/buddy-chat",
         "inLanguage": "ja",
         "author": {
           "@type": "Person",
@@ -1068,7 +1060,7 @@
       "twitter:description": "Henry Kim — 도쿄의 백엔드 엔지니어. Java, Spring, 클라우드, 웹으로 기획부터 운영까지 직접 만든 사이드 프로젝트를 소개합니다."
     },
     "oldOgImage": "https://www.portfolio-hub.dev/ko/opengraph-image?3e80f0d4b49b655a",
-    "mainText": "HenryKim—백엔드엔지니어H안녕하세요.HenryKim입니다.도쿄에서백엔드엔지니어로일하며,주로Java와Spring을다룹니다.업무외에는작은서비스를설계부터구현,클라우드구성,운영까지혼자만들고있습니다.도쿄·JST본업백엔드엔지니어결제·금융·API·DB·인증·클라우드주로쓰는기술JavaKotlinSpringBootPostgreSQLAzureTerraformNext.jsTypeScript프로젝트PunyChat운영중·앱출시준비중둘만을위한메신저.대화만해도작은도트버디를함께키울수있습니다.버디키우러가기—PunyChat사이트GitHub—PunyChat소스코드Expo·SpringWebFlux·MongoDBURCheck운영중·초대제·직접사용중UR임대의빈방을조건으로검색하고,새로나온방·다시나온방·사라진방을추적합니다.웹사이트와AI어시스턴트가같은조건과이력을씁니다.데모보기—URCheck사이트Bun·PostgreSQL·MCPGitLeaf운영중·누구나사용가능GitHub의1년치기여기록을수채화느낌의식물로보여줍니다.README에이미지코드한줄을추가하면매일자동으로갱신됩니다.GitHub—GitLeaf소스코드TypeScript·CloudflareWorkers·SVGQuantLab운영중·1/100규모실거래내습관을복사해월급날대신사주는봇과,매일비중을정하는AI봇들.모두제실제계좌에서1/100규모로돌리고있습니다.데모보기—QuantLab사이트Python·FastAPI·ClaudeAPIPokepedia운영중·리메이크“이포켓몬은누구일까?”를게임보이배틀처럼.1세대포켓몬도감과띠부씰컬렉션에,Unity로만든피카츄턴제배틀까지.한국어·영어·일본어를지원합니다.포켓몬잡으러가기—Pokepedia사이트GitHub—Pokepedia소스코드Next.js·Supabase·Unity글개발블로그hukutaku.tistory.comGitHub@ottuck소개더보기소개",
+    "mainText": "HenryKim—백엔드엔지니어H안녕하세요.HenryKim입니다.도쿄에서백엔드엔지니어로일하며,주로Java와Spring을다룹니다.업무외에는작은서비스를설계부터구현,클라우드구성,운영까지혼자만들고있습니다.도쿄·JST본업백엔드엔지니어결제·금융·API·DB·인증·클라우드주로쓰는기술JavaKotlinSpringBootPostgreSQLAzureTerraformNext.jsTypeScript프로젝트PunyChat운영중·앱출시준비중둘만을위한메신저.대화만해도작은도트버디를함께키울수있습니다.버디키우러가기—PunyChat사이트Expo·SpringWebFlux·MongoDBURCheck운영중·초대제·직접사용중UR임대의빈방을조건으로검색하고,새로나온방·다시나온방·사라진방을추적합니다.웹사이트와AI어시스턴트가같은조건과이력을씁니다.데모보기—URCheck사이트Bun·PostgreSQL·MCPGitLeaf운영중·누구나사용가능GitHub의1년치기여기록을수채화느낌의식물로보여줍니다.README에이미지코드한줄을추가하면매일자동으로갱신됩니다.GitHub—GitLeaf소스코드TypeScript·CloudflareWorkers·SVGQuantLab운영중·1/100규모실거래내습관을복사해월급날대신사주는봇과,매일비중을정하는AI봇들.모두제실제계좌에서1/100규모로돌리고있습니다.데모보기—QuantLab사이트Python·FastAPI·ClaudeAPIPokepedia운영중·리메이크“이포켓몬은누구일까?”를게임보이배틀처럼.1세대포켓몬도감과띠부씰컬렉션에,Unity로만든피카츄턴제배틀까지.한국어·영어·일본어를지원합니다.포켓몬잡으러가기—Pokepedia사이트GitHub—Pokepedia소스코드Next.js·Supabase·Unity글개발블로그hukutaku.tistory.comGitHub@ottuck소개더보기소개",
     "links": [
       "/ko/about",
       "/ko/projects/gitleaf",
@@ -1079,7 +1071,6 @@
       "https://demo.trading-lab.me",
       "https://demo.ur-check.com",
       "https://github.com/ottuck",
-      "https://github.com/ottuck/buddy-chat",
       "https://github.com/ottuck/gitleaf",
       "https://github.com/ottuck/pokepedia",
       "https://hukutaku.tistory.com/",
@@ -1147,7 +1138,7 @@
       "twitter:title": "프로젝트",
       "twitter:description": "기획부터 개발, 운영까지 직접 맡고 있는 사이드 프로젝트입니다."
     },
-    "mainText": "프로젝트기획부터개발,운영까지직접맡고있는사이드프로젝트입니다.프로젝트별현재상태도함께적었습니다.전체프로젝트PunyChat운영중·앱출시준비중둘만을위한메신저.대화만해도작은도트버디를함께키울수있습니다.버디키우러가기—PunyChat사이트GitHub—PunyChat소스코드Expo·SpringWebFlux·MongoDBURCheck운영중·초대제·직접사용중UR임대의빈방을조건으로검색하고,새로나온방·다시나온방·사라진방을추적합니다.웹사이트와AI어시스턴트가같은조건과이력을씁니다.데모보기—URCheck사이트Bun·PostgreSQL·MCPGitLeaf운영중·누구나사용가능GitHub의1년치기여기록을수채화느낌의식물로보여줍니다.README에이미지코드한줄을추가하면매일자동으로갱신됩니다.GitHub—GitLeaf소스코드TypeScript·CloudflareWorkers·SVGQuantLab운영중·1/100규모실거래내습관을복사해월급날대신사주는봇과,매일비중을정하는AI봇들.모두제실제계좌에서1/100규모로돌리고있습니다.데모보기—QuantLab사이트Python·FastAPI·ClaudeAPIPokepedia운영중·리메이크“이포켓몬은누구일까?”를게임보이배틀처럼.1세대포켓몬도감과띠부씰컬렉션에,Unity로만든피카츄턴제배틀까지.한국어·영어·일본어를지원합니다.포켓몬잡으러가기—Pokepedia사이트GitHub—Pokepedia소스코드Next.js·Supabase·Unity",
+    "mainText": "프로젝트기획부터개발,운영까지직접맡고있는사이드프로젝트입니다.프로젝트별현재상태도함께적었습니다.전체프로젝트PunyChat운영중·앱출시준비중둘만을위한메신저.대화만해도작은도트버디를함께키울수있습니다.버디키우러가기—PunyChat사이트Expo·SpringWebFlux·MongoDBURCheck운영중·초대제·직접사용중UR임대의빈방을조건으로검색하고,새로나온방·다시나온방·사라진방을추적합니다.웹사이트와AI어시스턴트가같은조건과이력을씁니다.데모보기—URCheck사이트Bun·PostgreSQL·MCPGitLeaf운영중·누구나사용가능GitHub의1년치기여기록을수채화느낌의식물로보여줍니다.README에이미지코드한줄을추가하면매일자동으로갱신됩니다.GitHub—GitLeaf소스코드TypeScript·CloudflareWorkers·SVGQuantLab운영중·1/100규모실거래내습관을복사해월급날대신사주는봇과,매일비중을정하는AI봇들.모두제실제계좌에서1/100규모로돌리고있습니다.데모보기—QuantLab사이트Python·FastAPI·ClaudeAPIPokepedia운영중·리메이크“이포켓몬은누구일까?”를게임보이배틀처럼.1세대포켓몬도감과띠부씰컬렉션에,Unity로만든피카츄턴제배틀까지.한국어·영어·일본어를지원합니다.포켓몬잡으러가기—Pokepedia사이트GitHub—Pokepedia소스코드Next.js·Supabase·Unity",
     "links": [
       "/ko/projects/gitleaf",
       "/ko/projects/pokepedia",
@@ -1156,7 +1147,6 @@
       "/ko/projects/ur-check",
       "https://demo.trading-lab.me",
       "https://demo.ur-check.com",
-      "https://github.com/ottuck/buddy-chat",
       "https://github.com/ottuck/gitleaf",
       "https://github.com/ottuck/pokepedia",
       "https://pokepedia.dev",
@@ -1283,11 +1273,10 @@
       "twitter:description": "1:1 메신저 안에 두 사람 사이에서 사는 작은 도트 캐릭터가 있습니다. 대화하고, 밥을 주고, 치워 주면서 함께 키워 갑니다."
     },
     "oldOgImage": "https://www.portfolio-hub.dev/ko/projects/puny-chat/opengraph-image?31bd313c9f59e355",
-    "mainText": "전체프로젝트운영중·앱출시준비중PunyChat1:1메신저안에두사람사이에서사는작은도트캐릭터가있습니다.대화하고,밥을주고,치워주면서함께키워갑니다.버디키우러가기GitHub종류iPhone+웹앱·한국어/일본어/영어기간2026년9~10월운영환경AWSLightsail+MongoDBAtlas(시드니)소개코딩을처음배우던시절,간단한소켓통신메신저를만들어여자친구와대화를나누던기억을떠올리며만들었습니다.딱두사람을위한메신저이고,대화할수록둘사이의작은버디가자랍니다.밥도먹고똥도쌉니다.버디에게상대방이름을붙여주면더재미있습니다.AI프롬프트도매일해야하는미션도없습니다.이름만입력하면게스트로시작할수있고,8자리초대코드로상대한명을초대합니다.같은Expo앱이iPhone과웹에서동작하며,웹버전도홈화면에추가하면알림을받을수있습니다.50초데모에서는로그인없이알이자라는과정을볼수있습니다.주요기능실시간채팅다시연결되면놓친메시지를채워넣고,재전송해도한번만전달됩니다.입력중·읽음·온라인표시를지원합니다.키우는버디알에서아기,어린이,어른으로성장합니다.Lv.20이되면키운방식에따라직업(요리사,바리스타,정원사,작가,라디오DJ)이정해지고,무대의자기자리에서일합니다.며칠돌보지않아도죽지는않습니다.간단한돌보기밥그릇이나똥을누르거나,채팅에“밥”이라고보내면됩니다.누가돌봤는지는대화에기록됩니다.기분이있는버디혼자두면춤추고노래합니다.어린이가되면“오랜만이야!”,“밥먹었어?”하고먼저말을겁니다.♨를누르면노천탕에들어가고,겨울에는눈이내립니다.새방은알이무엇으로자랄지보여주는짧은꿈으로시작합니다.둘만의공간가입없이시작하고Google계정은나중에연결할수있습니다.초대코드하나,방하나에두명.어디서나iPhone을중심으로같은앱을웹에서도쓸수있습니다.홈화면에추가하면푸시알림도받습니다.한국어·일본어·영어,라이트·다크모드를지원합니다.기술구성앱Expo(ReactNative)·TypeScript·ExpoRouter—iPhone과웹을하나의코드베이스로서버Java25·SpringBoot4·WebFlux·WebSocket데이터MongoDBAtlas(무료플랜·시드니)인증·푸시FirebaseAuthentication·Expopush·WebPush(VAPID)인프라AWSLightsail(시드니·서버)·CloudflareWorkers(웹)·Terraform(Atlas·Cloudflare,state는R2)·GitHubActions다음URCheck",
+    "mainText": "전체프로젝트운영중·앱출시준비중PunyChat1:1메신저안에두사람사이에서사는작은도트캐릭터가있습니다.대화하고,밥을주고,치워주면서함께키워갑니다.버디키우러가기종류iPhone+웹앱·한국어/일본어/영어기간2026년9~10월운영환경AWSLightsail+MongoDBAtlas(시드니)소개코딩을처음배우던시절,간단한소켓통신메신저를만들어여자친구와대화를나누던기억을떠올리며만들었습니다.딱두사람을위한메신저이고,대화할수록둘사이의작은버디가자랍니다.밥도먹고똥도쌉니다.버디에게상대방이름을붙여주면더재미있습니다.AI프롬프트도매일해야하는미션도없습니다.이름만입력하면게스트로시작할수있고,8자리초대코드로상대한명을초대합니다.같은Expo앱이iPhone과웹에서동작하며,웹버전도홈화면에추가하면알림을받을수있습니다.50초데모에서는로그인없이알이자라는과정을볼수있습니다.주요기능실시간채팅다시연결되면놓친메시지를채워넣고,재전송해도한번만전달됩니다.입력중·읽음·온라인표시를지원합니다.키우는버디알에서아기,어린이,어른으로성장합니다.Lv.20이되면키운방식에따라직업(요리사,바리스타,정원사,작가,라디오DJ)이정해지고,무대의자기자리에서일합니다.며칠돌보지않아도죽지는않습니다.간단한돌보기밥그릇이나똥을누르거나,채팅에“밥”이라고보내면됩니다.누가돌봤는지는대화에기록됩니다.기분이있는버디혼자두면춤추고노래합니다.어린이가되면“오랜만이야!”,“밥먹었어?”하고먼저말을겁니다.♨를누르면노천탕에들어가고,겨울에는눈이내립니다.새방은알이무엇으로자랄지보여주는짧은꿈으로시작합니다.둘만의공간가입없이시작하고Google계정은나중에연결할수있습니다.초대코드하나,방하나에두명.어디서나iPhone을중심으로같은앱을웹에서도쓸수있습니다.홈화면에추가하면푸시알림도받습니다.한국어·일본어·영어,라이트·다크모드를지원합니다.기술구성앱Expo(ReactNative)·TypeScript·ExpoRouter—iPhone과웹을하나의코드베이스로서버Java25·SpringBoot4·WebFlux·WebSocket데이터MongoDBAtlas(무료플랜·시드니)인증·푸시FirebaseAuthentication·Expopush·WebPush(VAPID)인프라AWSLightsail(시드니·서버)·CloudflareWorkers(웹)·Terraform(Atlas·Cloudflare,state는R2)·GitHubActions다음URCheck",
     "links": [
       "/ko/projects",
       "/ko/projects/ur-check",
-      "https://github.com/ottuck/buddy-chat",
       "https://puny-chat.com"
     ],
     "alts": [
@@ -1304,7 +1293,6 @@
         "name": "Puny Chat",
         "description": "1:1 메신저 안에 두 사람 사이에서 사는 작은 도트 캐릭터가 있습니다. 대화하고, 밥을 주고, 치워 주면서 함께 키워 갑니다.",
         "url": "https://puny-chat.com",
-        "codeRepository": "https://github.com/ottuck/buddy-chat",
         "inLanguage": "ko",
         "author": {
           "@type": "Person",
