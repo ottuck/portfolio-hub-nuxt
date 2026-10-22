@@ -42,8 +42,8 @@ const sorted = validate(source).toSorted(
   (a, b) => STATUS_RANK[a.status] - STATUS_RANK[b.status] || a.order - b.order,
 );
 
-// Merged projects keep their pages but stay out of the lists and the previous/next links.
-const listed = sorted.filter((p) => !p.mergedInto);
+// Merged and unlisted projects keep their pages but stay out of the lists and the previous/next links.
+const listed = sorted.filter((p) => !p.mergedInto && !p.unlisted);
 
 function withAlt(shot: Shot, alt: string | undefined): Shot {
   return alt ? { ...shot, alt } : shot;

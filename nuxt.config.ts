@@ -1,5 +1,8 @@
 import tailwindcss from '@tailwindcss/vite'
 import routes from './docs/routes.json'
+// Unlisted pages have no links pointing at them, so the crawler would never find them.
+// `pnpm assets` writes this list from the project content.
+import unlisted from './app/generated/unlisted-routes.json'
 
 export default defineNuxtConfig({
   compatibilityDate: '2026-10-15',
@@ -12,7 +15,7 @@ export default defineNuxtConfig({
     // Pages environment detection otherwise selects an adapter that writes dist
     // and adds a SPA fallback. Deployment must remain a plain static directory.
     preset: process.env.NODE_ENV === 'development' ? 'node-server' : 'static',
-    prerender: { routes, crawlLinks: true, failOnError: true, autoSubfolderIndex: false },
+    prerender: { routes: [...routes, ...unlisted], crawlLinks: true, failOnError: true, autoSubfolderIndex: false },
   },
   image: {
     quality: 80,

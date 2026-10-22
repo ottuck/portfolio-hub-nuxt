@@ -5,6 +5,8 @@ import { load } from 'cheerio'
 import sharp from 'sharp'
 import routes from '../docs/routes.json'
 import baseline from '../docs/baseline.json'
+import { locales, localePath } from '../app/i18n/locales'
+import { getProject, getSlugs } from '../app/lib/projects'
 
 const output = resolve('.output/public')
 const fixtures: Record<string, (typeof baseline)[keyof typeof baseline]> = baseline
@@ -46,8 +48,15 @@ for (const route of routes) {
   }
   assert.ok(!$('meta[name="robots"]').attr('content')?.includes('noindex'), `${route}: production HTML must be indexable`)
 }
+const unlisted = getSlugs().filter(slug => getProject(slug, 'en')!.unlisted).flatMap(slug => locales.map(locale => localePath(locale, `/projects/${slug}`)))
+for (const route of unlisted) {
+  const $ = load(await readFile(htmlFile(route), 'utf8'))
+  assert.match($('meta[name="robots"]').attr('content') ?? '', /noindex/, `${route}: unlisted page must be noindex`)
+  assert.ok($('main h1').text(), `${route}: unlisted page content`)
+}
 for (const asset of assets) await access(resolve(output, '.' + decodeURIComponent(asset)))
-for (const file of await readdir(resolve(output, 'og'))) {
+const ogFiles = await readdir(resolve(output, 'og'))
+for (const file of ogFiles) {
   const metadata = await sharp(resolve(output, 'og', file)).metadata()
   assert.equal(metadata.width, 1200, file)
   assert.equal(metadata.height, 630, file)
@@ -71,4 +80,4 @@ for (const forbidden of ['200.html', '_worker.js', 'functions']) {
   await assert.rejects(access(resolve(output, forbidden)), `${forbidden} must not be deployed`)
 }
 assert.doesNotMatch(await readFile(resolve(output, '_redirects'), 'utf8'), /^\/\*\s+.*\s+200\s*$/m, 'Pages must not rewrite missing paths to the app with 200')
-console.log(`Verified ${routes.length} pages against the original build, ${assets.size} referenced assets, 8 OG images, sitemap, robots and localized static 404s.`)
+console.log(`Verified ${routes.length} pages against the original build, ${assets.size} referenced assets, ${unlisted.length} unlisted pages, ${ogFiles.length} OG images, sitemap, robots and localized static 404s.`)

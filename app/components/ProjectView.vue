@@ -12,7 +12,7 @@ const parent = computed(() => props.project.mergedInto ? getProject(props.projec
 const screens = computed(() => props.project.gallery.filter(shot => shot.frame !== 'phone'))
 const phones = computed(() => props.project.gallery.filter(shot => shot.frame === 'phone'))
 const screenRatio = computed(() => { const ratios = screens.value.map(shot => shot.src.width / shot.src.height).toSorted((a, b) => a - b); return ratios[Math.floor(ratios.length / 2)] ?? 16 / 10 })
-usePageSeo(() => props.locale, () => `/projects/${props.project.slug}`, () => ({ title: props.project.name, description: props.project.summary, type: 'article' }))
+usePageSeo(() => props.locale, () => `/projects/${props.project.slug}`, () => ({ title: props.project.name, description: props.project.summary, type: 'article', noindex: props.project.unlisted }))
 useStructuredData(() => ({ '@context': 'https://schema.org', '@type': 'CreativeWork', name: props.project.name, description: props.project.summary, ...(props.project.links.live && { url: props.project.links.live.href }), ...(props.project.links.github && { codeRepository: props.project.links.github }), inLanguage: props.locale, author: { '@type': 'Person', name: site.name, url: site.links.github } }))
 </script>
 
