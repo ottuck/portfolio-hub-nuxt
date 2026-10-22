@@ -18,6 +18,8 @@ for (const entry of await readdir(resolve(output, 'images'), { recursive: true, 
 }
 await mkdir(resolve('app/generated'), { recursive: true })
 await writeFile(resolve('app/generated/image-placeholders.json'), JSON.stringify(placeholders, null, 2) + '\n')
+const unlisted = getSlugs().filter(slug => !!getProject(slug, 'en')!.unlisted).flatMap(slug => locales.map(locale => localePath(locale, `/projects/${slug}`)))
+await writeFile(resolve('app/generated/unlisted-routes.json'), JSON.stringify(unlisted, null, 2) + '\n')
 await mkdir(resolve(output, 'og'), { recursive: true })
 const [regular, semibold] = await Promise.all(['Geist-Regular.ttf', 'Geist-SemiBold.ttf'].map(name => readFile(resolve('assets/og-fonts', name))))
 const fonts = [
@@ -73,7 +75,7 @@ for (const slug of getSlugs()) {
   if (project.cover.main) await shotImage(slug, eyebrow, project.name, project.tagline, project.cover.tint, project.cover.main.src.src)
   else await image(slug, `${eyebrow} · ${project.label}`, project.name, project.tagline, project.cover.tint)
 }
-const paths = ['/', '/projects', ...getSlugs().map(slug => `/projects/${slug}`), '/about']
+const paths = ['/', '/projects', ...getSlugs().filter(slug => !getProject(slug, 'en')!.unlisted).map(slug => `/projects/${slug}`), '/about']
 const xml = (text: string) => text.replace(/[<>&"']/g, character => ({ '<': '&lt;', '>': '&gt;', '&': '&amp;', '"': '&quot;', "'": '&apos;' })[character]!)
 const absolute = (path: string) => new URL(path, site.url).toString()
 const entries = paths.flatMap(path => locales.map(locale => `<url><loc>${xml(absolute(localePath(locale, path)))}</loc><changefreq>${path === '/about' ? 'yearly' : 'monthly'}</changefreq><priority>${path === '/' ? 1 : path === '/about' ? 0.5 : 0.8}</priority>${Object.entries(languageAlternates(path)).map(([language, href]) => `<xhtml:link rel="alternate" hreflang="${language}" href="${xml(absolute(href))}"/>`).join('')}</url>`))

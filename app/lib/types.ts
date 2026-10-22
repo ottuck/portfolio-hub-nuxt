@@ -24,6 +24,11 @@ export type Project = {
    * the project lists and shown under that project instead.
    */
   mergedInto?: string;
+  /**
+   * A draft page: it is built at its URL, but left out of the project lists, the sitemap and the
+   * previous/next links, and marked noindex.
+   */
+  unlisted?: boolean;
 
   /** One or two sentences for cards. */
   tagline: string;

@@ -1,6 +1,15 @@
 # 구현과 검증 결과
 
-기준일: 2026-10-20 (Asia/Seoul)
+기준일: 2026-10-22 (Asia/Seoul)
+
+## Henry Wallet 초안 페이지 추가 (2026-10-22)
+
+- 사용자 요청에 따라 `ottuck/stable-wallet`(Henry Wallet)의 소개 페이지를 메인 목록에 합치지 않고 미리 작성했다. 저장소는 비공개라 GitHub 링크를 두지 않았고, 원고는 저장소의 README·`docs/PROJECT.md`·`docs/ROADMAP.md` 기준이다. 아직 확인되지 않은 항목(MetaMask와 같은 주소, iOS 스크린샷 차단)은 확정된 것처럼 쓰지 않았다.
+- `Project.unlisted`를 추가했다. 초안 페이지는 `/projects/henry-wallet`과 `/ja`·`/ko` 경로로 생성되지만 홈·프로젝트 목록·이전/다음 링크·sitemap에서 빠지고 `robots: noindex`가 붙는다. 링크가 없어 크롤러가 찾지 못하므로 `pnpm assets`가 `app/generated/unlisted-routes.json`을 만들고 `nuxt.config.ts`가 prerender 경로에 더한다(설정에서 콘텐츠를 직접 import하면 `~` 별칭 때문에 typecheck가 깨진다).
+- `scripts/verify-static.ts`가 초안 페이지의 noindex와 본문을 확인한다. 기존 30개 경로의 baseline은 바뀌지 않았다. OG 이미지는 초안 프로젝트 몫까지 9개가 생성된다.
+- 이미지는 사용자가 준 웹 데모 스크린샷 6장을 WebP(품질 90)로 바꿨다. 표지는 홈·서명 전 확인·보낸 뒤 화면을 1280×800 한 장으로 합성했고, 카드용 inset은 환영 화면이다.
+- 공개할 때는 `unlisted`를 지우고 `docs/routes.json`·`docs/baseline.json`에 세 경로를 추가하고, `verify-static.ts`의 sitemap 개수(30)를 고친다.
+- 로컬 Node 26.7.0에서 `pnpm check`, `pnpm generate`(30개 페이지, 314개 자산, 초안 3개, 9개 OG 이미지 검증), `pnpm test:pages`가 통과했다. 로컬 미리보기에서 한국어 상세 페이지의 표지·정보·소개·갤러리를 확인했다.
 
 ## Puny Chat GitHub 링크 제거 (2026-10-20)
 

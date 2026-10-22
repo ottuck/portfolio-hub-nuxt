@@ -3,7 +3,7 @@ import { site } from '~/content/site'
 import { getDictionary } from '~/i18n/dictionaries'
 import { languageAlternates, localePath, ogLocales, type Locale } from '~/i18n/locales'
 
-export function usePageSeo(locale: MaybeRefOrGetter<Locale>, path: MaybeRefOrGetter<string>, page: MaybeRefOrGetter<{ title?: string; description?: string; type?: 'website' | 'article' }> = {}) {
+export function usePageSeo(locale: MaybeRefOrGetter<Locale>, path: MaybeRefOrGetter<string>, page: MaybeRefOrGetter<{ title?: string; description?: string; type?: 'website' | 'article'; noindex?: boolean }> = {}) {
   const config = useRuntimeConfig()
   useHead(() => {
     const language = toValue(locale)
@@ -26,6 +26,7 @@ export function usePageSeo(locale: MaybeRefOrGetter<Locale>, path: MaybeRefOrGet
       meta: [
         { name: 'description', content: description },
         { name: 'author', content: site.name },
+        ...(data.noindex ? [{ name: 'robots', content: 'noindex' }] : []),
         { property: 'og:title', content: data.title ?? `${site.name} — ${profile.role}` },
         { property: 'og:description', content: description },
         { property: 'og:type', content: data.type ?? 'website' },
