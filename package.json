@@ -7,6 +7,7 @@
     "dev": "pnpm assets && nuxt dev --host 127.0.0.1",
     "build": "pnpm generate",
     "assets": "tsx --tsconfig tsconfig.scripts.json scripts/generate-assets.ts",
+    "diagrams": "tsx --tsconfig tsconfig.scripts.json scripts/export-diagrams.ts",
     "generate": "pnpm assets && nuxt generate && pnpm finalize && pnpm verify",
     "finalize": "tsx --tsconfig tsconfig.scripts.json scripts/finalize-static.ts",
     "verify": "tsx --tsconfig tsconfig.scripts.json scripts/verify-static.ts",
