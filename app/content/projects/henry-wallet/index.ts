@@ -12,14 +12,13 @@ const welcome = {"src":"/images/content/projects/henry-wallet/welcome.webp","wid
 export const henryWallet: Project = {
   slug: "henry-wallet",
   name: "Henry Wallet",
-  status: "in-progress",
-  label: "For learning",
+  status: "testing",
+  label: "Side project",
   order: 8,
-  unlisted: true,
 
   tagline: "A self-custody stablecoin wallet for iPhone. The keys stay on the phone, and every payment is signed there after Face ID.",
   summary:
-    "A small personal wallet for holding and sending USDC and JPYC on Polygon, Ethereum and Avalanche. There is no server: the app creates the wallet, keeps the recovery phrase in the phone's secure storage, and shows everything on one screen before you approve a payment with Face ID.",
+    "Holds and sends USDC and JPYC on Polygon, Ethereum and Avalanche. The recovery phrase stays in the phone's secure storage, and every payment is shown in full on one screen before you approve it with Face ID.",
   cardStack: ["Expo", "ethers", "Polygon"],
   facts: [
     { label: "Type", value: "iPhone app (Expo) · KO / EN" },
@@ -37,8 +36,9 @@ export const henryWallet: Project = {
   },
 
   about: [
-    "I wanted to see for myself what a wallet does between a 12-word phrase and a payment going out, so I built a small one. Henry Wallet holds USDC and JPYC, stablecoins that move across borders in seconds for a small fee, and lets you send and receive them from an iPhone.",
-    "There's no server behind it. The wallet is created on the phone, the recovery phrase never leaves it, and nothing is sent until you've seen the whole payment on one screen and approved it with Face ID. It does only a few things, on purpose: no swaps, no connecting to websites, one account per wallet.",
+    "A personal stablecoin wallet for iPhone. It handles two coins, USDC and JPYC, which cross borders in seconds for a small fee.",
+    "There's no server. Everything from creating the wallet to signing happens on the phone, and the only thing that leaves it is the signed payment. The features stay narrow: send, receive and check balances, with no swaps and no connecting to websites.",
+    "For now I use it on testnets and keep polishing it.",
   ],
   features: [
     {
@@ -86,7 +86,7 @@ export const henryWallet: Project = {
     { area: "Testing", items: "jest-expo — amounts, addresses, key derivation vectors · ESLint · Prettier · GitHub Actions" },
     { area: "Demo", items: "react-native-web — storage, keys and RPC swapped for in-memory stubs" },
   ],
-  footnote: "An experimental wallet built for learning. It hasn't been audited, so I only use it on test networks and with small amounts. The screenshots are from the web demo with sample data.",
+  footnote: "Experimental and unaudited. I only use it on test networks and with small amounts. The screenshots are from the web demo with sample data.",
 
   translations: { ja, ko },
 };

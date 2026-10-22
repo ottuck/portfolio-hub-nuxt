@@ -84,7 +84,7 @@ portfolio-hub-nuxt/
 
 영어용 파일과 언어 접두사 파일을 나눈 것은 기존 URL을 유지하기 위해서다. `[locale]`이 있어도 모든 언어를 허용하지 않는다. `ja`, `ko`만 통과하고 `/fr`이나 없는 프로젝트는 404로 처리한다.
 
-원본의 `generateStaticParams()` 역할은 `docs/routes.json`과 `nuxt.config.ts`의 prerender 설정으로 옮겼다. 홈·목록·About·상세 7개를 3개 언어로 만들어 총 30개다. 목록에서 숨긴 `ur-manager`, `ur-mcp`도 상세 URL은 생성한다.
+원본의 `generateStaticParams()` 역할은 `docs/routes.json`과 `nuxt.config.ts`의 prerender 설정으로 옮겼다. 이전 당시 홈·목록·About·상세 7개를 3개 언어로 만들어 총 30개였고, 2026-10-22 `henry-wallet`을 더해 33개다. 목록에서 숨긴 `ur-manager`, `ur-mcp`도 상세 URL은 생성한다. `unlisted` 프로젝트는 링크가 없으므로 `pnpm assets`가 쓰는 `app/generated/unlisted-routes.json`으로 prerender 경로에 더한다(현재 없음).
 
 ## 4. `.vue` 파일 읽는 법
 
@@ -150,7 +150,7 @@ flowchart LR
 
 Next의 `generateMetadata()`는 `usePageSeo()`로 옮겼다. 이 composable은 `useHead()`로 title·description·canonical·hreflang·OG·Twitter 값을 등록한다. `useStructuredData()`는 JSON-LD를 출력한다. getter로 넘긴 locale·project 값을 읽기 때문에 클라이언트 경로 변경에도 head가 맞춰진다.
 
-OG PNG 8개, sitemap 30개 항목, robots는 `scripts/generate-assets.ts`에서 생성한다. 운영 메타데이터는 기존 도메인, Preview OG는 해당 Preview 도메인을 사용한다. Pages 기본 도메인과 Preview에는 noindex를 적용하고, 정상 운영 도메인은 색인을 허용한다.
+OG PNG 9개, sitemap 33개 항목, robots는 `scripts/generate-assets.ts`에서 생성한다. 운영 메타데이터는 기존 도메인, Preview OG는 해당 Preview 도메인을 사용한다. Pages 기본 도메인과 Preview에는 noindex를 적용하고, 정상 운영 도메인은 색인을 허용한다.
 
 404는 두 경우를 나눠 처리했다. 앱 탐색 중 오류는 `app/error.vue`가, 없는 URL의 직접 HTTP 요청은 빌드 후 생성한 언어별 정적 `404.html`이 처리한다. 임의 경로를 전부 200으로 바꾸는 SPA fallback은 제거했다. 기존 프로젝트명과 Next OG URL은 `public/_redirects`의 308로 호환한다.
 

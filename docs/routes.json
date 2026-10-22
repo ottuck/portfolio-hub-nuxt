@@ -9,6 +9,7 @@
   "/projects/pokepedia",
   "/projects/ur-manager",
   "/projects/ur-mcp",
+  "/projects/henry-wallet",
   "/ja",
   "/ja/projects",
   "/ja/about",
@@ -19,6 +20,7 @@
   "/ja/projects/pokepedia",
   "/ja/projects/ur-manager",
   "/ja/projects/ur-mcp",
+  "/ja/projects/henry-wallet",
   "/ko",
   "/ko/projects",
   "/ko/about",
@@ -28,5 +30,6 @@
   "/ko/projects/quant-lab",
   "/ko/projects/pokepedia",
   "/ko/projects/ur-manager",
-  "/ko/projects/ur-mcp"
+  "/ko/projects/ur-mcp",
+  "/ko/projects/henry-wallet"
 ]

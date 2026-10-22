@@ -1,6 +1,6 @@
 export type ImageAsset = { src: string; width: number; height: number };
 
-export type ProjectStatus = "live" | "in-progress" | "planned" | "archived";
+export type ProjectStatus = "live" | "testing" | "in-progress" | "planned" | "archived";
 
 export type Shot = {
   src: ImageAsset;
