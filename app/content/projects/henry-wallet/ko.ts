@@ -2,6 +2,7 @@ import type { ProjectCopy } from "~/lib/types";
 
 export const ko: ProjectCopy = {
   label: "사이드 프로젝트",
+  liveLabel: "데모 보기",
   tagline: "직접 보관하는 iPhone용 스테이블코인 지갑. 키는 휴대폰에만 있고, 모든 송금은 Face ID를 거쳐 기기에서 서명합니다.",
   summary:
     "Polygon·Ethereum·Avalanche에서 USDC와 JPYC를 보관하고 보냅니다. 복구 문구는 휴대폰 보안 저장소에만 두고, 송금할 때마다 모든 내용을 한 화면에 보여 준 뒤 Face ID로 승인받습니다.",

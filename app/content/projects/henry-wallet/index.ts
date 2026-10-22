@@ -27,7 +27,10 @@ export const henryWallet: Project = {
     { label: "Runs on", value: "Only on the phone · no server" },
   ],
 
-  links: {},
+  links: {
+    // Source is private for now; the demo runs on sample data.
+    live: { href: "https://wallet.portfolio-hub.dev", label: "Try the demo" },
+  },
 
   cover: {
     main: { src: cover, alt: "Three Henry Wallet screens side by side: home, review before signing, and the sent confirmation" },
