@@ -32,7 +32,7 @@ export const henryWallet: Project = {
   cover: {
     main: { src: cover, alt: "Three Henry Wallet screens side by side: home, review before signing, and the sent confirmation" },
     inset: { src: welcome, alt: "The Henry Wallet welcome screen on a phone", frame: "phone" },
-    tint: ["#e3e9fb", "#bccbf5"],
+    tint: ["#e8eaf3", "#c5cbdd"],
   },
 
   about: [
