@@ -11,6 +11,10 @@ function validate(list: Project[]) {
     if (!/^[a-z0-9-]+$/.test(p.slug)) throw new Error(`Invalid slug "${p.slug}"`);
     if (slugs.has(p.slug)) throw new Error(`Duplicate slug "${p.slug}"`);
     slugs.add(p.slug);
+    for (const e of p.architecture?.edges ?? []) {
+      const ids = new Set(p.architecture!.nodes.map((n) => n.id));
+      if (!ids.has(e.from) || !ids.has(e.to)) throw new Error(`"${p.slug}" diagram: no box for ${e.from} → ${e.to}`);
+    }
     for (const [locale, copy] of Object.entries(p.translations)) checkCopy(p, locale, copy);
   }
   for (const p of list) {

@@ -3,7 +3,6 @@ import { ja } from "./ja";
 import { ko } from "./ko";
 const cover = {"src":"/images/content/projects/gitleaf/cover.webp","width":1280,"height":800};
 const embed = {"src":"/images/content/projects/gitleaf/embed.webp","width":1280,"height":800};
-const how = {"src":"/images/content/projects/gitleaf/how.webp","width":1280,"height":800};
 
 export const gitleaf: Project = {
   slug: "gitleaf",
@@ -55,7 +54,6 @@ export const gitleaf: Project = {
     },
   ],
   gallery: [
-    { src: how, alt: "How it works: a README asks a Cloudflare Worker for an image, which comes from saved SVGs in R2; a daily cron reads GitHub and repaints, and D1 keeps the schedule" },
     { src: embed, alt: "The one line to paste into a README, next to the plant it shows" },
   ],
   stack: [
@@ -67,5 +65,28 @@ export const gitleaf: Project = {
   ],
   footnote: "Counts are GitHub contributions, not only commits. Private activity only shows if the service's GitHub token can see it. The pictures use my own account.",
 
+  architecture: {
+    width: 1080,
+    height: 406,
+    summary:
+      "Solid arrows are image requests and storage access; dashed arrows are the daily refresh. The first request for a garden also fetches its GitHub activity and draws it.",
+    nodes: [
+      { id: "readme", x: 110, y: 216, title: "GitHub README" },
+      { id: "worker", x: 470, y: 216, title: "Cloudflare Worker", note: "Serve images · grow gardens" },
+      { id: "cron", x: 470, y: 57, title: "Cloudflare Cron", tone: "accent" },
+      { id: "github", x: 940, y: 57, title: "GitHub API", tone: "outside" },
+      { id: "r2", x: 940, y: 216, title: "R2 · Artwork", note: "Still + animated SVG" },
+      { id: "d1", x: 940, y: 350, title: "D1 · Garden records", note: "Users · refresh times" },
+    ],
+    edges: [
+      { from: "readme", to: "worker", label: "Image request", offset: -16 },
+      { from: "worker", to: "readme", label: "SVG response", offset: 16 },
+      { from: "worker", to: "r2", label: "Read saved SVG", offset: -16 },
+      { from: "worker", to: "r2", label: "Save updated SVG", dashed: true, offset: 16 },
+      { from: "cron", to: "worker", label: "Daily refresh", dashed: true },
+      { from: "worker", to: "github", label: "Fetch contributions", dashed: true, route: "hvh", fromOffset: -28, bend: 652, labelAt: 2 },
+      { from: "worker", to: "d1", label: "Garden & refresh schedule", both: true, route: "vh", fromOffset: 20, labelAt: 1 },
+    ],
+  },
   translations: { ja, ko },
 };

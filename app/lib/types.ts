@@ -9,6 +9,49 @@ export type Shot = {
   frame?: "screen" | "phone";
 };
 
+/** A box in an architecture diagram. x and y are its center, in diagram units. */
+export type DiagramNode = {
+  id: string;
+  x: number;
+  y: number;
+  title: string;
+  note?: string;
+  /** "accent" for people and triggers, "outside" for services the project doesn't run. */
+  tone?: "main" | "accent" | "outside";
+};
+
+/**
+ * An arrow between two boxes. route picks the shape: "h" and "v" are straight, "hvh" and
+ * "vhv" bend twice at `bend`, "hv" and "vh" bend once. Offsets slide an end along its box side.
+ * Without a route, a straight line is used when the boxes share a row or a column.
+ */
+export type DiagramEdge = {
+  from: string;
+  to: string;
+  label?: string;
+  dashed?: boolean;
+  /** Arrowheads on both ends. */
+  both?: boolean;
+  route?: "h" | "v" | "hvh" | "vhv" | "hv" | "vh";
+  offset?: number;
+  fromOffset?: number;
+  toOffset?: number;
+  bend?: number;
+  /** The segment that carries the label (0 is the first); the longest one by default. */
+  labelAt?: number;
+};
+
+export type Diagram = {
+  width: number;
+  height: number;
+  /** One or two sentences shown under the diagram, also read as its description. */
+  summary: string;
+  /** Dashed frames around boxes that run in one place, e.g. "One server". */
+  groups?: { title: string; x: number; y: number; w: number; h: number }[];
+  nodes: DiagramNode[];
+  edges: DiagramEdge[];
+};
+
 export type Project = {
   slug: string;
   name: string;
@@ -65,6 +108,8 @@ export type Project = {
   features: { title: string; body: string }[];
   gallery: Shot[];
   stack: { area: string; items: string }[];
+  /** How the parts fit together, drawn on the project page. Its words are English in every language. */
+  architecture?: Diagram;
   footnote?: string;
 
   /** The same text in the other site languages (see ProjectCopy). */

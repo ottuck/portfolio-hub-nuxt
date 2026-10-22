@@ -10,7 +10,7 @@ for (const route of routes) {
   assert.equal(response.status, 200, `${route}: response`)
   const $ = load(await response.text())
   assert.equal($('html').attr('lang'), fixtures[route]!.lang, `${route}: locale`)
-  assert.equal($('title').text(), fixtures[route]!.title, `${route}: title`)
+  assert.equal($('head > title').text(), fixtures[route]!.title, `${route}: title`)
   assert.equal($('link[rel="canonical"]').attr('href'), fixtures[route]!.canonical, `${route}: canonical`)
   const image = $('meta[property="og:image"]').attr('content')!
   assert.equal((await fetch(new URL(new URL(image).pathname, base))).status, 200, `${route}: OG`)
