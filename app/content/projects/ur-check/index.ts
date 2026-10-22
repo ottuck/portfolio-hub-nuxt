@@ -71,8 +71,8 @@ export const urCheck: Project = {
     },
   ],
   gallery: [
-    { src: wizard, alt: "Creating a condition by answering questions: area, monthly cost, then layout chips" },
-    { src: rooms, alt: "Open rooms that match the conditions, as cards with monthly cost, layout, size and walk to a station" },
+    { src: wizard, alt: "Creating a condition step by step: step 1 of 6 asks for the area, with three wards and cities picked" },
+    { src: rooms, alt: "Open rooms that match the conditions, as cards with a floor plan and the monthly rent" },
     { src: history, alt: "Change history: rooms that are new, relisted or gone, with the condition each one matches" },
     { src: apps, alt: "Admin screen for adding an AI app, with the AI app choices and their callback URLs" },
   ],

@@ -46,7 +46,7 @@
       "UR Check home: the headline banner, then the counts of saved conditions, open rooms and recent changes",
       "The same page on a phone",
       "A year of contributions as a plant, and a close-up of its leaves",
-      "Quant Lab home: the copy-me bot next to just buying every month, and the next payday's buys",
+      "Quant Lab home: the copy-me bot next to just buying every month, today's decision, and the three bots on the side",
       "Quant Lab home on a phone",
       "Game Boy–style battle: a Pokémon silhouette, the trainer's back and the command box",
       "The Pokédex on a phone",
@@ -124,7 +124,7 @@
       "UR Check home: the headline banner, then the counts of saved conditions, open rooms and recent changes",
       "The same page on a phone",
       "A year of contributions as a plant, and a close-up of its leaves",
-      "Quant Lab home: the copy-me bot next to just buying every month, and the next payday's buys",
+      "Quant Lab home: the copy-me bot next to just buying every month, today's decision, and the three bots on the side",
       "Quant Lab home on a phone",
       "Game Boy–style battle: a Pokémon silhouette, the trainer's back and the command box",
       "The Pokédex on a phone",
@@ -197,8 +197,8 @@
     ],
     "alts": [
       "UR Check home: the headline banner, then the counts of saved conditions, open rooms and recent changes",
-      "Creating a condition by answering questions: area, monthly cost, then layout chips",
-      "Open rooms that match the conditions, as cards with monthly cost, layout, size and walk to a station",
+      "Creating a condition step by step: step 1 of 6 asks for the area, with three wards and cities picked",
+      "Open rooms that match the conditions, as cards with a floor plan and the monthly rent",
       "Change history: rooms that are new, relisted or gone, with the condition each one matches",
       "Admin screen for adding an AI app, with the AI app choices and their callback URLs"
     ],
@@ -351,9 +351,9 @@
       "https://demo.trading-lab.me"
     ],
     "alts": [
-      "Quant Lab home: the copy-me bot next to just buying every month, and the next payday's buys",
-      "Copying a habit: “When prices look high, what do you do?” with four choices",
-      "The AI bot in the demo: today's decision, from current to target weight with reasons, and the AI bot next to the copy-me bot. Demo decisions are made by rules, not a real AI",
+      "Quant Lab home: the copy-me bot next to just buying every month, today's decision, and the three bots on the side",
+      "Copying a habit, question 3 of 6: how much goes in each month, with amounts to pick",
+      "The market-analysis AI bot in the demo: today's decision with its reasons and a target weight for each fund. Demo decisions are made by rules, not a real AI",
       "Parallel yous: the same money with one rule changed each time",
       "Trying the copy-me rule on past prices: the monthly amount, when to skip or buy big, and which funds"
     ],
@@ -622,7 +622,7 @@
       "UR Checkのホーム画面。見出しのバナーと、保存した条件・募集中の部屋・最近の変化の件数",
       "同じ画面をスマートフォンで表示した様子",
       "1年のコントリビューションを描いた植物と、その葉のクローズアップ",
-      "Quant Labのホーム。自分コピーボットと毎月ただ買う場合の比較、次の給料日に買うもの",
+      "Quant Labのホーム。自分コピーボットと毎月ただ買う場合の比較、今日の判断、横に並ぶ3つのボット",
       "スマホで見たQuant Labのホーム",
       "ゲームボーイ風のバトル画面。ポケモンのシルエット、トレーナーの後ろ姿、コマンド欄",
       "スマホで見た図鑑",
@@ -700,7 +700,7 @@
       "UR Checkのホーム画面。見出しのバナーと、保存した条件・募集中の部屋・最近の変化の件数",
       "同じ画面をスマートフォンで表示した様子",
       "1年のコントリビューションを描いた植物と、その葉のクローズアップ",
-      "Quant Labのホーム。自分コピーボットと毎月ただ買う場合の比較、次の給料日に買うもの",
+      "Quant Labのホーム。自分コピーボットと毎月ただ買う場合の比較、今日の判断、横に並ぶ3つのボット",
       "スマホで見たQuant Labのホーム",
       "ゲームボーイ風のバトル画面。ポケモンのシルエット、トレーナーの後ろ姿、コマンド欄",
       "スマホで見た図鑑",
@@ -773,8 +773,8 @@
     ],
     "alts": [
       "UR Checkのホーム画面。見出しのバナーと、保存した条件・募集中の部屋・最近の変化の件数",
-      "質問に答えて条件を作る画面。エリア、月額に続いて間取りのチップを選ぶ",
-      "条件に合う募集中の部屋のカード。月額、間取り、広さ、駅徒歩を表示",
+      "質問に沿って条件を作る画面。6ステップ中の1つ目でエリアを聞かれ、区・市を3つ選んだところ",
+      "条件に合う募集中の部屋のカード。間取り図と月額の家賃を表示",
       "確認履歴の画面。新着・再募集・募集終了の部屋と、それぞれが合う条件",
       "AIアプリを追加する管理画面。接続できるAIアプリの選択肢とコールバックURL"
     ],
@@ -927,9 +927,9 @@
       "https://demo.trading-lab.me"
     ],
     "alts": [
-      "Quant Labのホーム。自分コピーボットと毎月ただ買う場合の比較、次の給料日に買うもの",
-      "習慣のコピー。「高くなったと思うときはどうしますか？」と4つの選択肢",
-      "デモのAIボット。今日の判断（現在→目標の配分と理由）と自分コピーボットとの比較。デモの判断は本物のAIではなくルールで作った例",
+      "Quant Labのホーム。自分コピーボットと毎月ただ買う場合の比較、今日の判断、横に並ぶ3つのボット",
+      "習慣のコピー、6問中3問目。毎月投資する金額と、選べる金額",
+      "デモの市場分析AIボット。今日の判断とその理由、銘柄ごとの目標配分。デモの判断は本物のAIではなくルールで作った例",
       "パラレルワールドの自分。同じ金額でルールを1つずつ変えた自分たち",
       "過去の価格で自分コピーのルールを試す画面。毎月の金額、見送り・まとめ買いの基準、銘柄"
     ],
@@ -1198,7 +1198,7 @@
       "UR Check 홈 화면. 상단 배너와 저장한 조건·모집 중인 방·최근 변화의 건수",
       "같은 화면을 휴대폰에서 본 모습",
       "1년치 기여 기록으로 그린 식물과 그 잎을 확대한 모습",
-      "Quant Lab 홈. 나 카피 봇과 매달 그냥 샀을 때의 비교, 다음 월급날 살 것",
+      "Quant Lab 홈. 나 카피 봇과 매달 그냥 샀을 때의 비교, 오늘의 판단, 옆에 놓인 봇 세 개",
       "휴대폰에서 본 Quant Lab 홈",
       "게임보이 배틀 화면. 포켓몬 실루엣, 트레이너 뒷모습, 명령창",
       "휴대폰에서 본 도감",
@@ -1276,7 +1276,7 @@
       "UR Check 홈 화면. 상단 배너와 저장한 조건·모집 중인 방·최근 변화의 건수",
       "같은 화면을 휴대폰에서 본 모습",
       "1년치 기여 기록으로 그린 식물과 그 잎을 확대한 모습",
-      "Quant Lab 홈. 나 카피 봇과 매달 그냥 샀을 때의 비교, 다음 월급날 살 것",
+      "Quant Lab 홈. 나 카피 봇과 매달 그냥 샀을 때의 비교, 오늘의 판단, 옆에 놓인 봇 세 개",
       "휴대폰에서 본 Quant Lab 홈",
       "게임보이 배틀 화면. 포켓몬 실루엣, 트레이너 뒷모습, 명령창",
       "휴대폰에서 본 도감",
@@ -1349,8 +1349,8 @@
     ],
     "alts": [
       "UR Check 홈 화면. 상단 배너와 저장한 조건·모집 중인 방·최근 변화의 건수",
-      "질문에 답해 조건을 만드는 화면. 지역, 월 비용에 이어 방 구조 칩을 고른다",
-      "조건에 맞는 모집 중인 방 카드. 월 비용, 방 구조, 면적, 역 도보 시간을 보여 준다",
+      "질문에 따라 조건을 만드는 화면. 6단계 중 1단계에서 지역을 묻고, 구·시 세 곳을 골랐다",
+      "조건에 맞는 모집 중인 방 카드. 평면도와 월 임대료를 보여 준다",
       "확인 이력 화면. 새로 나온 방·다시 나온 방·사라진 방과 각각 맞는 조건",
       "AI 앱을 추가하는 관리자 화면. 연결할 수 있는 AI 앱 선택지와 콜백 URL"
     ],
@@ -1503,9 +1503,9 @@
       "https://demo.trading-lab.me"
     ],
     "alts": [
-      "Quant Lab 홈. 나 카피 봇과 매달 그냥 샀을 때의 비교, 다음 월급날 살 것",
-      "습관 복사하기. “많이 오른 것 같을 때는 어떻게 하나요?”와 선택지 4개",
-      "데모의 AI 봇. 오늘의 판단(지금 → 목표 비중과 이유)과 나 카피 봇과의 비교. 데모 판단은 실제 AI가 아니라 규칙으로 만든 예시",
+      "Quant Lab 홈. 나 카피 봇과 매달 그냥 샀을 때의 비교, 오늘의 판단, 옆에 놓인 봇 세 개",
+      "습관 복사하기 3/6 질문. 한 달에 투자하는 금액과 고를 수 있는 금액들",
+      "데모의 시장분석 AI 봇. 오늘의 판단과 이유, 종목별 목표 비중. 데모 판단은 실제 AI가 아니라 규칙으로 만든 예시",
       "평행세계의 나. 같은 금액으로 규칙을 하나씩 바꾼 나들",
       "과거 가격으로 나 카피 규칙을 시험해 보는 화면. 매달 넣는 돈, 쉬기·몰아 사기 기준, 종목"
     ],

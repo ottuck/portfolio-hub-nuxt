@@ -2,6 +2,13 @@
 
 기준일: 2026-10-22 (Asia/Seoul)
 
+## Quant Lab·UR Check 스크린샷 재촬영과 구성도 내보내기 (2026-10-22)
+
+- 두 앱의 UI가 바뀌어 라이브 데모(`demo.trading-lab.me`, `demo.ur-check.com`)에서 같은 구성의 화면을 headless Chrome(DevTools 프로토콜)으로 다시 찍었다. 데스크톱은 1280×800 1x, 휴대폰은 390×844 2x(780×1688), 라이트 테마다. Quant Lab은 기존처럼 한국어, UR Check은 사용자 요청대로 일본어 화면이다. WebP 품질 88로 저장했고 크기는 기존과 같다.
+- 화면이 바뀐 이미지의 alt만 세 언어로 고쳤다(Quant Lab 홈·질문·AI 봇, UR Check 조건 만들기·모집 중 물건). `docs/baseline.json`은 홈·목록·두 상세의 alt만 바뀌었다.
+- `pnpm diagrams`(`scripts/export-diagrams.ts`)를 추가해 6개 구성도를 `docs/architecture/<slug>.svg`와 2x PNG로 내보냈다(Geist 글꼴, 페이지의 라이트 색). resvg가 `orient="auto-start-reverse"`를 지원하지 않아 내보내기에서는 시작·끝 화살촉을 따로 정의했다. 같은 파일을 사용자 다운로드 폴더(`Downloads/portfolio-architecture`)에도 복사했다.
+- 로컬 Node 26.7.0에서 `pnpm check`, `pnpm generate`(33개 페이지, 381개 자산 검증), `pnpm test:pages`가 통과했다.
+
 ## 프로젝트 구성도 추가 (2026-10-22)
 
 - 사용자 요청에 따라 GitLeaf·Pokepedia·Henry Wallet·Quant Lab·UR Check·Puny Chat 상세 페이지에 구성도 섹션(Architecture · 構成図 · 구성도)을 기술 구성 위에 추가했다. 각 저장소 README의 다이어그램(GitLeaf `docs/architecture.svg`, 나머지는 mermaid)을 바탕으로 하되, GitLeaf SVG의 모양(둥근 상자, 알약 라벨, 실선·점선 화살표, 세이지·샌드 색)으로 다시 배치했다. Pokepedia에는 Unity 배틀(별도 저장소)을 더했다.

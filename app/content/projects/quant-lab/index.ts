@@ -32,7 +32,7 @@ export const quantLab: Project = {
   },
 
   cover: {
-    main: { src: home, alt: "Quant Lab home: the copy-me bot next to just buying every month, and the next payday's buys" },
+    main: { src: home, alt: "Quant Lab home: the copy-me bot next to just buying every month, today's decision, and the three bots on the side" },
     inset: { src: mobile, alt: "Quant Lab home on a phone", frame: "phone" },
     tint: ["#e7ecf6", "#c6d1e6"],
   },
@@ -74,8 +74,8 @@ export const quantLab: Project = {
     },
   ],
   gallery: [
-    { src: question, alt: "Copying a habit: “When prices look high, what do you do?” with four choices" },
-    { src: ai, alt: "The AI bot in the demo: today's decision, from current to target weight with reasons, and the AI bot next to the copy-me bot. Demo decisions are made by rules, not a real AI" },
+    { src: question, alt: "Copying a habit, question 3 of 6: how much goes in each month, with amounts to pick" },
+    { src: ai, alt: "The market-analysis AI bot in the demo: today's decision with its reasons and a target weight for each fund. Demo decisions are made by rules, not a real AI" },
     { src: parallel, alt: "Parallel yous: the same money with one rule changed each time" },
     { src: backtest, alt: "Trying the copy-me rule on past prices: the monthly amount, when to skip or buy big, and which funds" },
   ],
