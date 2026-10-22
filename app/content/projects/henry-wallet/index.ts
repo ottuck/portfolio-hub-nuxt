@@ -2,12 +2,12 @@ import type { Project } from "~/lib/types";
 import { ja } from "./ja";
 import { ko } from "./ko";
 const cover = {"src":"/images/content/projects/henry-wallet/cover.webp","width":1280,"height":800};
-const home = {"src":"/images/content/projects/henry-wallet/home.webp","width":384,"height":738};
-const receive = {"src":"/images/content/projects/henry-wallet/receive.webp","width":384,"height":738};
-const review = {"src":"/images/content/projects/henry-wallet/review.webp","width":384,"height":738};
-const send = {"src":"/images/content/projects/henry-wallet/send.webp","width":384,"height":738};
-const sent = {"src":"/images/content/projects/henry-wallet/sent.webp","width":384,"height":738};
-const welcome = {"src":"/images/content/projects/henry-wallet/welcome.webp","width":480,"height":923};
+const home = {"src":"/images/content/projects/henry-wallet/home.webp","width":924,"height":2000};
+const receive = {"src":"/images/content/projects/henry-wallet/receive.webp","width":924,"height":2000};
+const review = {"src":"/images/content/projects/henry-wallet/review.webp","width":924,"height":2000};
+const send = {"src":"/images/content/projects/henry-wallet/send.webp","width":924,"height":2000};
+const sent = {"src":"/images/content/projects/henry-wallet/sent.webp","width":924,"height":2000};
+const welcome = {"src":"/images/content/projects/henry-wallet/welcome.webp","width":924,"height":2000};
 
 export const henryWallet: Project = {
   slug: "henry-wallet",
