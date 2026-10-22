@@ -63,10 +63,10 @@ export const punyChat: Project = {
     },
   ],
   gallery: [
-    { src: kid, alt: "The kid buddy at Lv.10 on the stage, with the poop and cleaning events in the chat below", frame: "phone" },
-    { src: adult, alt: "The adult buddy at its job station with a flower on its head, above a chat about the weekend", frame: "phone" },
-    { src: onsen, alt: "The buddy in an open-air hot spring with a towel on its head, and the chat still running below", frame: "phone" },
-    { src: onsenSnow, alt: "The same hot spring in winter, with snow falling", frame: "phone" },
+    { src: kid, alt: "The kid buddy at Lv.10 on the stage, with the poop and cleaning events in a Korean chat below", frame: "phone" },
+    { src: adult, alt: "The adult buddy at its job station with a flower on its head, above a chat in English about the weekend", frame: "phone" },
+    { src: onsen, alt: "The buddy in an open-air hot spring with a towel on its head, and the chat still running below in Japanese", frame: "phone" },
+    { src: onsenSnow, alt: "The same hot spring in winter, with snow falling, and the chat in Traditional Chinese", frame: "phone" },
   ],
   stack: [
     { area: "App", items: "Expo (React Native) · TypeScript · Expo Router — iPhone and web from one codebase" },
