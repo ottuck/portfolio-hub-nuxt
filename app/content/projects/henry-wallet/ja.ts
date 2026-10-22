@@ -2,6 +2,7 @@ import type { ProjectCopy } from "~/lib/types";
 
 export const ja: ProjectCopy = {
   label: "個人開発",
+  liveLabel: "デモを見る",
   tagline: "自分で鍵を持つiPhone用ステーブルコインウォレット。鍵はスマホの中だけにあり、送金はすべてFace IDを通して端末で署名します。",
   summary:
     "Polygon・Ethereum・AvalancheでUSDCとJPYCを保管・送金します。復元フレーズは端末の安全な保管領域だけに置き、送金のたびにすべてを1画面で見せてからFace IDで承認します。",

@@ -1,6 +1,12 @@
 # 구현과 검증 결과
 
-기준일: 2026-10-22 (Asia/Seoul)
+기준일: 2026-10-23 (Asia/Seoul)
+
+## Henry Wallet 데모 링크 추가 (2026-10-23)
+
+- 사용자 요청에 따라 Henry Wallet에 예시 데이터로 도는 웹 데모 `https://wallet.portfolio-hub.dev`를 `links.live`로 걸었다. 문구는 다른 데모와 같게 "Try the demo"·"데모 보기"·"デモを見る"다. 저장소는 비공개라 GitHub 링크는 넣지 않았다.
+- `docs/baseline.json`은 세 언어의 홈·프로젝트 목록·Henry Wallet 상세 9개 경로만 바뀌었다. 변경은 데모 링크와 그 문구뿐이다.
+- 로컬 Node 26.7.0에서 `pnpm lint`, `pnpm typecheck`, `pnpm generate`(33개 페이지, 381개 자산 검증), `pnpm test:pages`가 통과했다.
 
 ## Puny Chat 갤러리 언어 섞기 (2026-10-22)
 

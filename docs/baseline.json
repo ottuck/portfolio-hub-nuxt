@@ -22,7 +22,7 @@
       "twitter:description": "Henry Kim — backend engineer in Tokyo. Side projects built end to end with Java, Spring, cloud and the web."
     },
     "oldOgImage": "https://www.portfolio-hub.dev/opengraph-image-35z9bs?1a5f1573d33b5f53",
-    "mainText": "HenryKim—BackendSoftwareEngineerHHello,I'mHenryKim.BackendengineerinTokyo,workingmainlyinJavaandSpring.OutsideworkIbuildsmallproductsendtoend,fromdesignandcodetocloudinfrastructureandkeepingthemrunning.Tokyo·JSTDayjobBackendEngineerPayments&finance·API·DB·Auth·CloudToolsIreachforJavaKotlinSpringBootPostgreSQLAzureTerraformNext.jsTypeScriptProjectsPunyChatLive·AppStoresoonAmessengerfortwo,withatinypixelbuddyyouraisetogetherjustbychatting.Raiseabuddy—PunyChatlivesiteExpo·SpringWebFlux·MongoDBURCheckLive·Inviteonly·IuseitSearchURrentalvacanciesbyyourconditionsandtrackroomsthatarenew,relistedorgone.ThewebsiteandAIassistantsworkfromthesameconditionsandhistory.Trythedemo—URChecklivesiteBun·PostgreSQL·MCPGitLeafLive·FreetouseYouryearofGitHubcontributions,paintedasawatercolorplant:oneleafforeachday.PasteonelineintoyourREADMEtouseit.GitHub—GitLeafsourceTypeScript·CloudflareWorkers·SVGQuantLabLive·Realtradesat1/100Apaydayinvestingbotthatcopiesyourhabits,andAIbotsthatsetthemixeveryday.Allofthemrunonmyrealaccountat1/100scale.Trythedemo—QuantLablivesitePython·FastAPI·ClaudeAPIPokepediaLive·Remake“Who'sthatPokémon?”asaGameBoy–stylebattle,withaGen1Pokédexandastickerbook—plusaturn-basedPikachubattleIbuiltinUnity.InKorean,EnglishandJapanese.CatchaPokémon—PokepedialivesiteGitHub—PokepediasourceNext.js·Supabase·UnityHenryWalletTesting·SideprojectAself-custodystablecoinwalletforiPhone.Thekeysstayonthephone,andeverypaymentissignedthereafterFaceID.Expo·ethers·PolygonWritingDevbloghukutaku.tistory.comGitHub@ottuckMoreaboutmeAbout",
+    "mainText": "HenryKim—BackendSoftwareEngineerHHello,I'mHenryKim.BackendengineerinTokyo,workingmainlyinJavaandSpring.OutsideworkIbuildsmallproductsendtoend,fromdesignandcodetocloudinfrastructureandkeepingthemrunning.Tokyo·JSTDayjobBackendEngineerPayments&finance·API·DB·Auth·CloudToolsIreachforJavaKotlinSpringBootPostgreSQLAzureTerraformNext.jsTypeScriptProjectsPunyChatLive·AppStoresoonAmessengerfortwo,withatinypixelbuddyyouraisetogetherjustbychatting.Raiseabuddy—PunyChatlivesiteExpo·SpringWebFlux·MongoDBURCheckLive·Inviteonly·IuseitSearchURrentalvacanciesbyyourconditionsandtrackroomsthatarenew,relistedorgone.ThewebsiteandAIassistantsworkfromthesameconditionsandhistory.Trythedemo—URChecklivesiteBun·PostgreSQL·MCPGitLeafLive·FreetouseYouryearofGitHubcontributions,paintedasawatercolorplant:oneleafforeachday.PasteonelineintoyourREADMEtouseit.GitHub—GitLeafsourceTypeScript·CloudflareWorkers·SVGQuantLabLive·Realtradesat1/100Apaydayinvestingbotthatcopiesyourhabits,andAIbotsthatsetthemixeveryday.Allofthemrunonmyrealaccountat1/100scale.Trythedemo—QuantLablivesitePython·FastAPI·ClaudeAPIPokepediaLive·Remake“Who'sthatPokémon?”asaGameBoy–stylebattle,withaGen1Pokédexandastickerbook—plusaturn-basedPikachubattleIbuiltinUnity.InKorean,EnglishandJapanese.CatchaPokémon—PokepedialivesiteGitHub—PokepediasourceNext.js·Supabase·UnityHenryWalletTesting·SideprojectAself-custodystablecoinwalletforiPhone.Thekeysstayonthephone,andeverypaymentissignedthereafterFaceID.Trythedemo—HenryWalletlivesiteExpo·ethers·PolygonWritingDevbloghukutaku.tistory.comGitHub@ottuckMoreaboutmeAbout",
     "links": [
       "/about",
       "/projects/gitleaf",
@@ -38,7 +38,8 @@
       "https://github.com/ottuck/pokepedia",
       "https://hukutaku.tistory.com/",
       "https://pokepedia.dev",
-      "https://puny-chat.com"
+      "https://puny-chat.com",
+      "https://wallet.portfolio-hub.dev"
     ],
     "alts": [
       "Puny Chat in a desktop browser: the adult buddy at its job station on the stage above the chat",
@@ -103,7 +104,7 @@
       "twitter:title": "Projects",
       "twitter:description": "Side projects I designed, built and run myself."
     },
-    "mainText": "ProjectsThingsIdesigned,builtandkeeprunningmyself.Eachonesayswhereitstands.AllprojectsPunyChatLive·AppStoresoonAmessengerfortwo,withatinypixelbuddyyouraisetogetherjustbychatting.Raiseabuddy—PunyChatlivesiteExpo·SpringWebFlux·MongoDBURCheckLive·Inviteonly·IuseitSearchURrentalvacanciesbyyourconditionsandtrackroomsthatarenew,relistedorgone.ThewebsiteandAIassistantsworkfromthesameconditionsandhistory.Trythedemo—URChecklivesiteBun·PostgreSQL·MCPGitLeafLive·FreetouseYouryearofGitHubcontributions,paintedasawatercolorplant:oneleafforeachday.PasteonelineintoyourREADMEtouseit.GitHub—GitLeafsourceTypeScript·CloudflareWorkers·SVGQuantLabLive·Realtradesat1/100Apaydayinvestingbotthatcopiesyourhabits,andAIbotsthatsetthemixeveryday.Allofthemrunonmyrealaccountat1/100scale.Trythedemo—QuantLablivesitePython·FastAPI·ClaudeAPIPokepediaLive·Remake“Who'sthatPokémon?”asaGameBoy–stylebattle,withaGen1Pokédexandastickerbook—plusaturn-basedPikachubattleIbuiltinUnity.InKorean,EnglishandJapanese.CatchaPokémon—PokepedialivesiteGitHub—PokepediasourceNext.js·Supabase·UnityHenryWalletTesting·SideprojectAself-custodystablecoinwalletforiPhone.Thekeysstayonthephone,andeverypaymentissignedthereafterFaceID.Expo·ethers·Polygon",
+    "mainText": "ProjectsThingsIdesigned,builtandkeeprunningmyself.Eachonesayswhereitstands.AllprojectsPunyChatLive·AppStoresoonAmessengerfortwo,withatinypixelbuddyyouraisetogetherjustbychatting.Raiseabuddy—PunyChatlivesiteExpo·SpringWebFlux·MongoDBURCheckLive·Inviteonly·IuseitSearchURrentalvacanciesbyyourconditionsandtrackroomsthatarenew,relistedorgone.ThewebsiteandAIassistantsworkfromthesameconditionsandhistory.Trythedemo—URChecklivesiteBun·PostgreSQL·MCPGitLeafLive·FreetouseYouryearofGitHubcontributions,paintedasawatercolorplant:oneleafforeachday.PasteonelineintoyourREADMEtouseit.GitHub—GitLeafsourceTypeScript·CloudflareWorkers·SVGQuantLabLive·Realtradesat1/100Apaydayinvestingbotthatcopiesyourhabits,andAIbotsthatsetthemixeveryday.Allofthemrunonmyrealaccountat1/100scale.Trythedemo—QuantLablivesitePython·FastAPI·ClaudeAPIPokepediaLive·Remake“Who'sthatPokémon?”asaGameBoy–stylebattle,withaGen1Pokédexandastickerbook—plusaturn-basedPikachubattleIbuiltinUnity.InKorean,EnglishandJapanese.CatchaPokémon—PokepedialivesiteGitHub—PokepediasourceNext.js·Supabase·UnityHenryWalletTesting·SideprojectAself-custodystablecoinwalletforiPhone.Thekeysstayonthephone,andeverypaymentissignedthereafterFaceID.Trythedemo—HenryWalletlivesiteExpo·ethers·Polygon",
     "links": [
       "/projects/gitleaf",
       "/projects/henry-wallet",
@@ -116,7 +117,8 @@
       "https://github.com/ottuck/gitleaf",
       "https://github.com/ottuck/pokepedia",
       "https://pokepedia.dev",
-      "https://puny-chat.com"
+      "https://puny-chat.com",
+      "https://wallet.portfolio-hub.dev"
     ],
     "alts": [
       "Puny Chat in a desktop browser: the adult buddy at its job station on the stage above the chat",
@@ -552,6 +554,7 @@
         "@type": "CreativeWork",
         "name": "Henry Wallet",
         "description": "Holds and sends USDC and JPYC on Polygon, Ethereum and Avalanche. The recovery phrase stays in the phone's secure storage, and every payment is shown in full on one screen before you approve it with Face ID.",
+        "url": "https://wallet.portfolio-hub.dev",
         "inLanguage": "en",
         "author": {
           "@type": "Person",
@@ -560,10 +563,11 @@
         }
       }
     ],
-    "mainText": "AllprojectsTesting·SideprojectHenryWalletHoldsandsendsUSDCandJPYConPolygon,EthereumandAvalanche.Therecoveryphrasestaysinthephone'ssecurestorage,andeverypaymentisshowninfullononescreenbeforeyouapproveitwithFaceID.TypeiPhoneapp(Expo)·KO/ENPeriodOct2026NetworksPolygon·Ethereum·Avalanche,testnetsfirstRunsonOnlyonthephone·noserverAboutApersonalstablecoinwalletforiPhone.Ithandlestwocoins,USDCandJPYC,whichcrossbordersinsecondsforasmallfee.There'snoserver.Everythingfromcreatingthewallettosigninghappensonthephone,andtheonlythingthatleavesitisthesignedpayment.Thefeaturesstaynarrow:send,receiveandcheckbalances,withnoswapsandnoconnectingtowebsites.FornowIuseitontestnetsandkeeppolishingit.WhatitdoesCreateorimportMakeanew12-wordphraseonthephone,orbringinoneyoualreadyhave.Anewwalletasksforthreerandomwordsfromthephrasebeforeit'sready.ItusesthesamederivationpathasMetaMask'sfirstaccount(m/44'/60'/0'/0/0).FaceIDoneverypaymentThephraseiskeptintheiOSKeychainforthisdeviceonly,anditcanonlybereadafterFaceID.Theprivatekeyisneversaved;it'sderivedforeachsignature.OnereviewscreenRecipient,amount,network,fivechecksandtheexpectedandmaximumfee,allbeforesigning.TheEIP-1559fieldsareatapaway.StoppedbeforesigningAbadchecksum,atoken'scontractaddressortoolittlegasiscaughtbeforetheFaceIDprompt.Afirst-timerecipientgetsaremindertomatchthefirstandlastfourcharacters.BalancesataglanceUSDCandJPYC,plusroughlyhowmanymoretransfersthePOLfeebalancecovers.FolloweachpaymentSignedonthedevice,senttothenetwork,includedinablock,withtimes,thenonceandtheactualfeenexttotheestimate.Pending,failedanddroppedpaymentsarestilltrackedafterarestart.ReceiveandscanAddressandQRcodewitharemindertousetherightnetwork.ThescannerreadsplainaddressesandEIP-681links,andrefusesrequestsforanotherchain.ArchitectureHenryWallet—ArchitectureYourphoneYouHenryWalletBalance·send·receive·scanSecurestorageRecoveryphrase·FaceIDSQLitePaymenthistoryBlockchainsPolygon·Ethereum·AvalancheFaceIDBalances·signedpaymentsKeys,signingandpaymenthistorystayonthephone.Onlybalancelookupsandsignedpaymentsgoouttothenetwork.Howit'sbuiltAppExpoSDK58(ReactNative0.88)·TypeScript·ExpoRouter·ZustandWalletethersv6—BIP-39,keyderivation,EIP-1559signing·USDCandJPYC(ERC-20)Deviceexpo-secure-store(Keychain,FaceID)·expo-sqlite·expo-camera·expo-screen-capture·react-native-qrcode-svgNetworksPolygon·Ethereum·AvalancheC-Chainandtheirtestnets(Amoy,Sepolia,Fuji)·publicRPCTestingjest-expo—amounts,addresses,keyderivationvectors·ESLint·Prettier·GitHubActionsDemoreact-native-web—storage,keysandRPCswappedforin-memorystubsExperimentalandunaudited.Ionlyuseitontestnetworksandwithsmallamounts.Thescreenshotsarefromthewebdemowithsampledata.PreviousPokepedia",
+    "mainText": "AllprojectsTesting·SideprojectHenryWalletHoldsandsendsUSDCandJPYConPolygon,EthereumandAvalanche.Therecoveryphrasestaysinthephone'ssecurestorage,andeverypaymentisshowninfullononescreenbeforeyouapproveitwithFaceID.TrythedemoTypeiPhoneapp(Expo)·KO/ENPeriodOct2026NetworksPolygon·Ethereum·Avalanche,testnetsfirstRunsonOnlyonthephone·noserverAboutApersonalstablecoinwalletforiPhone.Ithandlestwocoins,USDCandJPYC,whichcrossbordersinsecondsforasmallfee.There'snoserver.Everythingfromcreatingthewallettosigninghappensonthephone,andtheonlythingthatleavesitisthesignedpayment.Thefeaturesstaynarrow:send,receiveandcheckbalances,withnoswapsandnoconnectingtowebsites.FornowIuseitontestnetsandkeeppolishingit.WhatitdoesCreateorimportMakeanew12-wordphraseonthephone,orbringinoneyoualreadyhave.Anewwalletasksforthreerandomwordsfromthephrasebeforeit'sready.ItusesthesamederivationpathasMetaMask'sfirstaccount(m/44'/60'/0'/0/0).FaceIDoneverypaymentThephraseiskeptintheiOSKeychainforthisdeviceonly,anditcanonlybereadafterFaceID.Theprivatekeyisneversaved;it'sderivedforeachsignature.OnereviewscreenRecipient,amount,network,fivechecksandtheexpectedandmaximumfee,allbeforesigning.TheEIP-1559fieldsareatapaway.StoppedbeforesigningAbadchecksum,atoken'scontractaddressortoolittlegasiscaughtbeforetheFaceIDprompt.Afirst-timerecipientgetsaremindertomatchthefirstandlastfourcharacters.BalancesataglanceUSDCandJPYC,plusroughlyhowmanymoretransfersthePOLfeebalancecovers.FolloweachpaymentSignedonthedevice,senttothenetwork,includedinablock,withtimes,thenonceandtheactualfeenexttotheestimate.Pending,failedanddroppedpaymentsarestilltrackedafterarestart.ReceiveandscanAddressandQRcodewitharemindertousetherightnetwork.ThescannerreadsplainaddressesandEIP-681links,andrefusesrequestsforanotherchain.ArchitectureHenryWallet—ArchitectureYourphoneYouHenryWalletBalance·send·receive·scanSecurestorageRecoveryphrase·FaceIDSQLitePaymenthistoryBlockchainsPolygon·Ethereum·AvalancheFaceIDBalances·signedpaymentsKeys,signingandpaymenthistorystayonthephone.Onlybalancelookupsandsignedpaymentsgoouttothenetwork.Howit'sbuiltAppExpoSDK58(ReactNative0.88)·TypeScript·ExpoRouter·ZustandWalletethersv6—BIP-39,keyderivation,EIP-1559signing·USDCandJPYC(ERC-20)Deviceexpo-secure-store(Keychain,FaceID)·expo-sqlite·expo-camera·expo-screen-capture·react-native-qrcode-svgNetworksPolygon·Ethereum·AvalancheC-Chainandtheirtestnets(Amoy,Sepolia,Fuji)·publicRPCTestingjest-expo—amounts,addresses,keyderivationvectors·ESLint·Prettier·GitHubActionsDemoreact-native-web—storage,keysandRPCswappedforin-memorystubsExperimentalandunaudited.Ionlyuseitontestnetworksandwithsmallamounts.Thescreenshotsarefromthewebdemowithsampledata.PreviousPokepedia",
     "links": [
       "/projects",
-      "/projects/pokepedia"
+      "/projects/pokepedia",
+      "https://wallet.portfolio-hub.dev"
     ],
     "alts": [
       "Three Henry Wallet screens side by side: home, review before signing, and the sent confirmation",
@@ -598,7 +602,7 @@
       "twitter:description": "Henry Kim — 東京のバックエンドエンジニア。Java・Spring・クラウド・Webを使い、企画から運用まで一人で手がけたサイドプロジェクトを紹介します。"
     },
     "oldOgImage": "https://www.portfolio-hub.dev/ja/opengraph-image?3e80f0d4b49b655a",
-    "mainText": "HenryKim—バックエンドエンジニアHこんにちは。HenryKimです。東京でバックエンドエンジニアとして働いています。業務では主にJavaとSpringを使っています。業務外では、小さなプロダクトを設計から実装、クラウド構築、運用まで一人で手がけています。東京·JST本業バックエンド開発決済・金融·API·DB·認証·クラウドよく使う技術JavaKotlinSpringBootPostgreSQLAzureTerraformNext.jsTypeScript作品PunyChat公開中·AppStore準備中ふたりのためのメッセンジャー。会話するだけで、小さなドット絵のバディを一緒に育てられます。バディを育てに行く—PunyChatサイトExpo·SpringWebFlux·MongoDBURCheck公開中·招待制·実際に利用中UR賃貸の空室を条件で検索し、新着・再募集・募集終了の部屋を追跡します。WebサイトとAIアシスタントが、同じ条件と履歴を使います。デモを見る—URCheckサイトBun·PostgreSQL·MCPGitLeaf公開中·誰でも使えますGitHubの1年間のコントリビューションを、水彩画の植物として描くサービス。1日が1枚の葉になります。READMEに1行貼るだけで使えます。GitHub—GitLeafソースコードTypeScript·CloudflareWorkers·SVGQuantLab公開中·1/100で実取引自分のクセをコピーして給料日に代わりに買うボットと、毎日配分を決めるAIボットたち。どれも自分の実口座で、1/100のスケールで動かしています。デモを見る—QuantLabサイトPython·FastAPI·ClaudeAPIPokepedia公開中·リメイク「このポケモン、だーれだ？」をゲームボーイ風のバトルで。初代ポケモン図鑑とシール帳に、Unityで作ったピカチュウのターン制バトルまで。日本語・英語・韓国語に対応しています。ポケモンを捕まえに行く—PokepediaサイトGitHub—PokepediaソースコードNext.js·Supabase·UnityHenryWalletテスト中·個人開発自分で鍵を持つiPhone用ステーブルコインウォレット。鍵はスマホの中だけにあり、送金はすべてFaceIDを通して端末で署名します。Expo·ethers·Polygon発信開発ブログhukutaku.tistory.comGitHub@ottuckプロフィールを見るプロフィール",
+    "mainText": "HenryKim—バックエンドエンジニアHこんにちは。HenryKimです。東京でバックエンドエンジニアとして働いています。業務では主にJavaとSpringを使っています。業務外では、小さなプロダクトを設計から実装、クラウド構築、運用まで一人で手がけています。東京·JST本業バックエンド開発決済・金融·API·DB·認証·クラウドよく使う技術JavaKotlinSpringBootPostgreSQLAzureTerraformNext.jsTypeScript作品PunyChat公開中·AppStore準備中ふたりのためのメッセンジャー。会話するだけで、小さなドット絵のバディを一緒に育てられます。バディを育てに行く—PunyChatサイトExpo·SpringWebFlux·MongoDBURCheck公開中·招待制·実際に利用中UR賃貸の空室を条件で検索し、新着・再募集・募集終了の部屋を追跡します。WebサイトとAIアシスタントが、同じ条件と履歴を使います。デモを見る—URCheckサイトBun·PostgreSQL·MCPGitLeaf公開中·誰でも使えますGitHubの1年間のコントリビューションを、水彩画の植物として描くサービス。1日が1枚の葉になります。READMEに1行貼るだけで使えます。GitHub—GitLeafソースコードTypeScript·CloudflareWorkers·SVGQuantLab公開中·1/100で実取引自分のクセをコピーして給料日に代わりに買うボットと、毎日配分を決めるAIボットたち。どれも自分の実口座で、1/100のスケールで動かしています。デモを見る—QuantLabサイトPython·FastAPI·ClaudeAPIPokepedia公開中·リメイク「このポケモン、だーれだ？」をゲームボーイ風のバトルで。初代ポケモン図鑑とシール帳に、Unityで作ったピカチュウのターン制バトルまで。日本語・英語・韓国語に対応しています。ポケモンを捕まえに行く—PokepediaサイトGitHub—PokepediaソースコードNext.js·Supabase·UnityHenryWalletテスト中·個人開発自分で鍵を持つiPhone用ステーブルコインウォレット。鍵はスマホの中だけにあり、送金はすべてFaceIDを通して端末で署名します。デモを見る—HenryWalletサイトExpo·ethers·Polygon発信開発ブログhukutaku.tistory.comGitHub@ottuckプロフィールを見るプロフィール",
     "links": [
       "/ja/about",
       "/ja/projects/gitleaf",
@@ -614,7 +618,8 @@
       "https://github.com/ottuck/pokepedia",
       "https://hukutaku.tistory.com/",
       "https://pokepedia.dev",
-      "https://puny-chat.com"
+      "https://puny-chat.com",
+      "https://wallet.portfolio-hub.dev"
     ],
     "alts": [
       "デスクトップブラウザのPuny Chat。チャットの上のステージで、おとなのバディが仕事の道具のそばにいる",
@@ -679,7 +684,7 @@
       "twitter:title": "作品",
       "twitter:description": "設計から開発、運用まで自分で手がけているサイドプロジェクトです。"
     },
-    "mainText": "作品設計から開発、運用まで自分で手がけているサイドプロジェクトです。それぞれの現在の状況も記載しています。すべての作品PunyChat公開中·AppStore準備中ふたりのためのメッセンジャー。会話するだけで、小さなドット絵のバディを一緒に育てられます。バディを育てに行く—PunyChatサイトExpo·SpringWebFlux·MongoDBURCheck公開中·招待制·実際に利用中UR賃貸の空室を条件で検索し、新着・再募集・募集終了の部屋を追跡します。WebサイトとAIアシスタントが、同じ条件と履歴を使います。デモを見る—URCheckサイトBun·PostgreSQL·MCPGitLeaf公開中·誰でも使えますGitHubの1年間のコントリビューションを、水彩画の植物として描くサービス。1日が1枚の葉になります。READMEに1行貼るだけで使えます。GitHub—GitLeafソースコードTypeScript·CloudflareWorkers·SVGQuantLab公開中·1/100で実取引自分のクセをコピーして給料日に代わりに買うボットと、毎日配分を決めるAIボットたち。どれも自分の実口座で、1/100のスケールで動かしています。デモを見る—QuantLabサイトPython·FastAPI·ClaudeAPIPokepedia公開中·リメイク「このポケモン、だーれだ？」をゲームボーイ風のバトルで。初代ポケモン図鑑とシール帳に、Unityで作ったピカチュウのターン制バトルまで。日本語・英語・韓国語に対応しています。ポケモンを捕まえに行く—PokepediaサイトGitHub—PokepediaソースコードNext.js·Supabase·UnityHenryWalletテスト中·個人開発自分で鍵を持つiPhone用ステーブルコインウォレット。鍵はスマホの中だけにあり、送金はすべてFaceIDを通して端末で署名します。Expo·ethers·Polygon",
+    "mainText": "作品設計から開発、運用まで自分で手がけているサイドプロジェクトです。それぞれの現在の状況も記載しています。すべての作品PunyChat公開中·AppStore準備中ふたりのためのメッセンジャー。会話するだけで、小さなドット絵のバディを一緒に育てられます。バディを育てに行く—PunyChatサイトExpo·SpringWebFlux·MongoDBURCheck公開中·招待制·実際に利用中UR賃貸の空室を条件で検索し、新着・再募集・募集終了の部屋を追跡します。WebサイトとAIアシスタントが、同じ条件と履歴を使います。デモを見る—URCheckサイトBun·PostgreSQL·MCPGitLeaf公開中·誰でも使えますGitHubの1年間のコントリビューションを、水彩画の植物として描くサービス。1日が1枚の葉になります。READMEに1行貼るだけで使えます。GitHub—GitLeafソースコードTypeScript·CloudflareWorkers·SVGQuantLab公開中·1/100で実取引自分のクセをコピーして給料日に代わりに買うボットと、毎日配分を決めるAIボットたち。どれも自分の実口座で、1/100のスケールで動かしています。デモを見る—QuantLabサイトPython·FastAPI·ClaudeAPIPokepedia公開中·リメイク「このポケモン、だーれだ？」をゲームボーイ風のバトルで。初代ポケモン図鑑とシール帳に、Unityで作ったピカチュウのターン制バトルまで。日本語・英語・韓国語に対応しています。ポケモンを捕まえに行く—PokepediaサイトGitHub—PokepediaソースコードNext.js·Supabase·UnityHenryWalletテスト中·個人開発自分で鍵を持つiPhone用ステーブルコインウォレット。鍵はスマホの中だけにあり、送金はすべてFaceIDを通して端末で署名します。デモを見る—HenryWalletサイトExpo·ethers·Polygon",
     "links": [
       "/ja/projects/gitleaf",
       "/ja/projects/henry-wallet",
@@ -692,7 +697,8 @@
       "https://github.com/ottuck/gitleaf",
       "https://github.com/ottuck/pokepedia",
       "https://pokepedia.dev",
-      "https://puny-chat.com"
+      "https://puny-chat.com",
+      "https://wallet.portfolio-hub.dev"
     ],
     "alts": [
       "デスクトップブラウザのPuny Chat。チャットの上のステージで、おとなのバディが仕事の道具のそばにいる",
@@ -1128,6 +1134,7 @@
         "@type": "CreativeWork",
         "name": "Henry Wallet",
         "description": "Polygon・Ethereum・AvalancheでUSDCとJPYCを保管・送金します。復元フレーズは端末の安全な保管領域だけに置き、送金のたびにすべてを1画面で見せてからFace IDで承認します。",
+        "url": "https://wallet.portfolio-hub.dev",
         "inLanguage": "ja",
         "author": {
           "@type": "Person",
@@ -1136,10 +1143,11 @@
         }
       }
     ],
-    "mainText": "作品一覧テスト中·個人開発HenryWalletPolygon・Ethereum・AvalancheでUSDCとJPYCを保管・送金します。復元フレーズは端末の安全な保管領域だけに置き、送金のたびにすべてを1画面で見せてからFaceIDで承認します。種類iPhoneアプリ（Expo）·韓国語/英語期間2026年10月ネットワークPolygon·Ethereum·Avalanche（まずテストネット）運用環境スマホの中だけ·サーバーなし概要個人用に作ったiPhoneのステーブルコインウォレットです。扱うのはUSDCとJPYCの2つで、国境を越えても数秒・少ない手数料で送れます。サーバーは置いていません。ウォレットの作成から署名までスマホの中で完結し、外に出るのは署名済みの送金だけです。機能は送金・受け取り・残高確認に絞り、コインの交換やWebサイトとの接続は入れていません。今はテストネットで使いながら手を入れています。主な機能作成・インポート端末で12単語のフレーズを新しく作るか、持っているフレーズを取り込みます。新しいウォレットは、フレーズからランダムな3単語を確認してから使えます。MetaMaskの最初のアカウントと同じ導出パス（m/44'/60'/0'/0/0）を使います。送金ごとにFaceIDフレーズはiOSのキーチェーンにこの端末専用で保管し、FaceIDを通ったときだけ読み出します。秘密鍵は保存せず、署名のたびに導出します。1画面で確認受取アドレス、金額、ネットワーク、5つの検証、予想・最大手数料を署名前に表示します。EIP-1559のフィールドは開いて確認できます。署名の前に止めるチェックサムの合わないアドレス、トークンのコントラクトアドレス、ガス不足はFaceIDの前に止めます。初めて送るアドレスには、前後4文字を相手と照らし合わせるよう案内します。残高をひと目でUSDCとJPYCの残高に加え、手数料用のPOLであと何回送金できるかを表示します。送金を追う端末での署名、ネットワークへの送信、ブロックへの取り込みを時刻・nonceとともに表示し、実際の手数料を予想の横に並べます。保留・失敗・ドロップした取引は、アプリを開き直しても続けて確認します。受け取りとスキャンアドレスとQRをネットワークの注意書きと一緒に表示します。スキャナーはアドレスだけのQRとEIP-681リンクを読み、別のチェーンの要求は拒否します。構成図HenryWallet—構成図YourphoneYouHenryWalletBalance·send·receive·scanSecurestorageRecoveryphrase·FaceIDSQLitePaymenthistoryBlockchainsPolygon·Ethereum·AvalancheFaceIDBalances·signedpaymentsKeys,signingandpaymenthistorystayonthephone.Onlybalancelookupsandsignedpaymentsgoouttothenetwork.技術構成アプリExpoSDK58(ReactNative0.88)·TypeScript·ExpoRouter·Zustandウォレットethersv6—BIP-39、鍵の導出、EIP-1559署名·USDC・JPYC（ERC-20）端末expo-secure-store（キーチェーン・FaceID）·expo-sqlite·expo-camera·expo-screen-capture·react-native-qrcode-svgネットワークPolygon·Ethereum·AvalancheC-Chainとテストネット（Amoy、Sepolia、Fuji）·公開RPCテストjest-expo—金額・アドレス・鍵導出のテストベクター·ESLint·Prettier·GitHubActionsデモreact-native-web—保存・鍵・RPCをメモリ上のスタブに差し替え実験段階で、セキュリティ監査は受けていません。テストネットと少額でのみ使っています。スクリーンショットはサンプルデータで動かしたWebデモの画面です。前へPokepedia",
+    "mainText": "作品一覧テスト中·個人開発HenryWalletPolygon・Ethereum・AvalancheでUSDCとJPYCを保管・送金します。復元フレーズは端末の安全な保管領域だけに置き、送金のたびにすべてを1画面で見せてからFaceIDで承認します。デモを見る種類iPhoneアプリ（Expo）·韓国語/英語期間2026年10月ネットワークPolygon·Ethereum·Avalanche（まずテストネット）運用環境スマホの中だけ·サーバーなし概要個人用に作ったiPhoneのステーブルコインウォレットです。扱うのはUSDCとJPYCの2つで、国境を越えても数秒・少ない手数料で送れます。サーバーは置いていません。ウォレットの作成から署名までスマホの中で完結し、外に出るのは署名済みの送金だけです。機能は送金・受け取り・残高確認に絞り、コインの交換やWebサイトとの接続は入れていません。今はテストネットで使いながら手を入れています。主な機能作成・インポート端末で12単語のフレーズを新しく作るか、持っているフレーズを取り込みます。新しいウォレットは、フレーズからランダムな3単語を確認してから使えます。MetaMaskの最初のアカウントと同じ導出パス（m/44'/60'/0'/0/0）を使います。送金ごとにFaceIDフレーズはiOSのキーチェーンにこの端末専用で保管し、FaceIDを通ったときだけ読み出します。秘密鍵は保存せず、署名のたびに導出します。1画面で確認受取アドレス、金額、ネットワーク、5つの検証、予想・最大手数料を署名前に表示します。EIP-1559のフィールドは開いて確認できます。署名の前に止めるチェックサムの合わないアドレス、トークンのコントラクトアドレス、ガス不足はFaceIDの前に止めます。初めて送るアドレスには、前後4文字を相手と照らし合わせるよう案内します。残高をひと目でUSDCとJPYCの残高に加え、手数料用のPOLであと何回送金できるかを表示します。送金を追う端末での署名、ネットワークへの送信、ブロックへの取り込みを時刻・nonceとともに表示し、実際の手数料を予想の横に並べます。保留・失敗・ドロップした取引は、アプリを開き直しても続けて確認します。受け取りとスキャンアドレスとQRをネットワークの注意書きと一緒に表示します。スキャナーはアドレスだけのQRとEIP-681リンクを読み、別のチェーンの要求は拒否します。構成図HenryWallet—構成図YourphoneYouHenryWalletBalance·send·receive·scanSecurestorageRecoveryphrase·FaceIDSQLitePaymenthistoryBlockchainsPolygon·Ethereum·AvalancheFaceIDBalances·signedpaymentsKeys,signingandpaymenthistorystayonthephone.Onlybalancelookupsandsignedpaymentsgoouttothenetwork.技術構成アプリExpoSDK58(ReactNative0.88)·TypeScript·ExpoRouter·Zustandウォレットethersv6—BIP-39、鍵の導出、EIP-1559署名·USDC・JPYC（ERC-20）端末expo-secure-store（キーチェーン・FaceID）·expo-sqlite·expo-camera·expo-screen-capture·react-native-qrcode-svgネットワークPolygon·Ethereum·AvalancheC-Chainとテストネット（Amoy、Sepolia、Fuji）·公開RPCテストjest-expo—金額・アドレス・鍵導出のテストベクター·ESLint·Prettier·GitHubActionsデモreact-native-web—保存・鍵・RPCをメモリ上のスタブに差し替え実験段階で、セキュリティ監査は受けていません。テストネットと少額でのみ使っています。スクリーンショットはサンプルデータで動かしたWebデモの画面です。前へPokepedia",
     "links": [
       "/ja/projects",
-      "/ja/projects/pokepedia"
+      "/ja/projects/pokepedia",
+      "https://wallet.portfolio-hub.dev"
     ],
     "alts": [
       "並べたHenry Walletの3画面。ホーム、署名前の確認、送金後の画面",
@@ -1174,7 +1182,7 @@
       "twitter:description": "Henry Kim — 도쿄의 백엔드 엔지니어. Java, Spring, 클라우드, 웹으로 기획부터 운영까지 직접 만든 사이드 프로젝트를 소개합니다."
     },
     "oldOgImage": "https://www.portfolio-hub.dev/ko/opengraph-image?3e80f0d4b49b655a",
-    "mainText": "HenryKim—백엔드엔지니어H안녕하세요.HenryKim입니다.도쿄에서백엔드엔지니어로일하며,주로Java와Spring을다룹니다.업무외에는작은서비스를설계부터구현,클라우드구성,운영까지혼자만들고있습니다.도쿄·JST본업백엔드엔지니어결제·금융·API·DB·인증·클라우드주로쓰는기술JavaKotlinSpringBootPostgreSQLAzureTerraformNext.jsTypeScript프로젝트PunyChat운영중·앱출시준비중둘만을위한메신저.대화만해도작은도트버디를함께키울수있습니다.버디키우러가기—PunyChat사이트Expo·SpringWebFlux·MongoDBURCheck운영중·초대제·직접사용중UR임대의빈방을조건으로검색하고,새로나온방·다시나온방·사라진방을추적합니다.웹사이트와AI어시스턴트가같은조건과이력을씁니다.데모보기—URCheck사이트Bun·PostgreSQL·MCPGitLeaf운영중·누구나사용가능GitHub의1년치기여기록을수채화느낌의식물로보여줍니다.README에이미지코드한줄을추가하면매일자동으로갱신됩니다.GitHub—GitLeaf소스코드TypeScript·CloudflareWorkers·SVGQuantLab운영중·1/100규모실거래내습관을복사해월급날대신사주는봇과,매일비중을정하는AI봇들.모두제실제계좌에서1/100규모로돌리고있습니다.데모보기—QuantLab사이트Python·FastAPI·ClaudeAPIPokepedia운영중·리메이크“이포켓몬은누구일까?”를게임보이배틀처럼.1세대포켓몬도감과띠부씰컬렉션에,Unity로만든피카츄턴제배틀까지.한국어·영어·일본어를지원합니다.포켓몬잡으러가기—Pokepedia사이트GitHub—Pokepedia소스코드Next.js·Supabase·UnityHenryWallet테스트중·사이드프로젝트직접보관하는iPhone용스테이블코인지갑.키는휴대폰에만있고,모든송금은FaceID를거쳐기기에서서명합니다.Expo·ethers·Polygon글개발블로그hukutaku.tistory.comGitHub@ottuck소개더보기소개",
+    "mainText": "HenryKim—백엔드엔지니어H안녕하세요.HenryKim입니다.도쿄에서백엔드엔지니어로일하며,주로Java와Spring을다룹니다.업무외에는작은서비스를설계부터구현,클라우드구성,운영까지혼자만들고있습니다.도쿄·JST본업백엔드엔지니어결제·금융·API·DB·인증·클라우드주로쓰는기술JavaKotlinSpringBootPostgreSQLAzureTerraformNext.jsTypeScript프로젝트PunyChat운영중·앱출시준비중둘만을위한메신저.대화만해도작은도트버디를함께키울수있습니다.버디키우러가기—PunyChat사이트Expo·SpringWebFlux·MongoDBURCheck운영중·초대제·직접사용중UR임대의빈방을조건으로검색하고,새로나온방·다시나온방·사라진방을추적합니다.웹사이트와AI어시스턴트가같은조건과이력을씁니다.데모보기—URCheck사이트Bun·PostgreSQL·MCPGitLeaf운영중·누구나사용가능GitHub의1년치기여기록을수채화느낌의식물로보여줍니다.README에이미지코드한줄을추가하면매일자동으로갱신됩니다.GitHub—GitLeaf소스코드TypeScript·CloudflareWorkers·SVGQuantLab운영중·1/100규모실거래내습관을복사해월급날대신사주는봇과,매일비중을정하는AI봇들.모두제실제계좌에서1/100규모로돌리고있습니다.데모보기—QuantLab사이트Python·FastAPI·ClaudeAPIPokepedia운영중·리메이크“이포켓몬은누구일까?”를게임보이배틀처럼.1세대포켓몬도감과띠부씰컬렉션에,Unity로만든피카츄턴제배틀까지.한국어·영어·일본어를지원합니다.포켓몬잡으러가기—Pokepedia사이트GitHub—Pokepedia소스코드Next.js·Supabase·UnityHenryWallet테스트중·사이드프로젝트직접보관하는iPhone용스테이블코인지갑.키는휴대폰에만있고,모든송금은FaceID를거쳐기기에서서명합니다.데모보기—HenryWallet사이트Expo·ethers·Polygon글개발블로그hukutaku.tistory.comGitHub@ottuck소개더보기소개",
     "links": [
       "/ko/about",
       "/ko/projects/gitleaf",
@@ -1190,7 +1198,8 @@
       "https://github.com/ottuck/pokepedia",
       "https://hukutaku.tistory.com/",
       "https://pokepedia.dev",
-      "https://puny-chat.com"
+      "https://puny-chat.com",
+      "https://wallet.portfolio-hub.dev"
     ],
     "alts": [
       "데스크톱 브라우저의 Puny Chat. 채팅 위 무대에서 어른 버디가 직업 장치 옆에 있다",
@@ -1255,7 +1264,7 @@
       "twitter:title": "프로젝트",
       "twitter:description": "기획부터 개발, 운영까지 직접 맡고 있는 사이드 프로젝트입니다."
     },
-    "mainText": "프로젝트기획부터개발,운영까지직접맡고있는사이드프로젝트입니다.프로젝트별현재상태도함께적었습니다.전체프로젝트PunyChat운영중·앱출시준비중둘만을위한메신저.대화만해도작은도트버디를함께키울수있습니다.버디키우러가기—PunyChat사이트Expo·SpringWebFlux·MongoDBURCheck운영중·초대제·직접사용중UR임대의빈방을조건으로검색하고,새로나온방·다시나온방·사라진방을추적합니다.웹사이트와AI어시스턴트가같은조건과이력을씁니다.데모보기—URCheck사이트Bun·PostgreSQL·MCPGitLeaf운영중·누구나사용가능GitHub의1년치기여기록을수채화느낌의식물로보여줍니다.README에이미지코드한줄을추가하면매일자동으로갱신됩니다.GitHub—GitLeaf소스코드TypeScript·CloudflareWorkers·SVGQuantLab운영중·1/100규모실거래내습관을복사해월급날대신사주는봇과,매일비중을정하는AI봇들.모두제실제계좌에서1/100규모로돌리고있습니다.데모보기—QuantLab사이트Python·FastAPI·ClaudeAPIPokepedia운영중·리메이크“이포켓몬은누구일까?”를게임보이배틀처럼.1세대포켓몬도감과띠부씰컬렉션에,Unity로만든피카츄턴제배틀까지.한국어·영어·일본어를지원합니다.포켓몬잡으러가기—Pokepedia사이트GitHub—Pokepedia소스코드Next.js·Supabase·UnityHenryWallet테스트중·사이드프로젝트직접보관하는iPhone용스테이블코인지갑.키는휴대폰에만있고,모든송금은FaceID를거쳐기기에서서명합니다.Expo·ethers·Polygon",
+    "mainText": "프로젝트기획부터개발,운영까지직접맡고있는사이드프로젝트입니다.프로젝트별현재상태도함께적었습니다.전체프로젝트PunyChat운영중·앱출시준비중둘만을위한메신저.대화만해도작은도트버디를함께키울수있습니다.버디키우러가기—PunyChat사이트Expo·SpringWebFlux·MongoDBURCheck운영중·초대제·직접사용중UR임대의빈방을조건으로검색하고,새로나온방·다시나온방·사라진방을추적합니다.웹사이트와AI어시스턴트가같은조건과이력을씁니다.데모보기—URCheck사이트Bun·PostgreSQL·MCPGitLeaf운영중·누구나사용가능GitHub의1년치기여기록을수채화느낌의식물로보여줍니다.README에이미지코드한줄을추가하면매일자동으로갱신됩니다.GitHub—GitLeaf소스코드TypeScript·CloudflareWorkers·SVGQuantLab운영중·1/100규모실거래내습관을복사해월급날대신사주는봇과,매일비중을정하는AI봇들.모두제실제계좌에서1/100규모로돌리고있습니다.데모보기—QuantLab사이트Python·FastAPI·ClaudeAPIPokepedia운영중·리메이크“이포켓몬은누구일까?”를게임보이배틀처럼.1세대포켓몬도감과띠부씰컬렉션에,Unity로만든피카츄턴제배틀까지.한국어·영어·일본어를지원합니다.포켓몬잡으러가기—Pokepedia사이트GitHub—Pokepedia소스코드Next.js·Supabase·UnityHenryWallet테스트중·사이드프로젝트직접보관하는iPhone용스테이블코인지갑.키는휴대폰에만있고,모든송금은FaceID를거쳐기기에서서명합니다.데모보기—HenryWallet사이트Expo·ethers·Polygon",
     "links": [
       "/ko/projects/gitleaf",
       "/ko/projects/henry-wallet",
@@ -1268,7 +1277,8 @@
       "https://github.com/ottuck/gitleaf",
       "https://github.com/ottuck/pokepedia",
       "https://pokepedia.dev",
-      "https://puny-chat.com"
+      "https://puny-chat.com",
+      "https://wallet.portfolio-hub.dev"
     ],
     "alts": [
       "데스크톱 브라우저의 Puny Chat. 채팅 위 무대에서 어른 버디가 직업 장치 옆에 있다",
@@ -1704,6 +1714,7 @@
         "@type": "CreativeWork",
         "name": "Henry Wallet",
         "description": "Polygon·Ethereum·Avalanche에서 USDC와 JPYC를 보관하고 보냅니다. 복구 문구는 휴대폰 보안 저장소에만 두고, 송금할 때마다 모든 내용을 한 화면에 보여 준 뒤 Face ID로 승인받습니다.",
+        "url": "https://wallet.portfolio-hub.dev",
         "inLanguage": "ko",
         "author": {
           "@type": "Person",
@@ -1712,10 +1723,11 @@
         }
       }
     ],
-    "mainText": "전체프로젝트테스트중·사이드프로젝트HenryWalletPolygon·Ethereum·Avalanche에서USDC와JPYC를보관하고보냅니다.복구문구는휴대폰보안저장소에만두고,송금할때마다모든내용을한화면에보여준뒤FaceID로승인받습니다.종류iPhone앱(Expo)·한국어/영어기간2026년10월네트워크Polygon·Ethereum·Avalanche(테스트넷먼저)운영환경휴대폰안에서만·서버없음소개개인용으로만든iPhone스테이블코인지갑입니다.다루는코인은USDC와JPYC두가지로,국경을넘어도몇초만에적은수수료로보낼수있습니다.서버는두지않았습니다.지갑생성부터서명까지모두휴대폰안에서끝나고,밖으로나가는건서명된송금뿐입니다.기능은보내기·받기·잔액확인으로좁혔고,코인교환이나웹사이트연결은넣지않았습니다.지금은테스트넷에서쓰면서다듬고있습니다.주요기능만들기·가져오기휴대폰에서12단어문구를새로만들거나갖고있던문구를가져옵니다.새지갑은문구중무작위세단어를확인해야쓸수있습니다.MetaMask첫계정과같은파생경로(m/44'/60'/0'/0/0)를씁니다.송금마다FaceID문구는iOSKeychain에이기기전용으로두고,FaceID를통과해야읽힙니다.개인키는저장하지않고서명할때마다파생합니다.한화면에서확인받는주소,금액,네트워크,다섯가지검증,예상·최대수수료를서명전에보여줍니다.EIP-1559필드는펼쳐서볼수있습니다.서명전에막기체크섬이틀린주소,토큰컨트랙트주소,가스부족은FaceID전에막습니다.처음보내는주소에는앞뒤네글자를맞춰보라고안내합니다.잔액한눈에USDC와JPYC잔액,그리고수수료용POL로전송을몇번더할수있는지보여줍니다.송금따라가기기기서명,네트워크전송,블록포함을시각·nonce와함께보여주고,실제수수료를예상값옆에둡니다.대기·실패·누락된거래는앱을다시열어도이어서확인합니다.받기와스캔주소와QR을네트워크안내와함께보여줍니다.스캐너는주소만있는QR과EIP-681링크를읽고,다른체인의요청은거부합니다.구성도HenryWallet—구성도YourphoneYouHenryWalletBalance·send·receive·scanSecurestorageRecoveryphrase·FaceIDSQLitePaymenthistoryBlockchainsPolygon·Ethereum·AvalancheFaceIDBalances·signedpaymentsKeys,signingandpaymenthistorystayonthephone.Onlybalancelookupsandsignedpaymentsgoouttothenetwork.기술구성앱ExpoSDK58(ReactNative0.88)·TypeScript·ExpoRouter·Zustand지갑ethersv6—BIP-39,키파생,EIP-1559서명·USDC·JPYC(ERC-20)기기expo-secure-store(Keychain·FaceID)·expo-sqlite·expo-camera·expo-screen-capture·react-native-qrcode-svg네트워크Polygon·Ethereum·AvalancheC-Chain과테스트넷(Amoy,Sepolia,Fuji)·공개RPC테스트jest-expo—금액·주소·키파생testvector·ESLint·Prettier·GitHubActions데모react-native-web—저장소·키·RPC를메모리stub으로교체실험단계이며보안감사를받지않았습니다.테스트넷과소액으로만사용합니다.스크린샷은예시데이터로띄운웹데모화면입니다.이전Pokepedia",
+    "mainText": "전체프로젝트테스트중·사이드프로젝트HenryWalletPolygon·Ethereum·Avalanche에서USDC와JPYC를보관하고보냅니다.복구문구는휴대폰보안저장소에만두고,송금할때마다모든내용을한화면에보여준뒤FaceID로승인받습니다.데모보기종류iPhone앱(Expo)·한국어/영어기간2026년10월네트워크Polygon·Ethereum·Avalanche(테스트넷먼저)운영환경휴대폰안에서만·서버없음소개개인용으로만든iPhone스테이블코인지갑입니다.다루는코인은USDC와JPYC두가지로,국경을넘어도몇초만에적은수수료로보낼수있습니다.서버는두지않았습니다.지갑생성부터서명까지모두휴대폰안에서끝나고,밖으로나가는건서명된송금뿐입니다.기능은보내기·받기·잔액확인으로좁혔고,코인교환이나웹사이트연결은넣지않았습니다.지금은테스트넷에서쓰면서다듬고있습니다.주요기능만들기·가져오기휴대폰에서12단어문구를새로만들거나갖고있던문구를가져옵니다.새지갑은문구중무작위세단어를확인해야쓸수있습니다.MetaMask첫계정과같은파생경로(m/44'/60'/0'/0/0)를씁니다.송금마다FaceID문구는iOSKeychain에이기기전용으로두고,FaceID를통과해야읽힙니다.개인키는저장하지않고서명할때마다파생합니다.한화면에서확인받는주소,금액,네트워크,다섯가지검증,예상·최대수수료를서명전에보여줍니다.EIP-1559필드는펼쳐서볼수있습니다.서명전에막기체크섬이틀린주소,토큰컨트랙트주소,가스부족은FaceID전에막습니다.처음보내는주소에는앞뒤네글자를맞춰보라고안내합니다.잔액한눈에USDC와JPYC잔액,그리고수수료용POL로전송을몇번더할수있는지보여줍니다.송금따라가기기기서명,네트워크전송,블록포함을시각·nonce와함께보여주고,실제수수료를예상값옆에둡니다.대기·실패·누락된거래는앱을다시열어도이어서확인합니다.받기와스캔주소와QR을네트워크안내와함께보여줍니다.스캐너는주소만있는QR과EIP-681링크를읽고,다른체인의요청은거부합니다.구성도HenryWallet—구성도YourphoneYouHenryWalletBalance·send·receive·scanSecurestorageRecoveryphrase·FaceIDSQLitePaymenthistoryBlockchainsPolygon·Ethereum·AvalancheFaceIDBalances·signedpaymentsKeys,signingandpaymenthistorystayonthephone.Onlybalancelookupsandsignedpaymentsgoouttothenetwork.기술구성앱ExpoSDK58(ReactNative0.88)·TypeScript·ExpoRouter·Zustand지갑ethersv6—BIP-39,키파생,EIP-1559서명·USDC·JPYC(ERC-20)기기expo-secure-store(Keychain·FaceID)·expo-sqlite·expo-camera·expo-screen-capture·react-native-qrcode-svg네트워크Polygon·Ethereum·AvalancheC-Chain과테스트넷(Amoy,Sepolia,Fuji)·공개RPC테스트jest-expo—금액·주소·키파생testvector·ESLint·Prettier·GitHubActions데모react-native-web—저장소·키·RPC를메모리stub으로교체실험단계이며보안감사를받지않았습니다.테스트넷과소액으로만사용합니다.스크린샷은예시데이터로띄운웹데모화면입니다.이전Pokepedia",
     "links": [
       "/ko/projects",
-      "/ko/projects/pokepedia"
+      "/ko/projects/pokepedia",
+      "https://wallet.portfolio-hub.dev"
     ],
     "alts": [
       "나란히 놓인 Henry Wallet 화면 세 장. 홈, 서명 전 확인, 보낸 뒤 화면",
