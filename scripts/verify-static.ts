@@ -64,7 +64,7 @@ for (const file of ogFiles) {
 }
 const sitemap = load(await readFile(resolve(output, 'sitemap.xml'), 'utf8'), { xml: true })
 assert.deepEqual(sitemap('url > loc').map((_, el) => new URL(sitemap(el).text()).pathname).get().sort(), [...routes].sort(), 'sitemap content URLs')
-assert.equal(sitemap('url').length, 30)
+assert.equal(sitemap('url').length, routes.length)
 for (const entry of sitemap('url').toArray()) {
   assert.deepEqual(sitemap(entry).children('[rel="alternate"]').map((_, el) => sitemap(el).attr('hreflang')).get().sort(), ['en', 'ja', 'ko', 'x-default'].sort(), 'sitemap language alternates')
 }

@@ -51,7 +51,7 @@ const en = {
     source: "source",
     screenshotsSoon: "screenshots soon",
   },
-  status: { live: "Live", "in-progress": "In progress", planned: "Planned", archived: "Archived" },
+  status: { live: "Live", testing: "Testing", "in-progress": "In progress", planned: "Planned", archived: "Archived" },
   about: {
     title: "About",
     description: "Henry Kim is a backend engineer in Tokyo working with Java, Kotlin and Spring.",
@@ -132,7 +132,7 @@ const ja: Dictionary = {
     source: "ソースコード",
     screenshotsSoon: "スクリーンショットは準備中",
   },
-  status: { live: "公開中", "in-progress": "開発中", planned: "予定", archived: "アーカイブ" },
+  status: { live: "公開中", testing: "テスト中", "in-progress": "開発中", planned: "予定", archived: "アーカイブ" },
   about: {
     title: "プロフィール",
     description: "Henry Kimは東京で働くバックエンドエンジニアです。Java・Kotlin・Springを使った開発を行っています。",
@@ -211,7 +211,7 @@ const ko: Dictionary = {
     source: "소스 코드",
     screenshotsSoon: "스크린샷 준비 중",
   },
-  status: { live: "운영 중", "in-progress": "개발 중", planned: "예정", archived: "보관" },
+  status: { live: "운영 중", testing: "테스트 중", "in-progress": "개발 중", planned: "예정", archived: "보관" },
   about: {
     title: "소개",
     description: "Henry Kim은 도쿄에서 Java, Kotlin, Spring으로 개발하는 백엔드 엔지니어입니다.",

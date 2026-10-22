@@ -1,10 +1,10 @@
 import type { ProjectCopy } from "~/lib/types";
 
 export const ko: ProjectCopy = {
-  label: "공부용",
+  label: "사이드 프로젝트",
   tagline: "직접 보관하는 iPhone용 스테이블코인 지갑. 키는 휴대폰에만 있고, 모든 송금은 Face ID를 거쳐 기기에서 서명합니다.",
   summary:
-    "Polygon·Ethereum·Avalanche에서 USDC와 JPYC를 보관하고 보내는 작은 개인용 지갑입니다. 서버는 없습니다. 앱이 지갑을 만들고 복구 문구를 휴대폰 보안 저장소에 두며, 송금 전에 모든 내용을 한 화면에 보여 준 뒤 Face ID로 승인받습니다.",
+    "Polygon·Ethereum·Avalanche에서 USDC와 JPYC를 보관하고 보냅니다. 복구 문구는 휴대폰 보안 저장소에만 두고, 송금할 때마다 모든 내용을 한 화면에 보여 준 뒤 Face ID로 승인받습니다.",
   facts: [
     { label: "종류", value: "iPhone 앱 (Expo) · 한국어 / 영어" },
     { label: "기간", value: "2026년 10월" },
@@ -12,8 +12,9 @@ export const ko: ProjectCopy = {
     { label: "운영 환경", value: "휴대폰 안에서만 · 서버 없음" },
   ],
   about: [
-    "12단어 복구 문구에서 송금 한 건이 나가기까지 지갑이 실제로 무슨 일을 하는지 직접 보고 싶어서 작은 지갑을 만들었습니다. Henry Wallet은 국경을 넘어 몇 초 만에, 적은 수수료로 오가는 스테이블코인 USDC와 JPYC를 담아 두고 iPhone에서 주고받는 지갑입니다.",
-    "뒤에 서버는 없습니다. 지갑은 휴대폰에서 만들어지고 복구 문구는 휴대폰 밖으로 나가지 않으며, 송금 내용을 한 화면에서 모두 확인하고 Face ID로 승인하기 전에는 아무것도 보내지 않습니다. 할 수 있는 일은 일부러 적게 두었습니다. 코인 교환도, 웹사이트 연결도 없고 지갑 하나에 계정 하나입니다.",
+    "개인용으로 만든 iPhone 스테이블코인 지갑입니다. 다루는 코인은 USDC와 JPYC 두 가지로, 국경을 넘어도 몇 초 만에 적은 수수료로 보낼 수 있습니다.",
+    "서버는 두지 않았습니다. 지갑 생성부터 서명까지 모두 휴대폰 안에서 끝나고, 밖으로 나가는 건 서명된 송금뿐입니다. 기능은 보내기·받기·잔액 확인으로 좁혔고, 코인 교환이나 웹사이트 연결은 넣지 않았습니다.",
+    "지금은 테스트넷에서 쓰면서 다듬고 있습니다.",
   ],
   features: [
     {
@@ -53,7 +54,7 @@ export const ko: ProjectCopy = {
     { area: "테스트", items: "jest-expo — 금액·주소·키 파생 test vector · ESLint · Prettier · GitHub Actions" },
     { area: "데모", items: "react-native-web — 저장소·키·RPC를 메모리 stub으로 교체" },
   ],
-  footnote: "학습용으로 만든 실험적인 지갑이며 보안 감사를 받지 않았습니다. 테스트넷과 소액으로만 사용합니다. 스크린샷은 예시 데이터로 띄운 웹 데모 화면입니다.",
+  footnote: "실험 단계이며 보안 감사를 받지 않았습니다. 테스트넷과 소액으로만 사용합니다. 스크린샷은 예시 데이터로 띄운 웹 데모 화면입니다.",
   alts: {
     main: "나란히 놓인 Henry Wallet 화면 세 장. 홈, 서명 전 확인, 보낸 뒤 화면",
     inset: "휴대폰의 Henry Wallet 환영 화면",

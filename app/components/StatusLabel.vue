@@ -3,7 +3,7 @@ import { getDictionary } from '~/i18n/dictionaries'
 import type { Locale } from '~/i18n/locales'
 import type { Project } from '~/lib/types'
 defineProps<{ project: Project; locale: Locale }>()
-const colors = { live: 'bg-emerald-500', 'in-progress': 'bg-amber-500', planned: 'border border-current', archived: 'bg-faint' }
+const colors = { live: 'bg-emerald-500', testing: 'bg-sky-500', 'in-progress': 'bg-amber-500', planned: 'border border-current', archived: 'bg-faint' }
 </script>
 
 <template>

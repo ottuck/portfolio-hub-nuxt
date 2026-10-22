@@ -2,7 +2,7 @@ import { projects as source } from "~/content/projects";
 import type { Locale } from "~/i18n/locales";
 import type { Project, ProjectCopy, ProjectStatus, Shot } from "./types";
 
-export const STATUS_RANK: Record<ProjectStatus, number> = { live: 0, "in-progress": 1, planned: 2, archived: 3 };
+export const STATUS_RANK: Record<ProjectStatus, number> = { live: 0, testing: 1, "in-progress": 2, planned: 3, archived: 4 };
 
 // Fail the build on content mistakes instead of shipping a broken page.
 function validate(list: Project[]) {

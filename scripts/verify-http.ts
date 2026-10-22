@@ -45,4 +45,4 @@ for (const fixture of Object.values(fixtures)) {
   assert.equal(image.status, 200, `${path}: image response`)
   assert.match(image.headers.get('content-type')!, /image\/png/)
 }
-console.log(`HTTP checks passed at ${base}: 30 routes and OG images, redirects and query preservation, 7 missing paths, and all legacy OG URLs.`)
+console.log(`HTTP checks passed at ${base}: ${routes.length} routes and OG images, redirects and query preservation, 7 missing paths, and all legacy OG URLs.`)

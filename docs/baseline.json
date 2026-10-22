@@ -22,10 +22,11 @@
       "twitter:description": "Henry Kim — backend engineer in Tokyo. Side projects built end to end with Java, Spring, cloud and the web."
     },
     "oldOgImage": "https://www.portfolio-hub.dev/opengraph-image-35z9bs?1a5f1573d33b5f53",
-    "mainText": "HenryKim—BackendSoftwareEngineerHHello,I'mHenryKim.BackendengineerinTokyo,workingmainlyinJavaandSpring.OutsideworkIbuildsmallproductsendtoend,fromdesignandcodetocloudinfrastructureandkeepingthemrunning.Tokyo·JSTDayjobBackendEngineerPayments&finance·API·DB·Auth·CloudToolsIreachforJavaKotlinSpringBootPostgreSQLAzureTerraformNext.jsTypeScriptProjectsPunyChatLive·AppStoresoonAmessengerfortwo,withatinypixelbuddyyouraisetogetherjustbychatting.Raiseabuddy—PunyChatlivesiteExpo·SpringWebFlux·MongoDBURCheckLive·Inviteonly·IuseitSearchURrentalvacanciesbyyourconditionsandtrackroomsthatarenew,relistedorgone.ThewebsiteandAIassistantsworkfromthesameconditionsandhistory.Trythedemo—URChecklivesiteBun·PostgreSQL·MCPGitLeafLive·FreetouseYouryearofGitHubcontributions,paintedasawatercolorplant:oneleafforeachday.PasteonelineintoyourREADMEtouseit.GitHub—GitLeafsourceTypeScript·CloudflareWorkers·SVGQuantLabLive·Realtradesat1/100Apaydayinvestingbotthatcopiesyourhabits,andAIbotsthatsetthemixeveryday.Allofthemrunonmyrealaccountat1/100scale.Trythedemo—QuantLablivesitePython·FastAPI·ClaudeAPIPokepediaLive·Remake“Who'sthatPokémon?”asaGameBoy–stylebattle,withaGen1Pokédexandastickerbook—plusaturn-basedPikachubattleIbuiltinUnity.InKorean,EnglishandJapanese.CatchaPokémon—PokepedialivesiteGitHub—PokepediasourceNext.js·Supabase·UnityWritingDevbloghukutaku.tistory.comGitHub@ottuckMoreaboutmeAbout",
+    "mainText": "HenryKim—BackendSoftwareEngineerHHello,I'mHenryKim.BackendengineerinTokyo,workingmainlyinJavaandSpring.OutsideworkIbuildsmallproductsendtoend,fromdesignandcodetocloudinfrastructureandkeepingthemrunning.Tokyo·JSTDayjobBackendEngineerPayments&finance·API·DB·Auth·CloudToolsIreachforJavaKotlinSpringBootPostgreSQLAzureTerraformNext.jsTypeScriptProjectsPunyChatLive·AppStoresoonAmessengerfortwo,withatinypixelbuddyyouraisetogetherjustbychatting.Raiseabuddy—PunyChatlivesiteExpo·SpringWebFlux·MongoDBURCheckLive·Inviteonly·IuseitSearchURrentalvacanciesbyyourconditionsandtrackroomsthatarenew,relistedorgone.ThewebsiteandAIassistantsworkfromthesameconditionsandhistory.Trythedemo—URChecklivesiteBun·PostgreSQL·MCPGitLeafLive·FreetouseYouryearofGitHubcontributions,paintedasawatercolorplant:oneleafforeachday.PasteonelineintoyourREADMEtouseit.GitHub—GitLeafsourceTypeScript·CloudflareWorkers·SVGQuantLabLive·Realtradesat1/100Apaydayinvestingbotthatcopiesyourhabits,andAIbotsthatsetthemixeveryday.Allofthemrunonmyrealaccountat1/100scale.Trythedemo—QuantLablivesitePython·FastAPI·ClaudeAPIPokepediaLive·Remake“Who'sthatPokémon?”asaGameBoy–stylebattle,withaGen1Pokédexandastickerbook—plusaturn-basedPikachubattleIbuiltinUnity.InKorean,EnglishandJapanese.CatchaPokémon—PokepedialivesiteGitHub—PokepediasourceNext.js·Supabase·UnityHenryWalletTesting·SideprojectAself-custodystablecoinwalletforiPhone.Thekeysstayonthephone,andeverypaymentissignedthereafterFaceID.Expo·ethers·PolygonWritingDevbloghukutaku.tistory.comGitHub@ottuckMoreaboutmeAbout",
     "links": [
       "/about",
       "/projects/gitleaf",
+      "/projects/henry-wallet",
       "/projects/pokepedia",
       "/projects/puny-chat",
       "/projects/quant-lab",
@@ -48,7 +49,9 @@
       "Quant Lab home: the copy-me bot next to just buying every month, and the next payday's buys",
       "Quant Lab home on a phone",
       "Game Boy–style battle: a Pokémon silhouette, the trainer's back and the command box",
-      "The Pokédex on a phone"
+      "The Pokédex on a phone",
+      "Three Henry Wallet screens side by side: home, review before signing, and the sent confirmation",
+      "The Henry Wallet welcome screen on a phone"
     ],
     "jsonLd": [
       {
@@ -100,9 +103,10 @@
       "twitter:title": "Projects",
       "twitter:description": "Side projects I designed, built and run myself."
     },
-    "mainText": "ProjectsThingsIdesigned,builtandkeeprunningmyself.Eachonesayswhereitstands.AllprojectsPunyChatLive·AppStoresoonAmessengerfortwo,withatinypixelbuddyyouraisetogetherjustbychatting.Raiseabuddy—PunyChatlivesiteExpo·SpringWebFlux·MongoDBURCheckLive·Inviteonly·IuseitSearchURrentalvacanciesbyyourconditionsandtrackroomsthatarenew,relistedorgone.ThewebsiteandAIassistantsworkfromthesameconditionsandhistory.Trythedemo—URChecklivesiteBun·PostgreSQL·MCPGitLeafLive·FreetouseYouryearofGitHubcontributions,paintedasawatercolorplant:oneleafforeachday.PasteonelineintoyourREADMEtouseit.GitHub—GitLeafsourceTypeScript·CloudflareWorkers·SVGQuantLabLive·Realtradesat1/100Apaydayinvestingbotthatcopiesyourhabits,andAIbotsthatsetthemixeveryday.Allofthemrunonmyrealaccountat1/100scale.Trythedemo—QuantLablivesitePython·FastAPI·ClaudeAPIPokepediaLive·Remake“Who'sthatPokémon?”asaGameBoy–stylebattle,withaGen1Pokédexandastickerbook—plusaturn-basedPikachubattleIbuiltinUnity.InKorean,EnglishandJapanese.CatchaPokémon—PokepedialivesiteGitHub—PokepediasourceNext.js·Supabase·Unity",
+    "mainText": "ProjectsThingsIdesigned,builtandkeeprunningmyself.Eachonesayswhereitstands.AllprojectsPunyChatLive·AppStoresoonAmessengerfortwo,withatinypixelbuddyyouraisetogetherjustbychatting.Raiseabuddy—PunyChatlivesiteExpo·SpringWebFlux·MongoDBURCheckLive·Inviteonly·IuseitSearchURrentalvacanciesbyyourconditionsandtrackroomsthatarenew,relistedorgone.ThewebsiteandAIassistantsworkfromthesameconditionsandhistory.Trythedemo—URChecklivesiteBun·PostgreSQL·MCPGitLeafLive·FreetouseYouryearofGitHubcontributions,paintedasawatercolorplant:oneleafforeachday.PasteonelineintoyourREADMEtouseit.GitHub—GitLeafsourceTypeScript·CloudflareWorkers·SVGQuantLabLive·Realtradesat1/100Apaydayinvestingbotthatcopiesyourhabits,andAIbotsthatsetthemixeveryday.Allofthemrunonmyrealaccountat1/100scale.Trythedemo—QuantLablivesitePython·FastAPI·ClaudeAPIPokepediaLive·Remake“Who'sthatPokémon?”asaGameBoy–stylebattle,withaGen1Pokédexandastickerbook—plusaturn-basedPikachubattleIbuiltinUnity.InKorean,EnglishandJapanese.CatchaPokémon—PokepedialivesiteGitHub—PokepediasourceNext.js·Supabase·UnityHenryWalletTesting·SideprojectAself-custodystablecoinwalletforiPhone.Thekeysstayonthephone,andeverypaymentissignedthereafterFaceID.Expo·ethers·Polygon",
     "links": [
       "/projects/gitleaf",
+      "/projects/henry-wallet",
       "/projects/pokepedia",
       "/projects/puny-chat",
       "/projects/quant-lab",
@@ -123,7 +127,9 @@
       "Quant Lab home: the copy-me bot next to just buying every month, and the next payday's buys",
       "Quant Lab home on a phone",
       "Game Boy–style battle: a Pokémon silhouette, the trainer's back and the command box",
-      "The Pokédex on a phone"
+      "The Pokédex on a phone",
+      "Three Henry Wallet screens side by side: home, review before signing, and the sent confirmation",
+      "The Henry Wallet welcome screen on a phone"
     ],
     "jsonLd": []
   },
@@ -391,9 +397,10 @@
       "twitter:description": "A silhouette game styled like a Game Boy battle: name the Pokémon, throw a Poké Ball, and it goes into your sticker book. A Pokédex of the original 151 sits next to it. Win a Pikachu and you can take it into a turn-based battle against Blastoise, a separate Unity project that runs inside the page."
     },
     "oldOgImage": "https://www.portfolio-hub.dev/projects/pokepedia/opengraph-image-155u2j?cf4130ca3324dbb8",
-    "mainText": "AllprojectsLive·RemakePokepediaAsilhouettegamestyledlikeaGameBoybattle:namethePokémon,throwaPokéBall,anditgoesintoyourstickerbook.APokédexoftheoriginal151sitsnexttoit.WinaPikachuandyoucantakeitintoaturn-basedbattleagainstBlastoise,aseparateUnityprojectthatrunsinsidethepage.CatchaPokémonGitHubGitHub·UnityTypeWebapp+UnityWebGLbattle·KO/EN/JAPeriodSep–Oct2026(remake,battleaddedinOct)RunsonVercel+Supabase,Tokyo·CloudflarePagesAboutIn2023IbuiltaPokédexasaJSPteamproject.Thisisasolorebuildonamodernstack,toseehowfarasmallappcanbepolished.Thegameisthefrontpagenow.Asilhouetteappears;nameitinanyofthethreelanguagesandthetrainerthrowsaPokéBall.Missthreetimesandtherunisover.Nosign-up:youplayasaguest,andlinkingGooglelaterkeepsyourstickersandscores.LaterIwantedtolearnC#andtryUnity.Insteadofstartinganunrelatedgame,Igavethisonethethingitwasmissing:arealbattle.Itlivesinitsownrepository,pokepedia-unity,isbuiltforWebGLandopensinaniframe.CatchaPikachuinthequizandthatPikachufightsBlastoise.Italsorunsonitsownatbattle.pokepedia.dev.ThebattlerulesareplainC#thatnevertouchesUnityEngine,sotheirtestsrunwithdotnettest,noUnityneeded.Theengineonlyemitsevents—moveused,damage,criticalhit,fainted—andthescreenplaysthembackinorder,sorulesandeffectsdon'tknowabouteachother.Thetwoappssharenoserverordatabase:thewebapppassesyourPokémonoverpostMessage,andthebattlecheckswherethemessagecamefrom.WhatitdoesSilhouettequizFighttoanswer,Hintforhalfthename,Skip,Run—arrowkeysandZworktoo.Pikachu,피카츄orピカチュウallcount.ThrowaPokéBallGetitrightandthetrainer,hand-drawninGameBoygreys,throwstheballbeforethePokémonisrevealed.Streaksraisethescoreandtheshinyodds.PokédexAll151ononepage.Searchbynameinthreelanguagesorbynumber;typefiltersandsortingstayintheURL.DetailcardsStats,abilitiesandevolutions.Artworksitsonaholographiccardthattiltswithyourpointerorfingerandflipstotheshinyversion.Stickerbook&ranking151slotstofill,shinyonesincluded,andaleaderboardofeveryone'sbestrun.PlaysonaphoneThewholeGameBoyfitsonasmallscreen,andthepagedoesn'tscrollunderyourthumbduringabattle.FromquiztobattleWithoutaPikachusticker,thefirstquestionisPikachu.TherewardscreenandthePikachustickerinyourbookbothopenthebattle.Unityturn-basedbattlePickTackle,ThunderboltorThunderagainstBlastoise.Speeddecideswhogoesfirst;typematchups,accuracyandcriticalhitsdecidethedamage.Rainandfogoverapixel-artfield,2Dlights,andsoundeffectsIsynthesizedmyself.Howit'sbuiltWeb·AppNext.js16(AppRouter,RSC,ServerActions)·React19·TypeScriptWeb·UITailwindCSSv4·Motion·Zustand·next-intlWeb·DataSupabase—Postgres,Auth,Storage·RowLevelSecurity·RPC·pg_cronWeb·TestingVitest·PlaywrightWeb·HostingVercel(Tokyo)·Supabase(Tokyo)·Analytics·SpeedInsightsBattle·EngineUnity6.3LTS·C#9·uGUI·TextMeshProBattle·GraphicsURP2D—Light2D,post-processing·customshader·HTML/CSSstartandVSscreensBattle·TestingNUnit·dotnettest·GitHubActionsBattle·HostingWebGL(pre-compressedBrotli)·CloudflarePages·iframe+postMessagePokémonandrelatednamesandartworkare©Nintendo,ThePokémonCompany,CreaturesInc.andGAMEFREAKinc.Anunofficial,non-commercialfanproject.PreviousQuantLab",
+    "mainText": "AllprojectsLive·RemakePokepediaAsilhouettegamestyledlikeaGameBoybattle:namethePokémon,throwaPokéBall,anditgoesintoyourstickerbook.APokédexoftheoriginal151sitsnexttoit.WinaPikachuandyoucantakeitintoaturn-basedbattleagainstBlastoise,aseparateUnityprojectthatrunsinsidethepage.CatchaPokémonGitHubGitHub·UnityTypeWebapp+UnityWebGLbattle·KO/EN/JAPeriodSep–Oct2026(remake,battleaddedinOct)RunsonVercel+Supabase,Tokyo·CloudflarePagesAboutIn2023IbuiltaPokédexasaJSPteamproject.Thisisasolorebuildonamodernstack,toseehowfarasmallappcanbepolished.Thegameisthefrontpagenow.Asilhouetteappears;nameitinanyofthethreelanguagesandthetrainerthrowsaPokéBall.Missthreetimesandtherunisover.Nosign-up:youplayasaguest,andlinkingGooglelaterkeepsyourstickersandscores.LaterIwantedtolearnC#andtryUnity.Insteadofstartinganunrelatedgame,Igavethisonethethingitwasmissing:arealbattle.Itlivesinitsownrepository,pokepedia-unity,isbuiltforWebGLandopensinaniframe.CatchaPikachuinthequizandthatPikachufightsBlastoise.Italsorunsonitsownatbattle.pokepedia.dev.ThebattlerulesareplainC#thatnevertouchesUnityEngine,sotheirtestsrunwithdotnettest,noUnityneeded.Theengineonlyemitsevents—moveused,damage,criticalhit,fainted—andthescreenplaysthembackinorder,sorulesandeffectsdon'tknowabouteachother.Thetwoappssharenoserverordatabase:thewebapppassesyourPokémonoverpostMessage,andthebattlecheckswherethemessagecamefrom.WhatitdoesSilhouettequizFighttoanswer,Hintforhalfthename,Skip,Run—arrowkeysandZworktoo.Pikachu,피카츄orピカチュウallcount.ThrowaPokéBallGetitrightandthetrainer,hand-drawninGameBoygreys,throwstheballbeforethePokémonisrevealed.Streaksraisethescoreandtheshinyodds.PokédexAll151ononepage.Searchbynameinthreelanguagesorbynumber;typefiltersandsortingstayintheURL.DetailcardsStats,abilitiesandevolutions.Artworksitsonaholographiccardthattiltswithyourpointerorfingerandflipstotheshinyversion.Stickerbook&ranking151slotstofill,shinyonesincluded,andaleaderboardofeveryone'sbestrun.PlaysonaphoneThewholeGameBoyfitsonasmallscreen,andthepagedoesn'tscrollunderyourthumbduringabattle.FromquiztobattleWithoutaPikachusticker,thefirstquestionisPikachu.TherewardscreenandthePikachustickerinyourbookbothopenthebattle.Unityturn-basedbattlePickTackle,ThunderboltorThunderagainstBlastoise.Speeddecideswhogoesfirst;typematchups,accuracyandcriticalhitsdecidethedamage.Rainandfogoverapixel-artfield,2Dlights,andsoundeffectsIsynthesizedmyself.Howit'sbuiltWeb·AppNext.js16(AppRouter,RSC,ServerActions)·React19·TypeScriptWeb·UITailwindCSSv4·Motion·Zustand·next-intlWeb·DataSupabase—Postgres,Auth,Storage·RowLevelSecurity·RPC·pg_cronWeb·TestingVitest·PlaywrightWeb·HostingVercel(Tokyo)·Supabase(Tokyo)·Analytics·SpeedInsightsBattle·EngineUnity6.3LTS·C#9·uGUI·TextMeshProBattle·GraphicsURP2D—Light2D,post-processing·customshader·HTML/CSSstartandVSscreensBattle·TestingNUnit·dotnettest·GitHubActionsBattle·HostingWebGL(pre-compressedBrotli)·CloudflarePages·iframe+postMessagePokémonandrelatednamesandartworkare©Nintendo,ThePokémonCompany,CreaturesInc.andGAMEFREAKinc.Anunofficial,non-commercialfanproject.PreviousQuantLabNextHenryWallet",
     "links": [
       "/projects",
+      "/projects/henry-wallet",
       "/projects/quant-lab",
       "https://github.com/ottuck/pokepedia",
       "https://github.com/ottuck/pokepedia-unity",
@@ -518,6 +525,57 @@
       }
     ]
   },
+  "/projects/henry-wallet": {
+    "title": "Henry Wallet — Henry Kim",
+    "lang": "en",
+    "description": "Holds and sends USDC and JPYC on Polygon, Ethereum and Avalanche. The recovery phrase stays in the phone's secure storage, and every payment is shown in full on one screen before you approve it with Face ID.",
+    "canonical": "https://www.portfolio-hub.dev/projects/henry-wallet",
+    "alternates": {
+      "en": "https://www.portfolio-hub.dev/projects/henry-wallet",
+      "ja": "https://www.portfolio-hub.dev/ja/projects/henry-wallet",
+      "ko": "https://www.portfolio-hub.dev/ko/projects/henry-wallet",
+      "x-default": "https://www.portfolio-hub.dev/projects/henry-wallet"
+    },
+    "og": {
+      "og:title": "Henry Wallet",
+      "og:description": "Holds and sends USDC and JPYC on Polygon, Ethereum and Avalanche. The recovery phrase stays in the phone's secure storage, and every payment is shown in full on one screen before you approve it with Face ID.",
+      "og:url": "https://www.portfolio-hub.dev/projects/henry-wallet",
+      "og:site_name": "Henry Kim",
+      "og:locale": "en_US",
+      "og:type": "article",
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Henry Wallet",
+      "twitter:description": "Holds and sends USDC and JPYC on Polygon, Ethereum and Avalanche. The recovery phrase stays in the phone's secure storage, and every payment is shown in full on one screen before you approve it with Face ID."
+    },
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Henry Wallet",
+        "description": "Holds and sends USDC and JPYC on Polygon, Ethereum and Avalanche. The recovery phrase stays in the phone's secure storage, and every payment is shown in full on one screen before you approve it with Face ID.",
+        "inLanguage": "en",
+        "author": {
+          "@type": "Person",
+          "name": "Henry Kim",
+          "url": "https://github.com/ottuck"
+        }
+      }
+    ],
+    "mainText": "AllprojectsTesting·SideprojectHenryWalletHoldsandsendsUSDCandJPYConPolygon,EthereumandAvalanche.Therecoveryphrasestaysinthephone'ssecurestorage,andeverypaymentisshowninfullononescreenbeforeyouapproveitwithFaceID.TypeiPhoneapp(Expo)·KO/ENPeriodOct2026NetworksPolygon·Ethereum·Avalanche,testnetsfirstRunsonOnlyonthephone·noserverAboutApersonalstablecoinwalletforiPhone.Ithandlestwocoins,USDCandJPYC,whichcrossbordersinsecondsforasmallfee.There'snoserver.Everythingfromcreatingthewallettosigninghappensonthephone,andtheonlythingthatleavesitisthesignedpayment.Thefeaturesstaynarrow:send,receiveandcheckbalances,withnoswapsandnoconnectingtowebsites.FornowIuseitontestnetsandkeeppolishingit.WhatitdoesCreateorimportMakeanew12-wordphraseonthephone,orbringinoneyoualreadyhave.Anewwalletasksforthreerandomwordsfromthephrasebeforeit'sready.ItusesthesamederivationpathasMetaMask'sfirstaccount(m/44'/60'/0'/0/0).FaceIDoneverypaymentThephraseiskeptintheiOSKeychainforthisdeviceonly,anditcanonlybereadafterFaceID.Theprivatekeyisneversaved;it'sderivedforeachsignature.OnereviewscreenRecipient,amount,network,fivechecksandtheexpectedandmaximumfee,allbeforesigning.TheEIP-1559fieldsareatapaway.StoppedbeforesigningAbadchecksum,atoken'scontractaddressortoolittlegasiscaughtbeforetheFaceIDprompt.Afirst-timerecipientgetsaremindertomatchthefirstandlastfourcharacters.BalancesataglanceUSDCandJPYC,plusroughlyhowmanymoretransfersthePOLfeebalancecovers.FolloweachpaymentSignedonthedevice,senttothenetwork,includedinablock,withtimes,thenonceandtheactualfeenexttotheestimate.Pending,failedanddroppedpaymentsarestilltrackedafterarestart.ReceiveandscanAddressandQRcodewitharemindertousetherightnetwork.ThescannerreadsplainaddressesandEIP-681links,andrefusesrequestsforanotherchain.Howit'sbuiltAppExpoSDK58(ReactNative0.88)·TypeScript·ExpoRouter·ZustandWalletethersv6—BIP-39,keyderivation,EIP-1559signing·USDCandJPYC(ERC-20)Deviceexpo-secure-store(Keychain,FaceID)·expo-sqlite·expo-camera·expo-screen-capture·react-native-qrcode-svgNetworksPolygon·Ethereum·AvalancheC-Chainandtheirtestnets(Amoy,Sepolia,Fuji)·publicRPCTestingjest-expo—amounts,addresses,keyderivationvectors·ESLint·Prettier·GitHubActionsDemoreact-native-web—storage,keysandRPCswappedforin-memorystubsExperimentalandunaudited.Ionlyuseitontestnetworksandwithsmallamounts.Thescreenshotsarefromthewebdemowithsampledata.PreviousPokepedia",
+    "links": [
+      "/projects",
+      "/projects/pokepedia"
+    ],
+    "alts": [
+      "Three Henry Wallet screens side by side: home, review before signing, and the sent confirmation",
+      "The welcome screen: keys only on this device, Face ID for every signature, and everything checked before sending",
+      "Home on Polygon Amoy: USDC and JPYC balances, POL for fees with about 71 transfers left, and sent payments",
+      "Sending 25 USDC: the address passes the checksum check, with a note that it's a first-time recipient",
+      "Review before signing: both full addresses, 5 of 5 checks passed, and the expected and maximum fee",
+      "Sent: signed on the device, sent to the network and included in a block, with the actual fee next to the estimate",
+      "Receive: the address as a QR code, with a reminder to ask for Polygon Amoy"
+    ]
+  },
   "/ja": {
     "title": "Henry Kim — バックエンドエンジニア",
     "lang": "ja",
@@ -541,10 +599,11 @@
       "twitter:description": "Henry Kim — 東京のバックエンドエンジニア。Java・Spring・クラウド・Webを使い、企画から運用まで一人で手がけたサイドプロジェクトを紹介します。"
     },
     "oldOgImage": "https://www.portfolio-hub.dev/ja/opengraph-image?3e80f0d4b49b655a",
-    "mainText": "HenryKim—バックエンドエンジニアHこんにちは。HenryKimです。東京でバックエンドエンジニアとして働いています。業務では主にJavaとSpringを使っています。業務外では、小さなプロダクトを設計から実装、クラウド構築、運用まで一人で手がけています。東京·JST本業バックエンド開発決済・金融·API·DB·認証·クラウドよく使う技術JavaKotlinSpringBootPostgreSQLAzureTerraformNext.jsTypeScript作品PunyChat公開中·AppStore準備中ふたりのためのメッセンジャー。会話するだけで、小さなドット絵のバディを一緒に育てられます。バディを育てに行く—PunyChatサイトExpo·SpringWebFlux·MongoDBURCheck公開中·招待制·実際に利用中UR賃貸の空室を条件で検索し、新着・再募集・募集終了の部屋を追跡します。WebサイトとAIアシスタントが、同じ条件と履歴を使います。デモを見る—URCheckサイトBun·PostgreSQL·MCPGitLeaf公開中·誰でも使えますGitHubの1年間のコントリビューションを、水彩画の植物として描くサービス。1日が1枚の葉になります。READMEに1行貼るだけで使えます。GitHub—GitLeafソースコードTypeScript·CloudflareWorkers·SVGQuantLab公開中·1/100で実取引自分のクセをコピーして給料日に代わりに買うボットと、毎日配分を決めるAIボットたち。どれも自分の実口座で、1/100のスケールで動かしています。デモを見る—QuantLabサイトPython·FastAPI·ClaudeAPIPokepedia公開中·リメイク「このポケモン、だーれだ？」をゲームボーイ風のバトルで。初代ポケモン図鑑とシール帳に、Unityで作ったピカチュウのターン制バトルまで。日本語・英語・韓国語に対応しています。ポケモンを捕まえに行く—PokepediaサイトGitHub—PokepediaソースコードNext.js·Supabase·Unity発信開発ブログhukutaku.tistory.comGitHub@ottuckプロフィールを見るプロフィール",
+    "mainText": "HenryKim—バックエンドエンジニアHこんにちは。HenryKimです。東京でバックエンドエンジニアとして働いています。業務では主にJavaとSpringを使っています。業務外では、小さなプロダクトを設計から実装、クラウド構築、運用まで一人で手がけています。東京·JST本業バックエンド開発決済・金融·API·DB·認証·クラウドよく使う技術JavaKotlinSpringBootPostgreSQLAzureTerraformNext.jsTypeScript作品PunyChat公開中·AppStore準備中ふたりのためのメッセンジャー。会話するだけで、小さなドット絵のバディを一緒に育てられます。バディを育てに行く—PunyChatサイトExpo·SpringWebFlux·MongoDBURCheck公開中·招待制·実際に利用中UR賃貸の空室を条件で検索し、新着・再募集・募集終了の部屋を追跡します。WebサイトとAIアシスタントが、同じ条件と履歴を使います。デモを見る—URCheckサイトBun·PostgreSQL·MCPGitLeaf公開中·誰でも使えますGitHubの1年間のコントリビューションを、水彩画の植物として描くサービス。1日が1枚の葉になります。READMEに1行貼るだけで使えます。GitHub—GitLeafソースコードTypeScript·CloudflareWorkers·SVGQuantLab公開中·1/100で実取引自分のクセをコピーして給料日に代わりに買うボットと、毎日配分を決めるAIボットたち。どれも自分の実口座で、1/100のスケールで動かしています。デモを見る—QuantLabサイトPython·FastAPI·ClaudeAPIPokepedia公開中·リメイク「このポケモン、だーれだ？」をゲームボーイ風のバトルで。初代ポケモン図鑑とシール帳に、Unityで作ったピカチュウのターン制バトルまで。日本語・英語・韓国語に対応しています。ポケモンを捕まえに行く—PokepediaサイトGitHub—PokepediaソースコードNext.js·Supabase·UnityHenryWalletテスト中·個人開発自分で鍵を持つiPhone用ステーブルコインウォレット。鍵はスマホの中だけにあり、送金はすべてFaceIDを通して端末で署名します。Expo·ethers·Polygon発信開発ブログhukutaku.tistory.comGitHub@ottuckプロフィールを見るプロフィール",
     "links": [
       "/ja/about",
       "/ja/projects/gitleaf",
+      "/ja/projects/henry-wallet",
       "/ja/projects/pokepedia",
       "/ja/projects/puny-chat",
       "/ja/projects/quant-lab",
@@ -567,7 +626,9 @@
       "Quant Labのホーム。自分コピーボットと毎月ただ買う場合の比較、次の給料日に買うもの",
       "スマホで見たQuant Labのホーム",
       "ゲームボーイ風のバトル画面。ポケモンのシルエット、トレーナーの後ろ姿、コマンド欄",
-      "スマホで見た図鑑"
+      "スマホで見た図鑑",
+      "並べたHenry Walletの3画面。ホーム、署名前の確認、送金後の画面",
+      "スマホで見たHenry Walletのようこそ画面"
     ],
     "jsonLd": [
       {
@@ -619,9 +680,10 @@
       "twitter:title": "作品",
       "twitter:description": "設計から開発、運用まで自分で手がけているサイドプロジェクトです。"
     },
-    "mainText": "作品設計から開発、運用まで自分で手がけているサイドプロジェクトです。それぞれの現在の状況も記載しています。すべての作品PunyChat公開中·AppStore準備中ふたりのためのメッセンジャー。会話するだけで、小さなドット絵のバディを一緒に育てられます。バディを育てに行く—PunyChatサイトExpo·SpringWebFlux·MongoDBURCheck公開中·招待制·実際に利用中UR賃貸の空室を条件で検索し、新着・再募集・募集終了の部屋を追跡します。WebサイトとAIアシスタントが、同じ条件と履歴を使います。デモを見る—URCheckサイトBun·PostgreSQL·MCPGitLeaf公開中·誰でも使えますGitHubの1年間のコントリビューションを、水彩画の植物として描くサービス。1日が1枚の葉になります。READMEに1行貼るだけで使えます。GitHub—GitLeafソースコードTypeScript·CloudflareWorkers·SVGQuantLab公開中·1/100で実取引自分のクセをコピーして給料日に代わりに買うボットと、毎日配分を決めるAIボットたち。どれも自分の実口座で、1/100のスケールで動かしています。デモを見る—QuantLabサイトPython·FastAPI·ClaudeAPIPokepedia公開中·リメイク「このポケモン、だーれだ？」をゲームボーイ風のバトルで。初代ポケモン図鑑とシール帳に、Unityで作ったピカチュウのターン制バトルまで。日本語・英語・韓国語に対応しています。ポケモンを捕まえに行く—PokepediaサイトGitHub—PokepediaソースコードNext.js·Supabase·Unity",
+    "mainText": "作品設計から開発、運用まで自分で手がけているサイドプロジェクトです。それぞれの現在の状況も記載しています。すべての作品PunyChat公開中·AppStore準備中ふたりのためのメッセンジャー。会話するだけで、小さなドット絵のバディを一緒に育てられます。バディを育てに行く—PunyChatサイトExpo·SpringWebFlux·MongoDBURCheck公開中·招待制·実際に利用中UR賃貸の空室を条件で検索し、新着・再募集・募集終了の部屋を追跡します。WebサイトとAIアシスタントが、同じ条件と履歴を使います。デモを見る—URCheckサイトBun·PostgreSQL·MCPGitLeaf公開中·誰でも使えますGitHubの1年間のコントリビューションを、水彩画の植物として描くサービス。1日が1枚の葉になります。READMEに1行貼るだけで使えます。GitHub—GitLeafソースコードTypeScript·CloudflareWorkers·SVGQuantLab公開中·1/100で実取引自分のクセをコピーして給料日に代わりに買うボットと、毎日配分を決めるAIボットたち。どれも自分の実口座で、1/100のスケールで動かしています。デモを見る—QuantLabサイトPython·FastAPI·ClaudeAPIPokepedia公開中·リメイク「このポケモン、だーれだ？」をゲームボーイ風のバトルで。初代ポケモン図鑑とシール帳に、Unityで作ったピカチュウのターン制バトルまで。日本語・英語・韓国語に対応しています。ポケモンを捕まえに行く—PokepediaサイトGitHub—PokepediaソースコードNext.js·Supabase·UnityHenryWalletテスト中·個人開発自分で鍵を持つiPhone用ステーブルコインウォレット。鍵はスマホの中だけにあり、送金はすべてFaceIDを通して端末で署名します。Expo·ethers·Polygon",
     "links": [
       "/ja/projects/gitleaf",
+      "/ja/projects/henry-wallet",
       "/ja/projects/pokepedia",
       "/ja/projects/puny-chat",
       "/ja/projects/quant-lab",
@@ -642,7 +704,9 @@
       "Quant Labのホーム。自分コピーボットと毎月ただ買う場合の比較、次の給料日に買うもの",
       "スマホで見たQuant Labのホーム",
       "ゲームボーイ風のバトル画面。ポケモンのシルエット、トレーナーの後ろ姿、コマンド欄",
-      "スマホで見た図鑑"
+      "スマホで見た図鑑",
+      "並べたHenry Walletの3画面。ホーム、署名前の確認、送金後の画面",
+      "スマホで見たHenry Walletのようこそ画面"
     ],
     "jsonLd": []
   },
@@ -910,9 +974,10 @@
       "twitter:description": "ゲームボーイのバトル画面を再現したシルエットクイズです。ポケモンの名前を当てるとモンスターボールを投げ、シール帳に追加されます。初代151匹の図鑑も備えています。クイズでピカチュウを手に入れると、別に作ったUnityプロジェクトをページ内で開き、カメックスとターン制バトルができます。"
     },
     "oldOgImage": "https://www.portfolio-hub.dev/ja/projects/pokepedia/opengraph-image?31bd313c9f59e355",
-    "mainText": "作品一覧公開中·リメイクPokepediaゲームボーイのバトル画面を再現したシルエットクイズです。ポケモンの名前を当てるとモンスターボールを投げ、シール帳に追加されます。初代151匹の図鑑も備えています。クイズでピカチュウを手に入れると、別に作ったUnityプロジェクトをページ内で開き、カメックスとターン制バトルができます。ポケモンを捕まえに行くGitHubGitHub·Unity種類Webアプリ+UnityWebGLバトル·日本語/英語/韓国語期間2026年9〜10月（リメイク、10月にバトル追加）運用環境Vercel+Supabase（東京）·CloudflarePages概要2023年にJSPのチームプロジェクトとして作ったポケモン図鑑を、現在の技術スタックで一人で作り直しました。小さなアプリをどこまで磨き込めるかを試しているプロジェクトです。現在はゲームがトップページです。シルエットが表示されたら3言語のいずれかで名前を答え、正解するとトレーナーがモンスターボールを投げます。3回間違えるとゲームオーバーです。登録不要のゲストとして遊べ、後からGoogleアカウントを連携してもシールとスコアは引き継がれます。その後、C#を学んでUnityを触ってみたくなりました。関係のないゲームを新しく始めるより、このゲームに足りなかった本物のバトルを加えることにしました。バトルは別リポジトリ（pokepedia-unity）でUnityを使って作り、WebGLでビルドしてPokepediaからiframeで開きます。クイズでピカチュウを手に入れると、そのピカチュウでカメックスと戦えます。battle.pokepedia.devで単独でも遊べます。バトルのルールはUnityEngineを参照しない純粋なC#で書き、Unityなしでdotnettestでテストしています。エンジンは「わざの使用・ダメージ・急所・ひんし」といったイベントだけを出し、画面がそれを順に再生するので、ルールと演出は互いを知りません。2つのアプリはサーバーもDBも共有しません。Webアプリが持っているポケモンをpostMessageで渡し、バトル側は送信元を確認します。主な機能シルエットクイズ「たたかう」で回答、「ヒント」で名前の半分を表示、「スキップ」と「にげる」も選べます。矢印キーとZキーにも対応。ピカチュウ、Pikachu、피카츄のどれでも正解になります。モンスターボールを投げる正解すると、ゲームボーイの灰色で手描きしたトレーナーがボールを投げ、ポケモンの姿が明らかになります。連続正解でスコアと色違いの出現率が上がります。図鑑151匹を1ページで一覧できます。3言語の名前または番号で検索でき、タイプの絞り込みと並び順はURLに保持されます。詳細カード能力値、特性、進化を表示します。アートワークはマウスや指の動きに合わせて傾くホログラムカードで、タップすると色違いに切り替わります。シール帳とランキング色違いを含む151枠のシール帳と、全プレイヤーのベスト記録ランキング。スマホ対応ゲームボーイ全体が小さな画面に収まり、バトル中に画面に触れてもページがスクロールしません。クイズからバトルへピカチュウのシールがなければ、最初の問題はピカチュウです。獲得画面とシール帳のピカチュウからすぐにバトルを開けます。Unityのターン制バトルたいあたり・10まんボルト・かみなりから選んでカメックスと戦います。すばやさで行動順を決め、タイプ相性・命中率・急所でダメージを計算します。雨と霧のドット絵の背景に2Dライトを重ね、効果音は自分で合成しました。技術構成Web·アプリNext.js16(AppRouter,RSC,ServerActions)·React19·TypeScriptWeb·UITailwindCSSv4·Motion·Zustand·next-intlWeb·データSupabase—Postgres,Auth,Storage·RowLevelSecurity·RPC·pg_cronWeb·テストVitest·PlaywrightWeb·ホスティングVercel（東京）·Supabase（東京）·Analytics·SpeedInsightsバトル·エンジンUnity6.3LTS·C#9·uGUI·TextMeshProバトル·グラフィックURP2D—Light2D、ポストプロセス·自作シェーダー·HTML/CSSのスタート・VS画面バトル·テストNUnit·dotnettest·GitHubActionsバトル·ホスティングWebGL（Brotli事前圧縮）·CloudflarePages·iframe+postMessageポケモンおよび関連する名称・アートワークの権利は任天堂、株式会社ポケモン、クリーチャーズ、ゲームフリークに帰属します。非公式・非営利のファンプロジェクトです。前へQuantLab",
+    "mainText": "作品一覧公開中·リメイクPokepediaゲームボーイのバトル画面を再現したシルエットクイズです。ポケモンの名前を当てるとモンスターボールを投げ、シール帳に追加されます。初代151匹の図鑑も備えています。クイズでピカチュウを手に入れると、別に作ったUnityプロジェクトをページ内で開き、カメックスとターン制バトルができます。ポケモンを捕まえに行くGitHubGitHub·Unity種類Webアプリ+UnityWebGLバトル·日本語/英語/韓国語期間2026年9〜10月（リメイク、10月にバトル追加）運用環境Vercel+Supabase（東京）·CloudflarePages概要2023年にJSPのチームプロジェクトとして作ったポケモン図鑑を、現在の技術スタックで一人で作り直しました。小さなアプリをどこまで磨き込めるかを試しているプロジェクトです。現在はゲームがトップページです。シルエットが表示されたら3言語のいずれかで名前を答え、正解するとトレーナーがモンスターボールを投げます。3回間違えるとゲームオーバーです。登録不要のゲストとして遊べ、後からGoogleアカウントを連携してもシールとスコアは引き継がれます。その後、C#を学んでUnityを触ってみたくなりました。関係のないゲームを新しく始めるより、このゲームに足りなかった本物のバトルを加えることにしました。バトルは別リポジトリ（pokepedia-unity）でUnityを使って作り、WebGLでビルドしてPokepediaからiframeで開きます。クイズでピカチュウを手に入れると、そのピカチュウでカメックスと戦えます。battle.pokepedia.devで単独でも遊べます。バトルのルールはUnityEngineを参照しない純粋なC#で書き、Unityなしでdotnettestでテストしています。エンジンは「わざの使用・ダメージ・急所・ひんし」といったイベントだけを出し、画面がそれを順に再生するので、ルールと演出は互いを知りません。2つのアプリはサーバーもDBも共有しません。Webアプリが持っているポケモンをpostMessageで渡し、バトル側は送信元を確認します。主な機能シルエットクイズ「たたかう」で回答、「ヒント」で名前の半分を表示、「スキップ」と「にげる」も選べます。矢印キーとZキーにも対応。ピカチュウ、Pikachu、피카츄のどれでも正解になります。モンスターボールを投げる正解すると、ゲームボーイの灰色で手描きしたトレーナーがボールを投げ、ポケモンの姿が明らかになります。連続正解でスコアと色違いの出現率が上がります。図鑑151匹を1ページで一覧できます。3言語の名前または番号で検索でき、タイプの絞り込みと並び順はURLに保持されます。詳細カード能力値、特性、進化を表示します。アートワークはマウスや指の動きに合わせて傾くホログラムカードで、タップすると色違いに切り替わります。シール帳とランキング色違いを含む151枠のシール帳と、全プレイヤーのベスト記録ランキング。スマホ対応ゲームボーイ全体が小さな画面に収まり、バトル中に画面に触れてもページがスクロールしません。クイズからバトルへピカチュウのシールがなければ、最初の問題はピカチュウです。獲得画面とシール帳のピカチュウからすぐにバトルを開けます。Unityのターン制バトルたいあたり・10まんボルト・かみなりから選んでカメックスと戦います。すばやさで行動順を決め、タイプ相性・命中率・急所でダメージを計算します。雨と霧のドット絵の背景に2Dライトを重ね、効果音は自分で合成しました。技術構成Web·アプリNext.js16(AppRouter,RSC,ServerActions)·React19·TypeScriptWeb·UITailwindCSSv4·Motion·Zustand·next-intlWeb·データSupabase—Postgres,Auth,Storage·RowLevelSecurity·RPC·pg_cronWeb·テストVitest·PlaywrightWeb·ホスティングVercel（東京）·Supabase（東京）·Analytics·SpeedInsightsバトル·エンジンUnity6.3LTS·C#9·uGUI·TextMeshProバトル·グラフィックURP2D—Light2D、ポストプロセス·自作シェーダー·HTML/CSSのスタート・VS画面バトル·テストNUnit·dotnettest·GitHubActionsバトル·ホスティングWebGL（Brotli事前圧縮）·CloudflarePages·iframe+postMessageポケモンおよび関連する名称・アートワークの権利は任天堂、株式会社ポケモン、クリーチャーズ、ゲームフリークに帰属します。非公式・非営利のファンプロジェクトです。前へQuantLab次へHenryWallet",
     "links": [
       "/ja/projects",
+      "/ja/projects/henry-wallet",
       "/ja/projects/quant-lab",
       "https://github.com/ottuck/pokepedia",
       "https://github.com/ottuck/pokepedia-unity",
@@ -1037,6 +1102,57 @@
       }
     ]
   },
+  "/ja/projects/henry-wallet": {
+    "title": "Henry Wallet — Henry Kim",
+    "lang": "ja",
+    "description": "Polygon・Ethereum・AvalancheでUSDCとJPYCを保管・送金します。復元フレーズは端末の安全な保管領域だけに置き、送金のたびにすべてを1画面で見せてからFace IDで承認します。",
+    "canonical": "https://www.portfolio-hub.dev/ja/projects/henry-wallet",
+    "alternates": {
+      "en": "https://www.portfolio-hub.dev/projects/henry-wallet",
+      "ja": "https://www.portfolio-hub.dev/ja/projects/henry-wallet",
+      "ko": "https://www.portfolio-hub.dev/ko/projects/henry-wallet",
+      "x-default": "https://www.portfolio-hub.dev/projects/henry-wallet"
+    },
+    "og": {
+      "og:title": "Henry Wallet",
+      "og:description": "Polygon・Ethereum・AvalancheでUSDCとJPYCを保管・送金します。復元フレーズは端末の安全な保管領域だけに置き、送金のたびにすべてを1画面で見せてからFace IDで承認します。",
+      "og:url": "https://www.portfolio-hub.dev/ja/projects/henry-wallet",
+      "og:site_name": "Henry Kim",
+      "og:locale": "ja_JP",
+      "og:type": "article",
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Henry Wallet",
+      "twitter:description": "Polygon・Ethereum・AvalancheでUSDCとJPYCを保管・送金します。復元フレーズは端末の安全な保管領域だけに置き、送金のたびにすべてを1画面で見せてからFace IDで承認します。"
+    },
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Henry Wallet",
+        "description": "Polygon・Ethereum・AvalancheでUSDCとJPYCを保管・送金します。復元フレーズは端末の安全な保管領域だけに置き、送金のたびにすべてを1画面で見せてからFace IDで承認します。",
+        "inLanguage": "ja",
+        "author": {
+          "@type": "Person",
+          "name": "Henry Kim",
+          "url": "https://github.com/ottuck"
+        }
+      }
+    ],
+    "mainText": "作品一覧テスト中·個人開発HenryWalletPolygon・Ethereum・AvalancheでUSDCとJPYCを保管・送金します。復元フレーズは端末の安全な保管領域だけに置き、送金のたびにすべてを1画面で見せてからFaceIDで承認します。種類iPhoneアプリ（Expo）·韓国語/英語期間2026年10月ネットワークPolygon·Ethereum·Avalanche（まずテストネット）運用環境スマホの中だけ·サーバーなし概要個人用に作ったiPhoneのステーブルコインウォレットです。扱うのはUSDCとJPYCの2つで、国境を越えても数秒・少ない手数料で送れます。サーバーは置いていません。ウォレットの作成から署名までスマホの中で完結し、外に出るのは署名済みの送金だけです。機能は送金・受け取り・残高確認に絞り、コインの交換やWebサイトとの接続は入れていません。今はテストネットで使いながら手を入れています。主な機能作成・インポート端末で12単語のフレーズを新しく作るか、持っているフレーズを取り込みます。新しいウォレットは、フレーズからランダムな3単語を確認してから使えます。MetaMaskの最初のアカウントと同じ導出パス（m/44'/60'/0'/0/0）を使います。送金ごとにFaceIDフレーズはiOSのキーチェーンにこの端末専用で保管し、FaceIDを通ったときだけ読み出します。秘密鍵は保存せず、署名のたびに導出します。1画面で確認受取アドレス、金額、ネットワーク、5つの検証、予想・最大手数料を署名前に表示します。EIP-1559のフィールドは開いて確認できます。署名の前に止めるチェックサムの合わないアドレス、トークンのコントラクトアドレス、ガス不足はFaceIDの前に止めます。初めて送るアドレスには、前後4文字を相手と照らし合わせるよう案内します。残高をひと目でUSDCとJPYCの残高に加え、手数料用のPOLであと何回送金できるかを表示します。送金を追う端末での署名、ネットワークへの送信、ブロックへの取り込みを時刻・nonceとともに表示し、実際の手数料を予想の横に並べます。保留・失敗・ドロップした取引は、アプリを開き直しても続けて確認します。受け取りとスキャンアドレスとQRをネットワークの注意書きと一緒に表示します。スキャナーはアドレスだけのQRとEIP-681リンクを読み、別のチェーンの要求は拒否します。技術構成アプリExpoSDK58(ReactNative0.88)·TypeScript·ExpoRouter·Zustandウォレットethersv6—BIP-39、鍵の導出、EIP-1559署名·USDC・JPYC（ERC-20）端末expo-secure-store（キーチェーン・FaceID）·expo-sqlite·expo-camera·expo-screen-capture·react-native-qrcode-svgネットワークPolygon·Ethereum·AvalancheC-Chainとテストネット（Amoy、Sepolia、Fuji）·公開RPCテストjest-expo—金額・アドレス・鍵導出のテストベクター·ESLint·Prettier·GitHubActionsデモreact-native-web—保存・鍵・RPCをメモリ上のスタブに差し替え実験段階で、セキュリティ監査は受けていません。テストネットと少額でのみ使っています。スクリーンショットはサンプルデータで動かしたWebデモの画面です。前へPokepedia",
+    "links": [
+      "/ja/projects",
+      "/ja/projects/pokepedia"
+    ],
+    "alts": [
+      "並べたHenry Walletの3画面。ホーム、署名前の確認、送金後の画面",
+      "ようこそ画面。鍵はこの端末だけ、署名のたびにFace ID、送る前にすべて確認",
+      "Polygon Amoyのホーム。USDC・JPYCの残高、あと約71回送れる手数料用のPOL、送った取引",
+      "25 USDCの送金。アドレスはチェックサム検査を通り、初めて送るアドレスだという案内がある",
+      "署名前の確認。送信元・受取の完全なアドレス、検証5/5、予想・最大手数料",
+      "送金後の画面。端末での署名、ネットワークへの送信、ブロックへの取り込みと、予想の横に実際の手数料",
+      "受け取り。アドレスのQRコードと、Polygon Amoyで送ってもらうよう促す注意書き"
+    ]
+  },
   "/ko": {
     "title": "Henry Kim — 백엔드 엔지니어",
     "lang": "ko",
@@ -1060,10 +1176,11 @@
       "twitter:description": "Henry Kim — 도쿄의 백엔드 엔지니어. Java, Spring, 클라우드, 웹으로 기획부터 운영까지 직접 만든 사이드 프로젝트를 소개합니다."
     },
     "oldOgImage": "https://www.portfolio-hub.dev/ko/opengraph-image?3e80f0d4b49b655a",
-    "mainText": "HenryKim—백엔드엔지니어H안녕하세요.HenryKim입니다.도쿄에서백엔드엔지니어로일하며,주로Java와Spring을다룹니다.업무외에는작은서비스를설계부터구현,클라우드구성,운영까지혼자만들고있습니다.도쿄·JST본업백엔드엔지니어결제·금융·API·DB·인증·클라우드주로쓰는기술JavaKotlinSpringBootPostgreSQLAzureTerraformNext.jsTypeScript프로젝트PunyChat운영중·앱출시준비중둘만을위한메신저.대화만해도작은도트버디를함께키울수있습니다.버디키우러가기—PunyChat사이트Expo·SpringWebFlux·MongoDBURCheck운영중·초대제·직접사용중UR임대의빈방을조건으로검색하고,새로나온방·다시나온방·사라진방을추적합니다.웹사이트와AI어시스턴트가같은조건과이력을씁니다.데모보기—URCheck사이트Bun·PostgreSQL·MCPGitLeaf운영중·누구나사용가능GitHub의1년치기여기록을수채화느낌의식물로보여줍니다.README에이미지코드한줄을추가하면매일자동으로갱신됩니다.GitHub—GitLeaf소스코드TypeScript·CloudflareWorkers·SVGQuantLab운영중·1/100규모실거래내습관을복사해월급날대신사주는봇과,매일비중을정하는AI봇들.모두제실제계좌에서1/100규모로돌리고있습니다.데모보기—QuantLab사이트Python·FastAPI·ClaudeAPIPokepedia운영중·리메이크“이포켓몬은누구일까?”를게임보이배틀처럼.1세대포켓몬도감과띠부씰컬렉션에,Unity로만든피카츄턴제배틀까지.한국어·영어·일본어를지원합니다.포켓몬잡으러가기—Pokepedia사이트GitHub—Pokepedia소스코드Next.js·Supabase·Unity글개발블로그hukutaku.tistory.comGitHub@ottuck소개더보기소개",
+    "mainText": "HenryKim—백엔드엔지니어H안녕하세요.HenryKim입니다.도쿄에서백엔드엔지니어로일하며,주로Java와Spring을다룹니다.업무외에는작은서비스를설계부터구현,클라우드구성,운영까지혼자만들고있습니다.도쿄·JST본업백엔드엔지니어결제·금융·API·DB·인증·클라우드주로쓰는기술JavaKotlinSpringBootPostgreSQLAzureTerraformNext.jsTypeScript프로젝트PunyChat운영중·앱출시준비중둘만을위한메신저.대화만해도작은도트버디를함께키울수있습니다.버디키우러가기—PunyChat사이트Expo·SpringWebFlux·MongoDBURCheck운영중·초대제·직접사용중UR임대의빈방을조건으로검색하고,새로나온방·다시나온방·사라진방을추적합니다.웹사이트와AI어시스턴트가같은조건과이력을씁니다.데모보기—URCheck사이트Bun·PostgreSQL·MCPGitLeaf운영중·누구나사용가능GitHub의1년치기여기록을수채화느낌의식물로보여줍니다.README에이미지코드한줄을추가하면매일자동으로갱신됩니다.GitHub—GitLeaf소스코드TypeScript·CloudflareWorkers·SVGQuantLab운영중·1/100규모실거래내습관을복사해월급날대신사주는봇과,매일비중을정하는AI봇들.모두제실제계좌에서1/100규모로돌리고있습니다.데모보기—QuantLab사이트Python·FastAPI·ClaudeAPIPokepedia운영중·리메이크“이포켓몬은누구일까?”를게임보이배틀처럼.1세대포켓몬도감과띠부씰컬렉션에,Unity로만든피카츄턴제배틀까지.한국어·영어·일본어를지원합니다.포켓몬잡으러가기—Pokepedia사이트GitHub—Pokepedia소스코드Next.js·Supabase·UnityHenryWallet테스트중·사이드프로젝트직접보관하는iPhone용스테이블코인지갑.키는휴대폰에만있고,모든송금은FaceID를거쳐기기에서서명합니다.Expo·ethers·Polygon글개발블로그hukutaku.tistory.comGitHub@ottuck소개더보기소개",
     "links": [
       "/ko/about",
       "/ko/projects/gitleaf",
+      "/ko/projects/henry-wallet",
       "/ko/projects/pokepedia",
       "/ko/projects/puny-chat",
       "/ko/projects/quant-lab",
@@ -1086,7 +1203,9 @@
       "Quant Lab 홈. 나 카피 봇과 매달 그냥 샀을 때의 비교, 다음 월급날 살 것",
       "휴대폰에서 본 Quant Lab 홈",
       "게임보이 배틀 화면. 포켓몬 실루엣, 트레이너 뒷모습, 명령창",
-      "휴대폰에서 본 도감"
+      "휴대폰에서 본 도감",
+      "나란히 놓인 Henry Wallet 화면 세 장. 홈, 서명 전 확인, 보낸 뒤 화면",
+      "휴대폰의 Henry Wallet 환영 화면"
     ],
     "jsonLd": [
       {
@@ -1138,9 +1257,10 @@
       "twitter:title": "프로젝트",
       "twitter:description": "기획부터 개발, 운영까지 직접 맡고 있는 사이드 프로젝트입니다."
     },
-    "mainText": "프로젝트기획부터개발,운영까지직접맡고있는사이드프로젝트입니다.프로젝트별현재상태도함께적었습니다.전체프로젝트PunyChat운영중·앱출시준비중둘만을위한메신저.대화만해도작은도트버디를함께키울수있습니다.버디키우러가기—PunyChat사이트Expo·SpringWebFlux·MongoDBURCheck운영중·초대제·직접사용중UR임대의빈방을조건으로검색하고,새로나온방·다시나온방·사라진방을추적합니다.웹사이트와AI어시스턴트가같은조건과이력을씁니다.데모보기—URCheck사이트Bun·PostgreSQL·MCPGitLeaf운영중·누구나사용가능GitHub의1년치기여기록을수채화느낌의식물로보여줍니다.README에이미지코드한줄을추가하면매일자동으로갱신됩니다.GitHub—GitLeaf소스코드TypeScript·CloudflareWorkers·SVGQuantLab운영중·1/100규모실거래내습관을복사해월급날대신사주는봇과,매일비중을정하는AI봇들.모두제실제계좌에서1/100규모로돌리고있습니다.데모보기—QuantLab사이트Python·FastAPI·ClaudeAPIPokepedia운영중·리메이크“이포켓몬은누구일까?”를게임보이배틀처럼.1세대포켓몬도감과띠부씰컬렉션에,Unity로만든피카츄턴제배틀까지.한국어·영어·일본어를지원합니다.포켓몬잡으러가기—Pokepedia사이트GitHub—Pokepedia소스코드Next.js·Supabase·Unity",
+    "mainText": "프로젝트기획부터개발,운영까지직접맡고있는사이드프로젝트입니다.프로젝트별현재상태도함께적었습니다.전체프로젝트PunyChat운영중·앱출시준비중둘만을위한메신저.대화만해도작은도트버디를함께키울수있습니다.버디키우러가기—PunyChat사이트Expo·SpringWebFlux·MongoDBURCheck운영중·초대제·직접사용중UR임대의빈방을조건으로검색하고,새로나온방·다시나온방·사라진방을추적합니다.웹사이트와AI어시스턴트가같은조건과이력을씁니다.데모보기—URCheck사이트Bun·PostgreSQL·MCPGitLeaf운영중·누구나사용가능GitHub의1년치기여기록을수채화느낌의식물로보여줍니다.README에이미지코드한줄을추가하면매일자동으로갱신됩니다.GitHub—GitLeaf소스코드TypeScript·CloudflareWorkers·SVGQuantLab운영중·1/100규모실거래내습관을복사해월급날대신사주는봇과,매일비중을정하는AI봇들.모두제실제계좌에서1/100규모로돌리고있습니다.데모보기—QuantLab사이트Python·FastAPI·ClaudeAPIPokepedia운영중·리메이크“이포켓몬은누구일까?”를게임보이배틀처럼.1세대포켓몬도감과띠부씰컬렉션에,Unity로만든피카츄턴제배틀까지.한국어·영어·일본어를지원합니다.포켓몬잡으러가기—Pokepedia사이트GitHub—Pokepedia소스코드Next.js·Supabase·UnityHenryWallet테스트중·사이드프로젝트직접보관하는iPhone용스테이블코인지갑.키는휴대폰에만있고,모든송금은FaceID를거쳐기기에서서명합니다.Expo·ethers·Polygon",
     "links": [
       "/ko/projects/gitleaf",
+      "/ko/projects/henry-wallet",
       "/ko/projects/pokepedia",
       "/ko/projects/puny-chat",
       "/ko/projects/quant-lab",
@@ -1161,7 +1281,9 @@
       "Quant Lab 홈. 나 카피 봇과 매달 그냥 샀을 때의 비교, 다음 월급날 살 것",
       "휴대폰에서 본 Quant Lab 홈",
       "게임보이 배틀 화면. 포켓몬 실루엣, 트레이너 뒷모습, 명령창",
-      "휴대폰에서 본 도감"
+      "휴대폰에서 본 도감",
+      "나란히 놓인 Henry Wallet 화면 세 장. 홈, 서명 전 확인, 보낸 뒤 화면",
+      "휴대폰의 Henry Wallet 환영 화면"
     ],
     "jsonLd": []
   },
@@ -1429,9 +1551,10 @@
       "twitter:description": "게임보이 배틀 화면을 재현한 실루엣 퀴즈입니다. 포켓몬 이름을 맞히면 몬스터볼을 던지고, 띠부씰 컬렉션에 추가됩니다. 1세대 151마리 도감도 함께 제공합니다. 퀴즈에서 피카츄를 얻으면 따로 만든 Unity 프로젝트를 페이지 안에서 열어 거북왕과 턴제 배틀을 할 수 있습니다."
     },
     "oldOgImage": "https://www.portfolio-hub.dev/ko/projects/pokepedia/opengraph-image?31bd313c9f59e355",
-    "mainText": "전체프로젝트운영중·리메이크Pokepedia게임보이배틀화면을재현한실루엣퀴즈입니다.포켓몬이름을맞히면몬스터볼을던지고,띠부씰컬렉션에추가됩니다.1세대151마리도감도함께제공합니다.퀴즈에서피카츄를얻으면따로만든Unity프로젝트를페이지안에서열어거북왕과턴제배틀을할수있습니다.포켓몬잡으러가기GitHubGitHub·Unity종류웹앱+UnityWebGL배틀·한국어/영어/일본어기간2026년9~10월(리메이크,10월에배틀추가)운영환경Vercel+Supabase(도쿄)·CloudflarePages소개2023년JSP팀프로젝트로만들었던포켓몬도감을최신스택으로혼자다시만들었습니다.작은앱을어디까지완성도있게다듬을수있는지시험하는프로젝트입니다.지금은게임이첫화면입니다.실루엣이나오면세언어중어느이름으로든답할수있고,맞히면트레이너가몬스터볼을던집니다.세번틀리면게임오버입니다.가입없이게스트로바로플레이할수있고,나중에Google계정을연결해도띠부씰과점수는그대로이어집니다.그뒤C#을배우고Unity를직접다뤄보고싶었습니다.상관없는게임을새로시작하기보다,이게임에빠져있던진짜배틀을붙이기로했습니다.배틀은별도저장소(pokepedia-unity)에서Unity로만들어WebGL로빌드하고,Pokepedia에서는iframe으로엽니다.퀴즈에서피카츄를얻으면그피카츄로거북왕과싸웁니다.battle.pokepedia.dev에서단독으로도플레이할수있습니다.전투규칙은UnityEngine을참조하지않는순수C#으로작성해,Unity없이dotnettest로테스트합니다.엔진은‘기술사용·피해·급소·기절’같은이벤트만내보내고화면이그목록을차례로재생하므로,규칙과연출이서로를모릅니다.두앱은서버나DB를공유하지않습니다.웹앱이보유포켓몬을postMessage로넘기고,배틀은메시지를보낸출처를확인합니다.주요기능실루엣퀴즈‘싸우다’로답하고‘힌트’로이름절반을볼수있으며,‘넘기기’와‘도망치다’도있습니다.방향키와Z키도지원합니다.피카츄,Pikachu,ピカチュウ모두정답으로인정됩니다.몬스터볼던지기맞히면게임보이회색톤으로직접그린트레이너가공을던지고,포켓몬의모습이드러납니다.연속으로맞힐수록점수와색이다른포켓몬의출현확률이올라갑니다.도감151마리를한페이지에서볼수있습니다.세언어의이름이나번호로검색하고,타입필터와정렬상태는URL에유지됩니다.상세카드능력치,특성,진화정보를보여줍니다.아트워크는마우스나손가락움직임에따라기울어지는홀로그램카드로,누르면색이다른모습으로바뀝니다.띠부씰컬렉션과랭킹색이다른포켓몬까지포함한151칸컬렉션과전체플레이어의최고기록랭킹.모바일대응게임보이전체가작은화면에맞게들어가고,배틀중에는화면을터치해도페이지가스크롤되지않습니다.퀴즈에서배틀로피카츄띠부씰이없으면첫문제로피카츄가나옵니다.획득화면과컬렉션의피카츄띠부씰에서바로배틀을열수있습니다.Unity턴제배틀몸통박치기·10만볼트·번개중하나를골라거북왕과싸웁니다.스피드로순서를정하고,타입상성·명중률·급소로피해를계산합니다.비와안개가내리는도트배경에2D조명을더하고,효과음은직접합성했습니다.기술구성웹·앱Next.js16(AppRouter,RSC,ServerActions)·React19·TypeScript웹·UITailwindCSSv4·Motion·Zustand·next-intl웹·데이터Supabase—Postgres,Auth,Storage·RowLevelSecurity·RPC·pg_cron웹·테스트Vitest·Playwright웹·호스팅Vercel(도쿄)·Supabase(도쿄)·Analytics·SpeedInsights배틀·엔진Unity6.3LTS·C#9·uGUI·TextMeshPro배틀·그래픽URP2D—Light2D,후처리·직접작성한셰이더·HTML/CSS시작·VS화면배틀·테스트NUnit·dotnettest·GitHubActions배틀·호스팅WebGL(Brotli사전압축)·CloudflarePages·iframe+postMessage포켓몬과관련이름·아트워크의권리는Nintendo,ThePokémonCompany,CreaturesInc.,GAMEFREAKinc.에있습니다.비공식·비영리팬프로젝트입니다.이전QuantLab",
+    "mainText": "전체프로젝트운영중·리메이크Pokepedia게임보이배틀화면을재현한실루엣퀴즈입니다.포켓몬이름을맞히면몬스터볼을던지고,띠부씰컬렉션에추가됩니다.1세대151마리도감도함께제공합니다.퀴즈에서피카츄를얻으면따로만든Unity프로젝트를페이지안에서열어거북왕과턴제배틀을할수있습니다.포켓몬잡으러가기GitHubGitHub·Unity종류웹앱+UnityWebGL배틀·한국어/영어/일본어기간2026년9~10월(리메이크,10월에배틀추가)운영환경Vercel+Supabase(도쿄)·CloudflarePages소개2023년JSP팀프로젝트로만들었던포켓몬도감을최신스택으로혼자다시만들었습니다.작은앱을어디까지완성도있게다듬을수있는지시험하는프로젝트입니다.지금은게임이첫화면입니다.실루엣이나오면세언어중어느이름으로든답할수있고,맞히면트레이너가몬스터볼을던집니다.세번틀리면게임오버입니다.가입없이게스트로바로플레이할수있고,나중에Google계정을연결해도띠부씰과점수는그대로이어집니다.그뒤C#을배우고Unity를직접다뤄보고싶었습니다.상관없는게임을새로시작하기보다,이게임에빠져있던진짜배틀을붙이기로했습니다.배틀은별도저장소(pokepedia-unity)에서Unity로만들어WebGL로빌드하고,Pokepedia에서는iframe으로엽니다.퀴즈에서피카츄를얻으면그피카츄로거북왕과싸웁니다.battle.pokepedia.dev에서단독으로도플레이할수있습니다.전투규칙은UnityEngine을참조하지않는순수C#으로작성해,Unity없이dotnettest로테스트합니다.엔진은‘기술사용·피해·급소·기절’같은이벤트만내보내고화면이그목록을차례로재생하므로,규칙과연출이서로를모릅니다.두앱은서버나DB를공유하지않습니다.웹앱이보유포켓몬을postMessage로넘기고,배틀은메시지를보낸출처를확인합니다.주요기능실루엣퀴즈‘싸우다’로답하고‘힌트’로이름절반을볼수있으며,‘넘기기’와‘도망치다’도있습니다.방향키와Z키도지원합니다.피카츄,Pikachu,ピカチュウ모두정답으로인정됩니다.몬스터볼던지기맞히면게임보이회색톤으로직접그린트레이너가공을던지고,포켓몬의모습이드러납니다.연속으로맞힐수록점수와색이다른포켓몬의출현확률이올라갑니다.도감151마리를한페이지에서볼수있습니다.세언어의이름이나번호로검색하고,타입필터와정렬상태는URL에유지됩니다.상세카드능력치,특성,진화정보를보여줍니다.아트워크는마우스나손가락움직임에따라기울어지는홀로그램카드로,누르면색이다른모습으로바뀝니다.띠부씰컬렉션과랭킹색이다른포켓몬까지포함한151칸컬렉션과전체플레이어의최고기록랭킹.모바일대응게임보이전체가작은화면에맞게들어가고,배틀중에는화면을터치해도페이지가스크롤되지않습니다.퀴즈에서배틀로피카츄띠부씰이없으면첫문제로피카츄가나옵니다.획득화면과컬렉션의피카츄띠부씰에서바로배틀을열수있습니다.Unity턴제배틀몸통박치기·10만볼트·번개중하나를골라거북왕과싸웁니다.스피드로순서를정하고,타입상성·명중률·급소로피해를계산합니다.비와안개가내리는도트배경에2D조명을더하고,효과음은직접합성했습니다.기술구성웹·앱Next.js16(AppRouter,RSC,ServerActions)·React19·TypeScript웹·UITailwindCSSv4·Motion·Zustand·next-intl웹·데이터Supabase—Postgres,Auth,Storage·RowLevelSecurity·RPC·pg_cron웹·테스트Vitest·Playwright웹·호스팅Vercel(도쿄)·Supabase(도쿄)·Analytics·SpeedInsights배틀·엔진Unity6.3LTS·C#9·uGUI·TextMeshPro배틀·그래픽URP2D—Light2D,후처리·직접작성한셰이더·HTML/CSS시작·VS화면배틀·테스트NUnit·dotnettest·GitHubActions배틀·호스팅WebGL(Brotli사전압축)·CloudflarePages·iframe+postMessage포켓몬과관련이름·아트워크의권리는Nintendo,ThePokémonCompany,CreaturesInc.,GAMEFREAKinc.에있습니다.비공식·비영리팬프로젝트입니다.이전QuantLab다음HenryWallet",
     "links": [
       "/ko/projects",
+      "/ko/projects/henry-wallet",
       "/ko/projects/quant-lab",
       "https://github.com/ottuck/pokepedia",
       "https://github.com/ottuck/pokepedia-unity",
@@ -1554,6 +1677,57 @@
           "url": "https://github.com/ottuck"
         }
       }
+    ]
+  },
+  "/ko/projects/henry-wallet": {
+    "title": "Henry Wallet — Henry Kim",
+    "lang": "ko",
+    "description": "Polygon·Ethereum·Avalanche에서 USDC와 JPYC를 보관하고 보냅니다. 복구 문구는 휴대폰 보안 저장소에만 두고, 송금할 때마다 모든 내용을 한 화면에 보여 준 뒤 Face ID로 승인받습니다.",
+    "canonical": "https://www.portfolio-hub.dev/ko/projects/henry-wallet",
+    "alternates": {
+      "en": "https://www.portfolio-hub.dev/projects/henry-wallet",
+      "ja": "https://www.portfolio-hub.dev/ja/projects/henry-wallet",
+      "ko": "https://www.portfolio-hub.dev/ko/projects/henry-wallet",
+      "x-default": "https://www.portfolio-hub.dev/projects/henry-wallet"
+    },
+    "og": {
+      "og:title": "Henry Wallet",
+      "og:description": "Polygon·Ethereum·Avalanche에서 USDC와 JPYC를 보관하고 보냅니다. 복구 문구는 휴대폰 보안 저장소에만 두고, 송금할 때마다 모든 내용을 한 화면에 보여 준 뒤 Face ID로 승인받습니다.",
+      "og:url": "https://www.portfolio-hub.dev/ko/projects/henry-wallet",
+      "og:site_name": "Henry Kim",
+      "og:locale": "ko_KR",
+      "og:type": "article",
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Henry Wallet",
+      "twitter:description": "Polygon·Ethereum·Avalanche에서 USDC와 JPYC를 보관하고 보냅니다. 복구 문구는 휴대폰 보안 저장소에만 두고, 송금할 때마다 모든 내용을 한 화면에 보여 준 뒤 Face ID로 승인받습니다."
+    },
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Henry Wallet",
+        "description": "Polygon·Ethereum·Avalanche에서 USDC와 JPYC를 보관하고 보냅니다. 복구 문구는 휴대폰 보안 저장소에만 두고, 송금할 때마다 모든 내용을 한 화면에 보여 준 뒤 Face ID로 승인받습니다.",
+        "inLanguage": "ko",
+        "author": {
+          "@type": "Person",
+          "name": "Henry Kim",
+          "url": "https://github.com/ottuck"
+        }
+      }
+    ],
+    "mainText": "전체프로젝트테스트중·사이드프로젝트HenryWalletPolygon·Ethereum·Avalanche에서USDC와JPYC를보관하고보냅니다.복구문구는휴대폰보안저장소에만두고,송금할때마다모든내용을한화면에보여준뒤FaceID로승인받습니다.종류iPhone앱(Expo)·한국어/영어기간2026년10월네트워크Polygon·Ethereum·Avalanche(테스트넷먼저)운영환경휴대폰안에서만·서버없음소개개인용으로만든iPhone스테이블코인지갑입니다.다루는코인은USDC와JPYC두가지로,국경을넘어도몇초만에적은수수료로보낼수있습니다.서버는두지않았습니다.지갑생성부터서명까지모두휴대폰안에서끝나고,밖으로나가는건서명된송금뿐입니다.기능은보내기·받기·잔액확인으로좁혔고,코인교환이나웹사이트연결은넣지않았습니다.지금은테스트넷에서쓰면서다듬고있습니다.주요기능만들기·가져오기휴대폰에서12단어문구를새로만들거나갖고있던문구를가져옵니다.새지갑은문구중무작위세단어를확인해야쓸수있습니다.MetaMask첫계정과같은파생경로(m/44'/60'/0'/0/0)를씁니다.송금마다FaceID문구는iOSKeychain에이기기전용으로두고,FaceID를통과해야읽힙니다.개인키는저장하지않고서명할때마다파생합니다.한화면에서확인받는주소,금액,네트워크,다섯가지검증,예상·최대수수료를서명전에보여줍니다.EIP-1559필드는펼쳐서볼수있습니다.서명전에막기체크섬이틀린주소,토큰컨트랙트주소,가스부족은FaceID전에막습니다.처음보내는주소에는앞뒤네글자를맞춰보라고안내합니다.잔액한눈에USDC와JPYC잔액,그리고수수료용POL로전송을몇번더할수있는지보여줍니다.송금따라가기기기서명,네트워크전송,블록포함을시각·nonce와함께보여주고,실제수수료를예상값옆에둡니다.대기·실패·누락된거래는앱을다시열어도이어서확인합니다.받기와스캔주소와QR을네트워크안내와함께보여줍니다.스캐너는주소만있는QR과EIP-681링크를읽고,다른체인의요청은거부합니다.기술구성앱ExpoSDK58(ReactNative0.88)·TypeScript·ExpoRouter·Zustand지갑ethersv6—BIP-39,키파생,EIP-1559서명·USDC·JPYC(ERC-20)기기expo-secure-store(Keychain·FaceID)·expo-sqlite·expo-camera·expo-screen-capture·react-native-qrcode-svg네트워크Polygon·Ethereum·AvalancheC-Chain과테스트넷(Amoy,Sepolia,Fuji)·공개RPC테스트jest-expo—금액·주소·키파생testvector·ESLint·Prettier·GitHubActions데모react-native-web—저장소·키·RPC를메모리stub으로교체실험단계이며보안감사를받지않았습니다.테스트넷과소액으로만사용합니다.스크린샷은예시데이터로띄운웹데모화면입니다.이전Pokepedia",
+    "links": [
+      "/ko/projects",
+      "/ko/projects/pokepedia"
+    ],
+    "alts": [
+      "나란히 놓인 Henry Wallet 화면 세 장. 홈, 서명 전 확인, 보낸 뒤 화면",
+      "환영 화면. 키는 이 기기에만, 서명할 때마다 Face ID, 보내기 전에 모두 확인",
+      "Polygon Amoy 홈. USDC·JPYC 잔액, 약 71회 전송할 수 있는 수수료용 POL, 보낸 거래",
+      "25 USDC 보내기. 주소가 체크섬 검사를 통과했고, 처음 보내는 주소라는 안내가 있다",
+      "서명 전 확인. 보내는·받는 전체 주소, 검증 5/5, 예상·최대 수수료",
+      "보낸 뒤 화면. 기기 서명, 네트워크 전송, 블록 포함과 예상값 옆의 실제 수수료",
+      "받기. 주소 QR 코드와 Polygon Amoy로 보내 달라는 안내"
     ]
   }
 }

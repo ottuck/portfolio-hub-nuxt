@@ -30,7 +30,7 @@
 ## 검증과 배포
 
 - 구현 이후 CI는 frozen lockfile 설치, lint, typecheck, generate, 정적 결과물 검증을 수행한다. 실행하지 않은 검사를 성공했다고 기록하지 않는다.
-- `docs/routes.json`의 30개 콘텐츠 URL 외에 OG·이미지·sitemap·robots·404·리다이렉트도 별도로 검증한다.
+- `docs/routes.json`의 콘텐츠 URL(현재 33개) 외에 OG·이미지·sitemap·robots·404·리다이렉트도 별도로 검증한다.
 - 앱의 SPA 탐색 성공과 주소 직접 접속 성공을 모두 확인한다.
 - 없는 URL의 HTTP 404와 기존 URL의 HTTP 308을 실제 배포 환경에서 확인한다.
 - Production canonical은 `https://www.portfolio-hub.dev` 기준이다. Preview는 색인을 차단한다.

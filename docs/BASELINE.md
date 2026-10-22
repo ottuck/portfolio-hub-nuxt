@@ -43,6 +43,7 @@
 - 언어별 홈·프로젝트 목록·About·상세 7개 = 10개, 세 언어 총 30개다.
 - 홈 브라우저 확인 순서는 Puny Chat, UR Check, GitLeaf, Quant Lab, Pokepedia다.
 - 경로 목록은 `routes.json`에 기록했다. 404, OG, sitemap, robots, 이미지 파일과 리다이렉트는 30개에 포함되지 않는다.
+- 이전 이후 2026-10-22에 `henry-wallet`(Henry Wallet) 상세 3개를 추가해 `routes.json`과 `baseline.json`은 33개다. 새 경로의 기준값은 원본 Next 빌드가 아니라 리뷰한 Nuxt 생성 결과이며, 원본 OG URL(`oldOgImage`)은 없다.
 
 ## 원본 동작의 세부 조건
 
