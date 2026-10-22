@@ -44,7 +44,6 @@ export const ko: ProjectCopy = {
   alts: {
     main: "1년치 기여 기록으로 그린 식물과 그 잎을 확대한 모습",
     gallery: [
-      "동작 방식. README가 Cloudflare Worker에 이미지를 요청하면 R2에 저장된 SVG가 돌아오고, 매일 도는 Cron이 GitHub를 읽어 다시 그리며, D1이 일정을 관리한다",
       "README에 붙이는 한 줄 코드와 그것으로 나타나는 식물",
     ],
   },

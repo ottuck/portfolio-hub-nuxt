@@ -2,6 +2,15 @@
 
 기준일: 2026-10-22 (Asia/Seoul)
 
+## 프로젝트 구성도 추가 (2026-10-22)
+
+- 사용자 요청에 따라 GitLeaf·Pokepedia·Henry Wallet·Quant Lab·UR Check·Puny Chat 상세 페이지에 구성도 섹션(Architecture · 構成図 · 구성도)을 기술 구성 위에 추가했다. 각 저장소 README의 다이어그램(GitLeaf `docs/architecture.svg`, 나머지는 mermaid)을 바탕으로 하되, GitLeaf SVG의 모양(둥근 상자, 알약 라벨, 실선·점선 화살표, 세이지·샌드 색)으로 다시 배치했다. Pokepedia에는 Unity 배틀(별도 저장소)을 더했다.
+- `Project.architecture`(상자 위치·화살표 경로 데이터)를 추가했다. 사용자 요청에 따라 구성도의 문구와 요약은 영어로 통일해 세 언어 페이지에서 같이 쓰고, 섹션 제목만 언어별 사전을 따른다. 빌드는 화살표가 없는 상자를 가리키면 실패한다. `ProjectDiagram.vue`가 인라인 SVG로 그려 라이트/다크를 따르고, 휴대폰에서는 구성도 영역만 가로로 스크롤된다(최소 680px).
+- SVG 안의 `<title>` 때문에 `verify-static.ts`·`verify-http.ts`의 제목 검사를 `head > title`로 좁혔다.
+- GitLeaf 갤러리의 구성도 스크린샷(`how.webp`)은 새 구성도와 내용이 같아 갤러리와 파일에서 뺐다.
+- `docs/baseline.json`은 상세 18개 경로의 본문(구성도 문구 추가)과 GitLeaf 3개 경로의 갤러리 alt만 바뀌었다.
+- 로컬 Node 26.7.0에서 `pnpm check`, `pnpm generate`(33개 페이지, 381개 자산 검증), `pnpm test:pages`를 실행했다. 로컬 미리보기에서 6개 구성도, GitLeaf 다크 모드, 375px 폭에서 페이지 가로 넘침이 없는 것을 확인했다.
+
 ## Henry Wallet 스크린샷 교체 (2026-10-22)
 
 - 앱 UI가 바뀌어 사용자가 준 새 스크린샷 6장(924×2000 WebP)으로 갤러리 이미지를 교체하고(WebP 품질 90), 표지는 같은 방식(홈·서명 전 확인·보낸 뒤 화면, 1280×800)으로 다시 합성했다. 문구와 alt는 새 화면에도 맞아 바꾸지 않았다.

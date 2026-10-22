@@ -44,7 +44,6 @@ export const ja: ProjectCopy = {
   alts: {
     main: "1年のコントリビューションを描いた植物と、その葉のクローズアップ",
     gallery: [
-      "しくみ。READMEがCloudflare Workerに画像を要求し、R2に保存したSVGを返す。毎日のCronがGitHubを読んで描き直し、D1が予定を管理する",
       "READMEに貼る1行のコードと、それで表示される植物",
     ],
   },

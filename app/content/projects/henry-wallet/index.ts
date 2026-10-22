@@ -88,5 +88,25 @@ export const henryWallet: Project = {
   ],
   footnote: "Experimental and unaudited. I only use it on test networks and with small amounts. The screenshots are from the web demo with sample data.",
 
+  architecture: {
+    width: 1080,
+    height: 370,
+    summary:
+      "Keys, signing and payment history stay on the phone. Only balance lookups and signed payments go out to the network.",
+    groups: [{ title: "Your phone", x: 250, y: 34, w: 530, h: 306 }],
+    nodes: [
+      { id: "you", x: 80, y: 185, title: "You", tone: "accent" },
+      { id: "app", x: 380, y: 185, title: "Henry Wallet", note: "Balance · send · receive · scan" },
+      { id: "vault", x: 660, y: 100, title: "Secure storage", note: "Recovery phrase · Face ID" },
+      { id: "history", x: 660, y: 270, title: "SQLite", note: "Payment history" },
+      { id: "chain", x: 930, y: 185, title: "Blockchains", note: "Polygon · Ethereum · Avalanche", tone: "outside" },
+    ],
+    edges: [
+      { from: "you", to: "app", label: "Face ID" },
+      { from: "app", to: "vault", both: true, route: "hvh", fromOffset: -14, bend: 520 },
+      { from: "app", to: "history", route: "hvh", fromOffset: 14, bend: 520 },
+      { from: "app", to: "chain", label: "Balances · signed payments", both: true },
+    ],
+  },
   translations: { ja, ko },
 };

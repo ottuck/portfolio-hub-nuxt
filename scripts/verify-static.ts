@@ -17,7 +17,7 @@ for (const route of routes) {
   const expected = fixtures[route]!
   const $ = load(await readFile(htmlFile(route), 'utf8'))
   assert.equal($('html').attr('lang'), expected.lang, `${route}: html lang`)
-  assert.equal($('title').text(), expected.title, `${route}: title`)
+  assert.equal($('head > title').text(), expected.title, `${route}: title`)
   assert.equal($('meta[name="description"]').attr('content'), expected.description, `${route}: description`)
   assert.equal($('link[rel="canonical"]').attr('href'), expected.canonical, `${route}: canonical`)
   assert.deepEqual(Object.fromEntries($('link[hreflang]').map((_, el) => [[$(el).attr('hreflang'), $(el).attr('href')]]).get()), expected.alternates, `${route}: hreflang`)
