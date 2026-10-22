@@ -2,6 +2,12 @@
 
 기준일: 2026-10-22 (Asia/Seoul)
 
+## Henry Wallet 표지 톤 조정과 글쓰기 원칙 (2026-10-22)
+
+- 표지 배경이 다른 프로젝트보다 튄다는 사용자 의견에 따라 `cover.tint`를 `#e3e9fb → #bccbf5`(채도 약 75%)에서 `#e8eaf3 → #c5cbdd`(약 30%)로 낮추고, 합성 표지의 바탕도 `#e6ebf7`에서 `#eceef3`으로 바꿨다. Quant Lab·UR Check 카드와 나란히 합성해 톤을 비교했다.
+- `AGENTS.md`에 "프로젝트 글쓰기" 원칙(면접 말투 금지, 첫 문장은 무엇인지부터, 소개는 짧게·기술은 기능과 기술 구성으로, "공부용" 대신 "사이드 프로젝트", 표지 채도)을 추가했다.
+- 로컬 Node 26.7.0에서 `pnpm check`, `pnpm generate`(33개 페이지 검증, baseline 변화 없음), `pnpm test:pages`가 통과했다.
+
 ## Henry Wallet 공개 (2026-10-22)
 
 - 사용자 요청에 따라 초안이던 Henry Wallet을 목록에 공개했다. `unlisted`를 지우고 `docs/routes.json`에 세 언어 상세 3개를 더해 콘텐츠 경로는 33개다. `unlisted` 기능은 남겨 두었다(현재 해당 프로젝트 없음).
