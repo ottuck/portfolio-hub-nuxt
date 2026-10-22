@@ -2,6 +2,11 @@
 
 기준일: 2026-10-22 (Asia/Seoul)
 
+## Henry Wallet 소개 문단 정리 (2026-10-22)
+
+- 소개가 기술 나열 같다는 사용자 의견에 따라 소개를 동기와 지갑의 성격만 담은 두 문단으로 줄였다. Keychain·개인 키 미저장·세 단어 확인은 "만들기·가져오기"와 "송금마다 Face ID" 기능 설명으로, 웹 데모 스크린샷이라는 안내는 각주로 옮겼다.
+- 로컬 Node 26.7.0에서 `pnpm check`, `pnpm generate`(30개 페이지, 초안 3개 검증), `pnpm test:pages`가 통과했다.
+
 ## Henry Wallet 초안 페이지 추가 (2026-10-22)
 
 - 사용자 요청에 따라 `ottuck/stable-wallet`(Henry Wallet)의 소개 페이지를 메인 목록에 합치지 않고 미리 작성했다. 저장소는 비공개라 GitHub 링크를 두지 않았고, 원고는 저장소의 README·`docs/PROJECT.md`·`docs/ROADMAP.md` 기준이다. 아직 확인되지 않은 항목(MetaMask와 같은 주소, iOS 스크린샷 차단)은 확정된 것처럼 쓰지 않았다.

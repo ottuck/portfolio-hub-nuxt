@@ -37,18 +37,17 @@ export const henryWallet: Project = {
   },
 
   about: [
-    "I wanted to understand what a wallet actually does between a 12-word phrase and a signed payment, so I built a small one myself. It handles USDC and JPYC, stablecoins that cross borders in seconds for a small fee, and does only a few things: create or import, check balances, send, receive and scan.",
-    "The recovery phrase is the only secret. It lives in the iOS Keychain, tied to this device, and every read asks for Face ID. The private key is never stored; it's derived from the phrase when signing and then dropped. The cryptography comes from ethers rather than my own code. The phrase screen guards against screenshots and screen recording, and a new wallet asks for three random words before it's ready.",
-    "Before anything is signed, the app checks the address checksum, refuses to send to a token's own contract, and checks the token and gas balances and the chain ID. Fees follow EIP-1559, and the raw transaction fields are folded away under the review screen. With no server, the flow of sign, save as pending, broadcast and confirm lives in one core module that the screens only call, and pending payments are checked again whenever home opens. The screenshots come from the web demo, which swaps storage, keys and RPC for in-memory fakes while the real fee, signing and sending code runs.",
+    "I wanted to see for myself what a wallet does between a 12-word phrase and a payment going out, so I built a small one. Henry Wallet holds USDC and JPYC, stablecoins that move across borders in seconds for a small fee, and lets you send and receive them from an iPhone.",
+    "There's no server behind it. The wallet is created on the phone, the recovery phrase never leaves it, and nothing is sent until you've seen the whole payment on one screen and approved it with Face ID. It does only a few things, on purpose: no swaps, no connecting to websites, one account per wallet.",
   ],
   features: [
     {
       title: "Create or import",
-      body: "Make a new 12-word phrase on the phone, or bring in one you already have. It uses the same derivation path as MetaMask's first account (m/44'/60'/0'/0/0).",
+      body: "Make a new 12-word phrase on the phone, or bring in one you already have. A new wallet asks for three random words from the phrase before it's ready. It uses the same derivation path as MetaMask's first account (m/44'/60'/0'/0/0).",
     },
     {
       title: "Face ID on every payment",
-      body: "The phrase can only be read from the Keychain after Face ID, so nothing is signed without your approval.",
+      body: "The phrase is kept in the iOS Keychain for this device only, and it can only be read after Face ID. The private key is never saved; it's derived for each signature.",
     },
     {
       title: "One review screen",
@@ -87,7 +86,7 @@ export const henryWallet: Project = {
     { area: "Testing", items: "jest-expo — amounts, addresses, key derivation vectors · ESLint · Prettier · GitHub Actions" },
     { area: "Demo", items: "react-native-web — storage, keys and RPC swapped for in-memory stubs" },
   ],
-  footnote: "An experimental wallet built for learning. It hasn't been audited, so I only use it on test networks and with small amounts.",
+  footnote: "An experimental wallet built for learning. It hasn't been audited, so I only use it on test networks and with small amounts. The screenshots are from the web demo with sample data.",
 
   translations: { ja, ko },
 };
