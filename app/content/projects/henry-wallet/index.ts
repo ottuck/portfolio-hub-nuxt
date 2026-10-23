@@ -76,7 +76,7 @@ export const henryWallet: Project = {
   gallery: [
     { src: welcome, alt: "The welcome screen: keys only on this device, Face ID for every signature, and everything checked before sending", frame: "phone" },
     { src: home, alt: "Home on Polygon Amoy: USDC and JPYC balances, POL for fees with about 71 transfers left, and sent payments", frame: "phone" },
-    { src: send, alt: "Sending 25 USDC: the address passes the checksum check, with a note that it's a first-time recipient", frame: "phone" },
+    { src: send, alt: "Sending 25 USDC: the amount on a number pad, and the address passing the checksum check", frame: "phone" },
     { src: review, alt: "Review before signing: both full addresses, 5 of 5 checks passed, and the expected and maximum fee", frame: "phone" },
     { src: sent, alt: "Sent: signed on the device, sent to the network and included in a block, with the actual fee next to the estimate", frame: "phone" },
     { src: receive, alt: "Receive: the address as a QR code, with a reminder to ask for Polygon Amoy", frame: "phone" },

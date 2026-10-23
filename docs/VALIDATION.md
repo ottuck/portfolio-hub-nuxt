@@ -2,6 +2,12 @@
 
 기준일: 2026-10-23 (Asia/Seoul)
 
+## Henry Wallet 스크린샷을 최신 UI로 교체 (2026-10-23)
+
+- 사용자 요청에 따라 stable-wallet README의 최신 스크린샷 6장(`docs/screenshots`, #52 이후 화면: 지구 아이콘 언어 버튼, 한 줄로 줄인 POL 수수료 줄)으로 갤러리를 바꿨다. 1170×2532 원본을 기존과 같은 924×2000 WebP로 줄였고, 표지는 같은 방식으로 홈·서명 전 확인·보낸 뒤 화면을 다시 합성했다.
+- 새 보내기 화면에는 처음 보내는 주소 안내가 없어서 세 언어 alt를 화면에 맞게 고쳤다. `docs/baseline.json`은 Henry Wallet 상세 3개 경로의 그 alt만 바뀌었다.
+- 로컬 Node 26.7.0에서 `pnpm check`, `pnpm generate`(33개 페이지, 381개 자산 검증), `pnpm test:pages`가 통과했다.
+
 ## Henry Wallet 데모 링크 추가 (2026-10-23)
 
 - 사용자 요청에 따라 Henry Wallet에 예시 데이터로 도는 웹 데모 `https://wallet.portfolio-hub.dev`를 `links.live`로 걸었다. 문구는 다른 데모와 같게 "Try the demo"·"데모 보기"·"デモを見る"다. 저장소는 비공개라 GitHub 링크는 넣지 않았다.
