@@ -573,7 +573,7 @@
       "Three Henry Wallet screens side by side: home, review before signing, and the sent confirmation",
       "The welcome screen: keys only on this device, Face ID for every signature, and everything checked before sending",
       "Home on Polygon Amoy: USDC and JPYC balances, POL for fees with about 71 transfers left, and sent payments",
-      "Sending 25 USDC: the address passes the checksum check, with a note that it's a first-time recipient",
+      "Sending 25 USDC: the amount on a number pad, and the address passing the checksum check",
       "Review before signing: both full addresses, 5 of 5 checks passed, and the expected and maximum fee",
       "Sent: signed on the device, sent to the network and included in a block, with the actual fee next to the estimate",
       "Receive: the address as a QR code, with a reminder to ask for Polygon Amoy"
@@ -1153,7 +1153,7 @@
       "並べたHenry Walletの3画面。ホーム、署名前の確認、送金後の画面",
       "ようこそ画面。鍵はこの端末だけ、署名のたびにFace ID、送る前にすべて確認",
       "Polygon Amoyのホーム。USDC・JPYCの残高、あと約71回送れる手数料用のPOL、送った取引",
-      "25 USDCの送金。アドレスはチェックサム検査を通り、初めて送るアドレスだという案内がある",
+      "25 USDCの送金。金額はテンキーで入力し、アドレスはチェックサム検査を通っている",
       "署名前の確認。送信元・受取の完全なアドレス、検証5/5、予想・最大手数料",
       "送金後の画面。端末での署名、ネットワークへの送信、ブロックへの取り込みと、予想の横に実際の手数料",
       "受け取り。アドレスのQRコードと、Polygon Amoyで送ってもらうよう促す注意書き"
@@ -1733,7 +1733,7 @@
       "나란히 놓인 Henry Wallet 화면 세 장. 홈, 서명 전 확인, 보낸 뒤 화면",
       "환영 화면. 키는 이 기기에만, 서명할 때마다 Face ID, 보내기 전에 모두 확인",
       "Polygon Amoy 홈. USDC·JPYC 잔액, 약 71회 전송할 수 있는 수수료용 POL, 보낸 거래",
-      "25 USDC 보내기. 주소가 체크섬 검사를 통과했고, 처음 보내는 주소라는 안내가 있다",
+      "25 USDC 보내기. 금액은 숫자 키패드로 넣고, 주소는 체크섬 검사를 통과했다",
       "서명 전 확인. 보내는·받는 전체 주소, 검증 5/5, 예상·최대 수수료",
       "보낸 뒤 화면. 기기 서명, 네트워크 전송, 블록 포함과 예상값 옆의 실제 수수료",
       "받기. 주소 QR 코드와 Polygon Amoy로 보내 달라는 안내"
