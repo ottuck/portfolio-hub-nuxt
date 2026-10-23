@@ -2,10 +2,12 @@
 
 ## 목표와 범위
 
-- Next.js → Nuxt 4 프레임워크 마이그레이션이다. 기존 UI와 기능 보존이 우선이다.
-- GitHub 대상은 `ottuck/portfolio-hub-nuxt` 비공개 저장소다. 새 Git 이력으로 시작하고 원본 커밋은 문서에 기록한다.
-- `docs/MIGRATION.md`, `docs/BASELINE.md`, `docs/ACCEPTANCE.md`를 먼저 읽는다.
+- Next.js에서 Nuxt 4로 옮긴 포트폴리오 사이트다. 기존 UI·URL·기능 보존이 기본이다.
+- GitHub는 `ottuck/portfolio-hub-nuxt` 비공개 저장소다. 원본은 `ottuck/portfolio-hub`(커밋 `5d2aa96`)다.
+- `docs/DECISIONS.md`, `docs/DEPLOYMENT.md`를 먼저 읽는다.
 - 사용자에게 이미 확정한 기술 결정을 다시 묻지 않는다. 일반적인 구현 선택은 이 문서의 범위에서 진행한다.
+- 사용자의 최근 결정이 이 문서와 docs의 규칙보다 우선한다. 결정이 바뀌면 해당 문서를 바로 고친다.
+- docs에는 결정사항만 둔다. 작업 일지, 검증 기록, 체크리스트, 스크린샷 같은 기록은 만들지 않는다. 근거는 PR 설명과 CI 결과에 남긴다.
 
 ## 구현
 
@@ -19,7 +21,7 @@
 
 ## UI와 콘텐츠
 
-- 운영 사이트와 `docs/reference/`의 사용자 제공 이미지를 기준으로 비교한다. 스크린샷 픽셀 너비를 그대로 CSS 너비로 사용하지 말고 원본 CSS와 동일 viewport의 화면을 비교한다.
+- 운영 사이트를 기준으로 비교한다. 스크린샷 픽셀 너비를 그대로 CSS 너비로 사용하지 말고 동일 viewport의 화면을 비교한다.
 - 기존 디자인 토큰, `light-dark()`, `data-theme` 방식과 반응형 레이아웃을 재사용한다. 임의의 디자인 리뉴얼을 하지 않는다.
 - 기존 `theme` localStorage 키와 light/dark/system 의미를 유지한다.
 - Geist Sans/Mono와 언어별 시스템 CJK 폰트 대체 순서, 줄바꿈 규칙을 보존한다.
@@ -45,5 +47,4 @@
 - 없는 URL의 HTTP 404와 기존 URL의 HTTP 308을 실제 배포 환경에서 확인한다.
 - Production canonical은 `https://www.portfolio-hub.dev` 기준이다. Preview는 색인을 차단한다.
 - 비밀값과 Cloudflare 인증정보를 저장소에 넣지 않는다. 예제 환경변수에는 값의 형식만 기록한다.
-- 기존 Vercel Production을 조기에 삭제하거나 도메인을 미리 전환하지 않는다.
-- 문서의 상태·체크리스트를 실제 완료 상태에 맞춰 갱신한다.
+- 콘텐츠를 바꿔 `docs/baseline.json`이 달라지면 바뀐 줄이 의도한 것뿐인지 확인한 뒤 기준을 갱신한다.

@@ -53,7 +53,7 @@ portfolio-hub-nuxt/
 │  └─ _redirects               # 기존 경로·OG URL의 308 규칙
 ├─ assets/og-fonts/            # OG 생성용 폰트와 라이선스
 ├─ scripts/                    # 자산 생성, 정적 출력 마무리, 검증
-├─ docs/                       # 결정·비교 기준·배포·검증 기록
+├─ docs/                       # 결정사항, 배포, 검증 기준 파일
 ├─ nuxt.config.ts              # Nuxt, Image, prerender, head 설정
 ├─ wrangler.jsonc              # Pages 출력과 환경별 빌드 변수
 └─ .github/workflows/ci.yml    # 설치·lint·타입·generate·Pages 검사
@@ -84,7 +84,7 @@ portfolio-hub-nuxt/
 
 영어용 파일과 언어 접두사 파일을 나눈 것은 기존 URL을 유지하기 위해서다. `[locale]`이 있어도 모든 언어를 허용하지 않는다. `ja`, `ko`만 통과하고 `/fr`이나 없는 프로젝트는 404로 처리한다.
 
-원본의 `generateStaticParams()` 역할은 `docs/routes.json`과 `nuxt.config.ts`의 prerender 설정으로 옮겼다. 이전 당시 홈·목록·About·상세 7개를 3개 언어로 만들어 총 30개였고, 2026-10-22 `henry-wallet`을 더해 33개다. 목록에서 숨긴 `ur-manager`, `ur-mcp`도 상세 URL은 생성한다. `unlisted` 프로젝트는 링크가 없으므로 `pnpm assets`가 쓰는 `app/generated/unlisted-routes.json`으로 prerender 경로에 더한다(현재 없음).
+원본의 `generateStaticParams()` 역할은 `docs/routes.json`과 `nuxt.config.ts`의 prerender 설정으로 옮겼다. 홈·목록·About·상세 8개를 3개 언어로 만들어 총 33개다. 목록에서 숨긴 `ur-manager`, `ur-mcp`도 상세 URL은 생성한다. `unlisted` 프로젝트는 링크가 없으므로 `pnpm assets`가 쓰는 `app/generated/unlisted-routes.json`으로 prerender 경로에 더한다(현재 없음).
 
 ## 4. `.vue` 파일 읽는 법
 
@@ -156,9 +156,9 @@ OG PNG 9개, sitemap 33개 항목, robots는 `scripts/generate-assets.ts`에서 
 
 ## 8. 검증과 배포
 
-원본 Next 빌드에서 `docs/baseline.json`을 추출하고, 새 HTML의 본문·링크·alt·메타데이터·JSON-LD를 비교했다. 화면도 원본과 같은 viewport에서 비교했다. 검증 범위와 미실시 항목은 `VALIDATION.md`, `ACCEPTANCE.md`에 명시한다.
+`docs/baseline.json`에 페이지별 본문·링크·alt·메타데이터·JSON-LD의 기준값을 두고, `pnpm generate`가 새 HTML과 비교한다.
 
-CI는 frozen lockfile 설치 → lint·타입 검사 → generate·정적 검증 → 로컬 Pages HTTP 검사 순서다. 실제 Pages와 운영 도메인에서는 30개 경로, 이미지·OG, redirect·쿼리 보존, 없는 경로의 실제 404를 확인했다. 정적 참조 306개와 폰트·sitemap·robots를 더한 310개도 실제 응답을 확인했다.
+CI는 frozen lockfile 설치 → lint·타입 검사 → generate·정적 검증 → 로컬 Pages HTTP 검사 순서다. 배포 뒤에는 `pnpm test:http`로 경로, 이미지·OG, redirect·쿼리 보존, 없는 경로의 실제 404를 확인한다.
 
 작업 브랜치를 push하면 Pages Preview가 만들어지고, CI와 Preview 확인 후 main에 병합한다. main push는 운영 배포로 연결된다. GitHub 저장소가 비공개인 것과 운영 사이트가 공개되는 것은 별개다.
 
