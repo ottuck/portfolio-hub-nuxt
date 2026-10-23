@@ -37,7 +37,7 @@
 
 ## 페이지와 정렬
 
-- 프로젝트 slug: `ur-check`, `puny-chat`, `gitleaf`, `quant-lab`, `pokepedia`, `ur-manager`, `ur-mcp`.
+- 프로젝트 slug: `ur-check`, `puny-chat`, `gitleaf`, `trading-lab`(처음 `quant-lab`, 2026-10-23 변경), `pokepedia`, `ur-manager`, `ur-mcp`.
 - `ur-manager`, `ur-mcp`는 `mergedInto: 'ur-check'`이며 목록과 이전/다음 링크에서 빠지지만 개별 상세 페이지는 유지된다.
 - `getSlugs()`는 숨겨진 프로젝트를 포함한다. `getProjects()`는 목록 표시용이다.
 - 언어별 홈·프로젝트 목록·About·상세 7개 = 10개, 세 언어 총 30개다.
@@ -54,7 +54,7 @@
 - 시계는 `Asia/Tokyo`, 브라우저에서 시작하고 15초 간격으로 갱신한다. 서버 스냅샷은 비어 있다.
 - 언어 메뉴는 같은 페이지의 언어 경로로 이동한다. Escape 및 외부 클릭으로 닫힌다.
 - OG 이미지는 CJK 글리프가 없는 기존 폰트 때문에 영문 공용이다.
-- 기존 redirect는 `/projects/buddy-chat`과 그 하위 경로를 puny-chat으로, `/projects/trading-bot`과 그 하위 경로를 quant-lab으로 이동시킨다. 언어 접두사가 붙은 규칙은 없다.
+- 기존 redirect는 `/projects/buddy-chat`과 그 하위 경로를 puny-chat으로, `/projects/trading-bot`과 그 하위 경로를 trading-lab으로 이동시킨다. 이전 `quant-lab` 경로와 OG 이미지도 언어 접두사까지 포함해 trading-lab으로 이동시킨다. 언어 접두사가 붙은 규칙은 없다.
 
 ## 참고 화면
 

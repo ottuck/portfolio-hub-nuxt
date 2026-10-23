@@ -29,7 +29,7 @@
       "/projects/henry-wallet",
       "/projects/pokepedia",
       "/projects/puny-chat",
-      "/projects/quant-lab",
+      "/projects/trading-lab",
       "/projects/ur-check",
       "https://demo.trading-lab.me",
       "https://demo.ur-check.com",
@@ -111,7 +111,7 @@
       "/projects/henry-wallet",
       "/projects/pokepedia",
       "/projects/puny-chat",
-      "/projects/quant-lab",
+      "/projects/trading-lab",
       "/projects/ur-check",
       "https://demo.trading-lab.me",
       "https://demo.ur-check.com",
@@ -300,7 +300,7 @@
     "mainText": "AllprojectsLive·FreetouseGitLeafAsmallservicethatturnsyourGitHubcontributionsintoawatercolorplant.Everydayoftheyearisaleaf,andthemoreyoudidthatday,thedeeperitsgreen.PasteoneimagelineintoyourprofileREADMEandthepicturekeepsitselfuptodate.GitHubTypeImageserviceforGitHubREADMEsPeriodOct2026RunsonCloudflareWorkers+D1+R2AboutAcontributiongraphisagridofgreensquares.IwantedsomethingI'denjoylookingat,soGitLeafpaintstheyearasaplant:asmallleafforeachday,shadedbyhowmuchhappened,andabiggerleafattheendofeachbranchfortheweek.Daysthathaven'tcomeyetarefaintoutlines,andtheplant'scaptioncountstheyear'scontributions.It'smadetositinaprofileREADME.Youpasteoneimagelinewithyourusername,withnosign-upandnoGitHubActions.Thefirsttimetheimageisrequested,theservicereadsyourcontributions,paintstheplantandsavesit.Afterthatit'srepaintedonceadayunderthesameURL,soyourREADMEneverchangesandnothingiscommitted.Theleavesareeightwatercolorleafshapesinfiveshades,madewithanAIimagetool.Thecodelaysthemoutonfourstemsandfillsinoneperday.ThewholepictureisasingleSVGfile,soitworksasaplainimageinaREADME,wherescriptsandoutsiderequestsareblocked.WhatitdoesOneleafadayTheshadefollowsGitHub'sowncontributionlevel,fromafaintoutlineonquietdaystodeepgreen.Weeksgetalargerleafwiththeweek'saverage.OnelinetouseAddtheimagelinewithyourusernametoyourREADME.Noaccount,andthepictureshowsuponthefirstrequest.RepaintedeverydayThesameURLshowsthelatestactivity,sotheREADMEneverneedsediting.Anewyearstartsanewplant;?year=pinsanyyearbackto2008.AlittlebreezeAdd?motion=breezeandthebranchesswayslowly,eachatitsownpace.It'sCSSonly,anditstopsifthedeviceasksforlessmotion.ArchitectureGitLeaf—ArchitectureGitHubREADMECloudflareWorkerServeimages·growgardensCloudflareCronGitHubAPIR2·ArtworkStill+animatedSVGD1·GardenrecordsUsers·refreshtimesImagerequestSVGresponseReadsavedSVGSaveupdatedSVGDailyrefreshFetchcontributionsGarden&refreshscheduleSolidarrowsareimagerequestsandstorageaccess;dashedarrowsarethedailyrefresh.ThefirstrequestforagardenalsofetchesitsGitHubactivityanddrawsit.Howit'sbuiltServiceTypeScript·CloudflareWorkerswithCronTriggersStorageR2forthesavedSVGs·D1forgardensandrefreshtimesPictureSVGwritteninplainJavaScript·eightwatercolorleafimagesinfiveshades(sharp)·CSSanimationforthebreezeDataGitHubGraphQLAPI,tokenkeptasaWorkersecretQualityTestsontherealWorkersruntimewithD1andR2(Miniflare)·alivecheckagainstGitHub·GitHubActionsCountsareGitHubcontributions,notonlycommits.Privateactivityonlyshowsiftheservice'sGitHubtokencanseeit.Thepicturesusemyownaccount.PreviousURCheckNextTradingLab",
     "links": [
       "/projects",
-      "/projects/quant-lab",
+      "/projects/trading-lab",
       "/projects/ur-check",
       "https://github.com/ottuck/gitleaf"
     ],
@@ -324,21 +324,21 @@
       }
     ]
   },
-  "/projects/quant-lab": {
+  "/projects/trading-lab": {
     "title": "Trading Lab — Henry Kim",
     "lang": "en",
     "description": "Made for people who invest a set amount every payday. Pick up to ten funds you like and the split between them, answer a few questions about how you buy, and a bot buys for you: on payday, skipping when prices run hot, buying big after a drop. It shows how the last ten years would have gone next to just buying every month. Beside it, two AI bots decide every day how much of ten funds I picked to hold: one reads the news, the other sees only price charts with the names hidden.",
-    "canonical": "https://www.portfolio-hub.dev/projects/quant-lab",
+    "canonical": "https://www.portfolio-hub.dev/projects/trading-lab",
     "alternates": {
-      "en": "https://www.portfolio-hub.dev/projects/quant-lab",
-      "ja": "https://www.portfolio-hub.dev/ja/projects/quant-lab",
-      "ko": "https://www.portfolio-hub.dev/ko/projects/quant-lab",
-      "x-default": "https://www.portfolio-hub.dev/projects/quant-lab"
+      "en": "https://www.portfolio-hub.dev/projects/trading-lab",
+      "ja": "https://www.portfolio-hub.dev/ja/projects/trading-lab",
+      "ko": "https://www.portfolio-hub.dev/ko/projects/trading-lab",
+      "x-default": "https://www.portfolio-hub.dev/projects/trading-lab"
     },
     "og": {
       "og:title": "Trading Lab",
       "og:description": "Made for people who invest a set amount every payday. Pick up to ten funds you like and the split between them, answer a few questions about how you buy, and a bot buys for you: on payday, skipping when prices run hot, buying big after a drop. It shows how the last ten years would have gone next to just buying every month. Beside it, two AI bots decide every day how much of ten funds I picked to hold: one reads the news, the other sees only price charts with the names hidden.",
-      "og:url": "https://www.portfolio-hub.dev/projects/quant-lab",
+      "og:url": "https://www.portfolio-hub.dev/projects/trading-lab",
       "og:site_name": "Henry Kim",
       "og:locale": "en_US",
       "og:type": "article",
@@ -404,7 +404,7 @@
     "links": [
       "/projects",
       "/projects/henry-wallet",
-      "/projects/quant-lab",
+      "/projects/trading-lab",
       "https://github.com/ottuck/pokepedia",
       "https://github.com/ottuck/pokepedia-unity",
       "https://pokepedia.dev"
@@ -613,7 +613,7 @@
       "/ja/projects/henry-wallet",
       "/ja/projects/pokepedia",
       "/ja/projects/puny-chat",
-      "/ja/projects/quant-lab",
+      "/ja/projects/trading-lab",
       "/ja/projects/ur-check",
       "https://demo.trading-lab.me",
       "https://demo.ur-check.com",
@@ -695,7 +695,7 @@
       "/ja/projects/henry-wallet",
       "/ja/projects/pokepedia",
       "/ja/projects/puny-chat",
-      "/ja/projects/quant-lab",
+      "/ja/projects/trading-lab",
       "/ja/projects/ur-check",
       "https://demo.trading-lab.me",
       "https://demo.ur-check.com",
@@ -884,7 +884,7 @@
     "mainText": "作品一覧公開中·誰でも使えますGitLeafGitHubのコントリビューションを水彩画の植物にするサービスです。1年の1日1日が葉になり、その日の活動が多いほど葉の緑が濃くなります。プロフィールのREADMEに画像の1行を貼るだけで、絵は自動で最新になります。GitHub種類GitHubREADME向けの画像サービス期間2026年10月運用環境CloudflareWorkers+D1+R2概要コントリビューショングラフは緑の四角が並んだ表です。眺めて楽しいものにしたくて、GitLeafは1年を植物として描きます。1日が小さな葉1枚で、活動が多いほど色が濃くなり、枝の先には1週間ぶんの大きな葉がつきます。まだ来ていない日は薄い輪郭だけで、絵の下には1年のコントリビューション数が入ります。プロフィールのREADMEに置くための作りです。ユーザー名を入れた画像の1行を貼るだけで、登録もGitHubActionsの設定も要りません。最初に画像が呼ばれたときにコントリビューションを読んで植物を描いて保存し、以降は同じURLのまま1日1回描き直します。READMEは書き換わらず、コミットも作られません。葉は、AI画像ツールで作った水彩の葉8種類を、それぞれ5段階の濃さにしたものです。4本の茎に沿って並べ、1日に1枚ずつ当てはめるのがコードの仕事です。絵全体が1つのSVGファイルなので、スクリプトや外部への通信が使えないREADMEでも、ふつうの画像として表示されます。主な機能1日1枚の葉葉の濃さはGitHubのコントリビューションレベルに従い、活動のない日は薄い輪郭、多い日は濃い緑になります。週ごとに、その週の平均を表す大きな葉もつきます。1行で使えるユーザー名を入れた画像の1行をREADMEに貼ります。アカウントは要らず、最初のリクエストで絵が表示されます。毎日描き直し同じURLで最新の活動が表示されるので、READMEを編集する必要はありません。年が変われば新しい植物になり、?year=で2008年まで好きな年を指定できます。ほんの少しの風?motion=breezeをつけると、枝がそれぞれのペースでゆっくり揺れます。CSSだけで動いていて、端末で動きを減らす設定にしていると止まります。構成図GitLeaf—構成図GitHubREADMECloudflareWorkerServeimages·growgardensCloudflareCronGitHubAPIR2·ArtworkStill+animatedSVGD1·GardenrecordsUsers·refreshtimesImagerequestSVGresponseReadsavedSVGSaveupdatedSVGDailyrefreshFetchcontributionsGarden&refreshscheduleSolidarrowsareimagerequestsandstorageaccess;dashedarrowsarethedailyrefresh.ThefirstrequestforagardenalsofetchesitsGitHubactivityanddrawsit.技術構成サービスTypeScript·CloudflareWorkers（CronTriggers）保存完成したSVGはR2、庭と更新時刻はD1絵素のJavaScriptで書いたSVG·水彩の葉の画像8種類×5段階（sharp）·風はCSSアニメーションデータGitHubGraphQLAPI（トークンはWorkerのシークレットに保管）品質実際のWorkersランタイムとD1・R2でのテスト（Miniflare）·GitHubとの実データ照合·GitHubActions件数はコミットだけでなくGitHubのコントリビューションです。非公開の活動は、サービスのGitHubトークンから見える範囲しか反映されません。掲載の絵は自分のアカウントのものです。前へURCheck次へTradingLab",
     "links": [
       "/ja/projects",
-      "/ja/projects/quant-lab",
+      "/ja/projects/trading-lab",
       "/ja/projects/ur-check",
       "https://github.com/ottuck/gitleaf"
     ],
@@ -908,21 +908,21 @@
       }
     ]
   },
-  "/ja/projects/quant-lab": {
+  "/ja/projects/trading-lab": {
     "title": "Trading Lab — Henry Kim",
     "lang": "ja",
     "description": "給料日ごとに決まった額を積み立てる会社員向けのボットです。好きな銘柄を最大10個と比率を選び、買い方に関するいくつかの質問に答えると、ボットが代わりに買います。給料日に積み立て、上がりすぎたら見送り、大きく下がったらまとめて買う。過去10年の結果を「毎月ただ買う」場合と並べて表示します。その隣では、2つのAIボットが毎日、自分が決めた10銘柄をどれだけ持つかを決めます。1つはニュースを読み、もう1つは名前を隠した値動きのチャートだけを見ます。",
-    "canonical": "https://www.portfolio-hub.dev/ja/projects/quant-lab",
+    "canonical": "https://www.portfolio-hub.dev/ja/projects/trading-lab",
     "alternates": {
-      "en": "https://www.portfolio-hub.dev/projects/quant-lab",
-      "ja": "https://www.portfolio-hub.dev/ja/projects/quant-lab",
-      "ko": "https://www.portfolio-hub.dev/ko/projects/quant-lab",
-      "x-default": "https://www.portfolio-hub.dev/projects/quant-lab"
+      "en": "https://www.portfolio-hub.dev/projects/trading-lab",
+      "ja": "https://www.portfolio-hub.dev/ja/projects/trading-lab",
+      "ko": "https://www.portfolio-hub.dev/ko/projects/trading-lab",
+      "x-default": "https://www.portfolio-hub.dev/projects/trading-lab"
     },
     "og": {
       "og:title": "Trading Lab",
       "og:description": "給料日ごとに決まった額を積み立てる会社員向けのボットです。好きな銘柄を最大10個と比率を選び、買い方に関するいくつかの質問に答えると、ボットが代わりに買います。給料日に積み立て、上がりすぎたら見送り、大きく下がったらまとめて買う。過去10年の結果を「毎月ただ買う」場合と並べて表示します。その隣では、2つのAIボットが毎日、自分が決めた10銘柄をどれだけ持つかを決めます。1つはニュースを読み、もう1つは名前を隠した値動きのチャートだけを見ます。",
-      "og:url": "https://www.portfolio-hub.dev/ja/projects/quant-lab",
+      "og:url": "https://www.portfolio-hub.dev/ja/projects/trading-lab",
       "og:site_name": "Henry Kim",
       "og:locale": "ja_JP",
       "og:type": "article",
@@ -988,7 +988,7 @@
     "links": [
       "/ja/projects",
       "/ja/projects/henry-wallet",
-      "/ja/projects/quant-lab",
+      "/ja/projects/trading-lab",
       "https://github.com/ottuck/pokepedia",
       "https://github.com/ottuck/pokepedia-unity",
       "https://pokepedia.dev"
@@ -1197,7 +1197,7 @@
       "/ko/projects/henry-wallet",
       "/ko/projects/pokepedia",
       "/ko/projects/puny-chat",
-      "/ko/projects/quant-lab",
+      "/ko/projects/trading-lab",
       "/ko/projects/ur-check",
       "https://demo.trading-lab.me",
       "https://demo.ur-check.com",
@@ -1279,7 +1279,7 @@
       "/ko/projects/henry-wallet",
       "/ko/projects/pokepedia",
       "/ko/projects/puny-chat",
-      "/ko/projects/quant-lab",
+      "/ko/projects/trading-lab",
       "/ko/projects/ur-check",
       "https://demo.trading-lab.me",
       "https://demo.ur-check.com",
@@ -1468,7 +1468,7 @@
     "mainText": "전체프로젝트운영중·누구나사용가능GitLeafGitHub기여기록을수채화느낌의식물로보여주는서비스입니다.하루를잎한장으로표현하고,활동이많은날일수록잎색이짙어집니다.프로필README에이미지코드한줄을추가하면매일최신기록이반영됩니다.GitHub종류GitHubREADME용이미지서비스기간2026년10월운영환경CloudflareWorkers+D1+R2소개GitHub의기여기록을초록색칸대신잎과가지로표현한프로젝트입니다.하루를잎한장으로나타내고,활동이많은날일수록잎색이짙어집니다.가지끝의큰잎은한주의평균활동량을보여줍니다.프로필README에사용하려고만들었습니다.GitHub사용자이름이들어간이미지코드한줄을추가하면됩니다.별도로가입하거나GitHubActions를설정할필요가없고,이미지는매일자동으로갱신됩니다.수채화느낌의잎이미지8종을AI이미지도구로만들고,각각다섯단계의색상으로준비했습니다.아직오지않은날짜는옅은윤곽으로표시하고,그림아래에는해당연도의총기여수를표시합니다.주요기능하루를잎한장으로하루의기여도에따라잎색이옅은색부터짙은초록색까지달라집니다.한주의평균활동량은가지끝의큰잎으로표시합니다.한줄로추가사용자이름이포함된이미지코드를README에붙여넣으면됩니다.별도의회원가입없이바로사용할수있습니다.매일자동갱신이미지주소를바꾸지않아도최신기여기록이반영됩니다.해가바뀌면새해의기록을보여주며,?year=2025처럼연도를지정해과거기록을볼수도있습니다.바람애니메이션이미지주소에?motion=breeze를추가하면가지가바람에흔들리듯천천히움직입니다.기기에서동작줄이기설정을켜면애니메이션이멈춥니다.구성도GitLeaf—구성도GitHubREADMECloudflareWorkerServeimages·growgardensCloudflareCronGitHubAPIR2·ArtworkStill+animatedSVGD1·GardenrecordsUsers·refreshtimesImagerequestSVGresponseReadsavedSVGSaveupdatedSVGDailyrefreshFetchcontributionsGarden&refreshscheduleSolidarrowsareimagerequestsandstorageaccess;dashedarrowsarethedailyrefresh.ThefirstrequestforagardenalsofetchesitsGitHubactivityanddrawsit.기술구성서비스TypeScript·CloudflareWorkers(CronTriggers)저장완성된SVG는R2,정원과갱신시각은D1그림순수JavaScript로쓴SVG·수채화잎이미지8종×5단계(sharp)·바람은CSS애니메이션데이터GitHubGraphQLAPI(토큰은Worker시크릿에보관)품질실제Workers런타임과D1·R2에서하는테스트(Miniflare)·GitHub실데이터대조·GitHubActions기여수에는커밋외의GitHub활동도포함됩니다.비공개활동은서비스의GitHub토큰으로확인할수있는범위만반영됩니다.예시이미지는제GitHub계정의기록으로만들었습니다.이전URCheck다음TradingLab",
     "links": [
       "/ko/projects",
-      "/ko/projects/quant-lab",
+      "/ko/projects/trading-lab",
       "/ko/projects/ur-check",
       "https://github.com/ottuck/gitleaf"
     ],
@@ -1492,21 +1492,21 @@
       }
     ]
   },
-  "/ko/projects/quant-lab": {
+  "/ko/projects/trading-lab": {
     "title": "Trading Lab — Henry Kim",
     "lang": "ko",
     "description": "월급날마다 정해진 금액을 적립하는 직장인을 위한 봇입니다. 좋아하는 종목을 10개까지 고르고 비율을 정한 뒤 매수 습관에 관한 몇 가지 질문에 답하면, 봇이 대신 삽니다. 월급날 적립하고, 많이 오르면 쉬고, 크게 떨어지면 몰아서 사는 식입니다. 지난 10년을 매달 그냥 샀을 때와 나란히 보여 줍니다. 그 옆에서는 AI 봇 둘이 매일 제가 정해 둔 10개 종목을 얼마씩 담을지 정합니다. 하나는 뉴스를 읽고, 다른 하나는 이름을 가린 가격 차트만 봅니다.",
-    "canonical": "https://www.portfolio-hub.dev/ko/projects/quant-lab",
+    "canonical": "https://www.portfolio-hub.dev/ko/projects/trading-lab",
     "alternates": {
-      "en": "https://www.portfolio-hub.dev/projects/quant-lab",
-      "ja": "https://www.portfolio-hub.dev/ja/projects/quant-lab",
-      "ko": "https://www.portfolio-hub.dev/ko/projects/quant-lab",
-      "x-default": "https://www.portfolio-hub.dev/projects/quant-lab"
+      "en": "https://www.portfolio-hub.dev/projects/trading-lab",
+      "ja": "https://www.portfolio-hub.dev/ja/projects/trading-lab",
+      "ko": "https://www.portfolio-hub.dev/ko/projects/trading-lab",
+      "x-default": "https://www.portfolio-hub.dev/projects/trading-lab"
     },
     "og": {
       "og:title": "Trading Lab",
       "og:description": "월급날마다 정해진 금액을 적립하는 직장인을 위한 봇입니다. 좋아하는 종목을 10개까지 고르고 비율을 정한 뒤 매수 습관에 관한 몇 가지 질문에 답하면, 봇이 대신 삽니다. 월급날 적립하고, 많이 오르면 쉬고, 크게 떨어지면 몰아서 사는 식입니다. 지난 10년을 매달 그냥 샀을 때와 나란히 보여 줍니다. 그 옆에서는 AI 봇 둘이 매일 제가 정해 둔 10개 종목을 얼마씩 담을지 정합니다. 하나는 뉴스를 읽고, 다른 하나는 이름을 가린 가격 차트만 봅니다.",
-      "og:url": "https://www.portfolio-hub.dev/ko/projects/quant-lab",
+      "og:url": "https://www.portfolio-hub.dev/ko/projects/trading-lab",
       "og:site_name": "Henry Kim",
       "og:locale": "ko_KR",
       "og:type": "article",
@@ -1572,7 +1572,7 @@
     "links": [
       "/ko/projects",
       "/ko/projects/henry-wallet",
-      "/ko/projects/quant-lab",
+      "/ko/projects/trading-lab",
       "https://github.com/ottuck/pokepedia",
       "https://github.com/ottuck/pokepedia-unity",
       "https://pokepedia.dev"

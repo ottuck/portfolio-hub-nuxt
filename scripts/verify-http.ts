@@ -18,8 +18,13 @@ for (const route of routes) {
 for (const [source, target] of [
   ['/projects/buddy-chat', '/projects/puny-chat'],
   ['/projects/buddy-chat/example', '/projects/puny-chat/example'],
-  ['/projects/trading-bot', '/projects/quant-lab'],
-  ['/projects/trading-bot/example', '/projects/quant-lab/example'],
+  ['/projects/trading-bot', '/projects/trading-lab'],
+  ['/projects/trading-bot/example', '/projects/trading-lab/example'],
+  ['/projects/quant-lab', '/projects/trading-lab'],
+  ['/projects/quant-lab/example', '/projects/trading-lab/example'],
+  ['/ja/projects/quant-lab', '/ja/projects/trading-lab'],
+  ['/ko/projects/quant-lab', '/ko/projects/trading-lab'],
+  ['/og/quant-lab.png', '/og/trading-lab.png'],
 ]) {
   for (const query of ['', '?utm_source=migration']) {
     const response = await fetch(new URL(source + query, base), { redirect: 'manual' })
