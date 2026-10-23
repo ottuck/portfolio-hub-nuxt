@@ -32,7 +32,7 @@ app/
   lib/                타입, 프로젝트 정렬·검증, 다이어그램 배치
 public/images/        이미지 원본
 scripts/              자산 생성, 정적 결과 검사, HTTP 검사
-docs/                 구조 설명, 검증 기준, 배포 문서
+docs/                 결정사항, 구조 설명, 배포, 검증 기준 파일
 ```
 
 ## 실행
@@ -65,7 +65,7 @@ CI는 PR마다 같은 검사를 돌리고, main에 병합하면 Cloudflare Pages
 
 ## 문서
 
+- [결정사항](docs/DECISIONS.md)
 - [구조 설명](docs/ARCHITECTURE.md)
 - [배포와 도메인](docs/DEPLOYMENT.md)
-- [검증 기록](docs/VALIDATION.md)
 - [작업 지침](AGENTS.md)
