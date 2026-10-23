@@ -8,9 +8,9 @@ const mobile = {"src":"/images/content/projects/quant-lab/mobile.webp","width":7
 const parallel = {"src":"/images/content/projects/quant-lab/parallel.webp","width":1280,"height":800};
 const question = {"src":"/images/content/projects/quant-lab/question.webp","width":1280,"height":800};
 
-export const quantLab: Project = {
+export const tradingLab: Project = {
   slug: "quant-lab",
-  name: "Quant Lab",
+  name: "Trading Lab",
   status: "live",
   label: "Real trades at 1/100",
   highlightLabel: true,
@@ -32,8 +32,8 @@ export const quantLab: Project = {
   },
 
   cover: {
-    main: { src: home, alt: "Quant Lab home: the copy-me bot next to just buying every month, today's decision, and the three bots on the side" },
-    inset: { src: mobile, alt: "Quant Lab home on a phone", frame: "phone" },
+    main: { src: home, alt: "Trading Lab home: the copy-me bot next to just buying every month, today's decision, and the three bots on the side" },
+    inset: { src: mobile, alt: "Trading Lab home on a phone", frame: "phone" },
     tint: ["#e7ecf6", "#c6d1e6"],
   },
 

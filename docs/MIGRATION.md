@@ -40,7 +40,7 @@ Nuxt UI, Nuxt Content, NuxtHub, DB, CMS, 인증, 서버 API는 추가하지 않�
 - 운영 사이트와 원본 CSS·컴포넌트가 구현 기준이다.
 - 크림색 배경, 주황색 강조, 둥근 카드, 가는 테두리, 그림자, Bento Grid, 카드 내 이미지 겹침을 보존한다.
 - 원본 컨테이너 너비, gap, 여백, 반응형 breakpoint와 이미지 배치를 먼저 조사한다.
-- 프로젝트 순서는 콘텐츠의 정렬 로직을 따른다. 현재 홈은 Puny Chat, UR Check, GitLeaf, Quant Lab, Pokepedia 순이다.
+- 프로젝트 순서는 콘텐츠의 정렬 로직을 따른다. 현재 홈은 Puny Chat, UR Check, GitLeaf, Trading Lab, Pokepedia 순이다.
 - Geist Sans/Mono를 정적으로 제공하고 기존 굵기 및 CJK 시스템 폰트 대체 순서를 유지한다.
 - 원본의 light/dark/system 테마와 CSS `light-dark()` 토큰을 보존한다.
 - `theme` 저장 키와 `data-theme` 속성을 유지한다. head의 초기화 스크립트로 첫 페인트 이전에 테마를 적용한다.
