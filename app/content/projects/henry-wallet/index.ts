@@ -28,8 +28,9 @@ export const henryWallet: Project = {
   ],
 
   links: {
-    // Source is private for now; the demo runs on sample data.
+    // The demo runs on sample data.
     live: { href: "https://wallet.portfolio-hub.dev", label: "Try the demo" },
+    github: "https://github.com/ottuck/stable-wallet",
   },
 
   cover: {

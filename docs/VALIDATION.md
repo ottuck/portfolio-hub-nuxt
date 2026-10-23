@@ -2,6 +2,12 @@
 
 기준일: 2026-10-23 (Asia/Seoul)
 
+## Henry Wallet GitHub 링크 추가 (2026-10-23)
+
+- 사용자가 stable-wallet 저장소를 공개해(`gh repo view` PUBLIC, 비로그인 HTTP 200 확인) Henry Wallet에 `links.github`를 추가했다. 목록 카드와 상세 페이지의 GitHub 버튼, JSON-LD `codeRepository`가 함께 생긴다.
+- `docs/baseline.json`은 세 언어의 홈·프로젝트 목록·Henry Wallet 상세 9개 경로만 바뀌었다. 변경은 GitHub 링크와 그 문구뿐이다.
+- 로컬 Node 26.7.0에서 `pnpm check`, `pnpm generate`(33개 페이지, 381개 자산 검증), `pnpm test:pages`가 통과했다.
+
 ## Henry Wallet 스크린샷을 최신 UI로 교체 (2026-10-23)
 
 - 사용자 요청에 따라 stable-wallet README의 최신 스크린샷 6장(`docs/screenshots`, #52 이후 화면: 지구 아이콘 언어 버튼, 한 줄로 줄인 POL 수수료 줄)으로 갤러리를 바꿨다. 1170×2532 원본을 기존과 같은 924×2000 WebP로 줄였고, 표지는 같은 방식으로 홈·서명 전 확인·보낸 뒤 화면을 다시 합성했다.
