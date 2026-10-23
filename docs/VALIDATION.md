@@ -2,6 +2,12 @@
 
 기준일: 2026-10-23 (Asia/Seoul)
 
+## Quant Lab을 Trading Lab으로 이름 변경 (2026-10-23)
+
+- 사용자 요청에 따라 프로젝트 이름을 Quant Lab에서 Trading Lab으로 바꿨다(`name`, 한·일·영 alt, 내보낸 구성도 SVG 제목, 내부 변수명, 문서의 프로젝트 순서 설명). 데모 화면과 주소(`demo.trading-lab.me`)는 이미 Trading Lab이었다.
+- 기존 URL을 유지하라는 지침에 따라 slug `quant-lab`, 이미지 폴더, `trading-bot` 리다이렉트는 그대로 뒀다. `docs/baseline.json`은 Quant Lab 상세·홈·프로젝트 목록·About 등 이름이 나오는 경로의 이름만 바뀌었고 다른 변경은 없다.
+- 로컬 Node 26.7.0에서 `pnpm check`, `pnpm generate`(33개 페이지, 381개 자산 검증), `pnpm test:pages`가 통과했다.
+
 ## Henry Wallet GitHub 링크 추가 (2026-10-23)
 
 - 사용자가 stable-wallet 저장소를 공개해(`gh repo view` PUBLIC, 비로그인 HTTP 200 확인) Henry Wallet에 `links.github`를 추가했다. 목록 카드와 상세 페이지의 GitHub 버튼, JSON-LD `codeRepository`가 함께 생긴다.
