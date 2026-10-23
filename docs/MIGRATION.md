@@ -77,7 +77,7 @@ Nuxt UI, Nuxt Content, NuxtHub, DB, CMS, 인증, 서버 API는 추가하지 않�
 - Preview의 이미지 검증은 해당 Preview에서 제공되는 자산을 기준으로 한다. 이미지 URL은 검증 단계와 Production 단계에서 올바른 절대 주소가 되도록 배포 환경을 구분한다.
 - sitemap.xml과 robots.txt는 정적 파일로 제공한다. Preview는 검색 색인이 목적이 아니며, robots 차단만으로 noindex를 대신하지 않는다.
 - `NEXT_PUBLIC_SITE_URL`, `VERCEL_ENV`, `VERCEL_URL` 의존성을 제거하고 Nuxt/Cloudflare 환경에 맞는 명시적 설정으로 교체한다.
-- 기존 buddy-chat → puny-chat, trading-bot → quant-lab의 영문 경로 및 하위 경로 리다이렉트를 308로 유지한다. `_redirects`의 원본 경로와 wildcard 규칙을 각각 정의한다.
+- 기존 buddy-chat → puny-chat, trading-bot → trading-lab의 영문 경로 및 하위 경로 리다이렉트를 308로 유지한다. 이름을 바꾼 quant-lab → trading-lab도 영어·일본어·한국어 경로와 하위 경로, OG 이미지에 같은 방식으로 둔다. `_redirects`의 원본 경로와 wildcard 규칙을 각각 정의한다.
 - 원본에 없는 다국어 리다이렉트는 이번 범위에서 새로 추가하지 않는다.
 - URL의 trailing slash와 `.html` 정규화, 쿼리 유지, 연속 리다이렉트·루프 여부는 실제 Pages에서 확인한다.
 - 최상위 `404.html`을 생성하고 존재하지 않는 경로의 직접 요청이 HTTP 404를 반환하도록 한다. 모든 미등록 URL을 200으로 바꾸는 SPA rewrite를 추가하지 않는다.

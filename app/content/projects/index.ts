@@ -3,7 +3,7 @@ import { gitleaf } from "./gitleaf";
 import { henryWallet } from "./henry-wallet";
 import { pokepedia } from "./pokepedia";
 import { punyChat } from "./puny-chat";
-import { tradingLab } from "./quant-lab";
+import { tradingLab } from "./trading-lab";
 import { urCheck } from "./ur-check";
 import { urManager } from "./ur-manager";
 import { urMcp } from "./ur-mcp";

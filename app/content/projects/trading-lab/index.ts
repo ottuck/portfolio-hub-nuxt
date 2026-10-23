@@ -1,15 +1,15 @@
 import type { Project } from "~/lib/types";
 import { ja } from "./ja";
 import { ko } from "./ko";
-const ai = {"src":"/images/content/projects/quant-lab/ai.webp","width":1280,"height":800};
-const backtest = {"src":"/images/content/projects/quant-lab/backtest.webp","width":1280,"height":800};
-const home = {"src":"/images/content/projects/quant-lab/home.webp","width":1280,"height":800};
-const mobile = {"src":"/images/content/projects/quant-lab/mobile.webp","width":780,"height":1688};
-const parallel = {"src":"/images/content/projects/quant-lab/parallel.webp","width":1280,"height":800};
-const question = {"src":"/images/content/projects/quant-lab/question.webp","width":1280,"height":800};
+const ai = {"src":"/images/content/projects/trading-lab/ai.webp","width":1280,"height":800};
+const backtest = {"src":"/images/content/projects/trading-lab/backtest.webp","width":1280,"height":800};
+const home = {"src":"/images/content/projects/trading-lab/home.webp","width":1280,"height":800};
+const mobile = {"src":"/images/content/projects/trading-lab/mobile.webp","width":780,"height":1688};
+const parallel = {"src":"/images/content/projects/trading-lab/parallel.webp","width":1280,"height":800};
+const question = {"src":"/images/content/projects/trading-lab/question.webp","width":1280,"height":800};
 
 export const tradingLab: Project = {
-  slug: "quant-lab",
+  slug: "trading-lab",
   name: "Trading Lab",
   status: "live",
   label: "Real trades at 1/100",

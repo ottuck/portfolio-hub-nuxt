@@ -2,6 +2,13 @@
 
 기준일: 2026-10-23 (Asia/Seoul)
 
+## Trading Lab 주소를 trading-lab으로 변경 (2026-10-23)
+
+- 사용자 요청에 따라 프로젝트 slug를 `quant-lab`에서 `trading-lab`으로 바꿨다. 도메인(`demo.trading-lab.me`)과 이름을 맞추기 위한 결정이며, "기존 URL 유지" 지침보다 사용자의 최근 결정을 우선했다. 콘텐츠 폴더·이미지 폴더·구성도 파일명·`docs/routes.json`·`docs/baseline.json` 키가 함께 바뀌었다.
+- 이전 주소는 `public/_redirects`에서 308로 옮긴다: 영어·일본어·한국어 `/projects/quant-lab`과 하위 경로(쿼리 보존), 각 언어의 `opengraph-image*`, `/og/quant-lab.png`. `trading-bot`은 `trading-lab`으로 바로 이동한다(2단 이동 방지). `scripts/verify-http.ts`가 이 이동을 검사한다.
+- `docs/baseline.json`은 slug가 들어간 줄(링크, canonical, alternates, JSON-LD, 이전·다음 링크)만 바뀌었고 다른 변경은 없다. 기존 Next.js OG 주소(`oldOgImage`)는 원본 그대로 두었다.
+- 로컬 Node 26.7.0에서 `pnpm check`, `pnpm generate`(33개 페이지, 381개 자산 검증), `pnpm test:pages`(새 redirect 포함)가 통과했다.
+
 ## Quant Lab을 Trading Lab으로 이름 변경 (2026-10-23)
 
 - 사용자 요청에 따라 프로젝트 이름을 Quant Lab에서 Trading Lab으로 바꿨다(`name`, 한·일·영 alt, 내보낸 구성도 SVG 제목, 내부 변수명, 문서의 프로젝트 순서 설명). 데모 화면과 주소(`demo.trading-lab.me`)는 이미 Trading Lab이었다.
