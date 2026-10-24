@@ -29,6 +29,20 @@
 - 영어 OG 이미지를 세 언어에서 공용으로 사용한다.
 - 접근성, 키보드 조작, 스킵 링크, alt, 이벤트·타이머 정리를 유지한다.
 
+## 프로젝트 추가·수정 절차
+
+이 저장소는 거의 AI가 작업한다. 프로젝트를 더하거나 고칠 때 아래 순서를 그대로 따른다.
+
+1. `app/content/projects/<slug>/`에 `index.ts`(영어), `ja.ts`, `ko.ts`를 만든다. 가장 최근 프로젝트 폴더를 본보기로 삼고, 필드의 뜻은 `app/lib/types.ts`의 주석을 따른다. 이름을 바꿔 slug가 바뀌면 `public/_redirects`에 이전 주소를 남긴다.
+2. 이미지는 WebP로 `public/images/content/projects/<slug>/`에 둔다. `index.ts`에서는 `{ src, width, height }` 객체로 참조하므로 실제 픽셀 크기를 적는다.
+3. `app/content/projects/index.ts`에 import하고 `projects` 배열에 더한다. 폴더만 만들면 반영되지 않는다.
+4. 목록 순서는 `order` 숫자 하나로 정한다. 다른 프로젝트와 겹치지 않게 하고, 중간에 끼우면 뒤 번호를 확인한다. 목록에서 숨길 때는 `mergedInto`, 초안은 `unlisted`를 쓴다.
+5. 번역 세 벌은 항목 수(`facts`, `features`, `stack`, 갤러리 alt)가 영어와 같아야 한다. 어긋나면 빌드가 막는다. 글은 아래 글쓰기 원칙을 따른다.
+6. 구성도는 `architecture-diagram` 스킬로 `Project.architecture`에 넣고, 바꾼 뒤 `pnpm diagrams`로 `docs/architecture`를 갱신한다.
+7. `pnpm check` → `pnpm generate` → `pnpm test:pages` 순서로 돌린다. `pnpm generate`가 `docs/baseline.json`에 없는 새 페이지나 바뀐 본문 때문에 멈추면, 변경이 의도한 것인지 확인한 뒤 `pnpm baseline`을 돌리고 `git diff docs/baseline.json`을 읽고 `pnpm generate`를 다시 돌린다.
+
+직접 고치지 않는 파일: `docs/routes.json`, `app/generated/*`, sitemap, robots, OG 이미지는 `pnpm assets`(`pnpm dev`·`pnpm generate`가 먼저 실행)가 콘텐츠에서 만든다. `docs/routes.json`은 생성 결과가 달라졌으면 함께 커밋한다. CI가 커밋된 파일과 생성 결과를 비교한다.
+
 ## 프로젝트 글쓰기
 
 - 담백하게 쓴다. 면접관에게 자기소개하듯 쓰지 않는다. "~를 이해하고 싶어서 만들었습니다", "~을 경험해 보고 싶었습니다", "~을 배웠습니다" 같은 동기·성장 이야기로 시작하지 않는다.
@@ -42,7 +56,7 @@
 ## 검증과 배포
 
 - 구현 이후 CI는 frozen lockfile 설치, lint, typecheck, generate, 정적 결과물 검증을 수행한다. 실행하지 않은 검사를 성공했다고 기록하지 않는다.
-- `docs/routes.json`의 콘텐츠 URL(현재 36개) 외에 OG·이미지·sitemap·robots·404·리다이렉트도 별도로 검증한다.
+- `docs/routes.json`(자동 생성)의 콘텐츠 URL(현재 36개) 외에 OG·이미지·sitemap·robots·404·리다이렉트도 별도로 검증한다.
 - 앱의 SPA 탐색 성공과 주소 직접 접속 성공을 모두 확인한다.
 - 없는 URL의 HTTP 404와 기존 URL의 HTTP 308을 실제 배포 환경에서 확인한다.
 - Production canonical은 `https://www.portfolio-hub.dev` 기준이다. Preview는 색인을 차단한다.
