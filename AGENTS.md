@@ -47,4 +47,4 @@
 - 없는 URL의 HTTP 404와 기존 URL의 HTTP 308을 실제 배포 환경에서 확인한다.
 - Production canonical은 `https://www.portfolio-hub.dev` 기준이다. Preview는 색인을 차단한다.
 - 비밀값과 Cloudflare 인증정보를 저장소에 넣지 않는다. 예제 환경변수에는 값의 형식만 기록한다.
-- 콘텐츠를 바꿔 `docs/baseline.json`이 달라지면 바뀐 줄이 의도한 것뿐인지 확인한 뒤 기준을 갱신한다.
+- 콘텐츠를 바꿔 `docs/baseline.json`이 달라지면 바뀐 줄이 의도한 것뿐인지 확인한 뒤 `pnpm baseline`으로 기준을 갱신한다.
