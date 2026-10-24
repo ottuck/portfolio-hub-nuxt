@@ -17,3 +17,6 @@ Thumbs.db
 /public/og/
 /public/sitemap.xml
 /public/robots.txt
+
+# Claude Code agent worktrees
+/.claude/worktrees/
