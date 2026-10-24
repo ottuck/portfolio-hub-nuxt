@@ -4,7 +4,6 @@ import { ko } from "./ko";
 const cover = {"src":"/images/content/projects/diagram-polish/cover.webp","width":1280,"height":800};
 const sequence = {"src":"/images/content/projects/diagram-polish/sequence.webp","width":1280,"height":800};
 const themes = {"src":"/images/content/projects/diagram-polish/themes.webp","width":1280,"height":800};
-const korean = {"src":"/images/content/projects/diagram-polish/korean.webp","width":1280,"height":800};
 
 export const diagramPolish: Project = {
   slug: "diagram-polish",
@@ -58,7 +57,6 @@ export const diagramPolish: Project = {
   gallery: [
     { src: sequence, alt: "A Mermaid sequence diagram with twelve messages, next to the same system drawn as seven boxes and arrows" },
     { src: themes, alt: "The same pipeline in the sage, blue and mono themes, and the sage theme in dark mode" },
-    { src: korean, alt: "A diagram with Korean labels: an AI client calls an MCP server that searches a rental site and keeps its history in SQLite" },
   ],
   stack: [
     { area: "Skill", items: "A Claude Code skill (SKILL.md) with the rules for reducing and placing boxes · plugin manifests, so claude plugin install works" },
