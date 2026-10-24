@@ -34,11 +34,11 @@ export const ko: ProjectCopy = {
     },
   ],
   stack: [
-    { area: "스킬", items: "Claude Code 스킬(SKILL.md)에 박스를 줄이고 놓는 규칙을 담았습니다 · 플러그인 설명 파일이 있어 claude plugin install로 설치할 수 있습니다" },
-    { area: "스크립트", items: "Node.js · SVG는 의존성 없는 파일 하나 · 글자 폭 추정으로 박스 크기를 정하고 직각 선 경로를 계산합니다" },
-    { area: "그림", items: "JavaScript로 직접 쓴 SVG · Geist · 테마 세 개의 라이트·다크 팔레트 · prefers-color-scheme을 따르는 auto SVG" },
-    { area: "PNG", items: "@resvg/resvg-js · 한글·가나에는 시스템 고딕 글꼴을 고릅니다" },
-    { area: "검사", items: "오류에서 멈추고 잘림·겹침·박스를 뚫는 선·겹친 라벨을 경고하는 검사기 · 한 명령으로 예시 전체를 다시 그려 검사합니다" },
+    { area: "스킬", items: "Claude Code 스킬(SKILL.md) · 플러그인 매니페스트(claude plugin install)" },
+    { area: "스크립트", items: "Node.js · 의존성 없는 SVG 렌더러 · 글자 폭 추정 · 직각 선 경로" },
+    { area: "그림", items: "SVG · Geist · 라이트·다크 팔레트 · auto SVG(prefers-color-scheme)" },
+    { area: "PNG", items: "@resvg/resvg-js · 한글·가나용 시스템 고딕 글꼴" },
+    { area: "검사", items: "잘림·겹침·박스를 뚫는 선·라벨 충돌 검사기 · 한 명령으로 예시 전체 재생성·검사" },
   ],
   footnote: "스킬은 Claude Code가 필요하고, 스크립트만 쓸 때는 Node.js만 있으면 됩니다. 비교 그림의 \"before\"는 Mermaid의 기본 테마입니다.",
   alts: {

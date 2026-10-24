@@ -31,9 +31,9 @@ export const ja: ProjectCopy = {
     { title: "ふたりだけの空間", body: "登録なしで始められ、Googleアカウントは後から連携できます。招待コードは1つ、1部屋につき2人まで。" },
   ],
   stack: [
-    { area: "アプリ", items: "Expo (React Native) · TypeScript · Expo Router — iPhoneとWebを1つのコードベースで" },
+    { area: "アプリ", items: "Expo (React Native) · TypeScript · Expo Router" },
     { area: "サーバー", items: "Java 25 · Spring Boot 4 · WebFlux · WebSocket" },
-    { area: "データ", items: "MongoDB Atlas（無料枠・シドニー）" },
+    { area: "データ", items: "MongoDB Atlas（シドニー）" },
     { area: "認証 · プッシュ", items: "Firebase Authentication · Expo push · Web Push (VAPID)" },
     { area: "インフラ", items: "AWS Lightsail（シドニー・サーバー）· Cloudflare Workers（Web）· Terraform（AtlasとCloudflare、stateはR2）· GitHub Actions" },
   ],
