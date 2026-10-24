@@ -24,11 +24,11 @@ export const ko: ProjectCopy = {
     },
   ],
   stack: [
-    { area: "서버", items: "Node.js 24 (TypeScript를 빌드 없이 실행) · Hono · MCP TypeScript SDK (stateless) · MCP Apps (ext-apps) · Zod" },
-    { area: "데이터", items: "UR 공식 사이트가 보여 주는 빈방 데이터 · Railway 볼륨에 둔 SQLite (node:sqlite)" },
-    { area: "클라이언트", items: "Claude Code · claude.ai 웹·iOS (커넥터, 예약 작업) · ChatGPT 앱" },
-    { area: "인프라", items: "Railway (싱가포르) · 레플리카 1개 · 서비스 설정을 코드로 관리 (railway.ts)" },
-    { area: "품질", items: "기록해 둔 UR 응답 기반 Vitest · 실환경 스모크 테스트 · Biome · TypeScript 7 · GitHub Actions" },
+    { area: "서버", items: "Node.js 24 · TypeScript 7 · Hono · MCP TypeScript SDK · MCP Apps · Zod" },
+    { area: "데이터", items: "UR 웹사이트 API · Railway 볼륨의 SQLite(node:sqlite)" },
+    { area: "클라이언트", items: "Claude Code · claude.ai(웹·iOS) · ChatGPT" },
+    { area: "인프라", items: "Railway 싱가포르 · 레플리카 1개 · railway.ts" },
+    { area: "품질", items: "기록해 둔 UR 응답으로 하는 Vitest · 실환경 스모크 테스트 · Biome · GitHub Actions" },
   ],
   footnote:
     "UR 도시기구와는 관계가 없습니다. 빈방 여부는 반드시 UR 공식 사이트에서 확인해 주세요. 카드 화면은 예시 데이터이고, 나머지 이미지는 실제 UR MCP App 결과를 바탕으로 재구성한 것입니다.",

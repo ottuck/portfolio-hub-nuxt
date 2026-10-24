@@ -24,11 +24,11 @@ export const ja: ProjectCopy = {
     },
   ],
   stack: [
-    { area: "サーバー", items: "Node.js 24（TypeScriptをビルドせずに実行）· Hono · MCP TypeScript SDK（ステートレス）· MCP Apps（ext-apps）· Zod" },
-    { area: "データ", items: "URの公式サイトが表示する空室データ · Railwayボリューム上のSQLite（node:sqlite）" },
-    { area: "クライアント", items: "Claude Code · claude.ai Web・iOS（コネクタ、予約タスク）· ChatGPTのアプリ" },
-    { area: "インフラ", items: "Railway（シンガポール）· レプリカ1台 · サービス設定をコードで管理（railway.ts）" },
-    { area: "品質", items: "記録したUR応答を使ったVitest · 実環境でのスモークテスト · Biome · TypeScript 7 · GitHub Actions" },
+    { area: "サーバー", items: "Node.js 24 · TypeScript 7 · Hono · MCP TypeScript SDK · MCP Apps · Zod" },
+    { area: "データ", items: "URのWebサイトAPI · RailwayボリュームのSQLite（node:sqlite）" },
+    { area: "クライアント", items: "Claude Code · claude.ai（Web・iOS）· ChatGPT" },
+    { area: "インフラ", items: "Railway（シンガポール）· レプリカ1台 · railway.ts" },
+    { area: "品質", items: "記録したUR応答を使ったVitest · 実環境スモークテスト · Biome · GitHub Actions" },
   ],
   footnote:
     "UR都市機構とは関係ありません。空室状況は必ずURの公式サイトでご確認ください。カードの画面は例のデータで、そのほかの画像は実際のUR MCP Appの結果をもとに作成したイメージです。",
