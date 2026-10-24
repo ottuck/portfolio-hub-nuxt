@@ -46,7 +46,6 @@ export const ko: ProjectCopy = {
     gallery: [
       "메시지 12개의 Mermaid 시퀀스 다이어그램과, 같은 시스템을 박스 7개와 화살표로 그린 모습",
       "같은 파이프라인을 sage, blue, mono 테마로 그린 모습과, sage 테마의 다크 모드",
-      "한국어 라벨의 구성도. AI 클라이언트가 임대 사이트를 검색하는 MCP 서버를 호출하고 이력을 SQLite에 보관한다",
     ],
   },
 };

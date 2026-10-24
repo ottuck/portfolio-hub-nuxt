@@ -46,7 +46,6 @@ export const ja: ProjectCopy = {
     gallery: [
       "メッセージ12個のMermaidシーケンス図と、同じシステムを7つの箱と矢印で描いた図",
       "同じパイプラインをsage、blue、monoのテーマで描いた図と、sageテーマのダークモード",
-      "韓国語のラベルの構成図。AIクライアントが賃貸サイトを検索するMCPサーバーを呼び、履歴をSQLiteに保存する",
     ],
   },
 };
