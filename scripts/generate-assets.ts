@@ -75,7 +75,10 @@ for (const slug of getSlugs()) {
   if (project.cover.main) await shotImage(slug, eyebrow, project.name, project.tagline, project.cover.tint, project.cover.main.src.src)
   else await image(slug, `${eyebrow} · ${project.label}`, project.name, project.tagline, project.cover.tint)
 }
-const paths = ['/', '/projects', ...getSlugs().filter(slug => !getProject(slug, 'en')!.unlisted).map(slug => `/projects/${slug}`), '/about']
+// Unlisted pages stay out of the route list and the sitemap; `unlisted-routes.json` covers them.
+const paths = ['/', '/projects', '/about', ...getSlugs().filter(slug => !getProject(slug, 'en')!.unlisted).map(slug => `/projects/${slug}`)]
+const routes = locales.flatMap(locale => paths.map(path => localePath(locale, path)))
+await writeFile(resolve('docs/routes.json'), JSON.stringify(routes, null, 2) + '\n')
 const xml = (text: string) => text.replace(/[<>&"']/g, character => ({ '<': '&lt;', '>': '&gt;', '&': '&amp;', '"': '&quot;', "'": '&apos;' })[character]!)
 const absolute = (path: string) => new URL(path, site.url).toString()
 const entries = paths.flatMap(path => locales.map(locale => `<url><loc>${xml(absolute(localePath(locale, path)))}</loc><changefreq>${path === '/about' ? 'yearly' : 'monthly'}</changefreq><priority>${path === '/' ? 1 : path === '/about' ? 0.5 : 0.8}</priority>${Object.entries(languageAlternates(path)).map(([language, href]) => `<xhtml:link rel="alternate" hreflang="${language}" href="${xml(absolute(href))}"/>`).join('')}</url>`))

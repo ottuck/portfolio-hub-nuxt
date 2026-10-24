@@ -59,10 +59,12 @@ CI는 PR마다 같은 검사를 돌리고, main에 병합하면 Cloudflare Pages
 
 ## 프로젝트 추가·수정
 
-1. `app/content/projects/<slug>/`에 `index.ts`(영어)와 `ja.ts`, `ko.ts`를 둡니다.
+1. `app/content/projects/<slug>/`에 `index.ts`(영어)와 `ja.ts`, `ko.ts`를 둡니다. 글은 [AGENTS.md](AGENTS.md)의 글쓰기 원칙을 따릅니다.
 2. 이미지는 `public/images/content/projects/<slug>/`에 넣습니다.
-3. 글은 [AGENTS.md](AGENTS.md)의 글쓰기 원칙을 따릅니다.
-4. `pnpm generate`가 기준 결과(`docs/baseline.json`)와 다르다고 하면, 바뀐 내용이 의도한 것인지 확인한 뒤 `pnpm baseline`으로 기준을 갱신합니다.
+3. [app/content/projects/index.ts](app/content/projects/index.ts)에 import하고 `projects` 배열에 더합니다. 목록 순서는 각 프로젝트의 `order` 숫자로 정합니다.
+4. `pnpm check`로 lint와 타입을 확인합니다. slug, 번역 항목 수, 구성도 연결 오류는 빌드가 막아 줍니다.
+5. `pnpm generate`를 돌립니다. `docs/routes.json`, OG 이미지, sitemap은 이때 콘텐츠에서 자동으로 만들어지므로 직접 고치지 않습니다. 바뀐 `docs/routes.json`은 함께 커밋합니다.
+6. 새 페이지가 기준 결과(`docs/baseline.json`)에 없어 `pnpm generate`가 멈추면, `pnpm baseline`으로 기준을 갱신하고 `git diff docs/baseline.json`에서 의도한 줄만 바뀌었는지 확인한 뒤 `pnpm generate`를 한 번 더 돌립니다.
 
 ## 문서
 
