@@ -67,6 +67,6 @@
 
 ## 검증 기준
 
-- `docs/baseline.json`은 페이지별 title·description·canonical·본문 텍스트·링크·alt·JSON-LD의 기준값이다. `pnpm generate`가 생성 결과와 비교한다. 의도한 콘텐츠 변경이면 변경 내용이 맞는지 확인한 뒤 기준을 갱신한다.
+- `docs/baseline.json`은 페이지별 title·description·canonical·본문 텍스트·링크·alt·JSON-LD의 기준값이다. `pnpm generate`가 생성 결과와 비교한다. 의도한 콘텐츠 변경이면 변경 내용이 맞는지 확인한 뒤 `pnpm baseline`으로 기준을 갱신한다.
 - CI는 frozen lockfile 설치 → `pnpm check` → `pnpm generate` → `pnpm test:pages` 순서다. 배포 후에는 `pnpm test:http https://www.portfolio-hub.dev`로 경로·OG·리다이렉트·404를 확인한다.
 - 검사 결과와 작업 기록은 docs에 쌓지 않는다. PR 설명과 CI 결과에 남긴다.
