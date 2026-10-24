@@ -8,7 +8,7 @@ export const ko: ProjectCopy = {
   liveLabel: "데모 보기",
   facts: [
     { label: "종류", value: "웹 앱 + 워커 · 내 실제 계좌, 공개 데모 있음" },
-    { label: "기간", value: "2026년 10월~" },
+    { label: "기간", value: "2026년 10월" },
     { label: "운영 환경", value: "AWS Lightsail (시드니) · Docker Compose · Cloudflare Tunnel" },
   ],
   about: [

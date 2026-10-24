@@ -8,7 +8,7 @@ export const ko: ProjectCopy = {
     "게임보이 배틀 화면을 재현한 실루엣 퀴즈입니다. 포켓몬 이름을 맞히면 몬스터볼을 던지고, 띠부씰 컬렉션에 추가됩니다. 1세대 151마리 도감도 함께 제공합니다. 퀴즈에서 피카츄를 얻으면 따로 만든 Unity 프로젝트를 페이지 안에서 열어 거북왕과 턴제 배틀을 할 수 있습니다.",
   facts: [
     { label: "종류", value: "웹 앱 + Unity WebGL 배틀 · 한국어 / 영어 / 일본어" },
-    { label: "기간", value: "2026년 9~10월 (리메이크, 10월에 배틀 추가)" },
+    { label: "기간", value: "2026년 9~10월" },
     { label: "운영 환경", value: "Vercel + Supabase (도쿄) · Cloudflare Pages" },
   ],
   about: [

@@ -8,7 +8,7 @@ export const ja: ProjectCopy = {
   liveLabel: "デモを見る",
   facts: [
     { label: "種類", value: "Webアプリ + ワーカー · 自分の実口座、公開デモあり" },
-    { label: "期間", value: "2026年10月〜" },
+    { label: "期間", value: "2026年10月" },
     { label: "運用環境", value: "AWS Lightsail（シドニー）· Docker Compose · Cloudflare Tunnel" },
   ],
   about: [
