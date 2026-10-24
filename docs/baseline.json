@@ -636,7 +636,7 @@
     "alts": [
       "A data pipeline drawn by Mermaid's default theme, and the same pipeline redrawn by diagram-polish",
       "A Mermaid sequence diagram with twelve messages, next to the same system drawn as seven boxes and arrows",
-      "The same pipeline in the sage, blue and mono themes, each in a light and a dark version",
+      "The same pipeline in the sage, blue and mono themes, and the sage theme in dark mode",
       "A diagram with Korean labels: an AI client calls an MCP server that searches a rental site and keeps its history in SQLite"
     ]
   },
@@ -1277,7 +1277,7 @@
     "alts": [
       "Mermaidの標準テーマで描いたデータパイプラインと、diagram-polishで描き直した同じパイプライン",
       "メッセージ12個のMermaidシーケンス図と、同じシステムを7つの箱と矢印で描いた図",
-      "同じパイプラインをsage、blue、monoのテーマで、ライトとダークの両方で描いた図",
+      "同じパイプラインをsage、blue、monoのテーマで描いた図と、sageテーマのダークモード",
       "韓国語のラベルの構成図。AIクライアントが賃貸サイトを検索するMCPサーバーを呼び、履歴をSQLiteに保存する"
     ]
   },
@@ -1918,7 +1918,7 @@
     "alts": [
       "Mermaid 기본 테마로 그린 데이터 파이프라인과, diagram-polish로 다시 그린 같은 파이프라인",
       "메시지 12개의 Mermaid 시퀀스 다이어그램과, 같은 시스템을 박스 7개와 화살표로 그린 모습",
-      "같은 파이프라인을 sage, blue, mono 테마의 라이트와 다크로 그린 모습",
+      "같은 파이프라인을 sage, blue, mono 테마로 그린 모습과, sage 테마의 다크 모드",
       "한국어 라벨의 구성도. AI 클라이언트가 임대 사이트를 검색하는 MCP 서버를 호출하고 이력을 SQLite에 보관한다"
     ]
   }
