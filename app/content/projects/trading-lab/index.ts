@@ -18,7 +18,7 @@ export const tradingLab: Project = {
 
   tagline: "A payday investing bot that copies your habits, and AI bots that set the mix every day. All of them run on my real account at 1/100 scale.",
   summary:
-    "Made for people who invest a set amount every payday. Pick up to ten funds you like and the split between them, answer a few questions about how you buy, and a bot buys for you: on payday, skipping when prices run hot, buying big after a drop. It shows how the last ten years would have gone next to just buying every month. Beside it, two AI bots decide every day how much of ten funds I picked to hold: one reads the news, the other sees only price charts with the names hidden.",
+    "A bot that buys for you on payday, and two AI bots that set the mix every day.",
   cardStack: ["Python", "FastAPI", "Claude API"],
   facts: [
     { label: "Type", value: "Web app + worker · my real account, public demo" },
@@ -38,10 +38,8 @@ export const tradingLab: Project = {
   },
 
   about: [
-    "It can't be offered as a service, so I'm its only user. It runs on my real account at 1/100 of what I actually invest and reports every fill to Telegram, and I use what it does as a reference for my own investing. Lately, I've started handing decisions to AI as well.",
-    "It started as a paper-trading bot for well-known strategies. Those are gone now, and it's built around the copy-me bot, made for the way most people with a salary invest: a set amount every payday. You choose up to ten funds you like and the split between them, then answer four to six questions: how much a month, whether to skip when prices run hot, how far a drop has to go before buying big. From then on the bot buys on payday in your place, including the months you'd have let slip.",
-    "It answers two questions, with no scores or rankings. Looking back: the last ten years done your way, next to just buying every month, and “parallel yous” that each change one rule. Looking ahead: on the next payday, how much of each fund to buy and why, and how far prices are from your buy-big and skip lines.",
-    "The newest part is two AI bots. Every day after the US market closes, they decide how much of ten funds I picked, and of cash, to hold, and explain each change in plain words. One reads the news; the other sees only price charts with the names hidden. Does knowing the market help, and can an AI beat my own rule? They run side by side on the same money, at 1/100 in my real account. The market data I use can't be shared, so the real app is private and a public demo runs the same app on made-up prices.",
+    "Made for people who invest a set amount every payday. Pick up to ten funds you like and the split between them, answer a few questions about how you buy, and a bot buys for you: on payday, skipping when prices run hot, buying big after a drop. It shows how the last ten years would have gone next to just buying every month.",
+    "Beside it, two AI bots decide every day how much of ten funds I picked to hold: one reads the news, the other sees only price charts with the names hidden.",
   ],
   features: [
     {
@@ -87,7 +85,7 @@ export const tradingLab: Project = {
     { area: "Infra", items: "AWS Lightsail, Sydney (Terraform) · Docker Compose · GHCR · GitHub Actions with a self-hosted runner · Cloudflare Tunnel & Access · Tailscale · Telegram alerts" },
     { area: "Quality", items: "pytest · ruff · mypy (strict) · oxlint" },
   ],
-  footnote: "Not investment advice. I trade my own account at a small scale; the screenshots use the demo's synthetic prices, where every order is simulated. The AI bot's reasons are for reference and can be wrong.",
+  footnote: "Not investment advice. The screenshots use the demo's synthetic prices, where every order is simulated. The AI bot's reasons are for reference and can be wrong.",
 
   architecture: {
     width: 1080,

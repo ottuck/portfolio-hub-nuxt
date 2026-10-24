@@ -36,14 +36,10 @@ export const punyChat: Project = {
   },
 
   about: [
-    "When I was first learning to code, I wrote a simple socket messenger and used it to chat with my girlfriend. Puny Chat grew out of that memory. It's a messenger for exactly two people, with a tiny buddy between them that grows the more you talk. It eats, and it poops. Name it after the other person and it gets more fun. No AI prompts, no daily missions.",
+    "When I was first learning to code, I wrote a simple socket messenger and used it to chat with my girlfriend. Puny Chat grew out of that memory. It's a messenger for exactly two people, with a tiny buddy between them that grows the more you talk. It eats, and it poops. Name it after the other person and it gets more fun.",
     "Start as a guest with just a name, then invite one friend with an eight-character code. The same Expo app runs on iPhone and on the web, and the web app can be added to your home screen with notifications. The 50-second demo shows an egg growing up without signing in.",
   ],
   features: [
-    {
-      title: "Real-time chat",
-      body: "Reconnects and fills in missed messages; resends are delivered once. Typing, read and online indicators.",
-    },
     {
       title: "A buddy to raise",
       body: "Egg to baby to kid to adult. At Lv.20 it takes a job that depends on how you raised it (cook, barista, gardener, writer, radio DJ) and works at its own spot on the stage. It never dies if you forget it for a few days.",
@@ -57,10 +53,6 @@ export const punyChat: Project = {
       body: "Left alone, it dances and sings. Once it's a kid it starts talking: “Long time no see!”, “Did you eat?” Tap ♨ and it soaks in an open-air hot spring, with snow in winter. A new room opens on a short dream of what the egg might grow into.",
     },
     { title: "Just the two of you", body: "Start without signing up, link Google later. One invite code, two people per room." },
-    {
-      title: "Anywhere",
-      body: "iPhone first, the same app on the web — installable to the home screen with push. Korean, Japanese and English, light and dark.",
-    },
   ],
   gallery: [
     { src: kid, alt: "The kid buddy at Lv.10 on the stage, with the poop and cleaning events in a Korean chat below", frame: "phone" },

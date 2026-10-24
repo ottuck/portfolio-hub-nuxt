@@ -40,9 +40,8 @@ export const pokepedia: Project = {
   },
 
   about: [
-    "In 2023 I built a Pokédex as a JSP team project. This is a solo rebuild on a modern stack, to see how far a small app can be polished.",
-    "The game is the front page now. A silhouette appears; name it in any of the three languages and the trainer throws a Poké Ball. Miss three times and the run is over. No sign-up: you play as a guest, and linking Google later keeps your stickers and scores.",
-    "Later I wanted to learn C# and try Unity. Instead of starting an unrelated game, I gave this one the thing it was missing: a real battle. It lives in its own repository, pokepedia-unity, is built for WebGL and opens in an iframe. Catch a Pikachu in the quiz and that Pikachu fights Blastoise. It also runs on its own at battle.pokepedia.dev.",
+    "A silhouette appears; name it in any of the three languages and the trainer throws a Poké Ball. Miss three times and the run is over. No sign-up: you play as a guest, and linking Google later keeps your stickers and scores.",
+    "Win a Pikachu and it fights Blastoise in a turn-based battle. The battle is a separate Unity project, pokepedia-unity, built for WebGL and opened in an iframe. It also runs on its own at battle.pokepedia.dev.",
     "The battle rules are plain C# that never touches UnityEngine, so their tests run with dotnet test, no Unity needed. The engine only emits events — move used, damage, critical hit, fainted — and the screen plays them back in order, so rules and effects don't know about each other. The two apps share no server or database: the web app passes your Pokémon over postMessage, and the battle checks where the message came from.",
   ],
   features: [
@@ -50,23 +49,7 @@ export const pokepedia: Project = {
       title: "Silhouette quiz",
       body: "Fight to answer, Hint for half the name, Skip, Run — arrow keys and Z work too. Pikachu, 피카츄 or ピカチュウ all count.",
     },
-    {
-      title: "Throw a Poké Ball",
-      body: "Get it right and the trainer, hand-drawn in Game Boy greys, throws the ball before the Pokémon is revealed. Streaks raise the score and the shiny odds.",
-    },
-    {
-      title: "Pokédex",
-      body: "All 151 on one page. Search by name in three languages or by number; type filters and sorting stay in the URL.",
-    },
-    {
-      title: "Detail cards",
-      body: "Stats, abilities and evolutions. Artwork sits on a holographic card that tilts with your pointer or finger and flips to the shiny version.",
-    },
     { title: "Sticker book & ranking", body: "151 slots to fill, shiny ones included, and a leaderboard of everyone's best run." },
-    {
-      title: "Plays on a phone",
-      body: "The whole Game Boy fits on a small screen, and the page doesn't scroll under your thumb during a battle.",
-    },
     {
       title: "From quiz to battle",
       body: "Without a Pikachu sticker, the first question is Pikachu. The reward screen and the Pikachu sticker in your book both open the battle.",
