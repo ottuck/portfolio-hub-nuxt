@@ -1,8 +1,6 @@
 import { projects as source } from "~/content/projects";
 import type { Locale } from "~/i18n/locales";
-import type { Project, ProjectCopy, ProjectStatus, Shot } from "./types";
-
-export const STATUS_RANK: Record<ProjectStatus, number> = { live: 0, testing: 1, "in-progress": 2, planned: 3, archived: 4 };
+import type { Project, ProjectCopy, Shot } from "./types";
 
 // Fail the build on content mistakes instead of shipping a broken page.
 function validate(list: Project[]) {
@@ -42,9 +40,8 @@ function checkCopy(p: Project, locale: string, copy: ProjectCopy) {
   if (Boolean(p.footnote) !== Boolean(copy.footnote)) throw new Error(`"${p.slug}" ${locale}: footnote missing`);
 }
 
-const sorted = validate(source).toSorted(
-  (a, b) => STATUS_RANK[a.status] - STATUS_RANK[b.status] || a.order - b.order,
-);
+// The list and the previous/next links follow `order`; the status is only a label.
+const sorted = validate(source).toSorted((a, b) => a.order - b.order);
 
 // Merged and unlisted projects keep their pages but stay out of the lists and the previous/next links.
 const listed = sorted.filter((p) => !p.mergedInto && !p.unlisted);

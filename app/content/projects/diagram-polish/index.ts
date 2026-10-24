@@ -11,7 +11,7 @@ export const diagramPolish: Project = {
   name: "diagram-polish",
   status: "live",
   label: "Open source",
-  order: 6,
+  order: 9,
 
   tagline: "A Claude Code skill that redraws a Mermaid block or an architecture sketch as a clean diagram. Boxes and arrows in JSON, SVG and PNG out.",
   summary:

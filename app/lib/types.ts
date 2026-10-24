@@ -60,7 +60,7 @@ export type Project = {
   label: string;
   /** Emphasize the label with the accent color. */
   highlightLabel?: boolean;
-  /** Lower comes first. */
+  /** Position in the lists and in the previous/next links; lower comes first. The status doesn't affect it. */
   order: number;
   /**
    * Slug of the project this one was folded into. It keeps its own page, but it's left out of
