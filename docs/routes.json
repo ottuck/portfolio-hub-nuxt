@@ -10,6 +10,7 @@
   "/projects/ur-manager",
   "/projects/ur-mcp",
   "/projects/henry-wallet",
+  "/projects/diagram-polish",
   "/ja",
   "/ja/projects",
   "/ja/about",
@@ -21,6 +22,7 @@
   "/ja/projects/ur-manager",
   "/ja/projects/ur-mcp",
   "/ja/projects/henry-wallet",
+  "/ja/projects/diagram-polish",
   "/ko",
   "/ko/projects",
   "/ko/about",
@@ -31,5 +33,6 @@
   "/ko/projects/pokepedia",
   "/ko/projects/ur-manager",
   "/ko/projects/ur-mcp",
-  "/ko/projects/henry-wallet"
+  "/ko/projects/henry-wallet",
+  "/ko/projects/diagram-polish"
 ]

@@ -35,7 +35,7 @@
 - 프로젝트 글은 `app/content/projects/<slug>/`에 영어(`index.ts`), 일본어(`ja.ts`), 한국어(`ko.ts`)로 둔다. 글쓰기 원칙은 `AGENTS.md`를 따른다.
 - 숨은 프로젝트를 포함한 모든 slug와 세 언어로 경로를 만든다. `ur-manager`, `ur-mcp`는 `mergedInto: 'ur-check'`라서 목록과 이전·다음 링크에서만 빠진다.
 - `unlisted` 프로젝트는 자기 주소로는 열리지만 목록·이전·다음 링크·sitemap에서 빠지고 noindex다.
-- 경로 목록은 `docs/routes.json`이 기준이다(홈·프로젝트 목록·About·상세 × 3개 언어, 현재 33개). 새 프로젝트를 더하면 이 파일도 고친다. Nuxt 설정은 이미지가 섞인 앱 콘텐츠 전체를 import하지 않고 이 목록을 쓴다.
+- 경로 목록은 `docs/routes.json`이 기준이다(홈·프로젝트 목록·About·상세 × 3개 언어, 현재 36개). 새 프로젝트를 더하면 이 파일도 고친다. Nuxt 설정은 이미지가 섞인 앱 콘텐츠 전체를 import하지 않고 이 목록을 쓴다.
 - 프로젝트 주소(slug)는 현재 이름과 맞춘다. 이름을 바꿔 slug가 바뀌면 이전 주소를 아래 리다이렉트로 남긴다.
 
 ## 이미지와 OG
