@@ -34,11 +34,11 @@ export const ja: ProjectCopy = {
     },
   ],
   stack: [
-    { area: "スキル", items: "Claude Codeのスキル（SKILL.md）に、箱の絞り方と置き方のルールを書いています · プラグインの定義ファイルがあり、claude plugin installで入れられます" },
-    { area: "スクリプト", items: "Node.js · SVGは依存なしの1ファイル · 文字幅の見積もりで箱の大きさを決め、直角の線の経路を計算します" },
-    { area: "絵", items: "JavaScriptで手書きしたSVG · Geist · 3つのテーマのライト／ダークのパレット · prefers-color-schemeに従うautoのSVG" },
-    { area: "PNG", items: "@resvg/resvg-js · ハングルやかなにはシステムのゴシック体を選びます" },
-    { area: "検査", items: "間違いで止まり、はみ出し・重なり・箱を貫く線・ぶつかるラベルを警告する検査 · 1つのコマンドで例をすべて描き直して検査します" },
+    { area: "スキル", items: "Claude Codeスキル（SKILL.md）· プラグインマニフェスト（claude plugin install）" },
+    { area: "スクリプト", items: "Node.js · 依存なしのSVGレンダラー · 文字幅の推定 · 直角の線の経路" },
+    { area: "絵", items: "SVG · Geist · ライト／ダークのパレット · auto SVG（prefers-color-scheme）" },
+    { area: "PNG", items: "@resvg/resvg-js · ハングル・かな用のシステムゴシック体" },
+    { area: "検査", items: "はみ出し・重なり・箱を貫く線・ラベルの衝突の検査 · 1コマンドで例を全部描き直して検査" },
   ],
   footnote: "スキルにはClaude Codeが必要で、スクリプトだけならNode.jsがあれば動きます。見比べ画像の「before」はMermaidの標準テーマです。",
   alts: {

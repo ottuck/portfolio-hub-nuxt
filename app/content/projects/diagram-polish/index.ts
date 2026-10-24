@@ -59,11 +59,11 @@ export const diagramPolish: Project = {
     { src: themes, alt: "The same pipeline in the sage, blue and mono themes, and the sage theme in dark mode" },
   ],
   stack: [
-    { area: "Skill", items: "A Claude Code skill (SKILL.md) with the rules for reducing and placing boxes · plugin manifests, so claude plugin install works" },
-    { area: "Script", items: "Node.js · one file with no dependencies for SVG · box sizes from estimated text width, right-angle line routing" },
-    { area: "Picture", items: "SVG written by hand in JavaScript · Geist · light and dark palettes for three themes · an auto SVG that follows prefers-color-scheme" },
-    { area: "PNG", items: "@resvg/resvg-js · a system sans font is picked for Hangul and kana" },
-    { area: "Checks", items: "A validator that stops on errors and warns about cut-off boxes, overlaps, lines through boxes and colliding labels · one command redraws and checks every example" },
+    { area: "Skill", items: "Claude Code skill (SKILL.md) · plugin manifest (claude plugin install)" },
+    { area: "Script", items: "Node.js · dependency-free SVG renderer · text width estimation · right-angle edge routing" },
+    { area: "Picture", items: "SVG · Geist · light and dark palettes · auto SVG (prefers-color-scheme)" },
+    { area: "PNG", items: "@resvg/resvg-js · system sans font for Hangul and kana" },
+    { area: "Checks", items: "Validator for clipping, overlaps, lines through boxes and label collisions · one-command redraw and check of all examples" },
   ],
   footnote: "The skill needs Claude Code; the script alone needs only Node.js. The \"before\" pictures are Mermaid's default theme.",
 

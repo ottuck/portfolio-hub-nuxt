@@ -61,9 +61,9 @@ export const punyChat: Project = {
     { src: onsenSnow, alt: "The same hot spring in winter, with snow falling, and the chat in Traditional Chinese", frame: "phone" },
   ],
   stack: [
-    { area: "App", items: "Expo (React Native) · TypeScript · Expo Router — iPhone and web from one codebase" },
+    { area: "App", items: "Expo (React Native) · TypeScript · Expo Router" },
     { area: "Server", items: "Java 25 · Spring Boot 4 · WebFlux · WebSocket" },
-    { area: "Data", items: "MongoDB Atlas, free tier, Sydney" },
+    { area: "Data", items: "MongoDB Atlas, Sydney" },
     { area: "Auth · Push", items: "Firebase Authentication · Expo push · Web Push (VAPID)" },
     { area: "Infra", items: "AWS Lightsail, Sydney (server) · Cloudflare Workers (web) · Terraform for Atlas and Cloudflare, state in R2 · GitHub Actions" },
   ],

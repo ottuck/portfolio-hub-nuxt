@@ -31,9 +31,9 @@ export const ko: ProjectCopy = {
     { title: "둘만의 공간", body: "가입 없이 시작하고 Google 계정은 나중에 연결할 수 있습니다. 초대 코드 하나, 방 하나에 두 명." },
   ],
   stack: [
-    { area: "앱", items: "Expo (React Native) · TypeScript · Expo Router — iPhone과 웹을 하나의 코드베이스로" },
+    { area: "앱", items: "Expo (React Native) · TypeScript · Expo Router" },
     { area: "서버", items: "Java 25 · Spring Boot 4 · WebFlux · WebSocket" },
-    { area: "데이터", items: "MongoDB Atlas (무료 플랜·시드니)" },
+    { area: "데이터", items: "MongoDB Atlas (시드니)" },
     { area: "인증 · 푸시", items: "Firebase Authentication · Expo push · Web Push (VAPID)" },
     { area: "인프라", items: "AWS Lightsail (시드니·서버) · Cloudflare Workers (웹) · Terraform (Atlas·Cloudflare, state는 R2) · GitHub Actions" },
   ],
