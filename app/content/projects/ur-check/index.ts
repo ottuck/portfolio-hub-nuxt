@@ -98,7 +98,7 @@ export const urCheck: Project = {
       { id: "api", x: 460, y: 90, title: "Hono", note: "REST · MCP · scheduler" },
       { id: "services", x: 460, y: 220, title: "Services", note: "Search · tracking · saved searches" },
       { id: "pg", x: 860, y: 220, title: "PostgreSQL" },
-      { id: "ur", x: 860, y: 350, title: "UR official API", tone: "outside" },
+      { id: "ur", x: 860, y: 350, title: "UR web API", tone: "outside" },
     ],
     edges: [
       { from: "web", to: "api", label: "REST API" },
