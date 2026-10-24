@@ -31,13 +31,10 @@ export const ja: ProjectCopy = {
     { area: "品質", items: "記録したUR応答を使ったVitest · 実環境スモークテスト · Biome · GitHub Actions" },
   ],
   footnote:
-    "UR都市機構とは関係ありません。空室状況は必ずURの公式サイトでご確認ください。カードの画面は例のデータで、そのほかの画像は実際のUR MCP Appの結果をもとに作成したイメージです。",
+    "UR都市機構とは関係ありません。空室状況は必ずURの公式サイトでご確認ください。カードの画面は例のデータです。",
   alts: {
     main: "会話の中に表示された変化の報告カード。新着・募集終了の件数と、今申し込める2部屋",
     inset: "スマホで見た同じカード",
-    gallery: [
-      "しくみ。ClaudeやChatGPTがUR MCP Appを呼び出し、UR MCP Appは1件ずつURに問い合わせて履歴を残す",
-      "チャットで通知の予算を変更。update_watch_settingsが保存し、現在条件に合う部屋の数を示す",
-    ],
+    gallery: [],
   },
 };

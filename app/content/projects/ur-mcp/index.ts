@@ -3,8 +3,6 @@ import { ja } from "./ja";
 import { ko } from "./ko";
 const cardsMobile = {"src":"/images/content/projects/ur-mcp/cards-mobile.webp","width":780,"height":1688};
 const cards = {"src":"/images/content/projects/ur-mcp/cards.webp","width":1280,"height":800};
-const flow = {"src":"/images/content/projects/ur-mcp/flow.webp","width":1280,"height":800};
-const settings = {"src":"/images/content/projects/ur-mcp/settings.webp","width":1280,"height":800};
 
 export const urMcp: Project = {
   slug: "ur-mcp",
@@ -46,10 +44,7 @@ export const urMcp: Project = {
       body: "Reported new, relisted and closed listings that matched saved conditions.",
     },
   ],
-  gallery: [
-    { src: flow, alt: "How it works: Claude or ChatGPT calls UR MCP App, which queries UR one request at a time and keeps a history" },
-    { src: settings, alt: "Changing the alert budget in a chat: update_watch_settings saves it and lists what matches now" },
-  ],
+  gallery: [],
   stack: [
     { area: "Server", items: "Node.js 24 · TypeScript 7 · Hono · MCP TypeScript SDK · MCP Apps · Zod" },
     { area: "Data", items: "UR website API · SQLite (node:sqlite) on a Railway volume" },
@@ -58,7 +53,7 @@ export const urMcp: Project = {
     { area: "Quality", items: "Vitest with recorded UR responses · live smoke tests · Biome · GitHub Actions" },
   ],
   footnote:
-    "Not affiliated with UR (Urban Renaissance Agency). Always confirm availability on the official UR site. The card screenshots use sample data; the other images are drawn from real UR MCP App results.",
+    "Not affiliated with UR (Urban Renaissance Agency). Always confirm availability on the official UR site. The card screenshots use sample data.",
 
   architecture: {
     width: 1100,
