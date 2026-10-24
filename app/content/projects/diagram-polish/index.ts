@@ -33,9 +33,9 @@ export const diagramPolish: Project = {
   },
 
   about: [
-    "diagram-polish is a Claude Code skill that redraws architecture diagrams. Give it the Mermaid block from a README, a rough description or just the repository, and it returns a clean SVG and PNG.",
+    "diagram-polish is a Claude Code skill that redraws architecture diagrams. Give it the Mermaid block from a README, a rough sketch or description, or just the repository, and it returns a clean SVG and PNG.",
     "It works in four steps. Claude reads the source and checks it against the code, reduces the system to five to seven boxes, and writes the boxes and arrows into a small diagram.json. A script then lays them out, routes the lines and draws the picture. Claude looks at the result and fixes what the checks can't see, such as an arrow pointing the wrong way.",
-    "The architecture diagrams on this site were made this way. The skill is open source: install it as a plugin, or copy the skill folder into ~/.claude/skills.",
+    "The architecture diagrams on this site were made this way. There are three themes, sage, blue and mono, each in light and dark. The skill is open source: install it as a plugin, or copy the skill folder into ~/.claude/skills.",
   ],
   features: [
     {
@@ -49,10 +49,6 @@ export const diagramPolish: Project = {
     {
       title: "Checks its own drawing",
       body: "The script stops on mistakes and warns about cut-off boxes, overlaps, lines through boxes and colliding labels. Claude looks at the picture before handing it over.",
-    },
-    {
-      title: "Three themes, light and dark",
-      body: "sage, blue and mono, each with a dark version. One SVG can follow the reader's light or dark setting.",
     },
     {
       title: "Korean and Japanese text",
