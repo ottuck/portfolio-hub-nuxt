@@ -47,14 +47,17 @@ function points(e: DiagramEdge, a: DiagramBox, b: DiagramBox): Point[] {
       return [[x, a.y + (dy * a.h) / 2], [x, b.y - (dy * b.h) / 2]];
     }
     case "hvh": {
-      const x1 = a.x + (dx * a.w) / 2;
-      const x2 = b.x - (dx * b.w) / 2;
+      // Leave and arrive on the side that faces the bend, so a bend outside both boxes loops around them.
+      const m0 = e.bend ?? (a.x + b.x) / 2;
+      const x1 = a.x + (Math.sign(m0 - a.x) || dx) * (a.w / 2);
+      const x2 = b.x + (Math.sign(m0 - b.x) || -dx) * (b.w / 2);
       const m = e.bend ?? (x1 + x2) / 2;
       return [[x1, a.y + from], [m, a.y + from], [m, b.y + to], [x2, b.y + to]];
     }
     case "vhv": {
-      const y1 = a.y + (dy * a.h) / 2;
-      const y2 = b.y - (dy * b.h) / 2;
+      const m0 = e.bend ?? (a.y + b.y) / 2;
+      const y1 = a.y + (Math.sign(m0 - a.y) || dy) * (a.h / 2);
+      const y2 = b.y + (Math.sign(m0 - b.y) || -dy) * (b.h / 2);
       const m = e.bend ?? (y1 + y2) / 2;
       return [[a.x + from, y1], [a.x + from, m], [b.x + to, m], [b.x + to, y2]];
     }
