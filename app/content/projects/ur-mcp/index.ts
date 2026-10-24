@@ -51,14 +51,37 @@ export const urMcp: Project = {
     { src: settings, alt: "Changing the alert budget in a chat: update_watch_settings saves it and lists what matches now" },
   ],
   stack: [
-    { area: "Server", items: "Node.js 24 (TypeScript run directly, no build) · Hono · MCP TypeScript SDK, stateless · MCP Apps (ext-apps) · Zod" },
-    { area: "Data", items: "The vacancy data UR's site shows · SQLite (node:sqlite) on a Railway volume" },
-    { area: "Clients", items: "Claude Code · claude.ai on the web and iOS (connectors, scheduled tasks) · ChatGPT apps" },
-    { area: "Infra", items: "Railway, Singapore · one replica · service config as code (railway.ts)" },
-    { area: "Quality", items: "Vitest with recorded UR responses · live smoke tests · Biome · TypeScript 7 · GitHub Actions" },
+    { area: "Server", items: "Node.js 24 · TypeScript 7 · Hono · MCP TypeScript SDK · MCP Apps · Zod" },
+    { area: "Data", items: "UR website API · SQLite (node:sqlite) on a Railway volume" },
+    { area: "Clients", items: "Claude Code · claude.ai (web, iOS) · ChatGPT" },
+    { area: "Infra", items: "Railway, Singapore · one replica · railway.ts" },
+    { area: "Quality", items: "Vitest with recorded UR responses · live smoke tests · Biome · GitHub Actions" },
   ],
   footnote:
     "Not affiliated with UR (Urban Renaissance Agency). Always confirm availability on the official UR site. The card screenshots use sample data; the other images are drawn from real UR MCP App results.",
+
+  architecture: {
+    width: 1100,
+    height: 450,
+    summary:
+      "You talk to Claude or ChatGPT, which calls the MCP server's tools and shows rooms as cards. The server also checks UR itself three times a day and keeps the history in SQLite, so the AI can report what changed.",
+    groups: [{ title: "Railway, Singapore · one process", x: 580, y: 30, w: 240, h: 410 }],
+    nodes: [
+      { id: "you", x: 110, y: 240, title: "You", tone: "accent" },
+      { id: "ai", x: 400, y: 240, title: "Claude / ChatGPT", note: "Chat · scheduled tasks", tone: "outside" },
+      { id: "schedule", x: 700, y: 100, title: "Schedule", note: "8 · 12 · 16 JST", tone: "accent" },
+      { id: "server", x: 700, y: 240, title: "ur-mcp", note: "Node.js · Hono · MCP" },
+      { id: "db", x: 700, y: 380, title: "SQLite", note: "Railway volume" },
+      { id: "ur", x: 1000, y: 240, title: "UR web API", tone: "outside" },
+    ],
+    edges: [
+      { from: "you", to: "ai", label: "Ask · alerts", both: true },
+      { from: "ai", to: "server", label: "MCP", both: true },
+      { from: "schedule", to: "server", label: "3× a day", dashed: true },
+      { from: "server", to: "db", label: "History", both: true },
+      { from: "server", to: "ur", label: "Search" },
+    ],
+  },
 
   translations: { ja, ko },
 };

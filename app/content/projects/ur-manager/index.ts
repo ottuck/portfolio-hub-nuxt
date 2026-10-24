@@ -61,5 +61,30 @@ export const urManager: Project = {
   ],
   footnote: "Not affiliated with UR (Urban Renaissance Agency). Always confirm availability on the official UR site.",
 
+  architecture: {
+    width: 1120,
+    height: 410,
+    summary:
+      "The web app, served from a Cloudflare Worker, calls a Spring Boot API on Azure, and sign-in goes through Entra External ID. Separate scheduled jobs check UR every two hours and send alert emails without touching the web side.",
+    nodes: [
+      { id: "web", x: 125, y: 215, title: "Web app", note: "Cloudflare Worker · React" },
+      { id: "api", x: 450, y: 215, title: "Spring Boot API", note: "Azure Container Apps" },
+      { id: "signin", x: 450, y: 75, title: "Entra External ID", note: "Google sign-in", tone: "outside" },
+      { id: "db", x: 450, y: 355, title: "PostgreSQL", note: "Supabase" },
+      { id: "mail", x: 760, y: 215, title: "Email", note: "Azure Communication Services" },
+      { id: "jobs", x: 760, y: 355, title: "Scheduled jobs", note: "Watch · account cleanup" },
+      { id: "ur", x: 1020, y: 355, title: "UR web API", tone: "outside" },
+    ],
+    edges: [
+      { from: "web", to: "api", label: "REST · login", both: true },
+      { from: "api", to: "signin", label: "Sign-in", both: true },
+      { from: "api", to: "db", both: true },
+      { from: "api", to: "mail", label: "Verify" },
+      { from: "jobs", to: "db", label: "Read · write", both: true },
+      { from: "jobs", to: "mail", label: "Alerts" },
+      { from: "jobs", to: "ur", label: "Every 2 h", dashed: true },
+    ],
+  },
+
   translations: { ja, ko },
 };
