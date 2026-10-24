@@ -40,8 +40,8 @@ export const urCheck: Project = {
   },
 
   about: [
-    "UR is first come, first served, and a good room can be gone almost as soon as it's listed. The official site has no vacancy alerts, so this does the watching. I use it for real.",
-    "The website and the AI assistants share one service layer, one set of conditions and one history. There's no public sign-up: accounts go to the people I invite. For everyone else there's a demo that runs in the browser with made-up rooms. It was built in this order: web, then MCP, then a web service that supports MCP.",
+    "UR is first come, first served, and a good room can be gone almost as soon as it's listed. The official site has no vacancy alerts, so this does the watching. The real site is run privately, to stay within the policy.",
+    "It was built in this order: web, then MCP, then a web service that supports MCP.",
   ],
   features: [
     {
