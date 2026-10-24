@@ -1,4 +1,5 @@
 import tailwindcss from '@tailwindcss/vite'
+// `pnpm assets` writes this list from the project content.
 import routes from './docs/routes.json'
 // Unlisted pages have no links pointing at them, so the crawler would never find them.
 // `pnpm assets` writes this list from the project content.
