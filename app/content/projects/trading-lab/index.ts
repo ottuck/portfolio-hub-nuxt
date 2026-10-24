@@ -22,7 +22,7 @@ export const tradingLab: Project = {
   cardStack: ["Python", "FastAPI", "Claude API"],
   facts: [
     { label: "Type", value: "Web app + worker · my real account, public demo" },
-    { label: "Period", value: "Oct 2026 –" },
+    { label: "Period", value: "Oct 2026" },
     { label: "Runs on", value: "AWS Lightsail, Sydney · Docker Compose · Cloudflare Tunnel" },
   ],
 

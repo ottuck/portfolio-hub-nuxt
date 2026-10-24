@@ -8,7 +8,7 @@ export const ja: ProjectCopy = {
     "ゲームボーイのバトル画面を再現したシルエットクイズです。ポケモンの名前を当てるとモンスターボールを投げ、シール帳に追加されます。初代151匹の図鑑も備えています。クイズでピカチュウを手に入れると、別に作ったUnityプロジェクトをページ内で開き、カメックスとターン制バトルができます。",
   facts: [
     { label: "種類", value: "Webアプリ + Unity WebGLバトル · 日本語 / 英語 / 韓国語" },
-    { label: "期間", value: "2026年9〜10月（リメイク、10月にバトル追加）" },
+    { label: "期間", value: "2026年9〜10月" },
     { label: "運用環境", value: "Vercel + Supabase（東京）· Cloudflare Pages" },
   ],
   about: [

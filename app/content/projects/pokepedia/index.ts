@@ -23,7 +23,7 @@ export const pokepedia: Project = {
   cardStack: ["Next.js", "Supabase", "Unity"],
   facts: [
     { label: "Type", value: "Web app + Unity WebGL battle · KO / EN / JA" },
-    { label: "Period", value: "Sep – Oct 2026 (remake, battle added in Oct)" },
+    { label: "Period", value: "Sep – Oct 2026" },
     { label: "Runs on", value: "Vercel + Supabase, Tokyo · Cloudflare Pages" },
   ],
 
