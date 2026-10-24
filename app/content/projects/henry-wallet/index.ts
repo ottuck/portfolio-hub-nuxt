@@ -40,9 +40,8 @@ export const henryWallet: Project = {
   },
 
   about: [
-    "A personal stablecoin wallet for iPhone. It handles two coins, USDC and JPYC, which cross borders in seconds for a small fee.",
-    "There's no server. Everything from creating the wallet to signing happens on the phone, and the only thing that leaves it is the signed payment. The features stay narrow: send, receive and check balances, with no swaps and no connecting to websites.",
-    "For now I use it on testnets and keep polishing it.",
+    "It handles two coins: USDC and JPYC.",
+    "There's no server. Everything from creating the wallet to signing happens on the phone, and the only thing that leaves it is the signed payment. The features stay narrow: send, receive and check balances, with no swaps.",
   ],
   features: [
     {
