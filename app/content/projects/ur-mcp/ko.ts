@@ -31,13 +31,10 @@ export const ko: ProjectCopy = {
     { area: "품질", items: "기록해 둔 UR 응답으로 하는 Vitest · 실환경 스모크 테스트 · Biome · GitHub Actions" },
   ],
   footnote:
-    "UR 도시기구와는 관계가 없습니다. 빈방 여부는 반드시 UR 공식 사이트에서 확인해 주세요. 카드 화면은 예시 데이터이고, 나머지 이미지는 실제 UR MCP App 결과를 바탕으로 재구성한 것입니다.",
+    "UR 도시기구와는 관계가 없습니다. 빈방 여부는 반드시 UR 공식 사이트에서 확인해 주세요. 카드 화면은 예시 데이터입니다.",
   alts: {
     main: "대화 안에 뜬 변화 보고 카드. 새로 나온 방·사라진 방 수와 지금 신청할 수 있는 방 2개",
     inset: "휴대폰에서 본 같은 카드",
-    gallery: [
-      "동작 방식. Claude나 ChatGPT가 UR MCP App을 호출하고, UR MCP App은 UR에 하나씩 요청하며 기록을 남긴다",
-      "채팅으로 알림 예산 바꾸기. update_watch_settings가 저장하고 지금 조건에 맞는 방 수를 알려 준다",
-    ],
+    gallery: [],
   },
 };

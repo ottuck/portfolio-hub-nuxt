@@ -510,14 +510,12 @@
       "twitter:description": "An MCP server and app for finding UR vacancies in Claude and ChatGPT. It was merged into UR Check in October 2026 and is no longer operated separately."
     },
     "oldOgImage": "https://www.portfolio-hub.dev/projects/ur-mcp/opengraph-image-155u2j?cf4130ca3324dbb8",
-    "mainText": "BacktoURCheckArchived·MergedintoURCheckURMCPAppAnMCPserverandappforfindingURvacanciesinClaudeandChatGPT.ItwasmergedintoURCheckinOctober2026andisnolongeroperatedseparately.TypeMCPserver+MCPApp·3toolsforClaudeandChatGPTPeriodOct2026RunsonRailway,Singapore(shutdown)·SQLiteonavolumeAboutMergedwithURManagerintoURCheckinOctober2026.WhatitdoesSearchinchatSearchedforroomsinClaudeandChatGPTanddisplayedresultsascards.VacancychangesReportednew,relistedandclosedlistingsthatmatchedsavedconditions.ArchitectureURMCPApp—ArchitectureRailway,Singapore·oneprocessYouClaude/ChatGPTChat·scheduledtasksSchedule8·12·16JSTur-mcpNode.js·Hono·MCPSQLiteRailwayvolumeURwebAPIAsk·alertsMCP3×adayHistorySearchYoutalktoClaudeorChatGPT,whichcallstheMCPserver'stoolsandshowsroomsascards.TheserveralsochecksURitselfthreetimesadayandkeepsthehistoryinSQLite,sotheAIcanreportwhatchanged.Howit'sbuiltServerNode.js24·TypeScript7·Hono·MCPTypeScriptSDK·MCPApps·ZodDataURwebsiteAPI·SQLite(node:sqlite)onaRailwayvolumeClientsClaudeCode·claude.ai(web,iOS)·ChatGPTInfraRailway,Singapore·onereplica·railway.tsQualityVitestwithrecordedURresponses·livesmoketests·Biome·GitHubActionsNotaffiliatedwithUR(UrbanRenaissanceAgency).AlwaysconfirmavailabilityontheofficialURsite.Thecardscreenshotsusesampledata;theotherimagesaredrawnfromrealURMCPAppresults.",
+    "mainText": "BacktoURCheckArchived·MergedintoURCheckURMCPAppAnMCPserverandappforfindingURvacanciesinClaudeandChatGPT.ItwasmergedintoURCheckinOctober2026andisnolongeroperatedseparately.TypeMCPserver+MCPApp·3toolsforClaudeandChatGPTPeriodOct2026RunsonRailway,Singapore(shutdown)·SQLiteonavolumeAboutMergedwithURManagerintoURCheckinOctober2026.WhatitdoesSearchinchatSearchedforroomsinClaudeandChatGPTanddisplayedresultsascards.VacancychangesReportednew,relistedandclosedlistingsthatmatchedsavedconditions.ArchitectureURMCPApp—ArchitectureRailway,Singapore·oneprocessYouClaude/ChatGPTChat·scheduledtasksSchedule8·12·16JSTur-mcpNode.js·Hono·MCPSQLiteRailwayvolumeURwebAPIAsk·alertsMCP3×adayHistorySearchYoutalktoClaudeorChatGPT,whichcallstheMCPserver'stoolsandshowsroomsascards.TheserveralsochecksURitselfthreetimesadayandkeepsthehistoryinSQLite,sotheAIcanreportwhatchanged.Howit'sbuiltServerNode.js24·TypeScript7·Hono·MCPTypeScriptSDK·MCPApps·ZodDataURwebsiteAPI·SQLite(node:sqlite)onaRailwayvolumeClientsClaudeCode·claude.ai(web,iOS)·ChatGPTInfraRailway,Singapore·onereplica·railway.tsQualityVitestwithrecordedURresponses·livesmoketests·Biome·GitHubActionsNotaffiliatedwithUR(UrbanRenaissanceAgency).AlwaysconfirmavailabilityontheofficialURsite.Thecardscreenshotsusesampledata.",
     "links": [
       "/projects/ur-check"
     ],
     "alts": [
-      "Changes since the last check as cards in the chat: how many rooms are new and gone, and two you can apply for now",
-      "How it works: Claude or ChatGPT calls UR MCP App, which queries UR one request at a time and keeps a history",
-      "Changing the alert budget in a chat: update_watch_settings saves it and lists what matches now"
+      "Changes since the last check as cards in the chat: how many rooms are new and gone, and two you can apply for now"
     ],
     "jsonLd": [
       {
@@ -1150,14 +1148,12 @@
       "twitter:description": "ClaudeやChatGPTでUR賃貸の空室を探せたMCPサーバー兼アプリです。2026年10月にUR Checkへ統合し、単独での運用を終了しました。"
     },
     "oldOgImage": "https://www.portfolio-hub.dev/ja/projects/ur-mcp/opengraph-image?31bd313c9f59e355",
-    "mainText": "URCheckに戻るアーカイブ·URCheckに統合済みURMCPAppClaudeやChatGPTでUR賃貸の空室を探せたMCPサーバー兼アプリです。2026年10月にURCheckへ統合し、単独での運用を終了しました。種類MCPサーバー+MCPApp·Claude・ChatGPT向けツール3種期間2026年10月運用環境Railway（シンガポール・停止済み）·ボリューム上のSQLite概要2026年10月、URManagerとともにURCheckへ統合しました。主な機能会話で検索ClaudeやChatGPTで空室を検索し、結果をカードで表示していました。変化の確認保存した条件に合う部屋の新着・再募集・募集終了を確認できました。構成図URMCPApp—構成図Railway,Singapore·oneprocessYouClaude/ChatGPTChat·scheduledtasksSchedule8·12·16JSTur-mcpNode.js·Hono·MCPSQLiteRailwayvolumeURwebAPIAsk·alertsMCP3×adayHistorySearchYoutalktoClaudeorChatGPT,whichcallstheMCPserver'stoolsandshowsroomsascards.TheserveralsochecksURitselfthreetimesadayandkeepsthehistoryinSQLite,sotheAIcanreportwhatchanged.技術構成サーバーNode.js24·TypeScript7·Hono·MCPTypeScriptSDK·MCPApps·ZodデータURのWebサイトAPI·RailwayボリュームのSQLite（node:sqlite）クライアントClaudeCode·claude.ai（Web・iOS）·ChatGPTインフラRailway（シンガポール）·レプリカ1台·railway.ts品質記録したUR応答を使ったVitest·実環境スモークテスト·Biome·GitHubActionsUR都市機構とは関係ありません。空室状況は必ずURの公式サイトでご確認ください。カードの画面は例のデータで、そのほかの画像は実際のURMCPAppの結果をもとに作成したイメージです。",
+    "mainText": "URCheckに戻るアーカイブ·URCheckに統合済みURMCPAppClaudeやChatGPTでUR賃貸の空室を探せたMCPサーバー兼アプリです。2026年10月にURCheckへ統合し、単独での運用を終了しました。種類MCPサーバー+MCPApp·Claude・ChatGPT向けツール3種期間2026年10月運用環境Railway（シンガポール・停止済み）·ボリューム上のSQLite概要2026年10月、URManagerとともにURCheckへ統合しました。主な機能会話で検索ClaudeやChatGPTで空室を検索し、結果をカードで表示していました。変化の確認保存した条件に合う部屋の新着・再募集・募集終了を確認できました。構成図URMCPApp—構成図Railway,Singapore·oneprocessYouClaude/ChatGPTChat·scheduledtasksSchedule8·12·16JSTur-mcpNode.js·Hono·MCPSQLiteRailwayvolumeURwebAPIAsk·alertsMCP3×adayHistorySearchYoutalktoClaudeorChatGPT,whichcallstheMCPserver'stoolsandshowsroomsascards.TheserveralsochecksURitselfthreetimesadayandkeepsthehistoryinSQLite,sotheAIcanreportwhatchanged.技術構成サーバーNode.js24·TypeScript7·Hono·MCPTypeScriptSDK·MCPApps·ZodデータURのWebサイトAPI·RailwayボリュームのSQLite（node:sqlite）クライアントClaudeCode·claude.ai（Web・iOS）·ChatGPTインフラRailway（シンガポール）·レプリカ1台·railway.ts品質記録したUR応答を使ったVitest·実環境スモークテスト·Biome·GitHubActionsUR都市機構とは関係ありません。空室状況は必ずURの公式サイトでご確認ください。カードの画面は例のデータです。",
     "links": [
       "/ja/projects/ur-check"
     ],
     "alts": [
-      "会話の中に表示された変化の報告カード。新着・募集終了の件数と、今申し込める2部屋",
-      "しくみ。ClaudeやChatGPTがUR MCP Appを呼び出し、UR MCP Appは1件ずつURに問い合わせて履歴を残す",
-      "チャットで通知の予算を変更。update_watch_settingsが保存し、現在条件に合う部屋の数を示す"
+      "会話の中に表示された変化の報告カード。新着・募集終了の件数と、今申し込める2部屋"
     ],
     "jsonLd": [
       {
@@ -1790,14 +1786,12 @@
       "twitter:description": "Claude와 ChatGPT에서 UR 임대 빈방을 찾을 수 있었던 MCP 서버이자 앱입니다. 2026년 10월 UR Check로 통합되어 별도 운영을 종료했습니다."
     },
     "oldOgImage": "https://www.portfolio-hub.dev/ko/projects/ur-mcp/opengraph-image?31bd313c9f59e355",
-    "mainText": "URCheck페이지로돌아가기보관·URCheck에통합됨URMCPAppClaude와ChatGPT에서UR임대빈방을찾을수있었던MCP서버이자앱입니다.2026년10월URCheck로통합되어별도운영을종료했습니다.종류MCP서버+MCPApp·Claude·ChatGPT용도구3종기간2026년10월운영환경Railway(싱가포르·운영종료)·볼륨에둔SQLite소개2026년10월,URManager와함께URCheck로통합했습니다.주요기능대화로검색Claude와ChatGPT에서빈방을검색하고결과를카드로보여줬습니다.변동확인저장한조건에맞는방의신규등록·재등록·모집종료내역을확인할수있었습니다.구성도URMCPApp—구성도Railway,Singapore·oneprocessYouClaude/ChatGPTChat·scheduledtasksSchedule8·12·16JSTur-mcpNode.js·Hono·MCPSQLiteRailwayvolumeURwebAPIAsk·alertsMCP3×adayHistorySearchYoutalktoClaudeorChatGPT,whichcallstheMCPserver'stoolsandshowsroomsascards.TheserveralsochecksURitselfthreetimesadayandkeepsthehistoryinSQLite,sotheAIcanreportwhatchanged.기술구성서버Node.js24·TypeScript7·Hono·MCPTypeScriptSDK·MCPApps·Zod데이터UR웹사이트API·Railway볼륨의SQLite(node:sqlite)클라이언트ClaudeCode·claude.ai(웹·iOS)·ChatGPT인프라Railway싱가포르·레플리카1개·railway.ts품질기록해둔UR응답으로하는Vitest·실환경스모크테스트·Biome·GitHubActionsUR도시기구와는관계가없습니다.빈방여부는반드시UR공식사이트에서확인해주세요.카드화면은예시데이터이고,나머지이미지는실제URMCPApp결과를바탕으로재구성한것입니다.",
+    "mainText": "URCheck페이지로돌아가기보관·URCheck에통합됨URMCPAppClaude와ChatGPT에서UR임대빈방을찾을수있었던MCP서버이자앱입니다.2026년10월URCheck로통합되어별도운영을종료했습니다.종류MCP서버+MCPApp·Claude·ChatGPT용도구3종기간2026년10월운영환경Railway(싱가포르·운영종료)·볼륨에둔SQLite소개2026년10월,URManager와함께URCheck로통합했습니다.주요기능대화로검색Claude와ChatGPT에서빈방을검색하고결과를카드로보여줬습니다.변동확인저장한조건에맞는방의신규등록·재등록·모집종료내역을확인할수있었습니다.구성도URMCPApp—구성도Railway,Singapore·oneprocessYouClaude/ChatGPTChat·scheduledtasksSchedule8·12·16JSTur-mcpNode.js·Hono·MCPSQLiteRailwayvolumeURwebAPIAsk·alertsMCP3×adayHistorySearchYoutalktoClaudeorChatGPT,whichcallstheMCPserver'stoolsandshowsroomsascards.TheserveralsochecksURitselfthreetimesadayandkeepsthehistoryinSQLite,sotheAIcanreportwhatchanged.기술구성서버Node.js24·TypeScript7·Hono·MCPTypeScriptSDK·MCPApps·Zod데이터UR웹사이트API·Railway볼륨의SQLite(node:sqlite)클라이언트ClaudeCode·claude.ai(웹·iOS)·ChatGPT인프라Railway싱가포르·레플리카1개·railway.ts품질기록해둔UR응답으로하는Vitest·실환경스모크테스트·Biome·GitHubActionsUR도시기구와는관계가없습니다.빈방여부는반드시UR공식사이트에서확인해주세요.카드화면은예시데이터입니다.",
     "links": [
       "/ko/projects/ur-check"
     ],
     "alts": [
-      "대화 안에 뜬 변화 보고 카드. 새로 나온 방·사라진 방 수와 지금 신청할 수 있는 방 2개",
-      "동작 방식. Claude나 ChatGPT가 UR MCP App을 호출하고, UR MCP App은 UR에 하나씩 요청하며 기록을 남긴다",
-      "채팅으로 알림 예산 바꾸기. update_watch_settings가 저장하고 지금 조건에 맞는 방 수를 알려 준다"
+      "대화 안에 뜬 변화 보고 카드. 새로 나온 방·사라진 방 수와 지금 신청할 수 있는 방 2개"
     ],
     "jsonLd": [
       {
