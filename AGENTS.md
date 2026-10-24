@@ -62,3 +62,8 @@
 - Production canonical은 `https://www.portfolio-hub.dev` 기준이다. Preview는 색인을 차단한다.
 - 비밀값과 Cloudflare 인증정보를 저장소에 넣지 않는다. 예제 환경변수에는 값의 형식만 기록한다.
 - 콘텐츠를 바꿔 `docs/baseline.json`이 달라지면 바뀐 줄이 의도한 것뿐인지 확인한 뒤 `pnpm baseline`으로 기준을 갱신한다.
+
+## 작업 공간 정리
+
+- worktree는 작업을 병합하거나 버리기로 한 즉시 `git worktree remove`로 지우고 같은 이름의 로컬 브랜치도 정리한다.
+- 세션을 시작할 때 `git worktree list`로 남은 것을 보고, 변경이 없고 PR이 병합된 것은 지운다. 커밋하지 않은 변경이나 병합되지 않은 커밋이 있으면 지우지 말고 사용자에게 알린다(worktree마다 의존성이 따로 설치돼 수백 MB를 차지한다).
