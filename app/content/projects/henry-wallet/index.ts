@@ -47,7 +47,7 @@ export const henryWallet: Project = {
   features: [
     {
       title: "Create or import",
-      body: "Make a new 12-word phrase on the phone, or bring in one you already have. A new wallet asks for three random words from the phrase before it's ready. It uses the same derivation path as MetaMask's first account (m/44'/60'/0'/0/0).",
+      body: "Make a new 12-word phrase on the phone, or bring in one you already have. A new wallet asks for three random words from the phrase before it's ready.",
     },
     {
       title: "Face ID on every payment",
@@ -55,7 +55,7 @@ export const henryWallet: Project = {
     },
     {
       title: "One review screen",
-      body: "Recipient, amount, network, five checks and the expected and maximum fee, all before signing. The EIP-1559 fields are a tap away.",
+      body: "The amount, the network, both full addresses, the results of the five checks and the expected and maximum fee, all before signing. The EIP-1559 transaction details are one tap away.",
     },
     {
       title: "Stopped before signing",

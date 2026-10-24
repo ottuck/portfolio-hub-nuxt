@@ -32,7 +32,7 @@ export const gitleaf: Project = {
 
   about: [
     "A contribution graph is a grid of green squares. I wanted something I'd enjoy looking at, so GitLeaf paints the year as a plant: a small leaf for each day, shaded by how much happened, and a bigger leaf at the end of each branch for the week. Days that haven't come yet are faint outlines, and the plant's caption counts the year's contributions.",
-    "It's made to sit in a profile README. You paste one image line with your username, with no sign-up and no GitHub Actions. The first time the image is requested, the service reads your contributions, paints the plant and saves it. After that it's repainted once a day under the same URL, so your README never changes and nothing is committed.",
+    "Paste one image line with your username into your README, with no sign-up and no GitHub Actions. The first time the image is requested, the service reads your contributions, paints the plant and saves it. After that it's repainted once a day under the same URL, so your README never changes and nothing is committed.",
     "The leaves are eight watercolor leaf shapes in five shades, made with an AI image tool. The code lays them out on four stems and fills in one per day. The whole picture is a single SVG file, so it works as a plain image in a README, where scripts and outside requests are blocked.",
   ],
   features: [
@@ -50,7 +50,7 @@ export const gitleaf: Project = {
     },
     {
       title: "A little breeze",
-      body: "Add ?motion=breeze and the branches sway slowly, each at its own pace. It's CSS only, and it stops if the device asks for less motion.",
+      body: "The branches can sway slowly, each at its own pace. It's CSS only, and it stops if the device asks for less motion.",
     },
   ],
   gallery: [
@@ -63,7 +63,7 @@ export const gitleaf: Project = {
     { area: "Data", items: "GitHub GraphQL API, token kept as a Worker secret" },
     { area: "Quality", items: "Tests on the real Workers runtime with D1 and R2 (Miniflare) · a live check against GitHub · GitHub Actions" },
   ],
-  footnote: "Counts are GitHub contributions, not only commits. Private activity only shows if the service's GitHub token can see it. The pictures use my own account.",
+  footnote: "Counts are GitHub contributions, not only commits. Private activity only shows if the service's GitHub token can see it.",
 
   architecture: {
     width: 1080,

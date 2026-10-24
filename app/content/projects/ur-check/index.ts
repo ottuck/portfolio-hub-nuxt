@@ -19,7 +19,7 @@ export const urCheck: Project = {
   tagline:
     "Search UR rental vacancies by your conditions and track rooms that are new, relisted or gone. The website and AI assistants work from the same conditions and history.",
   summary:
-    "UR Check searches vacancies in UR rental housing in Tokyo and the surrounding Kanto area, checks every area three times a day, and records which rooms are new, relisted or gone. The website and AI assistants, through MCP, use the same conditions and history. I built it to find my own next apartment.",
+    "UR Check searches vacancies in UR rental housing in Tokyo and the surrounding Kanto area, checks every area three times a day, and records which rooms are new, relisted or gone. The website and AI assistants, through MCP, use the same conditions and history.",
   cardStack: ["Bun", "PostgreSQL", "MCP"],
   facts: [
     { label: "Type", value: "Web app + MCP server (Japanese UI)" },
@@ -40,9 +40,8 @@ export const urCheck: Project = {
   },
 
   about: [
-    "When I was getting ready to move, I started looking at UR rentals. UR is first come, first served, and a good room can disappear almost as soon as it's listed. The official site has no alerts, so I was checking it by hand every day. I built something to do the watching for me, and I use it for real.",
-    "The first version was UR Manager, a conventional web service: save your conditions and get an email when a matching room shows up. It worked well, yet I kept catching myself asking ChatGPT what it thought of a listing. So I built UR MCP App next, an MCP server that hands the AI accurate UR data. Searches are in plain language, rooms show up as cards in the chat, and alerts and scheduling moved into the AI app.",
-    "Then every improvement to the core meant touching both projects. I didn't want that, so I merged them into one web service that supports MCP. The website and the AI now share one service layer, one set of conditions and one history. There's no public sign-up: accounts go to the people I invite. For everyone else there's a demo that runs in the browser with made-up rooms.",
+    "UR is first come, first served, and a good room can be gone almost as soon as it's listed. The official site has no vacancy alerts, so this does the watching. I use it for real.",
+    "The website and the AI assistants share one service layer, one set of conditions and one history. There's no public sign-up: accounts go to the people I invite. For everyone else there's a demo that runs in the browser with made-up rooms. It was built in this order: web, then MCP, then a web service that supports MCP.",
   ],
   features: [
     {
