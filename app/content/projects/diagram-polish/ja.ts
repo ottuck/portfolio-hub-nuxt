@@ -49,7 +49,7 @@ export const ja: ProjectCopy = {
     main: "Mermaidの標準テーマで描いたデータパイプラインと、diagram-polishで描き直した同じパイプライン",
     gallery: [
       "メッセージ12個のMermaidシーケンス図と、同じシステムを7つの箱と矢印で描いた図",
-      "同じパイプラインをsage、blue、monoのテーマで、ライトとダークの両方で描いた図",
+      "同じパイプラインをsage、blue、monoのテーマで描いた図と、sageテーマのダークモード",
       "韓国語のラベルの構成図。AIクライアントが賃貸サイトを検索するMCPサーバーを呼び、履歴をSQLiteに保存する",
     ],
   },
