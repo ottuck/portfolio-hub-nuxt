@@ -42,7 +42,6 @@ export const pokepedia: Project = {
   about: [
     "A silhouette appears; name it in any of the three languages and the trainer throws a Poké Ball. Miss three times and the run is over. No sign-up: you play as a guest, and linking Google later keeps your stickers and scores.",
     "Win a Pikachu and it fights Blastoise in a turn-based battle. The battle is a separate Unity project, pokepedia-unity, built for WebGL and opened in an iframe. It also runs on its own at battle.pokepedia.dev.",
-    "The battle rules are plain C# that never touches UnityEngine, so their tests run with dotnet test, no Unity needed. The engine only emits events — move used, damage, critical hit, fainted — and the screen plays them back in order, so rules and effects don't know about each other. The two apps share no server or database: the web app passes your Pokémon over postMessage, and the battle checks where the message came from.",
   ],
   features: [
     {
