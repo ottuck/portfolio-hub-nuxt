@@ -22,12 +22,13 @@
       "twitter:description": "Henry Kim — backend engineer in Tokyo. Side projects built end to end with Java, Spring, cloud and the web."
     },
     "oldOgImage": "https://www.portfolio-hub.dev/opengraph-image-35z9bs?1a5f1573d33b5f53",
-    "mainText": "HenryKim—BackendSoftwareEngineerHHello,I'mHenryKim.BackendengineerinTokyo,workingmainlyinJavaandSpring.OutsideworkIbuildsmallproductsendtoend,fromdesignandcodetocloudinfrastructureandkeepingthemrunning.Tokyo·JSTDayjobBackendEngineerPayments&finance·API·DB·Auth·CloudToolsIreachforJavaKotlinSpringBootPostgreSQLAzureTerraformNext.jsTypeScriptProjectsPunyChatLive·AppStoresoonAmessengerfortwo,withatinypixelbuddyyouraisetogetherjustbychatting.Raiseabuddy—PunyChatlivesiteExpo·SpringWebFlux·MongoDBURCheckLive·Inviteonly·IuseitSearchURrentalvacanciesbyyourconditionsandtrackroomsthatarenew,relistedorgone.ThewebsiteandAIassistantsworkfromthesameconditionsandhistory.Trythedemo—URChecklivesiteBun·PostgreSQL·MCPGitLeafLive·FreetouseYouryearofGitHubcontributions,paintedasawatercolorplant:oneleafforeachday.PasteonelineintoyourREADMEtouseit.GitHub—GitLeafsourceTypeScript·CloudflareWorkers·SVGTradingLabLive·Realtradesat1/100Apaydayinvestingbotthatcopiesyourhabits,andAIbotsthatsetthemixeveryday.Allofthemrunonmyrealaccountat1/100scale.Trythedemo—TradingLablivesitePython·FastAPI·ClaudeAPIPokepediaLive·Remake“Who'sthatPokémon?”asaGameBoy–stylebattle,withaGen1Pokédexandastickerbook—plusaturn-basedPikachubattleIbuiltinUnity.InKorean,EnglishandJapanese.CatchaPokémon—PokepedialivesiteGitHub—PokepediasourceNext.js·Supabase·UnityHenryWalletTesting·SideprojectAself-custodystablecoinwalletforiPhone.Thekeysstayonthephone,andeverypaymentissignedthereafterFaceID.Trythedemo—HenryWalletlivesiteGitHub—HenryWalletsourceExpo·ethers·Polygondiagram-polishLive·OpensourceAClaudeCodeskillthatredrawsaMermaidblockoranarchitecturesketchasacleandiagram.BoxesandarrowsinJSON,SVGandPNGout.GitHub—diagram-polishsourceClaudeCode·Node.js·SVGWritingDevbloghukutaku.tistory.comGitHub@ottuckMoreaboutmeAbout",
+    "mainText": "HenryKim—BackendSoftwareEngineerHHello,I'mHenryKim.BackendengineerinTokyo,workingmainlyinJavaandSpring.OutsideworkIbuildsmallproductsendtoend,fromdesignandcodetocloudinfrastructureandkeepingthemrunning.Tokyo·JSTDayjobBackendEngineerPayments&finance·API·DB·Auth·CloudToolsIreachforJavaKotlinSpringBootPostgreSQLAzureTerraformNext.jsTypeScriptProjectsPunyChatLive·AppStoresoonAmessengerfortwo,withatinypixelbuddyyouraisetogetherjustbychatting.Raiseabuddy—PunyChatlivesiteExpo·SpringWebFlux·MongoDBURCheckLive·Inviteonly·IuseitSearchURrentalvacanciesbyyourconditionsandtrackroomsthatarenew,relistedorgone.ThewebsiteandAIassistantsworkfromthesameconditionsandhistory.Trythedemo—URChecklivesiteBun·PostgreSQL·MCPGitLeafLive·FreetouseYouryearofGitHubcontributions,paintedasawatercolorplant:oneleafforeachday.PasteonelineintoyourREADMEtouseit.GitHub—GitLeafsourceTypeScript·CloudflareWorkers·SVGTradingLabLive·Realtradesat1/100Apaydayinvestingbotthatcopiesyourhabits,andAIbotsthatsetthemixeveryday.Allofthemrunonmyrealaccountat1/100scale.Trythedemo—TradingLablivesitePython·FastAPI·ClaudeAPIPokepediaLive·Remake“Who'sthatPokémon?”asaGameBoy–stylebattle,withaGen1Pokédexandastickerbook—plusaturn-basedPikachubattleIbuiltinUnity.InKorean,EnglishandJapanese.CatchaPokémon—PokepedialivesiteGitHub—PokepediasourceNext.js·Supabase·UnityHenryWalletTesting·SideprojectAself-custodystablecoinwalletforiPhone.Thekeysstayonthephone,andeverypaymentissignedthereafterFaceID.Trythedemo—HenryWalletlivesiteGitHub—HenryWalletsourceExpo·ethers·Polygondiagram-polishLive·OpensourceAClaudeCodeskillthatredrawsaMermaidblockoranarchitecturesketchasacleandiagram.BoxesandarrowsinJSON,SVGandPNGout.GitHub—diagram-polishsourceClaudeCode·Node.js·SVGHomeServer3DLive·OpensourceMyAWSLightsailserverasasmall3Dserverroom.TheLEDsontheracklightupfromtherealstatusofeachcontainer.Opentheserverroom—HomeServer3DlivesiteGitHub—HomeServer3DsourceBlender·three.js·CloudflareWritingDevbloghukutaku.tistory.comGitHub@ottuckMoreaboutmeAbout",
     "links": [
       "/about",
       "/projects/diagram-polish",
       "/projects/gitleaf",
       "/projects/henry-wallet",
+      "/projects/home-server-3d",
       "/projects/pokepedia",
       "/projects/puny-chat",
       "/projects/trading-lab",
@@ -37,11 +38,13 @@
       "https://github.com/ottuck",
       "https://github.com/ottuck/diagram-polish",
       "https://github.com/ottuck/gitleaf",
+      "https://github.com/ottuck/home-server-3d",
       "https://github.com/ottuck/pokepedia",
       "https://github.com/ottuck/stable-wallet",
       "https://hukutaku.tistory.com/",
       "https://pokepedia.dev",
       "https://puny-chat.com",
+      "https://server.portfolio-hub.dev",
       "https://wallet.portfolio-hub.dev"
     ],
     "alts": [
@@ -56,7 +59,8 @@
       "The Pokédex on a phone",
       "Three Henry Wallet screens side by side: home, review before signing, and the sent confirmation",
       "The Henry Wallet welcome screen on a phone",
-      "A data pipeline drawn by Mermaid's default theme, and the same pipeline redrawn by diagram-polish"
+      "A data pipeline drawn by Mermaid's default theme, and the same pipeline redrawn by diagram-polish",
+      "An isometric room with a desk, a bookshelf, a plant, an armchair, and a black server rack with lit LEDs beside a wall monitor"
     ],
     "jsonLd": [
       {
@@ -108,11 +112,12 @@
       "twitter:title": "Projects",
       "twitter:description": "Side projects I designed, built and run myself."
     },
-    "mainText": "ProjectsThingsIdesigned,builtandkeeprunningmyself.Eachonesayswhereitstands.AllprojectsPunyChatLive·AppStoresoonAmessengerfortwo,withatinypixelbuddyyouraisetogetherjustbychatting.Raiseabuddy—PunyChatlivesiteExpo·SpringWebFlux·MongoDBURCheckLive·Inviteonly·IuseitSearchURrentalvacanciesbyyourconditionsandtrackroomsthatarenew,relistedorgone.ThewebsiteandAIassistantsworkfromthesameconditionsandhistory.Trythedemo—URChecklivesiteBun·PostgreSQL·MCPGitLeafLive·FreetouseYouryearofGitHubcontributions,paintedasawatercolorplant:oneleafforeachday.PasteonelineintoyourREADMEtouseit.GitHub—GitLeafsourceTypeScript·CloudflareWorkers·SVGTradingLabLive·Realtradesat1/100Apaydayinvestingbotthatcopiesyourhabits,andAIbotsthatsetthemixeveryday.Allofthemrunonmyrealaccountat1/100scale.Trythedemo—TradingLablivesitePython·FastAPI·ClaudeAPIPokepediaLive·Remake“Who'sthatPokémon?”asaGameBoy–stylebattle,withaGen1Pokédexandastickerbook—plusaturn-basedPikachubattleIbuiltinUnity.InKorean,EnglishandJapanese.CatchaPokémon—PokepedialivesiteGitHub—PokepediasourceNext.js·Supabase·UnityHenryWalletTesting·SideprojectAself-custodystablecoinwalletforiPhone.Thekeysstayonthephone,andeverypaymentissignedthereafterFaceID.Trythedemo—HenryWalletlivesiteGitHub—HenryWalletsourceExpo·ethers·Polygondiagram-polishLive·OpensourceAClaudeCodeskillthatredrawsaMermaidblockoranarchitecturesketchasacleandiagram.BoxesandarrowsinJSON,SVGandPNGout.GitHub—diagram-polishsourceClaudeCode·Node.js·SVG",
+    "mainText": "ProjectsThingsIdesigned,builtandkeeprunningmyself.Eachonesayswhereitstands.AllprojectsPunyChatLive·AppStoresoonAmessengerfortwo,withatinypixelbuddyyouraisetogetherjustbychatting.Raiseabuddy—PunyChatlivesiteExpo·SpringWebFlux·MongoDBURCheckLive·Inviteonly·IuseitSearchURrentalvacanciesbyyourconditionsandtrackroomsthatarenew,relistedorgone.ThewebsiteandAIassistantsworkfromthesameconditionsandhistory.Trythedemo—URChecklivesiteBun·PostgreSQL·MCPGitLeafLive·FreetouseYouryearofGitHubcontributions,paintedasawatercolorplant:oneleafforeachday.PasteonelineintoyourREADMEtouseit.GitHub—GitLeafsourceTypeScript·CloudflareWorkers·SVGTradingLabLive·Realtradesat1/100Apaydayinvestingbotthatcopiesyourhabits,andAIbotsthatsetthemixeveryday.Allofthemrunonmyrealaccountat1/100scale.Trythedemo—TradingLablivesitePython·FastAPI·ClaudeAPIPokepediaLive·Remake“Who'sthatPokémon?”asaGameBoy–stylebattle,withaGen1Pokédexandastickerbook—plusaturn-basedPikachubattleIbuiltinUnity.InKorean,EnglishandJapanese.CatchaPokémon—PokepedialivesiteGitHub—PokepediasourceNext.js·Supabase·UnityHenryWalletTesting·SideprojectAself-custodystablecoinwalletforiPhone.Thekeysstayonthephone,andeverypaymentissignedthereafterFaceID.Trythedemo—HenryWalletlivesiteGitHub—HenryWalletsourceExpo·ethers·Polygondiagram-polishLive·OpensourceAClaudeCodeskillthatredrawsaMermaidblockoranarchitecturesketchasacleandiagram.BoxesandarrowsinJSON,SVGandPNGout.GitHub—diagram-polishsourceClaudeCode·Node.js·SVGHomeServer3DLive·OpensourceMyAWSLightsailserverasasmall3Dserverroom.TheLEDsontheracklightupfromtherealstatusofeachcontainer.Opentheserverroom—HomeServer3DlivesiteGitHub—HomeServer3DsourceBlender·three.js·Cloudflare",
     "links": [
       "/projects/diagram-polish",
       "/projects/gitleaf",
       "/projects/henry-wallet",
+      "/projects/home-server-3d",
       "/projects/pokepedia",
       "/projects/puny-chat",
       "/projects/trading-lab",
@@ -121,10 +126,12 @@
       "https://demo.ur-check.com",
       "https://github.com/ottuck/diagram-polish",
       "https://github.com/ottuck/gitleaf",
+      "https://github.com/ottuck/home-server-3d",
       "https://github.com/ottuck/pokepedia",
       "https://github.com/ottuck/stable-wallet",
       "https://pokepedia.dev",
       "https://puny-chat.com",
+      "https://server.portfolio-hub.dev",
       "https://wallet.portfolio-hub.dev"
     ],
     "alts": [
@@ -139,7 +146,8 @@
       "The Pokédex on a phone",
       "Three Henry Wallet screens side by side: home, review before signing, and the sent confirmation",
       "The Henry Wallet welcome screen on a phone",
-      "A data pipeline drawn by Mermaid's default theme, and the same pipeline redrawn by diagram-polish"
+      "A data pipeline drawn by Mermaid's default theme, and the same pipeline redrawn by diagram-polish",
+      "An isometric room with a desk, a bookshelf, a plant, an armchair, and a black server rack with lit LEDs beside a wall monitor"
     ],
     "jsonLd": []
   },
@@ -625,10 +633,11 @@
         }
       }
     ],
-    "mainText": "AllprojectsLive·Opensourcediagram-polishAClaudeCodeskillthatturnstheMermaidblockinaREADME,oraroughdescriptionofasystem,intoacleanarchitecturediagram.Itboilsthesystemdowntofivetosevenboxesanddrawstheminoneconsistentlook.GitHubTypeClaudeCodeskill+Node.jsscriptPeriodOct2026RunsonYourmachine·Node.js18+Aboutdiagram-polishisaClaudeCodeskillthatredrawsarchitecturediagrams.GiveittheMermaidblockfromaREADME,aroughsketchordescription,orjusttherepository,anditreturnsacleanSVGandPNG.Itworksinfoursteps.Claudereadsthesourceandchecksitagainstthecode,reducesthesystemtofivetosevenboxes,andwritestheboxesandarrowsintoasmalldiagram.json.Ascriptthenlaysthemout,routesthelinesanddrawsthepicture.Claudelooksattheresultandfixeswhatthecheckscan'tsee,suchasanarrowpointingthewrongway.Thearchitecturediagramsonthissiteweremadethisway.Therearethreethemes,sage,blueandmono,eachinlightanddark.Theskillisopensource:installitasaplugin,orcopytheskillfolderinto~/.claude/skills.WhatitdoesMermaidin,acleandiagramoutReadsaMermaidblock,aREADMEorthecodeandredrawsitinonelook:softboxes,aframearoundwhatrunstogether,anothertoneforservicesyoudon'trun,dashedlinesforscheduledwork.FivetosevenboxesPiecesofonecodebasearemerged,duplicatearrowsarejoinedandlabelsshrinktoawordortwo.Thecodeischeckedfirst,sonothingisdrawnthatdoesn'texist.ChecksitsowndrawingThescriptstopsonmistakesandwarnsaboutcut-offboxes,overlaps,linesthroughboxesandcollidinglabels.Claudelooksatthepicturebeforehandingitover.KoreanandJapanesetextBoxwidthsaremeasuredforHangul,kanaandHancharacters,andthePNGpicksasystemsansfontforthem.Architecturediagram-polish—ArchitectureMermaid·READMEOradescriptionClaude+SKILL.mdRules:5–7boxesdiagram.jsonBoxes·arrows·tonesrender.mjsLayout·routes·checksProjectcodeRead,neverchangedSVG·PNG3themes·light&darkReadWriteDrawVerifyLookandfixClaudereadstheMermaidandchecksitagainsttheproject'scode,writestheboxesandarrowsintodiagram.json,andrender.mjslaysthemoutanddrawstheSVGandPNG.Claudethenlooksatthepictureandfixeswhatthecheckscan'tsee.Howit'sbuiltSkillClaudeCodeskill(SKILL.md)·pluginmanifest(claudeplugininstall)ScriptNode.js·dependency-freeSVGrenderer·textwidthestimation·right-angleedgeroutingPictureSVG·Geist·lightanddarkpalettes·autoSVG(prefers-color-scheme)PNG@resvg/resvg-js·systemsansfontforHangulandkanaChecksValidatorforclipping,overlaps,linesthroughboxesandlabelcollisions·one-commandredrawandcheckofallexamplesTheskillneedsClaudeCode;thescriptaloneneedsonlyNode.js.The\"before\"picturesareMermaid'sdefaulttheme.PreviousHenryWallet",
+    "mainText": "AllprojectsLive·Opensourcediagram-polishAClaudeCodeskillthatturnstheMermaidblockinaREADME,oraroughdescriptionofasystem,intoacleanarchitecturediagram.Itboilsthesystemdowntofivetosevenboxesanddrawstheminoneconsistentlook.GitHubTypeClaudeCodeskill+Node.jsscriptPeriodOct2026RunsonYourmachine·Node.js18+Aboutdiagram-polishisaClaudeCodeskillthatredrawsarchitecturediagrams.GiveittheMermaidblockfromaREADME,aroughsketchordescription,orjusttherepository,anditreturnsacleanSVGandPNG.Itworksinfoursteps.Claudereadsthesourceandchecksitagainstthecode,reducesthesystemtofivetosevenboxes,andwritestheboxesandarrowsintoasmalldiagram.json.Ascriptthenlaysthemout,routesthelinesanddrawsthepicture.Claudelooksattheresultandfixeswhatthecheckscan'tsee,suchasanarrowpointingthewrongway.Thearchitecturediagramsonthissiteweremadethisway.Therearethreethemes,sage,blueandmono,eachinlightanddark.Theskillisopensource:installitasaplugin,orcopytheskillfolderinto~/.claude/skills.WhatitdoesMermaidin,acleandiagramoutReadsaMermaidblock,aREADMEorthecodeandredrawsitinonelook:softboxes,aframearoundwhatrunstogether,anothertoneforservicesyoudon'trun,dashedlinesforscheduledwork.FivetosevenboxesPiecesofonecodebasearemerged,duplicatearrowsarejoinedandlabelsshrinktoawordortwo.Thecodeischeckedfirst,sonothingisdrawnthatdoesn'texist.ChecksitsowndrawingThescriptstopsonmistakesandwarnsaboutcut-offboxes,overlaps,linesthroughboxesandcollidinglabels.Claudelooksatthepicturebeforehandingitover.KoreanandJapanesetextBoxwidthsaremeasuredforHangul,kanaandHancharacters,andthePNGpicksasystemsansfontforthem.Architecturediagram-polish—ArchitectureMermaid·READMEOradescriptionClaude+SKILL.mdRules:5–7boxesdiagram.jsonBoxes·arrows·tonesrender.mjsLayout·routes·checksProjectcodeRead,neverchangedSVG·PNG3themes·light&darkReadWriteDrawVerifyLookandfixClaudereadstheMermaidandchecksitagainsttheproject'scode,writestheboxesandarrowsintodiagram.json,andrender.mjslaysthemoutanddrawstheSVGandPNG.Claudethenlooksatthepictureandfixeswhatthecheckscan'tsee.Howit'sbuiltSkillClaudeCodeskill(SKILL.md)·pluginmanifest(claudeplugininstall)ScriptNode.js·dependency-freeSVGrenderer·textwidthestimation·right-angleedgeroutingPictureSVG·Geist·lightanddarkpalettes·autoSVG(prefers-color-scheme)PNG@resvg/resvg-js·systemsansfontforHangulandkanaChecksValidatorforclipping,overlaps,linesthroughboxesandlabelcollisions·one-commandredrawandcheckofallexamplesTheskillneedsClaudeCode;thescriptaloneneedsonlyNode.js.The\"before\"picturesareMermaid'sdefaulttheme.PreviousHenryWalletNextHomeServer3D",
     "links": [
       "/projects",
       "/projects/henry-wallet",
+      "/projects/home-server-3d",
       "https://github.com/ottuck/diagram-polish"
     ],
     "alts": [
@@ -660,12 +669,13 @@
       "twitter:description": "Henry Kim — 東京のバックエンドエンジニア。Java・Spring・クラウド・Webを使い、企画から運用まで一人で手がけたサイドプロジェクトを紹介します。"
     },
     "oldOgImage": "https://www.portfolio-hub.dev/ja/opengraph-image?3e80f0d4b49b655a",
-    "mainText": "HenryKim—バックエンドエンジニアHこんにちは。HenryKimです。東京でバックエンドエンジニアとして働いています。業務では主にJavaとSpringを使っています。業務外では、小さなプロダクトを設計から実装、クラウド構築、運用まで一人で手がけています。東京·JST本業バックエンド開発決済・金融·API·DB·認証·クラウドよく使う技術JavaKotlinSpringBootPostgreSQLAzureTerraformNext.jsTypeScript作品PunyChat公開中·AppStore準備中ふたりのためのメッセンジャー。会話するだけで、小さなドット絵のバディを一緒に育てられます。バディを育てに行く—PunyChatサイトExpo·SpringWebFlux·MongoDBURCheck公開中·招待制·実際に利用中UR賃貸の空室を条件で検索し、新着・再募集・募集終了の部屋を追跡します。WebサイトとAIアシスタントが、同じ条件と履歴を使います。デモを見る—URCheckサイトBun·PostgreSQL·MCPGitLeaf公開中·誰でも使えますGitHubの1年間のコントリビューションを、水彩画の植物として描くサービス。1日が1枚の葉になります。READMEに1行貼るだけで使えます。GitHub—GitLeafソースコードTypeScript·CloudflareWorkers·SVGTradingLab公開中·1/100で実取引自分のクセをコピーして給料日に代わりに買うボットと、毎日配分を決めるAIボットたち。どれも自分の実口座で、1/100のスケールで動かしています。デモを見る—TradingLabサイトPython·FastAPI·ClaudeAPIPokepedia公開中·リメイク「このポケモン、だーれだ？」をゲームボーイ風のバトルで。初代ポケモン図鑑とシール帳に、Unityで作ったピカチュウのターン制バトルまで。日本語・英語・韓国語に対応しています。ポケモンを捕まえに行く—PokepediaサイトGitHub—PokepediaソースコードNext.js·Supabase·UnityHenryWalletテスト中·個人開発自分で鍵を持つiPhone用ステーブルコインウォレット。鍵はスマホの中だけにあり、送金はすべてFaceIDを通して端末で署名します。デモを見る—HenryWalletサイトGitHub—HenryWalletソースコードExpo·ethers·Polygondiagram-polish公開中·オープンソースMermaidブロックや構成のスケッチを、すっきりした構成図に描き直すClaudeCodeのスキルです。箱と矢印をJSONに書くと、SVGとPNGが出ます。GitHub—diagram-polishソースコードClaudeCode·Node.js·SVG発信開発ブログhukutaku.tistory.comGitHub@ottuckプロフィールを見るプロフィール",
+    "mainText": "HenryKim—バックエンドエンジニアHこんにちは。HenryKimです。東京でバックエンドエンジニアとして働いています。業務では主にJavaとSpringを使っています。業務外では、小さなプロダクトを設計から実装、クラウド構築、運用まで一人で手がけています。東京·JST本業バックエンド開発決済・金融·API·DB·認証·クラウドよく使う技術JavaKotlinSpringBootPostgreSQLAzureTerraformNext.jsTypeScript作品PunyChat公開中·AppStore準備中ふたりのためのメッセンジャー。会話するだけで、小さなドット絵のバディを一緒に育てられます。バディを育てに行く—PunyChatサイトExpo·SpringWebFlux·MongoDBURCheck公開中·招待制·実際に利用中UR賃貸の空室を条件で検索し、新着・再募集・募集終了の部屋を追跡します。WebサイトとAIアシスタントが、同じ条件と履歴を使います。デモを見る—URCheckサイトBun·PostgreSQL·MCPGitLeaf公開中·誰でも使えますGitHubの1年間のコントリビューションを、水彩画の植物として描くサービス。1日が1枚の葉になります。READMEに1行貼るだけで使えます。GitHub—GitLeafソースコードTypeScript·CloudflareWorkers·SVGTradingLab公開中·1/100で実取引自分のクセをコピーして給料日に代わりに買うボットと、毎日配分を決めるAIボットたち。どれも自分の実口座で、1/100のスケールで動かしています。デモを見る—TradingLabサイトPython·FastAPI·ClaudeAPIPokepedia公開中·リメイク「このポケモン、だーれだ？」をゲームボーイ風のバトルで。初代ポケモン図鑑とシール帳に、Unityで作ったピカチュウのターン制バトルまで。日本語・英語・韓国語に対応しています。ポケモンを捕まえに行く—PokepediaサイトGitHub—PokepediaソースコードNext.js·Supabase·UnityHenryWalletテスト中·個人開発自分で鍵を持つiPhone用ステーブルコインウォレット。鍵はスマホの中だけにあり、送金はすべてFaceIDを通して端末で署名します。デモを見る—HenryWalletサイトGitHub—HenryWalletソースコードExpo·ethers·Polygondiagram-polish公開中·オープンソースMermaidブロックや構成のスケッチを、すっきりした構成図に描き直すClaudeCodeのスキルです。箱と矢印をJSONに書くと、SVGとPNGが出ます。GitHub—diagram-polishソースコードClaudeCode·Node.js·SVGHomeServer3D公開中·オープンソースAWSLightsailのサーバーを小さな3Dのサーバー室にしたWeb。ラックのLEDがコンテナの実際の状態に合わせて光ります。サーバー室を見る—HomeServer3DサイトGitHub—HomeServer3DソースコードBlender·three.js·Cloudflare発信開発ブログhukutaku.tistory.comGitHub@ottuckプロフィールを見るプロフィール",
     "links": [
       "/ja/about",
       "/ja/projects/diagram-polish",
       "/ja/projects/gitleaf",
       "/ja/projects/henry-wallet",
+      "/ja/projects/home-server-3d",
       "/ja/projects/pokepedia",
       "/ja/projects/puny-chat",
       "/ja/projects/trading-lab",
@@ -675,11 +685,13 @@
       "https://github.com/ottuck",
       "https://github.com/ottuck/diagram-polish",
       "https://github.com/ottuck/gitleaf",
+      "https://github.com/ottuck/home-server-3d",
       "https://github.com/ottuck/pokepedia",
       "https://github.com/ottuck/stable-wallet",
       "https://hukutaku.tistory.com/",
       "https://pokepedia.dev",
       "https://puny-chat.com",
+      "https://server.portfolio-hub.dev",
       "https://wallet.portfolio-hub.dev"
     ],
     "alts": [
@@ -694,7 +706,8 @@
       "スマホで見た図鑑",
       "並べたHenry Walletの3画面。ホーム、署名前の確認、送金後の画面",
       "スマホで見たHenry Walletのようこそ画面",
-      "Mermaidの標準テーマで描いたデータパイプラインと、diagram-polishで描き直した同じパイプライン"
+      "Mermaidの標準テーマで描いたデータパイプラインと、diagram-polishで描き直した同じパイプライン",
+      "机、本棚、観葉植物、ひじ掛け椅子のあるアイソメトリックの部屋と、壁のモニターの横でLEDが光る黒いサーバーラック"
     ],
     "jsonLd": [
       {
@@ -746,11 +759,12 @@
       "twitter:title": "作品",
       "twitter:description": "設計から開発、運用まで自分で手がけているサイドプロジェクトです。"
     },
-    "mainText": "作品設計から開発、運用まで自分で手がけているサイドプロジェクトです。それぞれの現在の状況も記載しています。すべての作品PunyChat公開中·AppStore準備中ふたりのためのメッセンジャー。会話するだけで、小さなドット絵のバディを一緒に育てられます。バディを育てに行く—PunyChatサイトExpo·SpringWebFlux·MongoDBURCheck公開中·招待制·実際に利用中UR賃貸の空室を条件で検索し、新着・再募集・募集終了の部屋を追跡します。WebサイトとAIアシスタントが、同じ条件と履歴を使います。デモを見る—URCheckサイトBun·PostgreSQL·MCPGitLeaf公開中·誰でも使えますGitHubの1年間のコントリビューションを、水彩画の植物として描くサービス。1日が1枚の葉になります。READMEに1行貼るだけで使えます。GitHub—GitLeafソースコードTypeScript·CloudflareWorkers·SVGTradingLab公開中·1/100で実取引自分のクセをコピーして給料日に代わりに買うボットと、毎日配分を決めるAIボットたち。どれも自分の実口座で、1/100のスケールで動かしています。デモを見る—TradingLabサイトPython·FastAPI·ClaudeAPIPokepedia公開中·リメイク「このポケモン、だーれだ？」をゲームボーイ風のバトルで。初代ポケモン図鑑とシール帳に、Unityで作ったピカチュウのターン制バトルまで。日本語・英語・韓国語に対応しています。ポケモンを捕まえに行く—PokepediaサイトGitHub—PokepediaソースコードNext.js·Supabase·UnityHenryWalletテスト中·個人開発自分で鍵を持つiPhone用ステーブルコインウォレット。鍵はスマホの中だけにあり、送金はすべてFaceIDを通して端末で署名します。デモを見る—HenryWalletサイトGitHub—HenryWalletソースコードExpo·ethers·Polygondiagram-polish公開中·オープンソースMermaidブロックや構成のスケッチを、すっきりした構成図に描き直すClaudeCodeのスキルです。箱と矢印をJSONに書くと、SVGとPNGが出ます。GitHub—diagram-polishソースコードClaudeCode·Node.js·SVG",
+    "mainText": "作品設計から開発、運用まで自分で手がけているサイドプロジェクトです。それぞれの現在の状況も記載しています。すべての作品PunyChat公開中·AppStore準備中ふたりのためのメッセンジャー。会話するだけで、小さなドット絵のバディを一緒に育てられます。バディを育てに行く—PunyChatサイトExpo·SpringWebFlux·MongoDBURCheck公開中·招待制·実際に利用中UR賃貸の空室を条件で検索し、新着・再募集・募集終了の部屋を追跡します。WebサイトとAIアシスタントが、同じ条件と履歴を使います。デモを見る—URCheckサイトBun·PostgreSQL·MCPGitLeaf公開中·誰でも使えますGitHubの1年間のコントリビューションを、水彩画の植物として描くサービス。1日が1枚の葉になります。READMEに1行貼るだけで使えます。GitHub—GitLeafソースコードTypeScript·CloudflareWorkers·SVGTradingLab公開中·1/100で実取引自分のクセをコピーして給料日に代わりに買うボットと、毎日配分を決めるAIボットたち。どれも自分の実口座で、1/100のスケールで動かしています。デモを見る—TradingLabサイトPython·FastAPI·ClaudeAPIPokepedia公開中·リメイク「このポケモン、だーれだ？」をゲームボーイ風のバトルで。初代ポケモン図鑑とシール帳に、Unityで作ったピカチュウのターン制バトルまで。日本語・英語・韓国語に対応しています。ポケモンを捕まえに行く—PokepediaサイトGitHub—PokepediaソースコードNext.js·Supabase·UnityHenryWalletテスト中·個人開発自分で鍵を持つiPhone用ステーブルコインウォレット。鍵はスマホの中だけにあり、送金はすべてFaceIDを通して端末で署名します。デモを見る—HenryWalletサイトGitHub—HenryWalletソースコードExpo·ethers·Polygondiagram-polish公開中·オープンソースMermaidブロックや構成のスケッチを、すっきりした構成図に描き直すClaudeCodeのスキルです。箱と矢印をJSONに書くと、SVGとPNGが出ます。GitHub—diagram-polishソースコードClaudeCode·Node.js·SVGHomeServer3D公開中·オープンソースAWSLightsailのサーバーを小さな3Dのサーバー室にしたWeb。ラックのLEDがコンテナの実際の状態に合わせて光ります。サーバー室を見る—HomeServer3DサイトGitHub—HomeServer3DソースコードBlender·three.js·Cloudflare",
     "links": [
       "/ja/projects/diagram-polish",
       "/ja/projects/gitleaf",
       "/ja/projects/henry-wallet",
+      "/ja/projects/home-server-3d",
       "/ja/projects/pokepedia",
       "/ja/projects/puny-chat",
       "/ja/projects/trading-lab",
@@ -759,10 +773,12 @@
       "https://demo.ur-check.com",
       "https://github.com/ottuck/diagram-polish",
       "https://github.com/ottuck/gitleaf",
+      "https://github.com/ottuck/home-server-3d",
       "https://github.com/ottuck/pokepedia",
       "https://github.com/ottuck/stable-wallet",
       "https://pokepedia.dev",
       "https://puny-chat.com",
+      "https://server.portfolio-hub.dev",
       "https://wallet.portfolio-hub.dev"
     ],
     "alts": [
@@ -777,7 +793,8 @@
       "スマホで見た図鑑",
       "並べたHenry Walletの3画面。ホーム、署名前の確認、送金後の画面",
       "スマホで見たHenry Walletのようこそ画面",
-      "Mermaidの標準テーマで描いたデータパイプラインと、diagram-polishで描き直した同じパイプライン"
+      "Mermaidの標準テーマで描いたデータパイプラインと、diagram-polishで描き直した同じパイプライン",
+      "机、本棚、観葉植物、ひじ掛け椅子のあるアイソメトリックの部屋と、壁のモニターの横でLEDが光る黒いサーバーラック"
     ],
     "jsonLd": []
   },
@@ -1263,10 +1280,11 @@
         }
       }
     ],
-    "mainText": "作品一覧公開中·オープンソースdiagram-polishREADMEのMermaidブロックやシステムの説明を、すっきりしたアーキテクチャ図に変えるClaudeCodeのスキルです。システムを5〜7個の箱に絞り、同じ見た目で描きます。GitHub種類ClaudeCodeスキル+Node.jsスクリプト期間2026年10月運用環境自分のPC·Node.js18以上概要diagram-polishは、アーキテクチャ図を描き直すClaudeCodeのスキルです。READMEのMermaidブロックや大まかなスケッチ・説明、あるいはリポジトリだけを渡すと、きれいなSVGとPNGを返します。動きは4段階です。Claudeが元の情報を読んでコードと照らし合わせ、システムを5〜7個の箱に絞って、箱と矢印を小さなdiagram.jsonに書きます。スクリプトが配置と線の経路を計算して絵を描きます。そのあとClaudeが結果を見て、矢印の向きが逆といった、検査では見つからない部分を直します。このサイトの構成図もこの方法で作りました。テーマはsage、blue、monoの3つで、それぞれライトとダークがあります。オープンソースで、プラグインとして入れるか、スキルのフォルダを~/.claude/skillsにコピーして使えます。主な機能Mermaidをすっきりした構成図にMermaidブロック、README、コードを読み、ひとつの見た目で描き直します。角丸の箱、まとまって動くものを囲む点線の枠、自分で運用しないサービスの別の色、予約実行を表す点線が基本です。箱は5〜7個1つのコードベースの部品は合わせ、重複した矢印は1本にし、ラベルは1〜2語に縮めます。先にコードを確認するので、存在しないものは描きません。自分の絵を検査スクリプトは間違いがあれば止まり、はみ出した箱・重なり・箱を貫く線・ぶつかるラベルを警告します。Claudeは絵を実際に開いて確かめてから渡します。ハングルと日本語の文字箱の幅をハングル・かな・漢字の幅で計算し、PNGではそれらの文字にシステムのゴシック体を選びます。構成図diagram-polish—構成図Mermaid·READMEOradescriptionClaude+SKILL.mdRules:5–7boxesdiagram.jsonBoxes·arrows·tonesrender.mjsLayout·routes·checksProjectcodeRead,neverchangedSVG·PNG3themes·light&darkReadWriteDrawVerifyLookandfixClaudereadstheMermaidandchecksitagainsttheproject'scode,writestheboxesandarrowsintodiagram.json,andrender.mjslaysthemoutanddrawstheSVGandPNG.Claudethenlooksatthepictureandfixeswhatthecheckscan'tsee.技術構成スキルClaudeCodeスキル（SKILL.md）·プラグインマニフェスト（claudeplugininstall）スクリプトNode.js·依存なしのSVGレンダラー·文字幅の推定·直角の線の経路絵SVG·Geist·ライト／ダークのパレット·autoSVG（prefers-color-scheme）PNG@resvg/resvg-js·ハングル・かな用のシステムゴシック体検査はみ出し・重なり・箱を貫く線・ラベルの衝突の検査·1コマンドで例を全部描き直して検査スキルにはClaudeCodeが必要で、スクリプトだけならNode.jsがあれば動きます。見比べ画像の「before」はMermaidの標準テーマです。前へHenryWallet",
+    "mainText": "作品一覧公開中·オープンソースdiagram-polishREADMEのMermaidブロックやシステムの説明を、すっきりしたアーキテクチャ図に変えるClaudeCodeのスキルです。システムを5〜7個の箱に絞り、同じ見た目で描きます。GitHub種類ClaudeCodeスキル+Node.jsスクリプト期間2026年10月運用環境自分のPC·Node.js18以上概要diagram-polishは、アーキテクチャ図を描き直すClaudeCodeのスキルです。READMEのMermaidブロックや大まかなスケッチ・説明、あるいはリポジトリだけを渡すと、きれいなSVGとPNGを返します。動きは4段階です。Claudeが元の情報を読んでコードと照らし合わせ、システムを5〜7個の箱に絞って、箱と矢印を小さなdiagram.jsonに書きます。スクリプトが配置と線の経路を計算して絵を描きます。そのあとClaudeが結果を見て、矢印の向きが逆といった、検査では見つからない部分を直します。このサイトの構成図もこの方法で作りました。テーマはsage、blue、monoの3つで、それぞれライトとダークがあります。オープンソースで、プラグインとして入れるか、スキルのフォルダを~/.claude/skillsにコピーして使えます。主な機能Mermaidをすっきりした構成図にMermaidブロック、README、コードを読み、ひとつの見た目で描き直します。角丸の箱、まとまって動くものを囲む点線の枠、自分で運用しないサービスの別の色、予約実行を表す点線が基本です。箱は5〜7個1つのコードベースの部品は合わせ、重複した矢印は1本にし、ラベルは1〜2語に縮めます。先にコードを確認するので、存在しないものは描きません。自分の絵を検査スクリプトは間違いがあれば止まり、はみ出した箱・重なり・箱を貫く線・ぶつかるラベルを警告します。Claudeは絵を実際に開いて確かめてから渡します。ハングルと日本語の文字箱の幅をハングル・かな・漢字の幅で計算し、PNGではそれらの文字にシステムのゴシック体を選びます。構成図diagram-polish—構成図Mermaid·READMEOradescriptionClaude+SKILL.mdRules:5–7boxesdiagram.jsonBoxes·arrows·tonesrender.mjsLayout·routes·checksProjectcodeRead,neverchangedSVG·PNG3themes·light&darkReadWriteDrawVerifyLookandfixClaudereadstheMermaidandchecksitagainsttheproject'scode,writestheboxesandarrowsintodiagram.json,andrender.mjslaysthemoutanddrawstheSVGandPNG.Claudethenlooksatthepictureandfixeswhatthecheckscan'tsee.技術構成スキルClaudeCodeスキル（SKILL.md）·プラグインマニフェスト（claudeplugininstall）スクリプトNode.js·依存なしのSVGレンダラー·文字幅の推定·直角の線の経路絵SVG·Geist·ライト／ダークのパレット·autoSVG（prefers-color-scheme）PNG@resvg/resvg-js·ハングル・かな用のシステムゴシック体検査はみ出し・重なり・箱を貫く線・ラベルの衝突の検査·1コマンドで例を全部描き直して検査スキルにはClaudeCodeが必要で、スクリプトだけならNode.jsがあれば動きます。見比べ画像の「before」はMermaidの標準テーマです。前へHenryWallet次へHomeServer3D",
     "links": [
       "/ja/projects",
       "/ja/projects/henry-wallet",
+      "/ja/projects/home-server-3d",
       "https://github.com/ottuck/diagram-polish"
     ],
     "alts": [
@@ -1298,12 +1316,13 @@
       "twitter:description": "Henry Kim — 도쿄의 백엔드 엔지니어. Java, Spring, 클라우드, 웹으로 기획부터 운영까지 직접 만든 사이드 프로젝트를 소개합니다."
     },
     "oldOgImage": "https://www.portfolio-hub.dev/ko/opengraph-image?3e80f0d4b49b655a",
-    "mainText": "HenryKim—백엔드엔지니어H안녕하세요.HenryKim입니다.도쿄에서백엔드엔지니어로일하며,주로Java와Spring을다룹니다.업무외에는작은서비스를설계부터구현,클라우드구성,운영까지혼자만들고있습니다.도쿄·JST본업백엔드엔지니어결제·금융·API·DB·인증·클라우드주로쓰는기술JavaKotlinSpringBootPostgreSQLAzureTerraformNext.jsTypeScript프로젝트PunyChat운영중·앱출시준비중둘만을위한메신저.대화만해도작은도트버디를함께키울수있습니다.버디키우러가기—PunyChat사이트Expo·SpringWebFlux·MongoDBURCheck운영중·초대제·직접사용중UR임대의빈방을조건으로검색하고,새로나온방·다시나온방·사라진방을추적합니다.웹사이트와AI어시스턴트가같은조건과이력을씁니다.데모보기—URCheck사이트Bun·PostgreSQL·MCPGitLeaf운영중·누구나사용가능GitHub의1년치기여기록을수채화느낌의식물로보여줍니다.README에이미지코드한줄을추가하면매일자동으로갱신됩니다.GitHub—GitLeaf소스코드TypeScript·CloudflareWorkers·SVGTradingLab운영중·1/100규모실거래내습관을복사해월급날대신사주는봇과,매일비중을정하는AI봇들.모두제실제계좌에서1/100규모로돌리고있습니다.데모보기—TradingLab사이트Python·FastAPI·ClaudeAPIPokepedia운영중·리메이크“이포켓몬은누구일까?”를게임보이배틀처럼.1세대포켓몬도감과띠부씰컬렉션에,Unity로만든피카츄턴제배틀까지.한국어·영어·일본어를지원합니다.포켓몬잡으러가기—Pokepedia사이트GitHub—Pokepedia소스코드Next.js·Supabase·UnityHenryWallet테스트중·사이드프로젝트직접보관하는iPhone용스테이블코인지갑.키는휴대폰에만있고,모든송금은FaceID를거쳐기기에서서명합니다.데모보기—HenryWallet사이트GitHub—HenryWallet소스코드Expo·ethers·Polygondiagram-polish운영중·오픈소스Mermaid블록이나구조스케치를깔끔한구성도로다시그려주는ClaudeCode스킬입니다.박스와화살표를JSON으로적으면SVG와PNG가나옵니다.GitHub—diagram-polish소스코드ClaudeCode·Node.js·SVG글개발블로그hukutaku.tistory.comGitHub@ottuck소개더보기소개",
+    "mainText": "HenryKim—백엔드엔지니어H안녕하세요.HenryKim입니다.도쿄에서백엔드엔지니어로일하며,주로Java와Spring을다룹니다.업무외에는작은서비스를설계부터구현,클라우드구성,운영까지혼자만들고있습니다.도쿄·JST본업백엔드엔지니어결제·금융·API·DB·인증·클라우드주로쓰는기술JavaKotlinSpringBootPostgreSQLAzureTerraformNext.jsTypeScript프로젝트PunyChat운영중·앱출시준비중둘만을위한메신저.대화만해도작은도트버디를함께키울수있습니다.버디키우러가기—PunyChat사이트Expo·SpringWebFlux·MongoDBURCheck운영중·초대제·직접사용중UR임대의빈방을조건으로검색하고,새로나온방·다시나온방·사라진방을추적합니다.웹사이트와AI어시스턴트가같은조건과이력을씁니다.데모보기—URCheck사이트Bun·PostgreSQL·MCPGitLeaf운영중·누구나사용가능GitHub의1년치기여기록을수채화느낌의식물로보여줍니다.README에이미지코드한줄을추가하면매일자동으로갱신됩니다.GitHub—GitLeaf소스코드TypeScript·CloudflareWorkers·SVGTradingLab운영중·1/100규모실거래내습관을복사해월급날대신사주는봇과,매일비중을정하는AI봇들.모두제실제계좌에서1/100규모로돌리고있습니다.데모보기—TradingLab사이트Python·FastAPI·ClaudeAPIPokepedia운영중·리메이크“이포켓몬은누구일까?”를게임보이배틀처럼.1세대포켓몬도감과띠부씰컬렉션에,Unity로만든피카츄턴제배틀까지.한국어·영어·일본어를지원합니다.포켓몬잡으러가기—Pokepedia사이트GitHub—Pokepedia소스코드Next.js·Supabase·UnityHenryWallet테스트중·사이드프로젝트직접보관하는iPhone용스테이블코인지갑.키는휴대폰에만있고,모든송금은FaceID를거쳐기기에서서명합니다.데모보기—HenryWallet사이트GitHub—HenryWallet소스코드Expo·ethers·Polygondiagram-polish운영중·오픈소스Mermaid블록이나구조스케치를깔끔한구성도로다시그려주는ClaudeCode스킬입니다.박스와화살표를JSON으로적으면SVG와PNG가나옵니다.GitHub—diagram-polish소스코드ClaudeCode·Node.js·SVGHomeServer3D운영중·오픈소스AWSLightsail서버를작은3D서버실로만든웹.랙의LED가컨테이너의실제상태에따라켜집니다.서버실열어보기—HomeServer3D사이트GitHub—HomeServer3D소스코드Blender·three.js·Cloudflare글개발블로그hukutaku.tistory.comGitHub@ottuck소개더보기소개",
     "links": [
       "/ko/about",
       "/ko/projects/diagram-polish",
       "/ko/projects/gitleaf",
       "/ko/projects/henry-wallet",
+      "/ko/projects/home-server-3d",
       "/ko/projects/pokepedia",
       "/ko/projects/puny-chat",
       "/ko/projects/trading-lab",
@@ -1313,11 +1332,13 @@
       "https://github.com/ottuck",
       "https://github.com/ottuck/diagram-polish",
       "https://github.com/ottuck/gitleaf",
+      "https://github.com/ottuck/home-server-3d",
       "https://github.com/ottuck/pokepedia",
       "https://github.com/ottuck/stable-wallet",
       "https://hukutaku.tistory.com/",
       "https://pokepedia.dev",
       "https://puny-chat.com",
+      "https://server.portfolio-hub.dev",
       "https://wallet.portfolio-hub.dev"
     ],
     "alts": [
@@ -1332,7 +1353,8 @@
       "휴대폰에서 본 도감",
       "나란히 놓인 Henry Wallet 화면 세 장. 홈, 서명 전 확인, 보낸 뒤 화면",
       "휴대폰의 Henry Wallet 환영 화면",
-      "Mermaid 기본 테마로 그린 데이터 파이프라인과, diagram-polish로 다시 그린 같은 파이프라인"
+      "Mermaid 기본 테마로 그린 데이터 파이프라인과, diagram-polish로 다시 그린 같은 파이프라인",
+      "책상, 책장, 화분, 안락의자가 있는 아이소메트릭 방과, 벽 모니터 옆에 LED가 켜진 검은 서버 랙"
     ],
     "jsonLd": [
       {
@@ -1384,11 +1406,12 @@
       "twitter:title": "프로젝트",
       "twitter:description": "기획부터 개발, 운영까지 직접 맡고 있는 사이드 프로젝트입니다."
     },
-    "mainText": "프로젝트기획부터개발,운영까지직접맡고있는사이드프로젝트입니다.프로젝트별현재상태도함께적었습니다.전체프로젝트PunyChat운영중·앱출시준비중둘만을위한메신저.대화만해도작은도트버디를함께키울수있습니다.버디키우러가기—PunyChat사이트Expo·SpringWebFlux·MongoDBURCheck운영중·초대제·직접사용중UR임대의빈방을조건으로검색하고,새로나온방·다시나온방·사라진방을추적합니다.웹사이트와AI어시스턴트가같은조건과이력을씁니다.데모보기—URCheck사이트Bun·PostgreSQL·MCPGitLeaf운영중·누구나사용가능GitHub의1년치기여기록을수채화느낌의식물로보여줍니다.README에이미지코드한줄을추가하면매일자동으로갱신됩니다.GitHub—GitLeaf소스코드TypeScript·CloudflareWorkers·SVGTradingLab운영중·1/100규모실거래내습관을복사해월급날대신사주는봇과,매일비중을정하는AI봇들.모두제실제계좌에서1/100규모로돌리고있습니다.데모보기—TradingLab사이트Python·FastAPI·ClaudeAPIPokepedia운영중·리메이크“이포켓몬은누구일까?”를게임보이배틀처럼.1세대포켓몬도감과띠부씰컬렉션에,Unity로만든피카츄턴제배틀까지.한국어·영어·일본어를지원합니다.포켓몬잡으러가기—Pokepedia사이트GitHub—Pokepedia소스코드Next.js·Supabase·UnityHenryWallet테스트중·사이드프로젝트직접보관하는iPhone용스테이블코인지갑.키는휴대폰에만있고,모든송금은FaceID를거쳐기기에서서명합니다.데모보기—HenryWallet사이트GitHub—HenryWallet소스코드Expo·ethers·Polygondiagram-polish운영중·오픈소스Mermaid블록이나구조스케치를깔끔한구성도로다시그려주는ClaudeCode스킬입니다.박스와화살표를JSON으로적으면SVG와PNG가나옵니다.GitHub—diagram-polish소스코드ClaudeCode·Node.js·SVG",
+    "mainText": "프로젝트기획부터개발,운영까지직접맡고있는사이드프로젝트입니다.프로젝트별현재상태도함께적었습니다.전체프로젝트PunyChat운영중·앱출시준비중둘만을위한메신저.대화만해도작은도트버디를함께키울수있습니다.버디키우러가기—PunyChat사이트Expo·SpringWebFlux·MongoDBURCheck운영중·초대제·직접사용중UR임대의빈방을조건으로검색하고,새로나온방·다시나온방·사라진방을추적합니다.웹사이트와AI어시스턴트가같은조건과이력을씁니다.데모보기—URCheck사이트Bun·PostgreSQL·MCPGitLeaf운영중·누구나사용가능GitHub의1년치기여기록을수채화느낌의식물로보여줍니다.README에이미지코드한줄을추가하면매일자동으로갱신됩니다.GitHub—GitLeaf소스코드TypeScript·CloudflareWorkers·SVGTradingLab운영중·1/100규모실거래내습관을복사해월급날대신사주는봇과,매일비중을정하는AI봇들.모두제실제계좌에서1/100규모로돌리고있습니다.데모보기—TradingLab사이트Python·FastAPI·ClaudeAPIPokepedia운영중·리메이크“이포켓몬은누구일까?”를게임보이배틀처럼.1세대포켓몬도감과띠부씰컬렉션에,Unity로만든피카츄턴제배틀까지.한국어·영어·일본어를지원합니다.포켓몬잡으러가기—Pokepedia사이트GitHub—Pokepedia소스코드Next.js·Supabase·UnityHenryWallet테스트중·사이드프로젝트직접보관하는iPhone용스테이블코인지갑.키는휴대폰에만있고,모든송금은FaceID를거쳐기기에서서명합니다.데모보기—HenryWallet사이트GitHub—HenryWallet소스코드Expo·ethers·Polygondiagram-polish운영중·오픈소스Mermaid블록이나구조스케치를깔끔한구성도로다시그려주는ClaudeCode스킬입니다.박스와화살표를JSON으로적으면SVG와PNG가나옵니다.GitHub—diagram-polish소스코드ClaudeCode·Node.js·SVGHomeServer3D운영중·오픈소스AWSLightsail서버를작은3D서버실로만든웹.랙의LED가컨테이너의실제상태에따라켜집니다.서버실열어보기—HomeServer3D사이트GitHub—HomeServer3D소스코드Blender·three.js·Cloudflare",
     "links": [
       "/ko/projects/diagram-polish",
       "/ko/projects/gitleaf",
       "/ko/projects/henry-wallet",
+      "/ko/projects/home-server-3d",
       "/ko/projects/pokepedia",
       "/ko/projects/puny-chat",
       "/ko/projects/trading-lab",
@@ -1397,10 +1420,12 @@
       "https://demo.ur-check.com",
       "https://github.com/ottuck/diagram-polish",
       "https://github.com/ottuck/gitleaf",
+      "https://github.com/ottuck/home-server-3d",
       "https://github.com/ottuck/pokepedia",
       "https://github.com/ottuck/stable-wallet",
       "https://pokepedia.dev",
       "https://puny-chat.com",
+      "https://server.portfolio-hub.dev",
       "https://wallet.portfolio-hub.dev"
     ],
     "alts": [
@@ -1415,7 +1440,8 @@
       "휴대폰에서 본 도감",
       "나란히 놓인 Henry Wallet 화면 세 장. 홈, 서명 전 확인, 보낸 뒤 화면",
       "휴대폰의 Henry Wallet 환영 화면",
-      "Mermaid 기본 테마로 그린 데이터 파이프라인과, diagram-polish로 다시 그린 같은 파이프라인"
+      "Mermaid 기본 테마로 그린 데이터 파이프라인과, diagram-polish로 다시 그린 같은 파이프라인",
+      "책상, 책장, 화분, 안락의자가 있는 아이소메트릭 방과, 벽 모니터 옆에 LED가 켜진 검은 서버 랙"
     ],
     "jsonLd": []
   },
@@ -1901,16 +1927,173 @@
         }
       }
     ],
-    "mainText": "전체프로젝트운영중·오픈소스diagram-polishREADME의Mermaid블록이나시스템설명을깔끔한아키텍처구성도로바꿔주는ClaudeCode스킬입니다.시스템을박스5~7개로줄여같은모양으로그립니다.GitHub종류ClaudeCode스킬+Node.js스크립트기간2026년10월운영환경내컴퓨터·Node.js18이상소개diagram-polish는아키텍처구성도를다시그려주는ClaudeCode스킬입니다.README의Mermaid블록이나대략적인스케치·설명,또는저장소만건네면깔끔한SVG와PNG를돌려줍니다.네단계로동작합니다.Claude가원본을읽고코드와맞는지확인한뒤,시스템을박스5~7개로줄여박스와화살표를작은diagram.json에적습니다.스크립트가배치와선경로를계산해그림을그립니다.그다음Claude가결과를보고,화살표가반대로향한것처럼검사로잡히지않는부분을고칩니다.이사이트의구성도도이방식으로만들었습니다.테마는sage,blue,mono세가지이고각각라이트와다크가있습니다.오픈소스이며플러그인으로설치하거나스킬폴더를~/.claude/skills에복사해서쓸수있습니다.주요기능Mermaid를깔끔한구성도로Mermaid블록,README,코드를읽고하나의스타일로다시그립니다.둥근박스,함께도는것을감싸는점선틀,직접운영하지않는서비스의다른색,예약작업을나타내는점선이기본입니다.박스5~7개한코드베이스의조각은합치고,중복된화살표는하나로줄이고,라벨은한두단어로줄입니다.코드를먼저확인하므로없는구성요소는그리지않습니다.스스로그림을검사스크립트는오류가있으면멈추고,잘린박스·겹침·박스를뚫고가는선·겹친라벨을경고합니다.Claude는그림을직접열어본뒤에넘깁니다.한글·일본어글자박스폭을한글,가나,한자의폭으로계산하고,PNG에서는이글자를위한시스템고딕글꼴을고릅니다.구성도diagram-polish—구성도Mermaid·READMEOradescriptionClaude+SKILL.mdRules:5–7boxesdiagram.jsonBoxes·arrows·tonesrender.mjsLayout·routes·checksProjectcodeRead,neverchangedSVG·PNG3themes·light&darkReadWriteDrawVerifyLookandfixClaudereadstheMermaidandchecksitagainsttheproject'scode,writestheboxesandarrowsintodiagram.json,andrender.mjslaysthemoutanddrawstheSVGandPNG.Claudethenlooksatthepictureandfixeswhatthecheckscan'tsee.기술구성스킬ClaudeCode스킬(SKILL.md)·플러그인매니페스트(claudeplugininstall)스크립트Node.js·의존성없는SVG렌더러·글자폭추정·직각선경로그림SVG·Geist·라이트·다크팔레트·autoSVG(prefers-color-scheme)PNG@resvg/resvg-js·한글·가나용시스템고딕글꼴검사잘림·겹침·박스를뚫는선·라벨충돌검사기·한명령으로예시전체재생성·검사스킬은ClaudeCode가필요하고,스크립트만쓸때는Node.js만있으면됩니다.비교그림의\"before\"는Mermaid의기본테마입니다.이전HenryWallet",
+    "mainText": "전체프로젝트운영중·오픈소스diagram-polishREADME의Mermaid블록이나시스템설명을깔끔한아키텍처구성도로바꿔주는ClaudeCode스킬입니다.시스템을박스5~7개로줄여같은모양으로그립니다.GitHub종류ClaudeCode스킬+Node.js스크립트기간2026년10월운영환경내컴퓨터·Node.js18이상소개diagram-polish는아키텍처구성도를다시그려주는ClaudeCode스킬입니다.README의Mermaid블록이나대략적인스케치·설명,또는저장소만건네면깔끔한SVG와PNG를돌려줍니다.네단계로동작합니다.Claude가원본을읽고코드와맞는지확인한뒤,시스템을박스5~7개로줄여박스와화살표를작은diagram.json에적습니다.스크립트가배치와선경로를계산해그림을그립니다.그다음Claude가결과를보고,화살표가반대로향한것처럼검사로잡히지않는부분을고칩니다.이사이트의구성도도이방식으로만들었습니다.테마는sage,blue,mono세가지이고각각라이트와다크가있습니다.오픈소스이며플러그인으로설치하거나스킬폴더를~/.claude/skills에복사해서쓸수있습니다.주요기능Mermaid를깔끔한구성도로Mermaid블록,README,코드를읽고하나의스타일로다시그립니다.둥근박스,함께도는것을감싸는점선틀,직접운영하지않는서비스의다른색,예약작업을나타내는점선이기본입니다.박스5~7개한코드베이스의조각은합치고,중복된화살표는하나로줄이고,라벨은한두단어로줄입니다.코드를먼저확인하므로없는구성요소는그리지않습니다.스스로그림을검사스크립트는오류가있으면멈추고,잘린박스·겹침·박스를뚫고가는선·겹친라벨을경고합니다.Claude는그림을직접열어본뒤에넘깁니다.한글·일본어글자박스폭을한글,가나,한자의폭으로계산하고,PNG에서는이글자를위한시스템고딕글꼴을고릅니다.구성도diagram-polish—구성도Mermaid·READMEOradescriptionClaude+SKILL.mdRules:5–7boxesdiagram.jsonBoxes·arrows·tonesrender.mjsLayout·routes·checksProjectcodeRead,neverchangedSVG·PNG3themes·light&darkReadWriteDrawVerifyLookandfixClaudereadstheMermaidandchecksitagainsttheproject'scode,writestheboxesandarrowsintodiagram.json,andrender.mjslaysthemoutanddrawstheSVGandPNG.Claudethenlooksatthepictureandfixeswhatthecheckscan'tsee.기술구성스킬ClaudeCode스킬(SKILL.md)·플러그인매니페스트(claudeplugininstall)스크립트Node.js·의존성없는SVG렌더러·글자폭추정·직각선경로그림SVG·Geist·라이트·다크팔레트·autoSVG(prefers-color-scheme)PNG@resvg/resvg-js·한글·가나용시스템고딕글꼴검사잘림·겹침·박스를뚫는선·라벨충돌검사기·한명령으로예시전체재생성·검사스킬은ClaudeCode가필요하고,스크립트만쓸때는Node.js만있으면됩니다.비교그림의\"before\"는Mermaid의기본테마입니다.이전HenryWallet다음HomeServer3D",
     "links": [
       "/ko/projects",
       "/ko/projects/henry-wallet",
+      "/ko/projects/home-server-3d",
       "https://github.com/ottuck/diagram-polish"
     ],
     "alts": [
       "Mermaid 기본 테마로 그린 데이터 파이프라인과, diagram-polish로 다시 그린 같은 파이프라인",
       "메시지 12개의 Mermaid 시퀀스 다이어그램과, 같은 시스템을 박스 7개와 화살표로 그린 모습",
       "같은 파이프라인을 sage, blue, mono 테마로 그린 모습과, sage 테마의 다크 모드"
+    ]
+  },
+  "/projects/home-server-3d": {
+    "title": "Home Server 3D — Henry Kim",
+    "lang": "en",
+    "description": "A web page that shows one AWS Lightsail server as a miniature 3D room. Each LED on the rack is a container, and its color follows the real status, read from Grafana Cloud once a minute.",
+    "canonical": "https://www.portfolio-hub.dev/projects/home-server-3d",
+    "alternates": {
+      "en": "https://www.portfolio-hub.dev/projects/home-server-3d",
+      "ja": "https://www.portfolio-hub.dev/ja/projects/home-server-3d",
+      "ko": "https://www.portfolio-hub.dev/ko/projects/home-server-3d",
+      "x-default": "https://www.portfolio-hub.dev/projects/home-server-3d"
+    },
+    "og": {
+      "og:title": "Home Server 3D",
+      "og:description": "A web page that shows one AWS Lightsail server as a miniature 3D room. Each LED on the rack is a container, and its color follows the real status, read from Grafana Cloud once a minute.",
+      "og:url": "https://www.portfolio-hub.dev/projects/home-server-3d",
+      "og:site_name": "Henry Kim",
+      "og:locale": "en_US",
+      "og:type": "article",
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Home Server 3D",
+      "twitter:description": "A web page that shows one AWS Lightsail server as a miniature 3D room. Each LED on the rack is a container, and its color follows the real status, read from Grafana Cloud once a minute."
+    },
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Home Server 3D",
+        "description": "A web page that shows one AWS Lightsail server as a miniature 3D room. Each LED on the rack is a container, and its color follows the real status, read from Grafana Cloud once a minute.",
+        "url": "https://server.portfolio-hub.dev",
+        "codeRepository": "https://github.com/ottuck/home-server-3d",
+        "inLanguage": "en",
+        "author": {
+          "@type": "Person",
+          "name": "Henry Kim",
+          "url": "https://github.com/ottuck"
+        }
+      }
+    ],
+    "mainText": "AllprojectsLive·OpensourceHomeServer3DAwebpagethatshowsoneAWSLightsailserverasaminiature3Droom.EachLEDontherackisacontainer,anditscolorfollowstherealstatus,readfromGrafanaCloudonceaminute.OpentheserverroomGitHubType3Dwebpage·Blenderscene+three.jsPeriodOct2026DataServermetricsfromGrafanaCloud,everyminuteRunsonCloudflarePages·PagesFunctionsAboutHomeServer3DshowsmyAWSLightsailserverasasmall3Dserverroom.Oneunitintherackisoneservice,andoneLEDonitisonecontainer.Greenisnormal,orangeisawarning,redisanerrorandgraymeansthereisnodata.Missingdataisneverpaintedgreen.ThewallmonitordrawsthelasthourofCPU,memory,networkanddisk.ThedeskmonitorlistsrecentcommitsfrommypublicGitHubrepositories,likegitlog.Dayandnightfollowthevisitor'sclock,andsomeoftheobjectsintheroomcanbeclicked.ThesceneisbuiltbyaBlenderPythonscriptandexportedasaGLBfile,andthepageloadsitwiththree.js.AsmallstatusAPIreadstheserver'smetricsfromGrafanaCloudandreturnsonlynormal,warningorerrorforeachcontainer,sotheaccesstokenneverreachesthebrowser.WhatitdoesLEDsfromrealstatusEachLEDisacontainer,coloredfromlivemetrics.ThepanelontherightshowsCPU,memoryanddisk,andthestatusofeachservice.Selectingaservicemovesthecameratotherack.MonitorsthatshowrealdataThewallmonitordrawsthelasthourofCPU,memory,networkanddiskeveryminute.Thedeskmonitorlistsrecentcommitslikeaterminal,andeachonelinkstoGitHub.DayandnightTheroomfollowsthevisitor'slocaltime,daytimefrom6:00to18:00,andasunandmoonswitchchangesitbyhand.CameraDragtorotateandscrolltozoom.Thekeyboardworkstoo:arrowkeysorWASDtomove,QandEtorotate,plusandminustozoom.SafetomakepublicTheAPIreduceseverycontainertonormal,warningorerrorandcachestheresultforaminute.VisitorsneverreachGrafanaCloud,andtherealserverandcontainernamesstayoutofthebrowser.ArchitectureHomeServer3D—ArchitectureCloudflarePagesVisitorBrowser3Dwebviewerthree.js·GLBStatusAPIPagesFunctionsGrafanaCloudPrometheusAWSLightsail13containers·AlloyMyPCBlender·GitStatusPromQLMetricsgitpushAvisitoropensthe3DpageonCloudflarePages,andastatusAPIreadstheLightsailserver'smetricsfromGrafanaCloudandreturnsapublicsummary.ThesceneisbuiltinBlenderonmyPCanddeployedwithgitpush.Howit'sbuilt3DBlender5.2·Pythonscenescript·Cycles·glTF(GLB)withDracoWebthree.js0.170·HTML·CSS·JavaScript(ESmodules,nobuildtool)APICloudflarePagesFunctions·CacheAPI·GitHubRESTAPIMonitoringGrafanaCloud(Prometheus,PromQL)·GrafanaAlloy·cAdvisorDeployCloudflarePages·deploysongitpushThelivepageshowsmyrealserver.Add?demo=1totheaddresstoseesampledata.TheimagesarerendersfromtheBlenderscene.Previousdiagram-polish",
+    "links": [
+      "/projects",
+      "/projects/diagram-polish",
+      "https://github.com/ottuck/home-server-3d",
+      "https://server.portfolio-hub.dev"
+    ],
+    "alts": [
+      "An isometric room with a desk, a bookshelf, a plant, an armchair, and a black server rack with lit LEDs beside a wall monitor",
+      "The same room at night, with a warm lamp and the rack LEDs lit",
+      "A close-up of the rack by day: a switch, rack servers with drive bays and LEDs, and a UPS at the bottom",
+      "The same rack at night, glowing green and white"
+    ]
+  },
+  "/ja/projects/home-server-3d": {
+    "title": "Home Server 3D — Henry Kim",
+    "lang": "ja",
+    "description": "AWS Lightsailのサーバー1台をミニチュアの3Dの部屋として見せるWebページです。ラックのLED 1つがコンテナ1つで、色はGrafana Cloudから1分ごとに読む実際の状態に従います。",
+    "canonical": "https://www.portfolio-hub.dev/ja/projects/home-server-3d",
+    "alternates": {
+      "en": "https://www.portfolio-hub.dev/projects/home-server-3d",
+      "ja": "https://www.portfolio-hub.dev/ja/projects/home-server-3d",
+      "ko": "https://www.portfolio-hub.dev/ko/projects/home-server-3d",
+      "x-default": "https://www.portfolio-hub.dev/projects/home-server-3d"
+    },
+    "og": {
+      "og:title": "Home Server 3D",
+      "og:description": "AWS Lightsailのサーバー1台をミニチュアの3Dの部屋として見せるWebページです。ラックのLED 1つがコンテナ1つで、色はGrafana Cloudから1分ごとに読む実際の状態に従います。",
+      "og:url": "https://www.portfolio-hub.dev/ja/projects/home-server-3d",
+      "og:site_name": "Henry Kim",
+      "og:locale": "ja_JP",
+      "og:type": "article",
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Home Server 3D",
+      "twitter:description": "AWS Lightsailのサーバー1台をミニチュアの3Dの部屋として見せるWebページです。ラックのLED 1つがコンテナ1つで、色はGrafana Cloudから1分ごとに読む実際の状態に従います。"
+    },
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Home Server 3D",
+        "description": "AWS Lightsailのサーバー1台をミニチュアの3Dの部屋として見せるWebページです。ラックのLED 1つがコンテナ1つで、色はGrafana Cloudから1分ごとに読む実際の状態に従います。",
+        "url": "https://server.portfolio-hub.dev",
+        "codeRepository": "https://github.com/ottuck/home-server-3d",
+        "inLanguage": "ja",
+        "author": {
+          "@type": "Person",
+          "name": "Henry Kim",
+          "url": "https://github.com/ottuck"
+        }
+      }
+    ],
+    "mainText": "作品一覧公開中·オープンソースHomeServer3DAWSLightsailのサーバー1台をミニチュアの3Dの部屋として見せるWebページです。ラックのLED1つがコンテナ1つで、色はGrafanaCloudから1分ごとに読む実際の状態に従います。サーバー室を見るGitHub種類3DWebページ·Blenderのシーン+three.js期間2026年10月データGrafanaCloudのサーバー指標、1分ごと運用環境CloudflarePages·PagesFunctions概要HomeServer3Dは、私のAWSLightsailサーバーを小さな3Dのサーバー室として見せます。ラックに載った機器1台が1つのサービスで、機器のLED1つが1つのコンテナです。正常は緑、注意はオレンジ、エラーは赤、データがなければグレーです。データがないのに緑にすることはありません。壁のモニターには直近1時間のCPU・メモリ・ネットワーク・ディスクが、机のモニターには私の公開GitHubリポジトリの最近のコミットがgitlogのように表示されます。昼と夜は見る人の時刻に合わせて変わり、部屋の中にはクリックできる物もあります。シーンはBlenderのPythonスクリプトで作ってGLBファイルに書き出し、Webではthree.jsで表示します。小さなステータスAPIがGrafanaCloudからサーバーの指標を読み、コンテナごとに正常・注意・エラーだけを返すので、アクセストークンがブラウザに出ることはありません。主な機能実際の状態で光るLEDLED1つがコンテナ1つで、色はリアルタイムの指標で決まります。右のパネルでCPU・メモリ・ディスクの使用率とサービスごとの状態を見られ、サービスを選ぶとカメラがラックに寄ります。実データが出るモニター壁のモニターは直近1時間のCPU・メモリ・ネットワーク・ディスクを1分ごとに描きます。机のモニターは最近のコミットをターミナルのように表示し、各コミットはGitHubにつながります。昼と夜見る人の現地時刻に合わせて、午前6時から午後6時までは昼になります。太陽と月のスイッチで手動でも切り替えられます。カメラドラッグで回し、スクロールで拡大します。キーボードでは矢印キーかWASDで移動し、Q・Eで回し、+・-で拡大します。公開しても安全にAPIがコンテナを正常・注意・エラーだけに絞り、1分間キャッシュします。訪問者がGrafanaCloudに直接触れることはなく、実際のサーバー名やコンテナ名もブラウザに出ません。構成図HomeServer3D—構成図CloudflarePagesVisitorBrowser3Dwebviewerthree.js·GLBStatusAPIPagesFunctionsGrafanaCloudPrometheusAWSLightsail13containers·AlloyMyPCBlender·GitStatusPromQLMetricsgitpushAvisitoropensthe3DpageonCloudflarePages,andastatusAPIreadstheLightsailserver'smetricsfromGrafanaCloudandreturnsapublicsummary.ThesceneisbuiltinBlenderonmyPCanddeployedwithgitpush.技術構成3DBlender5.2·Pythonのシーンスクリプト·Cycles·glTF（GLB）+DracoWebthree.js0.170·HTML·CSS·JavaScript（ESモジュール、ビルドツールなし）APICloudflarePagesFunctions·CacheAPI·GitHubRESTAPIモニタリングGrafanaCloud（Prometheus、PromQL）·GrafanaAlloy·cAdvisorデプロイCloudflarePages·gitpushでデプロイライブのページは私の実際のサーバーを表示します。アドレスの後ろに?demo=1を付けると、例のデータで見られます。画像はBlenderのシーンをレンダリングしたものです。前へdiagram-polish",
+    "links": [
+      "/ja/projects",
+      "/ja/projects/diagram-polish",
+      "https://github.com/ottuck/home-server-3d",
+      "https://server.portfolio-hub.dev"
+    ],
+    "alts": [
+      "机、本棚、観葉植物、ひじ掛け椅子のあるアイソメトリックの部屋と、壁のモニターの横でLEDが光る黒いサーバーラック",
+      "同じ部屋の夜の様子。暖かい照明と光るラックのLED",
+      "昼のラックのアップ。スイッチ、ドライブベイとLEDのあるサーバー数台、いちばん下にUPS",
+      "同じラックの夜の様子。緑と白に光っている"
+    ]
+  },
+  "/ko/projects/home-server-3d": {
+    "title": "Home Server 3D — Henry Kim",
+    "lang": "ko",
+    "description": "AWS Lightsail 서버 한 대를 미니어처 3D 방으로 보여 주는 웹 페이지입니다. 랙의 LED 하나가 컨테이너 하나이고, 색은 Grafana Cloud에서 1분마다 읽어 온 실제 상태를 따릅니다.",
+    "canonical": "https://www.portfolio-hub.dev/ko/projects/home-server-3d",
+    "alternates": {
+      "en": "https://www.portfolio-hub.dev/projects/home-server-3d",
+      "ja": "https://www.portfolio-hub.dev/ja/projects/home-server-3d",
+      "ko": "https://www.portfolio-hub.dev/ko/projects/home-server-3d",
+      "x-default": "https://www.portfolio-hub.dev/projects/home-server-3d"
+    },
+    "og": {
+      "og:title": "Home Server 3D",
+      "og:description": "AWS Lightsail 서버 한 대를 미니어처 3D 방으로 보여 주는 웹 페이지입니다. 랙의 LED 하나가 컨테이너 하나이고, 색은 Grafana Cloud에서 1분마다 읽어 온 실제 상태를 따릅니다.",
+      "og:url": "https://www.portfolio-hub.dev/ko/projects/home-server-3d",
+      "og:site_name": "Henry Kim",
+      "og:locale": "ko_KR",
+      "og:type": "article",
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Home Server 3D",
+      "twitter:description": "AWS Lightsail 서버 한 대를 미니어처 3D 방으로 보여 주는 웹 페이지입니다. 랙의 LED 하나가 컨테이너 하나이고, 색은 Grafana Cloud에서 1분마다 읽어 온 실제 상태를 따릅니다."
+    },
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Home Server 3D",
+        "description": "AWS Lightsail 서버 한 대를 미니어처 3D 방으로 보여 주는 웹 페이지입니다. 랙의 LED 하나가 컨테이너 하나이고, 색은 Grafana Cloud에서 1분마다 읽어 온 실제 상태를 따릅니다.",
+        "url": "https://server.portfolio-hub.dev",
+        "codeRepository": "https://github.com/ottuck/home-server-3d",
+        "inLanguage": "ko",
+        "author": {
+          "@type": "Person",
+          "name": "Henry Kim",
+          "url": "https://github.com/ottuck"
+        }
+      }
+    ],
+    "mainText": "전체프로젝트운영중·오픈소스HomeServer3DAWSLightsail서버한대를미니어처3D방으로보여주는웹페이지입니다.랙의LED하나가컨테이너하나이고,색은GrafanaCloud에서1분마다읽어온실제상태를따릅니다.서버실열어보기GitHub종류3D웹페이지·Blender장면+three.js기간2026년10월데이터GrafanaCloud의서버지표,1분마다운영환경CloudflarePages·PagesFunctions소개HomeServer3D는제AWSLightsail서버를작은3D서버실로보여줍니다.랙에꽂힌장비하나가서비스하나이고,장비의LED하나가컨테이너하나입니다.정상은초록,주의는주황,오류는빨강,데이터가없으면회색입니다.데이터가없을때초록으로칠하는일은없습니다.벽모니터에는최근1시간의CPU·메모리·네트워크·디스크가,책상모니터에는제공개GitHub저장소의최근커밋이gitlog처럼뜹니다.낮과밤은보는사람의시각에맞춰바뀌고,방안물건중에는눌러볼수있는것도있습니다.장면은BlenderPython스크립트로만들어GLB파일로내보내고,웹에서는three.js로띄웁니다.작은상태API가GrafanaCloud에서서버지표를읽어컨테이너마다정상·주의·오류만돌려주므로,접근토큰은브라우저로나가지않습니다.주요기능실제상태로켜지는LEDLED하나가컨테이너하나이고,색은실시간지표로정해집니다.오른쪽패널에서CPU·메모리·디스크사용률과서비스별상태를볼수있고,서비스를누르면카메라가랙으로다가갑니다.실제데이터가뜨는모니터벽모니터는최근1시간의CPU·메모리·네트워크·디스크를1분마다그립니다.책상모니터는최근커밋을터미널처럼보여주고,각커밋은GitHub로연결됩니다.낮과밤보는사람의현지시각에맞춰오전6시부터오후6시까지는낮이고,해·달스위치로직접바꿀수도있습니다.카메라드래그로돌리고스크롤로확대합니다.키보드로는방향키나WASD로옮기고,Q·E로돌리고,+·-로확대합니다.공개해도안전하게API가컨테이너를정상·주의·오류로만줄여서1분동안캐시합니다.방문자가GrafanaCloud에직접닿지않고,실제서버·컨테이너이름도브라우저로나가지않습니다.구성도HomeServer3D—구성도CloudflarePagesVisitorBrowser3Dwebviewerthree.js·GLBStatusAPIPagesFunctionsGrafanaCloudPrometheusAWSLightsail13containers·AlloyMyPCBlender·GitStatusPromQLMetricsgitpushAvisitoropensthe3DpageonCloudflarePages,andastatusAPIreadstheLightsailserver'smetricsfromGrafanaCloudandreturnsapublicsummary.ThesceneisbuiltinBlenderonmyPCanddeployedwithgitpush.기술구성3DBlender5.2·Python장면스크립트·Cycles·glTF(GLB)+Draco웹three.js0.170·HTML·CSS·JavaScript(ES모듈,빌드도구없음)APICloudflarePagesFunctions·CacheAPI·GitHubRESTAPI모니터링GrafanaCloud(Prometheus,PromQL)·GrafanaAlloy·cAdvisor배포CloudflarePages·gitpush로배포라이브페이지는제실제서버를보여줍니다.주소뒤에?demo=1을붙이면예시데이터로볼수있습니다.이미지는Blender장면을렌더한것입니다.이전diagram-polish",
+    "links": [
+      "/ko/projects",
+      "/ko/projects/diagram-polish",
+      "https://github.com/ottuck/home-server-3d",
+      "https://server.portfolio-hub.dev"
+    ],
+    "alts": [
+      "책상, 책장, 화분, 안락의자가 있는 아이소메트릭 방과, 벽 모니터 옆에 LED가 켜진 검은 서버 랙",
+      "같은 방의 밤 모습. 따뜻한 조명과 불이 켜진 랙 LED",
+      "낮의 랙 근접 모습. 스위치, 드라이브 베이와 LED가 있는 서버들, 맨 아래 UPS",
+      "같은 랙의 밤 모습. 초록색과 흰색으로 빛남"
     ]
   }
 }

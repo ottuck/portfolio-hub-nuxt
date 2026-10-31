@@ -84,7 +84,7 @@ portfolio-hub-nuxt/
 
 영어용 파일과 언어 접두사 파일을 나눈 것은 기존 URL을 유지하기 위해서다. `[locale]`이 있어도 모든 언어를 허용하지 않는다. `ja`, `ko`만 통과하고 `/fr`이나 없는 프로젝트는 404로 처리한다.
 
-원본의 `generateStaticParams()` 역할은 `docs/routes.json`과 `nuxt.config.ts`의 prerender 설정으로 옮겼다. `pnpm assets`가 프로젝트 콘텐츠에서 이 파일을 만든다. 홈·목록·About·상세 9개를 3개 언어로 만들어 총 36개다. 목록에서 숨긴 `ur-manager`, `ur-mcp`도 상세 URL은 생성한다. `unlisted` 프로젝트는 링크가 없으므로 `pnpm assets`가 쓰는 `app/generated/unlisted-routes.json`으로 prerender 경로에 더한다(현재 없음).
+원본의 `generateStaticParams()` 역할은 `docs/routes.json`과 `nuxt.config.ts`의 prerender 설정으로 옮겼다. `pnpm assets`가 프로젝트 콘텐츠에서 이 파일을 만든다. 홈·목록·About·상세 10개를 3개 언어로 만들어 총 39개다. 목록에서 숨긴 `ur-manager`, `ur-mcp`도 상세 URL은 생성한다. `unlisted` 프로젝트는 링크가 없으므로 `pnpm assets`가 쓰는 `app/generated/unlisted-routes.json`으로 prerender 경로에 더한다(현재 없음).
 
 ## 4. `.vue` 파일 읽는 법
 
