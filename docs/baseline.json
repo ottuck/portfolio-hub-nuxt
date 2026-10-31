@@ -49,7 +49,7 @@
     ],
     "alts": [
       "The 3D server room on a desktop screen: an isometric room with a black server rack and a side panel listing six services with status lights",
-      "The same page on a phone, with the room above and the service list below",
+      "The same page on a phone at night, with the room above and the service list below",
       "A data pipeline drawn by Mermaid's default theme, and the same pipeline redrawn by diagram-polish",
       "Puny Chat in a desktop browser: the adult buddy at its job station on the stage above the chat",
       "Puny Chat on a phone: the adult buddy at work, with its events mixed into the messages",
@@ -137,7 +137,7 @@
     ],
     "alts": [
       "The 3D server room on a desktop screen: an isometric room with a black server rack and a side panel listing six services with status lights",
-      "The same page on a phone, with the room above and the service list below",
+      "The same page on a phone at night, with the room above and the service list below",
       "A data pipeline drawn by Mermaid's default theme, and the same pipeline redrawn by diagram-polish",
       "Puny Chat in a desktop browser: the adult buddy at its job station on the stage above the chat",
       "Puny Chat on a phone: the adult buddy at work, with its events mixed into the messages",
@@ -698,7 +698,7 @@
     ],
     "alts": [
       "デスクトップ画面の3Dサーバー室。黒いサーバーラックのあるアイソメトリックの部屋と、6つのサービスの状態ランプが並ぶ右のパネル",
-      "同じページをスマホで見た様子。上に部屋、下にサービス一覧",
+      "同じページをスマホで見た夜の様子。上に部屋、下にサービス一覧",
       "Mermaidの標準テーマで描いたデータパイプラインと、diagram-polishで描き直した同じパイプライン",
       "デスクトップブラウザのPuny Chat。チャットの上のステージで、おとなのバディが仕事の道具のそばにいる",
       "スマホのPuny Chat。働くおとなのバディと、メッセージの間に表示されるできごと",
@@ -786,7 +786,7 @@
     ],
     "alts": [
       "デスクトップ画面の3Dサーバー室。黒いサーバーラックのあるアイソメトリックの部屋と、6つのサービスの状態ランプが並ぶ右のパネル",
-      "同じページをスマホで見た様子。上に部屋、下にサービス一覧",
+      "同じページをスマホで見た夜の様子。上に部屋、下にサービス一覧",
       "Mermaidの標準テーマで描いたデータパイプラインと、diagram-polishで描き直した同じパイプライン",
       "デスクトップブラウザのPuny Chat。チャットの上のステージで、おとなのバディが仕事の道具のそばにいる",
       "スマホのPuny Chat。働くおとなのバディと、メッセージの間に表示されるできごと",
@@ -1347,7 +1347,7 @@
     ],
     "alts": [
       "데스크톱 화면의 3D 서버실. 검은 서버 랙이 있는 아이소메트릭 방과, 서비스 여섯 개의 상태등이 있는 오른쪽 패널",
-      "같은 페이지를 휴대폰으로 본 모습. 위에 방, 아래에 서비스 목록",
+      "같은 페이지를 휴대폰으로 본 밤 모습. 위에 방, 아래에 서비스 목록",
       "Mermaid 기본 테마로 그린 데이터 파이프라인과, diagram-polish로 다시 그린 같은 파이프라인",
       "데스크톱 브라우저의 Puny Chat. 채팅 위 무대에서 어른 버디가 직업 장치 옆에 있다",
       "휴대폰의 Puny Chat. 일하는 어른 버디와 메시지 사이에 섞인 이벤트",
@@ -1435,7 +1435,7 @@
     ],
     "alts": [
       "데스크톱 화면의 3D 서버실. 검은 서버 랙이 있는 아이소메트릭 방과, 서비스 여섯 개의 상태등이 있는 오른쪽 패널",
-      "같은 페이지를 휴대폰으로 본 모습. 위에 방, 아래에 서비스 목록",
+      "같은 페이지를 휴대폰으로 본 밤 모습. 위에 방, 아래에 서비스 목록",
       "Mermaid 기본 테마로 그린 데이터 파이프라인과, diagram-polish로 다시 그린 같은 파이프라인",
       "데스크톱 브라우저의 Puny Chat. 채팅 위 무대에서 어른 버디가 직업 장치 옆에 있다",
       "휴대폰의 Puny Chat. 일하는 어른 버디와 메시지 사이에 섞인 이벤트",
@@ -1949,7 +1949,7 @@
   "/projects/home-server-3d": {
     "title": "Home Server 3D — Henry Kim",
     "lang": "en",
-    "description": "My AWS Lightsail server as a small 3D room. Each LED on the rack is a container, lit by its real status.",
+    "description": "My AWS Lightsail server as a small 3D room. The LEDs on the rack light up from the server's real status.",
     "canonical": "https://www.portfolio-hub.dev/projects/home-server-3d",
     "alternates": {
       "en": "https://www.portfolio-hub.dev/projects/home-server-3d",
@@ -1959,21 +1959,21 @@
     },
     "og": {
       "og:title": "Home Server 3D",
-      "og:description": "My AWS Lightsail server as a small 3D room. Each LED on the rack is a container, lit by its real status.",
+      "og:description": "My AWS Lightsail server as a small 3D room. The LEDs on the rack light up from the server's real status.",
       "og:url": "https://www.portfolio-hub.dev/projects/home-server-3d",
       "og:site_name": "Henry Kim",
       "og:locale": "en_US",
       "og:type": "article",
       "twitter:card": "summary_large_image",
       "twitter:title": "Home Server 3D",
-      "twitter:description": "My AWS Lightsail server as a small 3D room. Each LED on the rack is a container, lit by its real status."
+      "twitter:description": "My AWS Lightsail server as a small 3D room. The LEDs on the rack light up from the server's real status."
     },
     "jsonLd": [
       {
         "@context": "https://schema.org",
         "@type": "CreativeWork",
         "name": "Home Server 3D",
-        "description": "My AWS Lightsail server as a small 3D room. Each LED on the rack is a container, lit by its real status.",
+        "description": "My AWS Lightsail server as a small 3D room. The LEDs on the rack light up from the server's real status.",
         "url": "https://server.portfolio-hub.dev",
         "codeRepository": "https://github.com/ottuck/home-server-3d",
         "inLanguage": "en",
@@ -1984,7 +1984,7 @@
         }
       }
     ],
-    "mainText": "AllprojectsLive·OpensourceHomeServer3DMyAWSLightsailserverasasmall3Droom.EachLEDontherackisacontainer,litbyitsrealstatus.OpentheserverroomGitHubType3Dwebpage·Blenderscene+three.jsPeriodOct2026DataServermetricsfromGrafanaCloud,everyminuteRunsonCloudflarePages·PagesFunctionsAboutHomeServer3DshowsmyAWSLightsailserverasasmall3Dserverroom.OnerackunitisoneserviceandoneLEDisonecontainer:greenisnormal,orangeawarning,redanerror,graynodata.ThesceneismadewithBlenderandshownwiththree.js.AsmallstatusAPIreadsonlythestatusfromGrafanaCloud,sonotokenreachesthebrowser.WhatitdoesLEDsfromrealstatusEachLEDisacontainer,coloredfromlivemetrics.ThepanelontherightshowsCPU,memoryanddisk,andthestatusofeachservice.Selectingaservicemovesthecameratotherack.MonitorsthatshowrealdataThewallmonitordrawsthelasthourofCPU,memory,networkanddiskeveryminute.Thedeskmonitorlistsrecentcommitslikeaterminal,andeachonelinkstoGitHub.DayandnightTheroomfollowsthevisitor'slocaltime,daytimefrom6:00to18:00,andasunandmoonswitchchangesitbyhand.CameraDragtorotateandscrolltozoom.Thekeyboardworkstoo:arrowkeysorWASDtomove,QandEtorotate,plusandminustozoom.SafetomakepublicTheAPIreduceseverycontainertonormal,warningorerrorandcachestheresultforaminute.VisitorsneverreachGrafanaCloud,andtherealserverandcontainernamesstayoutofthebrowser.ArchitectureHomeServer3D—ArchitectureCloudflarePagesVisitorBrowser3Dwebviewerthree.js·GLBStatusAPIPagesFunctionsGrafanaCloudPrometheusAWSLightsail13containers·AlloyMyPCBlender·GitStatusPromQLMetricsgitpushAvisitoropensthe3DpageonCloudflarePages,andastatusAPIreadstheLightsailserver'smetricsfromGrafanaCloudandreturnsapublicsummary.ThesceneisbuiltinBlenderonmyPCanddeployedwithgitpush.Howit'sbuilt3DBlender5.2·Pythonscenescript·Cycles·glTF(GLB)withDracoWebthree.js0.170·HTML·CSS·JavaScript(ESmodules,nobuildtool)APICloudflarePagesFunctions·CacheAPI·GitHubRESTAPIMonitoringGrafanaCloud(Prometheus,PromQL)·GrafanaAlloy·cAdvisorDeployCloudflarePages·deploysongitpushThelivepageshowsmyrealserver.Add?demo=1totheaddresstoseesampledata.Thescreenshotsusesampledata,andtheotherimagesarerendersfromtheBlenderscene.Nextdiagram-polish",
+    "mainText": "AllprojectsLive·OpensourceHomeServer3DMyAWSLightsailserverasasmall3Droom.TheLEDsontheracklightupfromtheserver'srealstatus.OpentheserverroomGitHubType3Dwebpage·Blenderscene+three.jsPeriodOct2026DataServermetricsfromGrafanaCloud,everyminuteRunsonCloudflarePages·PagesFunctionsAboutHomeServer3DshowsmyAWSLightsailserverasasmall3Dserverroom.OnerackunitisoneserviceandoneLEDisonecontainer.ThesceneismadewithBlenderandshownwiththree.js.AsmallstatusAPIreadsonlythestatusfromGrafanaCloud,sonotokenreachesthebrowser.WhatitdoesLEDsfromrealstatusEachLEDisacontainer,coloredfromlivemetrics.ThepanelontherightshowsCPU,memoryanddisk,andthestatusofeachservice.Selectingaservicemovesthecameratotherack.MonitorsthatshowrealdataThewallmonitordrawsthelasthourofCPU,memory,networkanddiskeveryminute.Thedeskmonitorlistsrecentcommitslikeaterminal,andeachonelinkstoGitHub.DayandnightTheroomfollowsthevisitor'slocaltime,daytimefrom6:00to18:00,andasunandmoonswitchchangesitbyhand.CameraDragtorotateandscrolltozoom.Thekeyboardworkstoo:arrowkeysorWASDtomove,QandEtorotate,plusandminustozoom.SafetomakepublicTheAPIreduceseverycontainertonormal,warningorerrorandcachestheresultforaminute.VisitorsneverreachGrafanaCloud,andtherealserverandcontainernamesstayoutofthebrowser.ArchitectureHomeServer3D—ArchitectureCloudflarePagesVisitorBrowser3Dwebviewerthree.js·GLBStatusAPIPagesFunctionsGrafanaCloudPrometheusAWSLightsail13containers·AlloyMyPCBlender·GitStatusPromQLMetricsgitpushAvisitoropensthe3DpageonCloudflarePages,andastatusAPIreadstheLightsailserver'smetricsfromGrafanaCloudandreturnsapublicsummary.ThesceneisbuiltinBlenderonmyPCanddeployedwithgitpush.Howit'sbuilt3DBlender5.2·Pythonscenescript·Cycles·glTF(GLB)withDracoWebthree.js0.170·HTML·CSS·JavaScript(ESmodules,nobuildtool)APICloudflarePagesFunctions·CacheAPI·GitHubRESTAPIMonitoringGrafanaCloud(Prometheus,PromQL)·GrafanaAlloy·cAdvisorDeployCloudflarePages·deploysongitpushThelivepageshowsmyrealserver.Add?demo=1totheaddresstoseesampledata.Thescreenshotsusesampledata,andtheotherimagesarerendersfromtheBlenderscene.Nextdiagram-polish",
     "links": [
       "/projects",
       "/projects/diagram-polish",
@@ -2000,7 +2000,7 @@
   "/ja/projects/home-server-3d": {
     "title": "Home Server 3D — Henry Kim",
     "lang": "ja",
-    "description": "私のAWS Lightsailサーバーを小さな3Dの部屋で見せます。ラックのLED 1つがコンテナ1つで、実際の状態に合わせて光ります。",
+    "description": "私のAWS Lightsailサーバーを小さな3Dの部屋で見せます。ラックのLEDがサーバーの実際の状態に合わせて光ります。",
     "canonical": "https://www.portfolio-hub.dev/ja/projects/home-server-3d",
     "alternates": {
       "en": "https://www.portfolio-hub.dev/projects/home-server-3d",
@@ -2010,21 +2010,21 @@
     },
     "og": {
       "og:title": "Home Server 3D",
-      "og:description": "私のAWS Lightsailサーバーを小さな3Dの部屋で見せます。ラックのLED 1つがコンテナ1つで、実際の状態に合わせて光ります。",
+      "og:description": "私のAWS Lightsailサーバーを小さな3Dの部屋で見せます。ラックのLEDがサーバーの実際の状態に合わせて光ります。",
       "og:url": "https://www.portfolio-hub.dev/ja/projects/home-server-3d",
       "og:site_name": "Henry Kim",
       "og:locale": "ja_JP",
       "og:type": "article",
       "twitter:card": "summary_large_image",
       "twitter:title": "Home Server 3D",
-      "twitter:description": "私のAWS Lightsailサーバーを小さな3Dの部屋で見せます。ラックのLED 1つがコンテナ1つで、実際の状態に合わせて光ります。"
+      "twitter:description": "私のAWS Lightsailサーバーを小さな3Dの部屋で見せます。ラックのLEDがサーバーの実際の状態に合わせて光ります。"
     },
     "jsonLd": [
       {
         "@context": "https://schema.org",
         "@type": "CreativeWork",
         "name": "Home Server 3D",
-        "description": "私のAWS Lightsailサーバーを小さな3Dの部屋で見せます。ラックのLED 1つがコンテナ1つで、実際の状態に合わせて光ります。",
+        "description": "私のAWS Lightsailサーバーを小さな3Dの部屋で見せます。ラックのLEDがサーバーの実際の状態に合わせて光ります。",
         "url": "https://server.portfolio-hub.dev",
         "codeRepository": "https://github.com/ottuck/home-server-3d",
         "inLanguage": "ja",
@@ -2035,7 +2035,7 @@
         }
       }
     ],
-    "mainText": "作品一覧公開中·オープンソースHomeServer3D私のAWSLightsailサーバーを小さな3Dの部屋で見せます。ラックのLED1つがコンテナ1つで、実際の状態に合わせて光ります。サーバー室を見るGitHub種類3DWebページ·Blenderのシーン+three.js期間2026年10月データGrafanaCloudのサーバー指標、1分ごと運用環境CloudflarePages·PagesFunctions概要HomeServer3Dは、私のAWSLightsailサーバーを小さな3Dのサーバー室として見せます。ラックの機器1台が1サービス、LED1つが1コンテナで、正常は緑、注意はオレンジ、エラーは赤、データなしはグレーです。シーンはBlenderで作り、three.jsで表示します。小さなステータスAPIがGrafanaCloudから状態だけを読むので、トークンがブラウザに出ることはありません。主な機能実際の状態で光るLEDLED1つがコンテナ1つで、色はリアルタイムの指標で決まります。右のパネルでCPU・メモリ・ディスクの使用率とサービスごとの状態を見られ、サービスを選ぶとカメラがラックに寄ります。実データが出るモニター壁のモニターは直近1時間のCPU・メモリ・ネットワーク・ディスクを1分ごとに描きます。机のモニターは最近のコミットをターミナルのように表示し、各コミットはGitHubにつながります。昼と夜見る人の現地時刻に合わせて、午前6時から午後6時までは昼になります。太陽と月のスイッチで手動でも切り替えられます。カメラドラッグで回し、スクロールで拡大します。キーボードでは矢印キーかWASDで移動し、Q・Eで回し、+・-で拡大します。公開しても安全にAPIがコンテナを正常・注意・エラーだけに絞り、1分間キャッシュします。訪問者がGrafanaCloudに直接触れることはなく、実際のサーバー名やコンテナ名もブラウザに出ません。構成図HomeServer3D—構成図CloudflarePagesVisitorBrowser3Dwebviewerthree.js·GLBStatusAPIPagesFunctionsGrafanaCloudPrometheusAWSLightsail13containers·AlloyMyPCBlender·GitStatusPromQLMetricsgitpushAvisitoropensthe3DpageonCloudflarePages,andastatusAPIreadstheLightsailserver'smetricsfromGrafanaCloudandreturnsapublicsummary.ThesceneisbuiltinBlenderonmyPCanddeployedwithgitpush.技術構成3DBlender5.2·Pythonのシーンスクリプト·Cycles·glTF（GLB）+DracoWebthree.js0.170·HTML·CSS·JavaScript（ESモジュール、ビルドツールなし）APICloudflarePagesFunctions·CacheAPI·GitHubRESTAPIモニタリングGrafanaCloud（Prometheus、PromQL）·GrafanaAlloy·cAdvisorデプロイCloudflarePages·gitpushでデプロイライブのページは私の実際のサーバーを表示します。アドレスの後ろに?demo=1を付けると、例のデータで見られます。スクリーンショットは例のデータで、そのほかの画像はBlenderのシーンをレンダリングしたものです。次へdiagram-polish",
+    "mainText": "作品一覧公開中·オープンソースHomeServer3D私のAWSLightsailサーバーを小さな3Dの部屋で見せます。ラックのLEDがサーバーの実際の状態に合わせて光ります。サーバー室を見るGitHub種類3DWebページ·Blenderのシーン+three.js期間2026年10月データGrafanaCloudのサーバー指標、1分ごと運用環境CloudflarePages·PagesFunctions概要HomeServer3Dは、私のAWSLightsailサーバーを小さな3Dのサーバー室として見せます。ラックの機器1台が1サービス、LED1つが1コンテナです。シーンはBlenderで作り、three.jsで表示します。小さなステータスAPIがGrafanaCloudから状態だけを読むので、トークンがブラウザに出ることはありません。主な機能実際の状態で光るLEDLED1つがコンテナ1つで、色はリアルタイムの指標で決まります。右のパネルでCPU・メモリ・ディスクの使用率とサービスごとの状態を見られ、サービスを選ぶとカメラがラックに寄ります。実データが出るモニター壁のモニターは直近1時間のCPU・メモリ・ネットワーク・ディスクを1分ごとに描きます。机のモニターは最近のコミットをターミナルのように表示し、各コミットはGitHubにつながります。昼と夜見る人の現地時刻に合わせて、午前6時から午後6時までは昼になります。太陽と月のスイッチで手動でも切り替えられます。カメラドラッグで回し、スクロールで拡大します。キーボードでは矢印キーかWASDで移動し、Q・Eで回し、+・-で拡大します。公開しても安全にAPIがコンテナを正常・注意・エラーだけに絞り、1分間キャッシュします。訪問者がGrafanaCloudに直接触れることはなく、実際のサーバー名やコンテナ名もブラウザに出ません。構成図HomeServer3D—構成図CloudflarePagesVisitorBrowser3Dwebviewerthree.js·GLBStatusAPIPagesFunctionsGrafanaCloudPrometheusAWSLightsail13containers·AlloyMyPCBlender·GitStatusPromQLMetricsgitpushAvisitoropensthe3DpageonCloudflarePages,andastatusAPIreadstheLightsailserver'smetricsfromGrafanaCloudandreturnsapublicsummary.ThesceneisbuiltinBlenderonmyPCanddeployedwithgitpush.技術構成3DBlender5.2·Pythonのシーンスクリプト·Cycles·glTF（GLB）+DracoWebthree.js0.170·HTML·CSS·JavaScript（ESモジュール、ビルドツールなし）APICloudflarePagesFunctions·CacheAPI·GitHubRESTAPIモニタリングGrafanaCloud（Prometheus、PromQL）·GrafanaAlloy·cAdvisorデプロイCloudflarePages·gitpushでデプロイライブのページは私の実際のサーバーを表示します。アドレスの後ろに?demo=1を付けると、例のデータで見られます。スクリーンショットは例のデータで、そのほかの画像はBlenderのシーンをレンダリングしたものです。次へdiagram-polish",
     "links": [
       "/ja/projects",
       "/ja/projects/diagram-polish",
@@ -2051,7 +2051,7 @@
   "/ko/projects/home-server-3d": {
     "title": "Home Server 3D — Henry Kim",
     "lang": "ko",
-    "description": "제 AWS Lightsail 서버를 작은 3D 방으로 보여 줍니다. 랙의 LED 하나가 컨테이너 하나이고, 실제 상태에 따라 켜집니다.",
+    "description": "제 AWS Lightsail 서버를 작은 3D 방으로 보여 줍니다. 랙의 LED가 서버의 실제 상태에 따라 켜집니다.",
     "canonical": "https://www.portfolio-hub.dev/ko/projects/home-server-3d",
     "alternates": {
       "en": "https://www.portfolio-hub.dev/projects/home-server-3d",
@@ -2061,21 +2061,21 @@
     },
     "og": {
       "og:title": "Home Server 3D",
-      "og:description": "제 AWS Lightsail 서버를 작은 3D 방으로 보여 줍니다. 랙의 LED 하나가 컨테이너 하나이고, 실제 상태에 따라 켜집니다.",
+      "og:description": "제 AWS Lightsail 서버를 작은 3D 방으로 보여 줍니다. 랙의 LED가 서버의 실제 상태에 따라 켜집니다.",
       "og:url": "https://www.portfolio-hub.dev/ko/projects/home-server-3d",
       "og:site_name": "Henry Kim",
       "og:locale": "ko_KR",
       "og:type": "article",
       "twitter:card": "summary_large_image",
       "twitter:title": "Home Server 3D",
-      "twitter:description": "제 AWS Lightsail 서버를 작은 3D 방으로 보여 줍니다. 랙의 LED 하나가 컨테이너 하나이고, 실제 상태에 따라 켜집니다."
+      "twitter:description": "제 AWS Lightsail 서버를 작은 3D 방으로 보여 줍니다. 랙의 LED가 서버의 실제 상태에 따라 켜집니다."
     },
     "jsonLd": [
       {
         "@context": "https://schema.org",
         "@type": "CreativeWork",
         "name": "Home Server 3D",
-        "description": "제 AWS Lightsail 서버를 작은 3D 방으로 보여 줍니다. 랙의 LED 하나가 컨테이너 하나이고, 실제 상태에 따라 켜집니다.",
+        "description": "제 AWS Lightsail 서버를 작은 3D 방으로 보여 줍니다. 랙의 LED가 서버의 실제 상태에 따라 켜집니다.",
         "url": "https://server.portfolio-hub.dev",
         "codeRepository": "https://github.com/ottuck/home-server-3d",
         "inLanguage": "ko",
@@ -2086,7 +2086,7 @@
         }
       }
     ],
-    "mainText": "전체프로젝트운영중·오픈소스HomeServer3D제AWSLightsail서버를작은3D방으로보여줍니다.랙의LED하나가컨테이너하나이고,실제상태에따라켜집니다.서버실열어보기GitHub종류3D웹페이지·Blender장면+three.js기간2026년10월데이터GrafanaCloud의서버지표,1분마다운영환경CloudflarePages·PagesFunctions소개HomeServer3D는제AWSLightsail서버를작은3D서버실로보여줍니다.랙의장비하나가서비스하나,LED하나가컨테이너하나이고,정상은초록·주의는주황·오류는빨강·데이터없음은회색입니다.장면은Blender로만들어three.js로띄웁니다.작은상태API가GrafanaCloud에서상태만읽어오므로토큰은브라우저로나가지않습니다.주요기능실제상태로켜지는LEDLED하나가컨테이너하나이고,색은실시간지표로정해집니다.오른쪽패널에서CPU·메모리·디스크사용률과서비스별상태를볼수있고,서비스를누르면카메라가랙으로다가갑니다.실제데이터가뜨는모니터벽모니터는최근1시간의CPU·메모리·네트워크·디스크를1분마다그립니다.책상모니터는최근커밋을터미널처럼보여주고,각커밋은GitHub로연결됩니다.낮과밤보는사람의현지시각에맞춰오전6시부터오후6시까지는낮이고,해·달스위치로직접바꿀수도있습니다.카메라드래그로돌리고스크롤로확대합니다.키보드로는방향키나WASD로옮기고,Q·E로돌리고,+·-로확대합니다.공개해도안전하게API가컨테이너를정상·주의·오류로만줄여서1분동안캐시합니다.방문자가GrafanaCloud에직접닿지않고,실제서버·컨테이너이름도브라우저로나가지않습니다.구성도HomeServer3D—구성도CloudflarePagesVisitorBrowser3Dwebviewerthree.js·GLBStatusAPIPagesFunctionsGrafanaCloudPrometheusAWSLightsail13containers·AlloyMyPCBlender·GitStatusPromQLMetricsgitpushAvisitoropensthe3DpageonCloudflarePages,andastatusAPIreadstheLightsailserver'smetricsfromGrafanaCloudandreturnsapublicsummary.ThesceneisbuiltinBlenderonmyPCanddeployedwithgitpush.기술구성3DBlender5.2·Python장면스크립트·Cycles·glTF(GLB)+Draco웹three.js0.170·HTML·CSS·JavaScript(ES모듈,빌드도구없음)APICloudflarePagesFunctions·CacheAPI·GitHubRESTAPI모니터링GrafanaCloud(Prometheus,PromQL)·GrafanaAlloy·cAdvisor배포CloudflarePages·gitpush로배포라이브페이지는제실제서버를보여줍니다.주소뒤에?demo=1을붙이면예시데이터로볼수있습니다.스크린샷은예시데이터이고,나머지이미지는Blender장면을렌더한것입니다.다음diagram-polish",
+    "mainText": "전체프로젝트운영중·오픈소스HomeServer3D제AWSLightsail서버를작은3D방으로보여줍니다.랙의LED가서버의실제상태에따라켜집니다.서버실열어보기GitHub종류3D웹페이지·Blender장면+three.js기간2026년10월데이터GrafanaCloud의서버지표,1분마다운영환경CloudflarePages·PagesFunctions소개HomeServer3D는제AWSLightsail서버를작은3D서버실로보여줍니다.랙의장비하나가서비스하나,LED하나가컨테이너하나입니다.장면은Blender로만들어three.js로띄웁니다.작은상태API가GrafanaCloud에서상태만읽어오므로토큰은브라우저로나가지않습니다.주요기능실제상태로켜지는LEDLED하나가컨테이너하나이고,색은실시간지표로정해집니다.오른쪽패널에서CPU·메모리·디스크사용률과서비스별상태를볼수있고,서비스를누르면카메라가랙으로다가갑니다.실제데이터가뜨는모니터벽모니터는최근1시간의CPU·메모리·네트워크·디스크를1분마다그립니다.책상모니터는최근커밋을터미널처럼보여주고,각커밋은GitHub로연결됩니다.낮과밤보는사람의현지시각에맞춰오전6시부터오후6시까지는낮이고,해·달스위치로직접바꿀수도있습니다.카메라드래그로돌리고스크롤로확대합니다.키보드로는방향키나WASD로옮기고,Q·E로돌리고,+·-로확대합니다.공개해도안전하게API가컨테이너를정상·주의·오류로만줄여서1분동안캐시합니다.방문자가GrafanaCloud에직접닿지않고,실제서버·컨테이너이름도브라우저로나가지않습니다.구성도HomeServer3D—구성도CloudflarePagesVisitorBrowser3Dwebviewerthree.js·GLBStatusAPIPagesFunctionsGrafanaCloudPrometheusAWSLightsail13containers·AlloyMyPCBlender·GitStatusPromQLMetricsgitpushAvisitoropensthe3DpageonCloudflarePages,andastatusAPIreadstheLightsailserver'smetricsfromGrafanaCloudandreturnsapublicsummary.ThesceneisbuiltinBlenderonmyPCanddeployedwithgitpush.기술구성3DBlender5.2·Python장면스크립트·Cycles·glTF(GLB)+Draco웹three.js0.170·HTML·CSS·JavaScript(ES모듈,빌드도구없음)APICloudflarePagesFunctions·CacheAPI·GitHubRESTAPI모니터링GrafanaCloud(Prometheus,PromQL)·GrafanaAlloy·cAdvisor배포CloudflarePages·gitpush로배포라이브페이지는제실제서버를보여줍니다.주소뒤에?demo=1을붙이면예시데이터로볼수있습니다.스크린샷은예시데이터이고,나머지이미지는Blender장면을렌더한것입니다.다음diagram-polish",
     "links": [
       "/ko/projects",
       "/ko/projects/diagram-polish",
