@@ -15,7 +15,7 @@ export const homeServer3d: Project = {
 
   tagline: "A 3D server room for my AWS Lightsail server. The rack LEDs show each container's real status.",
   summary:
-    "My AWS Lightsail server as a small 3D room. Each LED on the rack is a container, lit by its real status.",
+    "My AWS Lightsail server as a small 3D room. The LEDs on the rack light up from the server's real status.",
   cardStack: ["Blender", "three.js", "Cloudflare"],
   facts: [
     { label: "Type", value: "3D web page · Blender scene + three.js" },
@@ -31,12 +31,12 @@ export const homeServer3d: Project = {
 
   cover: {
     main: { src: cover, alt: "The 3D server room on a desktop screen: an isometric room with a black server rack and a side panel listing six services with status lights" },
-    inset: { src: mobile, alt: "The same page on a phone, with the room above and the service list below", frame: "phone" },
+    inset: { src: mobile, alt: "The same page on a phone at night, with the room above and the service list below", frame: "phone" },
     tint: ["#ece9e2", "#d3cdbf"],
   },
 
   about: [
-    "Home Server 3D shows my AWS Lightsail server as a small 3D server room. One rack unit is one service and one LED is one container: green is normal, orange a warning, red an error, gray no data.",
+    "Home Server 3D shows my AWS Lightsail server as a small 3D server room. One rack unit is one service and one LED is one container.",
     "The scene is made with Blender and shown with three.js. A small status API reads only the status from Grafana Cloud, so no token reaches the browser.",
   ],
   features: [
