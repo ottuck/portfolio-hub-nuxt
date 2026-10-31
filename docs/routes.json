@@ -11,6 +11,7 @@
   "/projects/ur-mcp",
   "/projects/henry-wallet",
   "/projects/diagram-polish",
+  "/projects/home-server-3d",
   "/ja",
   "/ja/projects",
   "/ja/about",
@@ -23,6 +24,7 @@
   "/ja/projects/ur-mcp",
   "/ja/projects/henry-wallet",
   "/ja/projects/diagram-polish",
+  "/ja/projects/home-server-3d",
   "/ko",
   "/ko/projects",
   "/ko/about",
@@ -34,5 +36,6 @@
   "/ko/projects/ur-manager",
   "/ko/projects/ur-mcp",
   "/ko/projects/henry-wallet",
-  "/ko/projects/diagram-polish"
+  "/ko/projects/diagram-polish",
+  "/ko/projects/home-server-3d"
 ]
