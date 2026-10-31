@@ -14,7 +14,7 @@ export const tradingLab: Project = {
   status: "live",
   label: "Real trades at 1/100",
   highlightLabel: true,
-  order: 4,
+  order: 6,
 
   tagline: "A payday investing bot that copies your habits, and AI bots that set the mix every day. All of them run on my real account at 1/100 scale.",
   summary:

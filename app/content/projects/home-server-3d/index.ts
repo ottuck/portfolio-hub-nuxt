@@ -2,8 +2,8 @@ import type { Project } from "~/lib/types";
 import { ja } from "./ja";
 import { ko } from "./ko";
 const cover = {"src":"/images/content/projects/home-server-3d/cover.webp","width":1280,"height":800};
+const mobile = {"src":"/images/content/projects/home-server-3d/mobile.webp","width":780,"height":1688};
 const night = {"src":"/images/content/projects/home-server-3d/night.webp","width":1280,"height":800};
-const rackDay = {"src":"/images/content/projects/home-server-3d/rack-day.webp","width":1000,"height":1000};
 const rackNight = {"src":"/images/content/projects/home-server-3d/rack-night.webp","width":1000,"height":1000};
 
 export const homeServer3d: Project = {
@@ -11,11 +11,11 @@ export const homeServer3d: Project = {
   name: "Home Server 3D",
   status: "live",
   label: "Open source",
-  order: 10,
+  order: 1,
 
-  tagline: "My AWS Lightsail server as a small 3D server room. The LEDs on the rack light up from the real status of each container.",
+  tagline: "A 3D server room for my AWS Lightsail server. The rack LEDs show each container's real status.",
   summary:
-    "A web page that shows one AWS Lightsail server as a miniature 3D room. Each LED on the rack is a container, and its color follows the real status, read from Grafana Cloud once a minute.",
+    "My AWS Lightsail server as a small 3D room. Each LED on the rack is a container, lit by its real status.",
   cardStack: ["Blender", "three.js", "Cloudflare"],
   facts: [
     { label: "Type", value: "3D web page · Blender scene + three.js" },
@@ -30,14 +30,14 @@ export const homeServer3d: Project = {
   },
 
   cover: {
-    main: { src: cover, alt: "An isometric room with a desk, a bookshelf, a plant, an armchair, and a black server rack with lit LEDs beside a wall monitor" },
+    main: { src: cover, alt: "The 3D server room on a desktop screen: an isometric room with a black server rack and a side panel listing six services with status lights" },
+    inset: { src: mobile, alt: "The same page on a phone, with the room above and the service list below", frame: "phone" },
     tint: ["#ece9e2", "#d3cdbf"],
   },
 
   about: [
-    "Home Server 3D shows my AWS Lightsail server as a small 3D server room. One unit in the rack is one service, and one LED on it is one container. Green is normal, orange is a warning, red is an error and gray means there is no data. Missing data is never painted green.",
-    "The wall monitor draws the last hour of CPU, memory, network and disk. The desk monitor lists recent commits from my public GitHub repositories, like git log. Day and night follow the visitor's clock, and some of the objects in the room can be clicked.",
-    "The scene is built by a Blender Python script and exported as a GLB file, and the page loads it with three.js. A small status API reads the server's metrics from Grafana Cloud and returns only normal, warning or error for each container, so the access token never reaches the browser.",
+    "Home Server 3D shows my AWS Lightsail server as a small 3D server room. One rack unit is one service and one LED is one container: green is normal, orange a warning, red an error, gray no data.",
+    "The scene is made with Blender and shown with three.js. A small status API reads only the status from Grafana Cloud, so no token reaches the browser.",
   ],
   features: [
     {
@@ -63,8 +63,7 @@ export const homeServer3d: Project = {
   ],
   gallery: [
     { src: night, alt: "The same room at night, with a warm lamp and the rack LEDs lit" },
-    { src: rackDay, alt: "A close-up of the rack by day: a switch, rack servers with drive bays and LEDs, and a UPS at the bottom" },
-    { src: rackNight, alt: "The same rack at night, glowing green and white" },
+    { src: rackNight, alt: "A close-up of the rack at night, glowing green and white" },
   ],
   stack: [
     { area: "3D", items: "Blender 5.2 · Python scene script · Cycles · glTF (GLB) with Draco" },
@@ -73,7 +72,7 @@ export const homeServer3d: Project = {
     { area: "Monitoring", items: "Grafana Cloud (Prometheus, PromQL) · Grafana Alloy · cAdvisor" },
     { area: "Deploy", items: "Cloudflare Pages · deploys on git push" },
   ],
-  footnote: "The live page shows my real server. Add ?demo=1 to the address to see sample data. The images are renders from the Blender scene.",
+  footnote: "The live page shows my real server. Add ?demo=1 to the address to see sample data. The screenshots use sample data, and the other images are renders from the Blender scene.",
 
   architecture: {
     width: 1140,

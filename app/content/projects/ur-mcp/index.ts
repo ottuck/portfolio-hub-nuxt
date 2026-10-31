@@ -10,7 +10,7 @@ export const urMcp: Project = {
   status: "archived",
   label: "Merged into UR Check",
   mergedInto: "ur-check",
-  order: 7,
+  order: 9,
 
   tagline: "A former MCP app for finding UR vacancies in Claude and ChatGPT, now part of UR Check.",
   summary:

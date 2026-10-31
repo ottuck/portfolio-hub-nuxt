@@ -14,7 +14,7 @@ export const henryWallet: Project = {
   name: "Henry Wallet",
   status: "testing",
   label: "Side project",
-  order: 8,
+  order: 10,
 
   tagline: "A self-custody stablecoin wallet for iPhone. The keys stay on the phone, and every payment is signed there after Face ID.",
   summary:

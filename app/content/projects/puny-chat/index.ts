@@ -13,7 +13,7 @@ export const punyChat: Project = {
   name: "Puny Chat",
   status: "live",
   label: "App Store soon",
-  order: 1,
+  order: 3,
 
   tagline: "A messenger for two, with a tiny pixel buddy you raise together just by chatting.",
   summary:
