@@ -11,7 +11,7 @@ export const urManager: Project = {
   status: "archived",
   label: "Merged into UR Check",
   mergedInto: "ur-check",
-  order: 6,
+  order: 8,
 
   tagline:
     "A former UR vacancy search and email alert service, now part of UR Check.",

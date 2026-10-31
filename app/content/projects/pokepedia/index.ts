@@ -14,7 +14,7 @@ export const pokepedia: Project = {
   name: "Pokepedia",
   status: "live",
   label: "Remake",
-  order: 5,
+  order: 7,
 
   tagline:
     "“Who's that Pokémon?” as a Game Boy–style battle, with a Gen 1 Pokédex and a sticker book — plus a turn-based Pikachu battle I built in Unity. In Korean, English and Japanese.",

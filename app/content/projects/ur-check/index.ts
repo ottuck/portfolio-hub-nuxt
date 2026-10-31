@@ -14,7 +14,7 @@ export const urCheck: Project = {
   status: "live",
   label: "Invite only · I use it",
   highlightLabel: true,
-  order: 2,
+  order: 4,
 
   tagline:
     "Search UR rental vacancies by your conditions and track rooms that are new, relisted or gone. The website and AI assistants work from the same conditions and history.",

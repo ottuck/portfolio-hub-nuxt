@@ -9,7 +9,7 @@ export const gitleaf: Project = {
   name: "GitLeaf",
   status: "live",
   label: "Free to use",
-  order: 3,
+  order: 5,
 
   tagline: "Your year of GitHub contributions, painted as a watercolor plant: one leaf for each day. Paste one line into your README to use it.",
   summary:
